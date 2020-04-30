@@ -1,0 +1,16 @@
+{
+  "name": "Cartwheel",
+  "version": "0.0.1",
+  "description": "A documentation repository for digital mapmaking",
+  "dependencies": {
+    "vuepress": "^1.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build",
+    "sync": "rsync -r -a -v -e ssh --delete .vuepress/dist/ geoservices@172.29.102.73:/var/www/geoservices/cartwheel/"
+  },
+  "author": "Garrett Dash Nelson, Belle Lipton, et al",
+  "license": "ISC"
+}
