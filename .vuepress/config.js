@@ -45,6 +45,7 @@ module.exports = {
         sidebar: {
           '/guides/gis-data/census/': ['','1','2','3','considerations'],
           '/': ['']
-        }
+        },
+      lastUpdated: 'Last updated on'
       }
   }
