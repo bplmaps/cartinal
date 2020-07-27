@@ -1,14 +1,14 @@
 ---
 home: true
-heroText: Cartwheel is a collection of resources that help you do things with digital maps
-tagline: A documentation project of the Leventhal Map & Education Center at the Boston Public Library
+heroImage: hanaan.jpeg
+heroText: null
+tagline: Documentation, guides and ways to participate with GIS, data and mapmaking @bplmaps
 features:
-- title: For Mapmakers
-  details: Blah blah
-- title: For Teachers
-  details: Blah blah
-- title: For Librarians
-  details: Blah blah
+- title: I ❤️ maps 
+  details:  Stay tuned
+- title: I ❤️ data
+  details: Stay tuned
+- title: I ❤️ libraries
+  details: Stay tuned
 footer: MIT Licensed | Copyright © 2020 LMEC
 ---
-

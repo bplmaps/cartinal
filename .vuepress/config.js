@@ -1,51 +1,61 @@
 module.exports = {
-    title: 'Cartwheel',
-    description: 'Just playing around',
-    base: '/cartwheel/',
+    base: '/cartinal/',
+    title: "Cartinal", 
+    head: [
+        ['link', { rel: 'icon', href: '/logo.png' }]
+      ],
     themeConfig: {
+        logo: '/logo.png',
         nav: [
-          {
-            text: 'Workshops',
-            ariaLabel: 'Workshops Menu',
-            items: [
-              { text: 'Map 101', link: '/workshops/map101/' },
-              { text: 'Map 201', link: '/workshops/map201/' }
-            ]
-          },
-          { text: 'How-To Guides',
-            ariaLabel: 'How-To Guides Menu',
-            items: [
-                { text: 'Atlascope', items: [
-                  { text: 'Geotransforming Digitized Atlases', link: '/guides/atlascope/create-mosaics'},
-                  { text: 'Create a Guided  Tour', link: '/guides/atlascope/create-tour' },
-                  { text: 'Find Source Atlases in Digital Collections', link: '/guides/atlascope/digital-collections'}
-                ] },
-                { text: 'Interactives', items: [
-                  { text: 'Create an Annotated Map Story', link: '/guides/interactives/create-story'}
-                ]},
-                { text: 'GIS and Data', items: [
-                  { text: 'Setting Up GIS Software', link: '/guides/gis-data/mac-setup.md' },
-                  { text: 'Clip Data By Extent', link: '/guides/gis-data/clip-by-extent.md'},
-                  { text: 'Get Census Data', link: '/guides/gis-data/census/'}
-                ]}
-            ]
-         },
-         { text: 'Documentation',
-            ariaLabel: 'Documentation Menu',
-            items: [
-              { text: 'LMEC Data Sets', items: [
-                { text: 'Atlas Imagery and Footprints', link: '/documentation/lmec-data/atlas-imagery'}
-              ]},
-              { text: 'Atlascope', items: [
-                { text: 'Processing Atlas Plates', link: '/documentation/atlascope/processing-atlases'},
-                { text: 'User Documentation', link: '/documentation/atlascope/using-atlascope'}
+
+
+          { text: 'Participation',
+          ariaLabel: 'Participation Menu',
+          items: [
+            { text: 'Past Workshops', items: [
+              { text: 'Mapmaking 101: Introduction to Mapmaking', link: '/resources/participation/map101/' },
+              { text: 'Mapmaking 102: Basic Mapmaking in Python', link: '/resources/participation/map201/' }
+            ]},
+            { text: 'Contact Us', items: [
+              { text: 'Phone a Librarian', link: '/resources/participation/request.md' },
+              { text: 'Other Ways to Get in Touch', link: 'https://www.leventhalmap.org/research/gis/' }
+
+            ]}
+          ] },
+
+
+
+                   
+          { text: 'Cartinal Directions',
+          ariaLabel: 'Cartinal Directions Menu',
+          items: [
+            { text: 'GIS Tools and Software', items: [
+              { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
+              { text: 'Clip Geodata by Extent', link: '/resources/guides/clip-by-extent.md'}
+            ]},
+
+
+              { text: 'Map Collections', items: [
+                { text: 'Geotransform Urban Atlas Plates into Mosaics', link: '/resources/guides/create-mosaics'},
+                { text: 'Use Atlascope to Find Source BPL Materials', link: '/resources/guides/locate-atlas-plates'},
+                { text: 'Create an Annotated Map Story Interactive', link: '/resources/guides/create-stories'}
               ]}
-            ] }
-        ],
-        sidebar: {
-          '/guides/gis-data/census/': ['','1','2','3','considerations'],
-          '/': ['']
-        },
-      lastUpdated: 'Last updated on'
-      }
+
+          ]
+       },
+
+           
+           { text: 'Documentation',
+              ariaLabel: 'Documentation Menu',
+              items: [
+                { text: 'Atlascope', items: [
+                  { text: 'Create Urban Atlas Data', link: '/resources/documentation/create-urban-atlas-data'},
+                  { text: 'Access Urban Atlas Data', link: '/resources/documentation/access-urban-atlas-data'},
+                  { text: 'Use Atlascope', link: '/resources/documentation/use-atlascope'}
+                ]}
+              ] }
+
+
+          ]
+    }
   }
