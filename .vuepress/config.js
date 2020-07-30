@@ -15,11 +15,6 @@ module.exports = {
             { text: 'Past Workshops', items: [
               { text: 'Mapmaking 101: Introduction to Mapmaking', link: '/resources/participation/map101/' },
               { text: 'Mapmaking 102: Basic Mapmaking in Python', link: '/resources/participation/map201/' }
-            ]},
-            { text: 'Contact Us', items: [
-              { text: 'Phone a Librarian', link: '/resources/participation/request.md' },
-              { text: 'Other Ways to Get in Touch', link: 'https://www.leventhalmap.org/research/gis/' }
-
             ]}
           ] },
 

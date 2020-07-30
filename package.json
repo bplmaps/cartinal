@@ -12,7 +12,6 @@
     "dev": "vuepress dev",
     "build": "vuepress build",
     "sync": "rsync -r -a -v -e ssh --delete .vuepress/dist/ geoservices@172.29.102.73:/var/www/geoservices/cartinal/"
-
   },
   "license": "MIT",
   "devDependencies": {
