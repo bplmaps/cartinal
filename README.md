@@ -21,7 +21,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   <div class="feature">
     <h2>I ❤️ data</h2>
     <p><a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>📊 Get access to the data created by the Atlascope urban atlas project</a></p>
-    <p><a target = "_blank" href ='./resources/request.hml'>📊 Get one-on-one help with your data project</a></p>
+    <p><a target = "_blank" href ='./resources/request.html'>📊 Get one-on-one help with your data project</a></p>
   </div>
   <div class="feature">
     <h2>I ❤️ libraries</h2>
