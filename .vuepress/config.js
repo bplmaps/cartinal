@@ -6,34 +6,37 @@ module.exports = {
       ],
     themeConfig: {
         logo: '/logo.png',
+        lastUpdated: 'Last Updated', 
         nav: [
 
 
-          { text: 'Participation',
-          ariaLabel: 'Participation Menu',
+          { text: 'Tutorials',
+          ariaLabel: 'Tutorials Menu',
           items: [
-            { text: 'Past Workshops', items: [
-              { text: 'Mapmaking 101: Introduction to Mapmaking', link: '/resources/participation/map101/' },
-              { text: 'Mapmaking 102: Basic Mapmaking in Python', link: '/resources/participation/map201/' }
+            { text: 'GIS Data and Tools', items: [
+              { text: 'Clip GIS Data by Geographic Extent', link: '/resources/tutorials/clip-by-extent.md'},
+              { text: 'Set up a PC for Python & GIS Libraries', link: '/resources/tutorials/windows-anaconda.md'}              
+            ]},
+
+            { text: 'Map Collections', items: [
+              { text: 'Create an Annotated Map Story', link: '/resources/tutorials/create-stories'}
             ]}
           ] },
 
 
 
                    
-          { text: 'Cartinal Directions',
+          { text: 'Guides',
           ariaLabel: 'Cartinal Directions Menu',
           items: [
-            { text: 'GIS Tools and Software', items: [
+            { text: 'GIS Data and Tools', items: [
               { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
-              { text: 'Clip Geodata by Extent', link: '/resources/guides/clip-by-extent.md'}
+              { text: 'Use Python to Handle GIS Data', link: '/resources/guides/python.md' }
             ]},
 
 
               { text: 'Map Collections', items: [
-                { text: 'Geotransform Urban Atlas Plates into Mosaics', link: '/resources/guides/create-mosaics'},
-                { text: 'Use Atlascope to Find Source BPL Materials', link: '/resources/guides/locate-atlas-plates'},
-                { text: 'Create an Annotated Map Story Interactive', link: '/resources/guides/create-stories'}
+                { text: 'Use the Atlascope Portal', link: '/resources/guides/atlascope-tool-guide'}
               ]}
 
           ]
@@ -43,10 +46,9 @@ module.exports = {
            { text: 'Documentation',
               ariaLabel: 'Documentation Menu',
               items: [
-                { text: 'Atlascope', items: [
-                  { text: 'Create Urban Atlas Data', link: '/resources/documentation/create-urban-atlas-data'},
-                  { text: 'Access Urban Atlas Data', link: '/resources/documentation/access-urban-atlas-data'},
-                  { text: 'Use Atlascope', link: '/resources/documentation/use-atlascope'}
+                { text: 'Map Collections', items: [
+                  { text: 'Geotransform Digitized Urban Atlases', link: '/resources/documentation/create-urban-atlas-data'},
+                  { text: 'Use Digitized Urban Atlases as GIS Data Sources', link: '/resources/documentation/access-urban-atlas-data'},
                 ]}
               ] }
 

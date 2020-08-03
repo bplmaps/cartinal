@@ -1,15 +1,12 @@
-::: warning
-🚧 This documentation is under construction 🚧
-:::
+---
+sidebar: auto
+---
 
-# Using Digitized Urban Atlases as Data Sources
+# Use Digitized Urban Atlases as GIS Data Sources
 
 ## About Urban Atlases
 
-
-The LMEC collection of fire insurance and real estate atlases of metropolitan Boston is in the process of being imaged, georeferenced, and mosaiced to produce continuous-coverage, geographically-locatable versions of these historic objects. 
-
-For more background on urban atlases, see the library research guides for [Boston](http://guides.bpl.org/urban-atlases) or [other Massachusetts cities and towns](https://guides.bpl.org/mass-urban-atlases). To learn more about the Atlascope public discovery tool, [read the documentation](https://geoservices.leventhalmap.org/docs/#/documentation/lmec-tools/atlascope/using-the-portal) or [try the app](https://atlascope.leventhalmap.org).
+For more background on urban atlases, see the library research guides for [Boston](http://guides.bpl.org/urban-atlases) or [other Massachusetts cities and towns](https://guides.bpl.org/mass-urban-atlases). To learn more about the Atlascope public discovery tool, [read the documentation](https://geoservices.leventhalmap.org/cartinal/resources/guides/atlascope-tool-guide.html') or [try the app](https://atlascope.leventhalmap.org).
 
 This documentation contains information on how to access the underlying data sources of the Atlascope project, including raster imagery, vector boundary files, and metadata records. It assumes prior knowledge with GIS and data tools.
 
@@ -23,20 +20,27 @@ This Airtable lists all atlases which have been fully completed and appear in At
 
 The `barcode` field is used as the stable identifier for a single atlas. It is derived from the object barcode attached to each physical item in the LMEC collections.
 
-!> **Atlases with multiple scale factors.** Some single atlases include overlapping coverage of an area at multiple scales—for instance, the 1874 Hopkins atlas of Newton, which includes both [small-scale plates covering built-up areas](https://atlascope.leventhalmap.org/#view:share$base:000$overlay:39999059015832a$zoom:14.23$center:-7926719.238595215,5213651.889357576$mode:glass$pos:483) as well as [large-scale plates covering the entire town](https://atlascope.leventhalmap.org/#view:share$base:000$overlay:39999059015832a$zoom:14.23$center:-7926719.238595215,5213651.889357576$mode:glass$pos:483). Because of their overlapping extent, these are treated as distinct digital atlas objects. We use alphabetical suffixes to create new id numbers for these atlases that derive from the same original physical item, as in 39999059015832a and 39999059015832b for the Newton atlas.
+
+::: details Atlases with multiple scale factors
+Some single atlases include overlapping coverage of an area at multiple scales—for instance, the 1874 Hopkins atlas of Newton, which includes both [small-scale plates covering built-up areas](https://atlascope.leventhalmap.org/#view:share$base:000$overlay:39999059015832a$zoom:14.23$center:-7926719.238595215,5213651.889357576$mode:glass$pos:483) as well as [large-scale plates covering the entire town](https://atlascope.leventhalmap.org/#view:share$base:000$overlay:39999059015832a$zoom:14.23$center:-7926719.238595215,5213651.889357576$mode:glass$pos:483). Because of their overlapping extent, these are treated as distinct digital atlas objects. We use alphabetical suffixes to create new id numbers for these atlases that derive from the same original physical item, as in 39999059015832a and 39999059015832b for the Newton atlas.
+:::
+
 
 Atlases are colloquially referred to by the `desc_short` field, a concatenation of the atlases's primary coverage area and its year of publication—"Charlestown 1892," for instance. 
 
-!> **Idiosyncracies in coverage areas**. The title and descriptive name of a single atlas can be deceiving. For instance, "Chelsea 1896" also covers Revere, Winthrop, and East Boston. Furthermore, as towns and cities have been annexed into Boston, or had their municipal lines adjusted, coverage areas have changed over time. Both the title and the descriptive name should not be used as an authoritative description of a single atlas's exact coverage extent.
+::: details Idiosyncracies in coverage areas
+The title and descriptive name of a single atlas can be deceiving. For instance, "Chelsea 1896" also covers Revere, Winthrop, and East Boston. Furthermore, as towns and cities have been annexed into Boston, or had their municipal lines adjusted, coverage areas have changed over time. Both the title and the descriptive name should not be used as an authoritative description of a single atlas's exact coverage extent.
+:::
+
 
 The `bibliocommons` entry links to the atlas's record in the BPL's public access catalog, where a MARC record and other bibliographic detail is available.
 
 ### Spatial List of Atlases
 
-A single GeoJSON file with polygons corresponding to each atlas's coverage extent can be found at the following URL. ([See here](https://github.com/nblmc/atlascope-assets/blob/master/atlas-footprints/volume-extents.geojson) for the file preview in GitHub.)
+A single GeoJSON file with polygons corresponding to each atlas's coverage extent can be found at the following URL. ([See here](https://s3.us-east-2.wasabisys.com/urbanatlases/extents/volume-extents.geojson) for the file preview in GitHub.)
 
 ```
-https://raw.githubusercontent.com/nblmc/atlascope-assets/master/atlas-footprints/volume-extents.geojson
+https://s3.us-east-2.wasabisys.com/urbanatlases/extents/volume-extents.geojson
 ``` 
 
 This file is derived from the Airtable embedded above, and each polygon feature in this GeoJSON coverage contains metadata fields corresponding with the same fields in the Airtable record.
@@ -53,7 +57,18 @@ A TMS tile pyramid at zoom levels 13 through 20 is available at the following sc
 https://s3.us-east-2.wasabisys.com/urbanatlases/{{barcode}}/tiles/{z}/{x}/{-y}.png
 ```
 
-!> **TMS vs XYZ**. Our tile pyramid is generated to the OSGeo TMS spec, which uses an inverted Y coordinate compared to the XYZ system now used by most web map libraries. Therefore, passing `-y` is necessary to flip TMS to XYZ; see [this gist](https://gist.github.com/tmcw/4954720) for more information about the differences between TMS and XYZ.
+::: details TMS vs XYZ
+Our tile pyramid is generated to the OSGeo TMS spec, which uses an inverted Y coordinate compared to the XYZ system now used by most web map libraries. Therefore, passing `-y` is necessary to flip TMS to XYZ; see [this gist](https://gist.github.com/tmcw/4954720) for more information about the differences between TMS and XYZ.
+
+We are in the process of converting these large tilesets to the XYZ system, which can be accommodated by ArcGIS Online, which does not currently accommodate the TMS specification.
+
+To discern the tile pyramid specification status for any given atlas during this transition phase, please find an accompanying tilejson file, available here:
+
+```
+https://s3.us-east-2.wasabisys.com/urbanatlases/{{barcode}}/tileset.json
+```
+
+:::
 
 ### Full Coverage GeoTIFF
 
@@ -63,9 +78,13 @@ A fully georeferenced and mosaiced GeoTIFF of a single atlas's full coverage can
 https://s3.us-east-2.wasabisys.com/urbanatlases/{{barcode}}/src/mosaic/mosaic.tif
 ```
 
-!> These are very large files. Expect long download times.
+::: danger 
+These are very large files. Expect long download times.
+:::
 
-!> **DPI compared to original imagery**. Because individual atlases plates are drawn at varying geographic scales, when they are combined into a single mosaic, they require different DPI adjustments. For this reason, some sections of a single atlas may have lossier transformations than others.
+::: details DPI compared to original imagery 
+Because individual atlases plates are drawn at varying geographic scales, when they are combined into a single mosaic, they require different DPI adjustments. For this reason, some sections of a single atlas may have lossier transformations than others.
+:::
 
 ### Plate Boundaries Outline
 
@@ -74,3 +93,20 @@ This GeoJSON file represents the outlines of plate boundaries as vector polygons
 ```
 https://s3.us-east-2.wasabisys.com/urbanatlases/{{barcode}}/src/footprint/Boundary.geojson
 ```
+
+#### BPL Boston atlas specifics
+::: details A note on BPL Boston atlases
+
+This workflow was originally conceived around the particulars of how BPL creates, organizes and stores metadata for its maps. As the Atlascope project expands to incorporate atlases from other institutions, our spatial metadata has expanded to capture metadata in a more standardized and universal way. 
+
+For the Boston project, these fields were preserved in the footprint files:<br>
+→ identifier <br>
+→ call_no <br>
+→ commonweal <br>
+→ title <br>
+→ plate <br>
+→ publisher <br>
+→ year
+
+ These existing footprint files will likely be updated to conform with our updated spatial metadata schema as we build out discovery interfaces that incorporate materials from other institutions. 
+:::
