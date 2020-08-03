@@ -23,7 +23,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
       <div class="feature">
     <h2>GIS Challenges</h2>   
        <p><a target = "_blank" href ='./resources/guides/python.html'>Practice using Python for digital mapmaking</a></p> 
-      <p><a target = "_blank" href ='./resources/tutorials/windows-anaconda.html'>Set up your PC for using Python & GIS libraries in the command line</a></p>  
+      <p><a target = "_blank" href ='./resources/tutorials/windows-anaconda.html'>Set up your PC for using Python & GIS modules in the command line</a></p>  
   </div>
   <div class="feature">
     <h2>Searchin' for data</h2>
@@ -33,7 +33,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   <div class="feature">
     <h2>Librarians working with archival collections</h2>
     <p><a target = "_blank" href ='./resources/guides/atlascope-tool-guide.html'>Learn how to use the Atlascope portal</a></p>
-    <p><a target = "_blank" href ='./resources/documentation/create-urban-atlas-data.html'>Librarian-centered documenatation for atlas geotransformation</a></p>
+    <p><a target = "_blank" href ='./resources/documentation/create-urban-atlas-data.html'>Librarian-centered documentatation for atlas geotransformation</a></p>
   </div>
   <div class="feature">
     <h2>Telling Stories with Maps</h2>
