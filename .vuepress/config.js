@@ -19,7 +19,8 @@ module.exports = {
             ]},
 
             { text: 'Map Collections', items: [
-              { text: 'Create an Annotated Map Story', link: '/resources/tutorials/create-stories'}
+              { text: 'Create an Annotated Map Story', link: '/resources/tutorials/create-stories'},
+              { text: 'Bring BPL Atlas Tiles into QGIS', link: '/resources/tutorials/atlascope-tiles'},             
             ]}
           ] },
 
@@ -30,8 +31,9 @@ module.exports = {
           ariaLabel: 'Cartinal Directions Menu',
           items: [
             { text: 'GIS Data and Tools', items: [
+              { text: 'Get Started with QGIS', link: '/resources/guides/download-qgis.md' },
               { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
-              { text: 'Use Python to Handle GIS Data', link: '/resources/guides/python.md' }
+              { text: 'Use Python to Work with GIS Data', link: '/resources/guides/python.md' }
             ]},
 
 
