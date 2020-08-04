@@ -19,8 +19,7 @@ module.exports = {
             ]},
 
             { text: 'Map Collections', items: [
-              { text: 'Create an Annotated Map Story', link: '/resources/tutorials/create-stories'},
-              { text: 'Bring BPL Atlas Tiles into QGIS', link: '/resources/tutorials/atlascope-tiles'},             
+              { text: 'Create an Annotated Map Story', link: '/resources/tutorials/create-stories'},           
             ]}
           ] },
 
@@ -32,12 +31,14 @@ module.exports = {
           items: [
             { text: 'GIS Data and Tools', items: [
               { text: 'Get Started with QGIS', link: '/resources/guides/download-qgis.md' },
+              { text: 'Georeference a Map', link: '/resources/guides/georeference.md'},
               { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
               { text: 'Use Python to Work with GIS Data', link: '/resources/guides/python.md' }
             ]},
 
 
               { text: 'Map Collections', items: [
+                { text: 'Bring BPL Atlas Tiles into QGIS', link: '/resources/guides/atlascope-tiles'},  
                 { text: 'Use the Atlascope Portal', link: '/resources/guides/atlascope-tool-guide'}
               ]}
 

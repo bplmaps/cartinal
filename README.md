@@ -13,7 +13,8 @@ footer: MIT Licensed | Copyright © 2020 LMEC
 <div class="features">
   <div class="feature">
     <h2>Beginning</h2>
-      <p><a target = "_blank" href ='./resources/guides/download-qgis.html'>Get Started with QGIS</a></p>   
+      <p><a target = "_blank" href ='./resources/guides/download-qgis.html'>Get Started with QGIS</a></p>  
+      <p><a target = "_blank" href ='./resources/guides/georeference.html'>Georeference a map</a></p>    
       <p><a target = "_blank" href ='./resources/guides/mac-setup.html'>Set up a Mac computer for digital mapmaking</a></p>      
     <p><a target = "_blank" href ='./resources/request.html'>Get one-on-one help with a mapmaking project</a></p>
   </div>
@@ -39,7 +40,6 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   <div class="feature">
     <h2>Telling Stories with Maps</h2>
       <p><a target = "_blank" href ='./resources/tutorials/create-stories.html'>Use our interactive storytelling tool to annotate our maps in close detail</a></p>
-      <p><a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>Access the underlying Atlascope data</a></p>
-      <p><a target = "_blank" href ='./resources/tutorials/atlascope-tiles.html'>Use our atlas tiles in your own project</a></p>
+      <p><a target = "_blank" href ='./resources/guides/atlascope-tiles.html'>Use our atlas tiles in your own project</a></p>
   </div>
 </div>

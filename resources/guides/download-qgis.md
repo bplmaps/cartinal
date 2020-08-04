@@ -1,4 +1,4 @@
-# Download QGIS
+# Get Started with QGIS
 
 For most tasks you wish to undertake involving GIS, the free desktop software QGIS is an excellent place to start.
 
@@ -26,7 +26,7 @@ QGIS can export maps as static PDFs, or as popular formats of geopatial data lik
 
 Cloud-based ArcGIS Online is a popular website that has some free functionality for bringing data into web maps. There is a fair amount you can do with ArcGIS Online, but in many cases to get your web map to look exactly how you want, you might need to do your own custom coding.
 
-To talk through your project idea and get some feedback on logical steps to take, <a target = "_blank" href ='./resources/request.html'>request a consultation with our GIS Librarian.</a>
+To talk through your project idea and get some feedback on logical steps to take, <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/request.html'>request a consultation with our GIS Librarian.</a>
 
 :::
 
