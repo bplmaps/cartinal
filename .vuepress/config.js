@@ -17,6 +17,7 @@ module.exports = {
               { text: 'Clip GIS Data by Geographic Extent', link: '/resources/tutorials/clip-by-extent.md'},
               { text: 'Massachusetts Aerial Photography', link: '/resources/tutorials/aerial.md'},
               { text: 'Massachusetts Property Boundaries', link: '/resources/tutorials/mass-parcels.md'},
+              { text: 'Edit Existing GIS Data', link: '/resources/tutorials/edit-geometry.md'},
               { text: 'Set up a PC for Python & GIS Libraries', link: '/resources/tutorials/windows-anaconda.md'}              
             ]},
 

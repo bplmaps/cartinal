@@ -22,6 +22,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
     <h2>Fundamentals</h2> 
       <p><a target = "_blank" href ='./resources/tutorials/clip-by-extent.html'>Clip to an area of interest</a></p>
             <p><a target = "_blank" href ='./resources/guides/mac-setup.html'>GIS on a Mac computer</a></p>   
+       <p><a target = "_blank" href ='./resources/tutorials/edit-geometry.html'>Edit existing GIS data</a></p> 
        <p><a target = "_blank" href ='./resources/guides/python.html'>Python mapping exercises</a></p> 
           
   </div>

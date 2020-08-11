@@ -29,7 +29,7 @@ Zoom in to the area of interest, and select the city or town by clicking on the 
 Select `Download Shapefile` and unzip / extract the download.
 
 ::: danger
-The data inside this data folder, when unzipped will look very messy and confusing. If you are new to working with shapefiles, it may be helpful to read our <a target = "_blank" href ='https://docs.digital.mass.gov/dataset/massgis-data-standardized-assessors-parcels'>Common GIS File Formats: Shapefile Guide</a> first.
+The data inside this data folder, when unzipped will look very messy and confusing. If you are new to working with shapefiles, it may be helpful to read our <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/guides/file-formats.html'>Common GIS File Formats: Shapefile Guide</a> first.
 :::
 
 
