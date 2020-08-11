@@ -35,7 +35,7 @@ The data inside this data folder, when unzipped will look very messy and confusi
 
 ## Bringing into QGIS
 
-In an attempt to standardize the way this data is compiled across multiple municipalities, MassGIS has broken the data in to three different layers: `Miscelleous Features`, `Other Legal Interests`, and `Tax Parcels`. 
+In an attempt to standardize the way this data is compiled across multiple municipalities, MassGIS has broken the data in to three different layers: `Miscellaneous Features`, `Other Legal Interests`, and `Tax Parcels`. 
 
 We are interested in the `Tax Parcels` layer, but all of the different extensions of all three shapefiles will be bunched together in your data download. You will have to sort through the files to find one that ends in `TaxPar.shp`.
 
