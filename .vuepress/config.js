@@ -16,6 +16,7 @@ module.exports = {
             { text: 'GIS Data and Tools', items: [
               { text: 'Clip GIS Data by Geographic Extent', link: '/resources/tutorials/clip-by-extent.md'},
               { text: 'Massachusetts Aerial Photography', link: '/resources/tutorials/aerial.md'},
+              { text: 'Massachusetts Property Boundaries', link: '/resources/tutorials/mass-parcels.md'},
               { text: 'Set up a PC for Python & GIS Libraries', link: '/resources/tutorials/windows-anaconda.md'}              
             ]},
 
@@ -32,6 +33,7 @@ module.exports = {
           items: [
             { text: 'GIS Data and Tools', items: [
               { text: 'Get Started with QGIS', link: '/resources/guides/download-qgis.md' },
+              { text: 'Common GIS File Formats', link: '/resources/guides/file-formats.md'},
               { text: 'Georeference a Map', link: '/resources/guides/georeference.md'},
               { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
               { text: 'Use Python to Work with GIS Data', link: '/resources/guides/python.md' }

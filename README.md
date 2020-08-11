@@ -14,7 +14,8 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   <div class="feature">
     <h2>Beginning</h2>
       <p><a target = "_blank" href ='./resources/guides/download-qgis.html'>Get Started with QGIS</a></p>  
-      <p><a target = "_blank" href ='./resources/guides/georeference.html'>Georeference a map</a></p>    
+      <p><a target = "_blank" href ='./resources/guides/georeference.html'>Georeference a map</a></p>  
+      <p><a target = "_blank" href ='./resources/guides/file-formats.html'>Commons GIS File Formats</a></p>    
       <p><a target = "_blank" href ='./resources/guides/mac-setup.html'>Set up a Mac computer for digital mapmaking</a></p>      
     <p><a target = "_blank" href ='./resources/request.html'>Get one-on-one help with a mapmaking project</a></p>
   </div>
@@ -31,6 +32,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
     <h2>Looking for Data</h2>
     <p><a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>Underlying Atlascope data</a></p>
     <p><a target = "_blank" href ='./resources/tutorials/aerial.html'>Massachusetts aerial photography</a></p>
+    <p><a target = "_blank" href ='./resources/tutorials/mass-parcels.html'>Massachusetts property boundaries</a></p>
     <p><a target = "_blank" href ='./resources/request.html'>Get one-on-one help with your data project</a></p>
   </div>
   <div class="feature">
