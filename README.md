@@ -2,7 +2,7 @@
 home: true
 heroImage: hanaan.jpeg
 heroText: null
-tagline: Documentation and guides for all geoservices at the Leventhal Map & Education Center at the Boston Public Library
+tagline: Tutorials, Guides and Documentation for GIS & Data Services at the Leventhal Map & Education Center at the Boston Public Library
 footer: MIT Licensed | Copyright © 2020 LMEC
 ---
 
@@ -15,14 +15,15 @@ footer: MIT Licensed | Copyright © 2020 LMEC
     <h2>Beginning</h2>
       <p><a target = "_blank" href ='./resources/guides/download-qgis.html'>Get Started with QGIS</a></p>  
       <p><a target = "_blank" href ='./resources/guides/georeference.html'>Georeference a map</a></p>  
-      <p><a target = "_blank" href ='./resources/guides/file-formats.html'>Commons GIS File Formats</a></p>    
-      <p><a target = "_blank" href ='./resources/guides/mac-setup.html'>GIS on a Mac computer</a></p>      
+      <p><a target = "_blank" href ='./resources/guides/file-formats.html'>Commons GIS File Formats</a></p>       
     <p><a target = "_blank" href ='./resources/request.html'>Get one-on-one mapping help</a></p>
   </div>
   <div class="feature">
     <h2>Fundamentals</h2> 
       <p><a target = "_blank" href ='./resources/tutorials/clip-by-extent.html'>Clip to an area of interest</a></p>
-       <p><a target = "_blank" href ='./resources/guides/python.html'>Python mapping exercises</a></p>     
+            <p><a target = "_blank" href ='./resources/guides/mac-setup.html'>GIS on a Mac computer</a></p>   
+       <p><a target = "_blank" href ='./resources/guides/python.html'>Python mapping exercises</a></p> 
+          
   </div>
       <div class="feature">
     <h2>Advanced</h2>   
@@ -38,8 +39,8 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   </div>
   <div class="feature">
     <h2>Librarians working with archival collections</h2>
-    <p><a target = "_blank" href ='./resources/guides/atlascope-tool-guide.html'>Support research with Atlascope</a></p>
-    <p><a target = "_blank" href ='./resources/documentation/create-urban-atlas-data.html'>Geotransform your urban atlases</a></p>
+    <p><a target = "_blank" href ='./resources/guides/atlascope-tool-guide.html'>Use Atlascope for patron reference</a></p>
+    <p><a target = "_blank" href ='./resources/documentation/create-urban-atlas-data.html'>Geotransform urban atlases</a></p>
   </div>
   <div class="feature">
     <h2>Telling Stories with Maps</h2>
