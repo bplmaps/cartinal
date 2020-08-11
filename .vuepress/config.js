@@ -15,6 +15,7 @@ module.exports = {
           items: [
             { text: 'GIS Data and Tools', items: [
               { text: 'Clip GIS Data by Geographic Extent', link: '/resources/tutorials/clip-by-extent.md'},
+              { text: 'Massachusetts Aerial Photography', link: '/resources/tutorials/aerial.md'},
               { text: 'Set up a PC for Python & GIS Libraries', link: '/resources/tutorials/windows-anaconda.md'}              
             ]},
 

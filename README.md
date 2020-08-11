@@ -29,7 +29,8 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   </div>
   <div class="feature">
     <h2>Looking for Data</h2>
-    <p><a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>Access the data created by the Atlascope urban atlas project</a></p>
+    <p><a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>Underlying Atlascope data</a></p>
+    <p><a target = "_blank" href ='./resources/tutorials/aerial.html'>Massachusetts aerial photography</a></p>
     <p><a target = "_blank" href ='./resources/request.html'>Get one-on-one help with your data project</a></p>
   </div>
   <div class="feature">
