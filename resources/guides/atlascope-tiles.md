@@ -16,7 +16,7 @@ We have done all the georeferencing, stitching and tiling, so you can get starte
 - Combine inferred data from atlas layers with other datasets to tell stories or do analysis
 
 ## Available atlas layers
-For a complete list and details on how to access the underlying Atlascope data, visit our <a target = "_blank" href ='./resources/documentation/access-urban-atlas-data.html'>Use Digitized Urban Atlases as GIS Source Data documentation.</a>
+For a complete list and details on how to access the underlying Atlascope data, visit our <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/documentation/access-urban-atlas-data.html'>Use Digitized Urban Atlases as GIS Source Data documentation.</a>
 
 Citations for all BPL urban atlases including tile links are also available in our <a target = "_blank" href ='https://guides.bpl.org/urban-atlases/list'>List of urban atlases libguide.</a>
 
@@ -67,7 +67,6 @@ At the bottom of each layer's `About this map` page is a link to the tile endpoi
 ::: tip New XYZ Tile Connection Settings<br>
 **Name:** Whatever you want the atlas layer to be called in your map document. Geography and year could be a good name, for instance, "Somerville 1895"<br><br>
 **URL:** The URL you copied for the tile endpoint<br><br>
-The URL should be formatted this way, with the y flipped:
 ```
 https://s3.us-east-2.wasabisys.com/urbanatlases/{volume-identifier}/tiles/{z}/{x}/{-y}.png
 ```
