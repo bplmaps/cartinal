@@ -4,7 +4,6 @@ For most tasks you wish to undertake involving GIS, the free desktop software QG
 
 With QGIS, you can:
 - Georeference maps
-- save up the money you would have wasted on ArcGIS and buy *a house*!
 - Edit the geometry and attributes of GIS point, line and polygon files
 - Create your own GIS point, line and polygon files
 - Turn tabular data into data that can be mapped
