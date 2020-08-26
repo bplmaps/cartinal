@@ -4,6 +4,7 @@ For most tasks you wish to undertake involving GIS, the free desktop software QG
 
 With QGIS, you can:
 - Georeference maps
+- save up the money you would have wasted on ArcGIS and buy *a house*!
 - Edit the geometry and attributes of GIS point, line and polygon files
 - Create your own GIS point, line and polygon files
 - Turn tabular data into data that can be mapped
@@ -22,7 +23,7 @@ QGIS is a desktop software, and therefore mapping done in QGIS will not be immed
 
 A typical workflow would be to think about how you want to share your map, is it a static PDF or an interactive web map? If it is interactive, why, what interactive features does it need to have? Once you have a sense of the answers to these questions, you can use QGIS to get your data ready for the next step, sharing.
 
-QGIS can export maps as static PDFs, or as popular formats of geopatial data like shapefiles, geopackages, geoTIFFs and geoJSONs that can be visualized in other software.
+QGIS can export maps as static PDFs, or as popular formats of geospatial data like shapefiles, geopackages, geoTIFFs and geoJSONs that can be visualized in other software.
 
 Cloud-based ArcGIS Online is a popular website that has some free functionality for bringing data into web maps. There is a fair amount you can do with ArcGIS Online, but in many cases to get your web map to look exactly how you want, you might need to do your own custom coding.
 
