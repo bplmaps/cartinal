@@ -1,33 +1,43 @@
 # Get Started with QGIS
 
-For most tasks you wish to undertake involving GIS, the free desktop software QGIS is an excellent place to start.
+### What is QGIS
+QGIS is a Free and Open Source (FOSS) GIS software application. You can download and run it on almost any operating system (Linux, Mac OSX, Unix, Windows, and Android). 
 
-With QGIS, you can:
-- Georeference maps
-- Edit the geometry and attributes of GIS point, line and polygon files
-- Create your own GIS point, line and polygon files
-- Turn tabular data into data that can be mapped
-- Manage the attributes or properties of data
-- Clean and prepare data for later steps in web mapping
-- Perform spatial analysis on data to uncover patterns
-- Join datasets together 
-- Overlay multiple datasets to compare between them
-- Visualize data and create shareable maps
-- Export data into multiple formats
-- Import downloaded data or cloud-based services
+For most tasks you will undertake using GIS, QGIS is a great place to start. You can use it to:
+- Create digital maps from existing data sources
+- Perform spatial analysis
+- Collect and parse geographic data from satellites, sensors, and other sources
+- Manage the spatial attributes of data
 - Much more!
 
-::: details A note about desktop software vs. web maps
-QGIS is a desktop software, and therefore mapping done in QGIS will not be immediately hosted on websites that can be shared with others.
-
-A typical workflow would be to think about how you want to share your map, is it a static PDF or an interactive web map? If it is interactive, why, what interactive features does it need to have? Once you have a sense of the answers to these questions, you can use QGIS to get your data ready for the next step, sharing.
-
-QGIS can export maps as static PDFs, or as popular formats of geospatial data like shapefiles, geopackages, geoTIFFs and geoJSONs that can be visualized in other software.
-
-Cloud-based ArcGIS Online is a popular website that has some free functionality for bringing data into web maps. There is a fair amount you can do with ArcGIS Online, but in many cases to get your web map to look exactly how you want, you might need to do your own custom coding.
-
-To talk through your project idea and get some feedback on logical steps to take, <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/request.html'>request a consultation with our GIS Librarian.</a>
-
-:::
+### Installing QGIS
 
 <a target = "_blank" href ='https://qgis.org/en/site/forusers/download.html'>Use this link to download QGIS.</a>
+
+Select the appropriate version the software based on your computer's operating system. 
+(If you're new to GIS and unsure which version to download, the **Long term release** under the **QGIS Standalone Installer** is your safest bet.)
+
+::: details Curious about all the other download options?
+
+QGIS has a [comprehensive installation guide](https://qgis.org/en/site/forusers/alldownloads.html) that explains the differences between packages and versions in detail.
+
+::: danger WINDOWS USERS:
+*Only install in OSGeo4W if you know what you’re doing!* A full install of OSGeo4W could render your whole installation *unusable* without additional modifications and installations!
+:::
+
+Once your installation is complete, open up QGIS by clicking on<img src="https://upload.wikimedia.org/wikipedia/commons/7/77/Qgis-icon-3.0.png" width="50" height="50" />  in your Applications.
+
+
+
+### Understanding the QGIS Interface
+If you have QGIS installed and opened, you may be wondering "What do I do now?"
+
+To open a new project, select the **New Project** icon in the top left of the window.
+
+<img src="./media/new-project.png" width="200" height="100" />
+
+Your new document should look something like this.
+
+
+
+
