@@ -26,6 +26,8 @@ Select the appropriate version the software based on your computer's operating s
 
 QGIS has a [comprehensive installation guide](https://qgis.org/en/site/forusers/alldownloads.html) that explains the differences between packages and versions in detail.
 
+:::
+
 ::: danger WINDOWS USERS:
 *Only install in OSGeo4W if you know what you’re doing!* A full install of OSGeo4W could render your whole installation *unusable* without additional modifications and installations!
 :::
@@ -35,6 +37,11 @@ Once your installation is complete, open up QGIS by clicking on<img src="https:/
 
 
 ## Understanding the QGIS Interface
+
+::: tip 
+The screenshots and gifs used in this guide were made on a Windows computer running on **QGIS 3.10.3**. If you are using a different version of the software or running it on a different operating system, your interface may look slightly different. Don't panic! If your version of QGIS is up-to-date (3.10 or later), you will have access to all the same buttons and functions. Older versions of QGIS will vary more greatly, but should still allow you to perform all the tasks in this guide.
+:::
+
 If you have QGIS installed and opened, you may be wondering "What do I do now?"
 
 To open a new project, select the **New Project** icon in the top left of the window.
@@ -82,7 +89,89 @@ You can toggle toolbars on and off through the **Menu Bar** by navigating to `Vi
 
 ### Browser Panel
 
+<img src="./media/1-browser-panel.jpg" width="200" height="400"  ALIGN="left"  VSPACE="5" HSPACE="10" />
+
+The **Browser Panel** allows you to easily pull pre-existing data into your QGIS project. This panel connects to your computer, storage devices, common geographic databases and networks, and allows you to access QGIS-compatible files and tiled maps that you may want to use.
+
+If you're new to GIS, don't be intimidated by all the unfamiliar options listed here. The majority of these (SpatialLite, Oracle, PostGIS, MSSQL, etc.) are databases that hold different types of geographic data or information. You won't need to be familiar with them just yet.  
+
+#### Add a Basemap
+
+Under `XYZ Tiles`, you can access URL-based **tiled web maps** to use in your project. These detailed maps can make great **basemaps** for your GIS project. A basemap is a background map layer that provides spatial reference for your map data. Although it is not always necessary, a basemap can be very helpful for orientation and interpretation as you create, edit, or analyze geographic data. 
+
+For this exercise, we will use [OpenStreetMap (OSM)](https://www.openstreetmap.org/#map=4/38.01/-95.84) as our basemap. 
+
+::: details Why OSM?
+OSM is a free community-built open-source tiled world map that comes pre-loaded into QGIS. You can connect your `Browser` to other tiled web maps with more specific relevance to your project, but OSM is comprehensive and very up-to-date.
+:::
+
+To add OSM to your project, navigate to `Browser > XYZ Tiles`, *right click* on `OpenStreetMap` in the dropdown, then select `Add Layer to project`.
+![Add OSM](./media/1-add-osm.gif)
+
+OSM will appear in your **Map Canvas** as well as your **Layers List**.
+
+::: tip 
+Double-clicking will also add a layer to the project.
+:::
+
+#### Add Data from your Device
+From the `Browser`, you can also quickly access any files stored on your computer or an external storage device and add them to your QGIS project. 
+
+To add data from your computer to your project, navigate to the relevant folder in your `Browser`, locate your files, and **double-click**. 
+![Add Data](./media/1-add-data.gif)
+
+::: tip NOTE
+The file tree in your `Browser` matches that of your device. However, *it will only display files that are compatible with QGIS*. This makes locating relevant data much easier. 
+
+Here is a screenshot of the folder used in the above gif. Notice that the word document located in the folder did not appear in the QGIS browser.
+<img src="./media/1-computer-folder.jpg" width="500" height="285" />
+:::
+
+If there is a folder on your system that you will be using a lot of data from, you can add it to your `Favorites` in your `Browser` so its contents are easier to access. To do this, navigate to the folder as demonstrated above, right-click, then select `Add as a Favorite`. 
+![Add Fav](./media/1-add-fav.gif)
+
+::: tip 
+In the `Browser` you also have the ability to browse and open zip files directly.
+:::
 
 ### Map Canvas
+The **Map Canvas** is where you can visualize your map project lives. You can navigate around the basemap using the **Pan Tool**, the **Zoom Tool**, and others discussed above.
+
+#### Coordinate Systems
+The appearance of your map is based on the **coordinate system (CRS)** in which it is rendered. Because your computer screen is flat, any map you look at in a GIS will use a CRS to convert the spherical surface of the Earth to fit in the rectangular space of the **Map Canvas**. This process always involve distortion of size, shape, and distance. There are many different coordinate systems, and your choice will vary depending on the goals of your project. For the purposes of this demo, we will use **EPSG: 3585**, a coordinate system that accurately depicts the state of Massachusetts.
+
+To change coordinate systems, find the **CRS button** ![CRS](./media/1-crs.jpg) at the bottom-right of your map canvas and click on it. In the search bar at the top of the pop-up window, **type** in the name or number of your desired CRS, and then **select** that CRS from the options that appear. Finally, click `Apply` to apply this change and `OK` to exit out of the window.
+![Change CRS](./media/1-change-crs.gif)
+
+Notice the change in the warp of the basemap.
+
+::: warning
+Always verify that your project and all your data are in the desired coordinate system!
+:::
 
 ### Layers List
+
+<img src="./media/1-layer.jpg" width="250" height="150"  ALIGN="left"  VSPACE="1" HSPACE="5" />
+
+The **Layers List** is the final basic component of the QGIS interface. Here you will find all data layers that have been added to your project. 
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+**Zoom** to the geographic extent of a layer, by right-clicking on it and selecting `Zoom to Layer`.
+<img src="./media/1-zoom-to-layer.gif" width="500" height="300" />
+
+**Rearrange** layers by dragging and dropping them in the list.
+<img src="./media/1-reorder-layers.gif" width="500" height="300" />
+
+**Toggle** layers on and off using the check-box to the left of the layer name. 
+<img src="./media/1-toggle-layers.gif" width="500" height="300" /> 
+
+::: tip NOTE
+QGIS can support data that does not contain any spatial components. This data can be processed, operated on, or combined with spatial data in the software. Tabular data loaded into the QGIS will appear in the **Layers List** but not in the **Map Canvas**.
+:::
+
+<p>&nbsp;</p>
+
+Now that you understand the basics of the QGIS interface, see [our other guides](https://geoservices.leventhalmap.org/cartinal/) to learn how to perform specific tasks in QGIS.
