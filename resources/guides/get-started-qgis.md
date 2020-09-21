@@ -62,7 +62,7 @@ This bar holds the most basic functionality having to do with your current proje
 
 Under `Project`, you can **Open** a new or existing document, **Save** your current document, or **Export** it in a different file format compatible with a different software. 
 
-Here you can also create a **Print Layout**, a map document formatted for presentation or inclusion in a report. For information about print layouts, see our [Create a Print Layout guide](https://geoservices.leventhalmap.org/cartinal/). 
+Here you can also create a **Print Layout**, a map document formatted for presentation or inclusion in a report. For information about print layouts, see our [Create a Print Layout guide](https://geoservices.leventhalmap.org/cartinal/guides/print-layout.html). 
 
 Under `Layer`, you can use the `Data Source Manager` to **Add Data** to your map project. This data can take the form of vector data, raster data, data tables, and more. For more information on the types of data compatible with QGIS, see our [GIS Data Types and Formats guide](https://geoservices.leventhalmap.org/cartinal/).
 
@@ -79,7 +79,8 @@ The **Pan Tool** ![Pan Tool](./media/1-pan-tool.jpg) allows you to pan across yo
 The **Zoom Tools** ![Zoom Tool](./media/1-zoom-tools.jpg) will allow you to zoom in and out of your map. You can also zoom by using the scroll wheel on your mouse.
 
 ::: tip Understanding Your Mouse
-In QGIS, your mouse is not a neutral item. Clicking will typically perform a task that corresponds to the tool you have selected. For example, if you are using the **Zoom Tools**, you will zoom in or out of your map document with each click. If you are using **Measure Line Tool**<img src="./media/1-measure-tool.jpg" width="25" height="25" />, with each click you you will create connected vertices that QGIS will measure. 
+The way your mouse and trackpad actions correspond to QGIS functionalities will change depending on the tool selected. This may seem a little obvious, but being aware of this can prevent confusion. 
+For example, if you are using the **Zoom Tools**, clicking the document will zoom the interface in and out. If you are using **Measure Line Tool**<img src="./media/1-measure-tool.jpg" width="25" height="25" />, however, each click will create connected vertices that QGIS will measure. 
 :::
 
 Tools are grouped into toolbars according to collections of tasks relevant to particular kinds of projects. Depending on what you're working on, you will use some tools more than others, and you may not need some at all. The toolbars are easily customizable using this icon <img src="./media/1-toolbar-mover.jpg" width="15" height="25" />, as demonstrated in the gif below:
@@ -97,12 +98,12 @@ If you're new to GIS, don't be intimidated by all the unfamiliar options listed 
 
 #### Add a Basemap
 
-Under `XYZ Tiles`, you can access URL-based **tiled web maps** to use in your project. These detailed maps can make great **basemaps** for your GIS project. A basemap is a background map layer that provides spatial reference for your map data. Although it is not always necessary, a basemap can be very helpful for orientation and interpretation as you create, edit, or analyze geographic data. 
+Under `XYZ Tiles`, you can access URL-based **tiled web maps** to use in your project. These detailed maps can make great **basemaps** for your GIS project. A basemap is a background map layer that provides spatial reference for the project you are working on. Although it is not always necessary, a basemap can be helpful for orientation and interpretation as you create, edit, or analyze geographic data. 
 
 For this exercise, we will use [OpenStreetMap (OSM)](https://www.openstreetmap.org/#map=4/38.01/-95.84) as our basemap. 
 
 ::: details Why OSM?
-OSM is a free community-built open-source tiled world map that comes pre-loaded into QGIS. You can connect your `Browser` to other tiled web maps with more specific relevance to your project, but OSM is comprehensive and very up-to-date.
+OSM is a free community-built open-source tiled world map that comes pre-loaded into QGIS. You can connect your `Browser` to other tiled web map services with more specific relevance to your project, for instance, if you are working on a project dealing with the natural environment, you may want a reference basemap showing elevation, but for referencing current streets and built-environment, OSM is a comprehensive and up-to-date choice.
 :::
 
 To add OSM to your project, navigate to `Browser > XYZ Tiles`, *right click* on `OpenStreetMap` in the dropdown, then select `Add Layer to project`.
@@ -135,10 +136,14 @@ In the `Browser` you also have the ability to browse and open zip files directly
 :::
 
 ### Map Canvas
-The **Map Canvas** is where you can visualize your map project lives. You can navigate around the basemap using the **Pan Tool**, the **Zoom Tool**, and others discussed above.
+The **Map Canvas** is where the visual aspect of your mapping data comes to life. Try it out by navigating around the basemap using the **Pan Tool**, the **Zoom Tool**, and others discussed above.
 
 #### Coordinate Systems
-The appearance of your map is based on the **coordinate system (CRS)** in which it is rendered. Because your computer screen is flat, any map you look at in a GIS will use a CRS to convert the spherical surface of the Earth to fit in the rectangular space of the **Map Canvas**. This process always involve distortion of size, shape, and distance. There are many different coordinate systems, and your choice will vary depending on the goals of your project. For the purposes of this demo, we will use **EPSG: 3585**, a coordinate system that accurately depicts the state of Massachusetts.
+The appearance of your map is based on the **coordinate reference system (CRS)** in which it is rendered. Because your computer screen is flat, any map you look at in a GIS will use a CRS to convert the spherical surface of the Earth to fit in the rectangular space of the **Map Canvas**. This process always involves distortion of size, shape, and distance. There are many different coordinate systems, and your choice will vary depending on the goals of your project. 
+
+EPSG is a registry of spatial reference systems. Referring to a reference system's EPSG code is a common way to communicate that reference system with whatever software you are using. To search for EPSG codes based on locations, you can go to [EPSG.io](https://epsg.io/).
+
+For the purposes of this demo, we will use **EPSG: 3585**, a coordinate system that accurately depicts the state of Massachusetts.
 
 To change coordinate systems, find the **CRS button** ![CRS](./media/1-crs.jpg) at the bottom-right of your map canvas and click on it. In the search bar at the top of the pop-up window, **type** in the name or number of your desired CRS, and then **select** that CRS from the options that appear. Finally, click `Apply` to apply this change and `OK` to exit out of the window.
 ![Change CRS](./media/1-change-crs.gif)
@@ -146,7 +151,7 @@ To change coordinate systems, find the **CRS button** ![CRS](./media/1-crs.jpg) 
 Notice the change in the warp of the basemap.
 
 ::: warning
-Always verify that your project and all your data are in the desired coordinate system!
+Troubleshooting the CRS of your data and map document is a common GIS frustration. If something isn't showing up as anticipated, there is likely a projection issue. Always verify that your project and all your data are in the desired coordinate system!
 :::
 
 ### Layers List

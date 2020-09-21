@@ -33,7 +33,7 @@ module.exports = {
           ariaLabel: 'Cartinal Directions Menu',
           items: [
             { text: 'GIS Data and Tools', items: [
-              { text: 'Get Started with QGIS', link: '/resources/guides/download-qgis.md' },
+              { text: 'Get Started with QGIS', link: '/resources/guides/get-started-qgis.md' },
               { text: 'Common GIS File Formats', link: '/resources/guides/file-formats.md'},
               { text: 'Georeference a Map', link: '/resources/guides/georeference.md'},
               { text: 'Set up a Mac with GIS Software', link: '/resources/guides/mac-setup.md' },
