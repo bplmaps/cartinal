@@ -8,9 +8,9 @@ module.exports = {
         logo: '/logo.png',
         lastUpdated: 'Last Updated', 
         smoothScroll: true,
+        topbarUrl: "https://www.leventhalmap.org",
+        topbarText: "↩ Leventhal Map & Education Center Home",
         nav: [
-
-
           { text: 'Tutorials',
           ariaLabel: 'Tutorials Menu',
           items: [
