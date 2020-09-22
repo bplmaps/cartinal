@@ -1,13 +1,13 @@
 {
   "name": "cartinal",
   "version": "0.0.1",
-  "description": "Documentation, guides and ways to participate with GIS, data and map making @bplmaps",
+  "description": "Vuepress site with tutorials, guides, and documentation on GIS, data, and map making from @bplmaps",
   "main": "index.js",
   "authors": {
-    "name": "The Leventhal Map & Education Center",
+    "name": "Leventhal Map & Education Center",
     "email": "frontdesk@leventhalmap.org"
   },
-  "repository": "geoservices.leventhalmap.org/cartinal",
+  "repository": "https://github.com/nblmc/Cartinal",
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",

@@ -7,6 +7,7 @@ module.exports = {
     themeConfig: {
         logo: '/logo.png',
         lastUpdated: 'Last Updated', 
+        smoothScroll: true,
         nav: [
 
 
