@@ -38,7 +38,7 @@ Once your installation is complete, open up QGIS by clicking on<img src="https:/
 
 ## Understanding the QGIS Interface
 
-::: tip 
+::: tip NOTE
 The screenshots and gifs used in this guide were made on a Windows computer running on **QGIS 3.10.3**. If you are using a different version of the software or running it on a different operating system, your interface may look slightly different. Don't panic! If your version of QGIS is up-to-date (3.10 or later), you will have access to all the same buttons and functions. Older versions of QGIS will vary more greatly, but should still allow you to perform all the tasks in this guide.
 :::
 
@@ -72,14 +72,14 @@ Under `Plugins`, you can access plugins that will allow you to perform initial t
 
 ![Toolbars](./media/1-toolbars.jpg)
 
-Towards the top of the he QGIS interface is a customisable area where various **Toolbars** are found. A wide variety of tools can be found here, including the most universally used tools, the **Navigation Tools**.
+Towards the top of the QGIS interface is a customisable area where various **Toolbars** are found. A wide variety of tools can be found here, including the most universally used tools, the **Navigation Tools**.
 
 The **Pan Tool** ![Pan Tool](./media/1-pan-tool.jpg) allows you to pan across your map document.
 
 The **Zoom Tools** ![Zoom Tool](./media/1-zoom-tools.jpg) will allow you to zoom in and out of your map. You can also zoom by using the scroll wheel on your mouse.
 
 ::: tip Understanding Your Mouse
-The way your mouse and trackpad actions correspond to QGIS functionalities will change depending on the tool selected. This may seem a little obvious, but being aware of this can prevent confusion. 
+The way your mouse and trackpad actions correspond to QGIS functionalities will change depending on the tool you have selected. This may seem a little obvious, but being aware of this can prevent confusion. 
 For example, if you are using the **Zoom Tools**, clicking the document will zoom the interface in and out. If you are using **Measure Line Tool**<img src="./media/1-measure-tool.jpg" width="25" height="25" />, however, each click will create connected vertices that QGIS will measure. 
 :::
 
@@ -165,13 +165,13 @@ The **Layers List** is the final basic component of the QGIS interface. Here you
 <p>&nbsp;</p>
 
 **Zoom** to the geographic extent of a layer, by right-clicking on it and selecting `Zoom to Layer`.
-<img src="./media/1-zoom-to-layer.gif" width="500" height="300" />
+<img src="./media/1-zoom-to-layer.gif" width="600" height="360" />
 
 **Rearrange** layers by dragging and dropping them in the list.
-<img src="./media/1-reorder-layers.gif" width="500" height="300" />
+<img src="./media/1-reorder-layers.gif" width="600" height="360" />
 
 **Toggle** layers on and off using the check-box to the left of the layer name. 
-<img src="./media/1-toggle-layers.gif" width="500" height="300" /> 
+<img src="./media/1-toggle-layers.gif" width="600" height="360" /> 
 
 ::: tip NOTE
 QGIS can support data that does not contain any spatial components. This data can be processed, operated on, or combined with spatial data in the software. Tabular data loaded into the QGIS will appear in the **Layers List** but not in the **Map Canvas**.
