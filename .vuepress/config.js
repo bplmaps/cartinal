@@ -8,6 +8,7 @@ module.exports = {
 		smoothScroll: true,
 		topbarUrl: 'https://www.leventhalmap.org',
 		topbarText: '↩ Leventhal Map & Education Center Home',
+		oldPageCutoff: -1,
 		nav: [
 			{
 				text: 'Tutorials',
@@ -46,7 +47,7 @@ module.exports = {
 					{
 						text: 'GIS Data and Tools',
 						items: [
-							{ text: 'Get Started with QGIS', link: '/guides/get-started-qgis.md' },
+							{ text: 'Get Started with QGIS', link: '/guides/get-started-qgis/' },
 							{ text: 'Common GIS File Formats', link: '/guides/file-formats.md' },
 							{ text: 'Georeference a Map', link: '/guides/georeference.md' },
 							{ text: 'Set up a Mac with GIS Software', link: '/guides/mac-setup.md' },
