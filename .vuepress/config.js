@@ -46,7 +46,7 @@ module.exports = {
 					{
 						text: 'GIS Data and Tools',
 						items: [
-							{ text: 'Get Started with QGIS', link: '/guides/get-started-qgis.md' },
+							{ text: 'Get Started with QGIS', link: '/guides/get-started-qgis/basics.md' },
 							{ text: 'Common GIS File Formats', link: '/guides/file-formats.md' },
 							{ text: 'Georeference a Map', link: '/guides/georeference.md' },
 							{ text: 'Set up a Mac with GIS Software', link: '/guides/mac-setup.md' },

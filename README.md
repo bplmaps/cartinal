@@ -10,7 +10,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
 <div class="features">
   <div class="feature">
     <h2>Beginning</h2>
-      <p><a href='./guides/get-started-qgis.html'>Get Started with QGIS</a></p>  
+      <p><a href='./guides/get-started-qgis/basics.html'>Get Started with QGIS</a></p>  
       <p><a href='./guides/georeference.html'>Georeference a map</a></p>  
       <p><a href='./guides/file-formats.html'>Commons GIS File Formats</a></p>       
     <p><a href='./request.html'>Get one-on-one mapping help</a></p>
