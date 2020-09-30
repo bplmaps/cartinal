@@ -71,8 +71,8 @@ export default {
 
 #page-banners 
   position: fixed 
-  text-align: right;
-  right: 15px
+  text-align: left;
+  left: 15px
   bottom: 15px
   max-width: 20%;
   z-index: 9999;
