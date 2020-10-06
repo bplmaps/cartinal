@@ -19,7 +19,8 @@ module.exports = {
 						items: [
 							{ text: 'Get Started with QGIS', link: '/guides/get-started-qgis/' },
 							{ text: 'Georeference a Map', link: '/guides/georeference.md' },
-							{text: 'Clip GIS Data by Geographic Extent', link: '/guides/clip-by-extent.md'},
+							{text: 'Clip by Geographic Extent', link: '/guides/clip-by-extent.md'},
+							{text: 'Symbolize by Value', link: '/guides/symbolize-value.md'},
 							{ text: 'Edit Existing GIS Data', link: '/guides/edit-geometry.md' },
 							{ text: 'Set up a Mac with GIS Software', link: '/guides/mac-setup.md' },
 							{text: 'Set up a PC for Python & GIS Libraries', link: '/guides/windows-anaconda.md'},
