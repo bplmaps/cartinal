@@ -17,22 +17,22 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   </div>
   <div class="feature">
     <h2>Fundamentals</h2> 
-      <p><a href='./tutorials/clip-by-extent.html'>Clip to an area of interest</a></p>
+      <p><a href='./guides/clip-by-extent.html'>Clip to an area of interest</a></p>
             <p><a href='./guides/mac-setup.html'>GIS on a Mac computer</a></p>   
-       <p><a href='./tutorials/edit-geometry.html'>Edit existing GIS data</a></p> 
+       <p><a href='./guides/edit-geometry.html'>Edit existing GIS data</a></p> 
        <p><a href='./guides/python.html'>Python mapping exercises</a></p> 
           
   </div>
       <div class="feature">
     <h2>Advanced</h2>   
-      <p><a href='./tutorials/windows-anaconda.html'>Anaconda + GDAL + Windows</a></p>  
+      <p><a href='./guides/windows-anaconda.html'>Anaconda + GDAL + Windows</a></p>  
   </div>
   <div class="feature">
     <h2>Looking for Data</h2>
     <p><a href='./documentation/access-urban-atlas-data.html'>All Atlascope data</a></p>
     <p><a href='./guides/atlascope-tiles.html'>Atlascope tile layers</a></p>
-    <p><a href='./tutorials/aerial.html'>Massachusetts aerial photography</a></p>
-    <p><a href='./tutorials/mass-parcels.html'>Massachusetts property boundaries</a></p>
+    <p><a href='./guides/aerial.html'>Massachusetts aerial photography</a></p>
+    <p><a href='./guides/mass-parcels.html'>Massachusetts property boundaries</a></p>
     <p><a href='./request.html'>Get one-on-one data help</a></p>
   </div>
   <div class="feature">
@@ -42,7 +42,7 @@ footer: MIT Licensed | Copyright © 2020 LMEC
   </div>
   <div class="feature">
     <h2>Telling Stories with Maps</h2>
-      <p><a href='./tutorials/create-stories.html'>Annotate our map collections</a></p>
+      <p><a href='./guides/create-stories.html'>Annotate our map collections</a></p>
       <p><a href='./guides/atlascope-tiles.html'>Use our geotransformed atlas tiles</a></p>
   </div>
 </div>
