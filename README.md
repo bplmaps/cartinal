@@ -8,7 +8,7 @@ features:
   link: ./guides/
 - title: Make a Data Request
   details: Book a librarian for personalized help with your project.
-  link: /request.html
+  link: ./request.html
 - title: All Geospatial Services
   details: Visit the homepage for Geospatial Information Services at LMEC.
   link: https://www.leventhalmap.org/research/geospatial/
