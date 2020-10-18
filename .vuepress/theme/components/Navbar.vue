@@ -106,9 +106,17 @@ function css (el, property) {
 $navbar-vertical-padding = 0.7rem
 $navbar-horizontal-padding = 1.5rem
 
+#top-elements
+  z-index 100
+  display flex
+  position fixed
+  width 100%
+  height auto
+  flex-direction column
+  justify-content space-evenly
+
 #topbar
   width 100%
-  height: $topbarHeight
   background-color: $topbarBackground
 #topbar-inner
   padding: 5px $navbar-horizontal-padding
@@ -138,7 +146,6 @@ $navbar-horizontal-padding = 1.5rem
     font-size 0.9rem
     position absolute
     right $navbar-horizontal-padding
-    top $navbar-vertical-padding
     display flex
     .search-box
       flex: 0 0 auto

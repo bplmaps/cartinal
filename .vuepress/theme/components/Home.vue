@@ -1,62 +1,25 @@
 <template>
-  <main
-    class="home"
-    :aria-labelledby="data.heroText !== null ? 'main-title' : null"
-  >
+  <main class="home" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
     <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
-
-      <h1
-        v-if="data.heroText !== null"
-        id="main-title"
-      >
-        {{ data.heroText || $title || 'Hello' }}
-      </h1>
-
-      <p
-        v-if="data.tagline !== null"
-        class="description"
-      >
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
-
-      <p
-        v-if="data.actionText && data.actionLink"
-        class="action"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
+      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
+      <h1 v-if="data.heroText !== null" id="main-title"> {{ data.heroText || $title }} </h1>
+      <p v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</p>
+      <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
+      <p v-if="data.actionText && data.actionLink" class="action">
+      <NavLink class="action-button" :item="actionFunction"/>
       </p>
     </header>
 
-    <div
-      v-if="data.features && data.features.length"
-      class="features"
-    >
-      <div
-        v-for="(feature, index) in data.features"
-        :key="index"
-        class="feature"
-      >
-        <h2>{{ feature.title }}</h2>
+    <div v-if="data.features && data.features.length" class="features">
+      <div v-for="(feature, index) in data.features" :key="index" class="feature">
+        <a class="feature-link" :href="feature.link">{{feature.title}} </a>
         <p>{{ feature.details }}</p>
       </div>
     </div>
 
-    <Content class="theme-default-content custom" />
 
-    <div
-      v-if="data.footer"
-      class="footer"
-    >
-      {{ data.footer }}
-    </div>
+    <Content class="theme-default-content custom" />
+    <div v-if="data.footer" class="footer">{{ data.footer }}</div>
   </main>
 </template>
 
@@ -68,29 +31,32 @@ export default {
 
   components: { NavLink },
 
+
+
   computed: {
     data () {
       return this.$page.frontmatter
     },
 
-    actionLink () {
+    actionFunction () {
       return {
         link: this.data.actionLink,
         text: this.data.actionText
       }
     }
+
   }
 }
 </script>
 
 <style lang="stylus">
 .home
-  padding 2rem 0
+  padding 1rem 0
   max-width $homePageWidth
   margin 0px auto
   display block
   .hero
-    text-align center
+    text-align left
     img
       max-width: 100%
       max-height 280px
@@ -101,10 +67,11 @@ export default {
     h1, .description, .action
       margin 1.8rem auto
     .description
-      max-width 35rem
-      font-size 1.6rem
+      font-size 2rem
       line-height 1.3
       color lighten($textColor, 40%)
+    .descriptionlong
+      font-size 1.3rem
     .action-button
       display inline-block
       font-size 1.2rem
@@ -117,6 +84,14 @@ export default {
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
         background-color lighten($accentColor, 10%)
+  a.feature-link
+      font-size 1.4rem
+      font-weight 500
+      border-bottom none
+      padding-bottom 0
+      color #2c503e
+   a.feature-link:hover
+    font-weight 600
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -138,6 +113,8 @@ export default {
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
+      font-weight 400
+      font-family 'Avenir', Helvetica, Arial, sans-serif;
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
@@ -159,13 +136,14 @@ export default {
     .hero
       img
         max-height 210px
-        margin 2rem auto 1.2rem
+        margin 1rem auto 1.2rem
       h1
         font-size 2rem
       h1, .description, .action
         margin 1.2rem auto
       .description
-        font-size 1.2rem
+        font-size 2rem
+        margin-top 2.5rem
       .action-button
         font-size 1rem
         padding 0.6rem 1.2rem

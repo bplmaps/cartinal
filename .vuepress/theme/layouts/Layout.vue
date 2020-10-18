@@ -1,24 +1,11 @@
 <template>
   <div
-    class="theme-container"
-    :class="pageClasses"
-    @touchstart="onTouchStart"
-    @touchend="onTouchEnd"
-  >
-    <Navbar
-      v-if="shouldShowNavbar"
-      @toggle-sidebar="toggleSidebar"
-    />
+    class="theme-container" :class="pageClasses" @touchstart="onTouchStart" @touchend="onTouchEnd">
+    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar"/>
 
-    <div
-      class="sidebar-mask"
-      @click="toggleSidebar(false)"
-    />
+    <div class="sidebar-mask" @click="toggleSidebar(false)"/>
 
-    <Sidebar
-      :items="sidebarItems"
-      @toggle-sidebar="toggleSidebar"
-    >
+    <Sidebar :items="sidebarItems" @toggle-sidebar="toggleSidebar">
       <template #top>
         <slot name="sidebar-top" />
       </template>
@@ -29,10 +16,9 @@
 
     <Home v-if="$page.frontmatter.home" />
 
-    <Page
-      v-else
-      :sidebar-items="sidebarItems"
-    >
+    <ResourceHome v-if="$page.frontmatter.resourcehome" />
+
+    <Page v-else :sidebar-items="sidebarItems">
       <template #top>
         <slot name="page-top" />
       </template>
@@ -45,6 +31,7 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
+import ResourceHome from '@theme/components/ResourceHome.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
@@ -55,6 +42,7 @@ export default {
 
   components: {
     Home,
+    ResourceHome,
     Page,
     Sidebar,
     Navbar

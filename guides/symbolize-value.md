@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Symbolize by Value
 
 In this tutorial, we will learn how to change the style of data features based on their stored attribute characteristics.

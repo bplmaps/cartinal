@@ -11,7 +11,7 @@ html, body
   background-color #fff
 
 body
-  font-family -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
   font-size 16px
@@ -21,22 +21,18 @@ body
   padding-left $sidebarWidth
 
 .navbar
-  position fixed
+  display flex
+  flex-direction row
   z-index 20
-  top $topbarHeight
   left 0
   right 0
-  height $navbarHeight
   background-color #fff
   box-sizing border-box
   border-bottom 1px solid $borderColor
 
 #topbar
-  position fixed
-  z-index 20
-  top 0
-  left 0
-  right 0
+  width 100%
+  z-index 50
 .sidebar-mask
   position fixed
   z-index 9
@@ -110,7 +106,7 @@ blockquote
     margin 0
 
 ul, ol
-  padding-left 1.2em
+  padding-left 2rem
 
 strong
   font-weight 600

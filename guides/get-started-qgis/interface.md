@@ -1,7 +1,5 @@
 ---
-health:
-    underConstruction: true
-    flagged: true
+
 ---
 
 # Understanding the QGIS Interface

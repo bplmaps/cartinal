@@ -1,21 +1,8 @@
 <template>
-  <RouterLink
-    v-if="isInternal"
-    class="nav-link"
-    :to="link"
-    :exact="exact"
-    @focusout.native="focusoutAction"
-  >
+  <RouterLink v-if="isInternal" class="nav-link" :to="link" :exact="exact" @focusout.native="focusoutAction">
     {{ item.text }}
   </RouterLink>
-  <a
-    v-else
-    :href="link"
-    class="nav-link external"
-    :target="target"
-    :rel="rel"
-    @focusout="focusoutAction"
-  >
+  <a v-else :href="link" class="nav-link external" :target="target" :rel="rel" @focusout="focusoutAction">
     {{ item.text }}
     <OutboundLink v-if="isBlankTarget" />
   </a>

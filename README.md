@@ -1,49 +1,18 @@
 ---
 home: true
-heroImage: hanaan.jpeg
-heroText: null
-tagline: Tutorials, Guides and Documentation for GIS & Data Services at the Leventhal Map & Education Center at the Boston Public Library
+tagline: Welcome to Cartinal, The LMEC Documentation Database
+bodycontent: Cartinal is a portal with numerous guides, tutorials, and documentation sources for geospatial data and projects. You'll find step-by-step guides that are suitable for beginners who have never worked with GIS before, as well as technical documentation for data services and resources provided by LMEC.
+features:
+- title: Get Started with Guides
+  details: View a full list of guides and tutorials available in Cartinal.
+  link: ./guides/
+- title: Make a Data Request
+  details: Book a librarian for personalized help with your project.
+  link: /request.html
+- title: All Geospatial Services
+  details: Visit the homepage for Geospatial Information Services at LMEC.
+  link: https://www.leventhalmap.org/research/geospatial/
+
 footer: MIT Licensed | Copyright © 2020 LMEC
 ---
 
-
-<div class="features">
-  <div class="feature">
-    <h2>Beginning</h2>
-      <p><a href='./guides/get-started-qgis/'>Get Started with QGIS</a></p>  
-      <p><a href='./guides/georeference.html'>Georeference a map</a></p>  
-      <p><a href='./guides/file-formats.html'>Commons GIS File Formats</a></p>       
-    <p><a href='./request.html'>Get one-on-one mapping help</a></p>
-  </div>
-  <div class="feature">
-    <h2>Fundamentals</h2> 
-      <p><a href='./guides/clip-by-extent.html'>Clip to an area of interest</a></p>
-      <p><a href='./guides/symbolize-value.html'>Symbolize by value</a></p>
-      <p><a href='./guides/mac-setup.html'>GIS on a Mac computer</a></p>   
-       <p><a href='./guides/edit-geometry.html'>Edit existing GIS data</a></p> 
-       <p><a href='./guides/python.html'>Python mapping exercises</a></p> 
-          
-  </div>
-      <div class="feature">
-    <h2>Advanced</h2>   
-      <p><a href='./guides/windows-anaconda.html'>Anaconda + GDAL + Windows</a></p>  
-  </div>
-  <div class="feature">
-    <h2>Looking for Data</h2>
-    <p><a href='./documentation/access-urban-atlas-data.html'>All Atlascope data</a></p>
-    <p><a href='./guides/atlascope-tiles.html'>Atlascope tile layers</a></p>
-    <p><a href='./guides/aerial.html'>Massachusetts aerial photography</a></p>
-    <p><a href='./guides/mass-parcels.html'>Massachusetts property boundaries</a></p>
-    <p><a href='./request.html'>Get one-on-one data help</a></p>
-  </div>
-  <div class="feature">
-    <h2>Librarians working with archival collections</h2>
-    <p><a href='./guides/atlascope-tool-guide.html'>Use Atlascope for patron reference</a></p>
-    <p><a href='./documentation/create-urban-atlas-data.html'>Geotransform urban atlases</a></p>
-  </div>
-  <div class="feature">
-    <h2>Telling Stories with Maps</h2>
-      <p><a href='./guides/create-stories.html'>Annotate our map collections</a></p>
-      <p><a href='./guides/atlascope-tiles.html'>Use our geotransformed atlas tiles</a></p>
-  </div>
-</div>

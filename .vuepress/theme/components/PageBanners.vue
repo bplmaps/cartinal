@@ -2,21 +2,15 @@
   <div id="page-banners" :class="showPageBanners">
     <h3>⚠️ Page Health</h3>
     <div
-      v-if="underConstruction"
-    >
-     This page is <strong>under construction</strong>.
-    </div>
-
-        <div
-      v-if="flagged"
-    >
-     This page has been <strong>flagged</strong>. It may contain known errors or problems.
+      v-if="underConstruction">This page is <strong>under construction</strong>.
     </div>
 
     <div
-      v-if="outOfDate"
-    >
-      It has been {{daysSinceUpdate}} days since this page was last updated.
+      v-if="flagged">This page has been <strong>flagged</strong>. It may contain known errors or problems.
+    </div>
+
+    <div
+      v-if="outOfDate">It has been {{daysSinceUpdate}} days since this page was last updated.
     </div>
 
   </div>

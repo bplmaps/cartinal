@@ -140,7 +140,7 @@ export default {
     font-size 0.9rem
     font-family inherit
     cursor inherit
-    padding inherit
+    padding inherit 
     line-height 1.4rem
     background transparent
     border none
@@ -224,7 +224,7 @@ export default {
 
 @media (min-width: $MQMobile)
   .dropdown-wrapper
-    height 1.8rem
+    height 1rem
     &:hover .nav-dropdown,
     &.open .nav-dropdown
       // override the inline style.
