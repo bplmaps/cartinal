@@ -19,11 +19,11 @@ Select `Download this layer`
 
 This data is made available as multiple `shapefiles` zipped up into a compressed folder. You will have to unzip or uncompress the folder in order to access the data. 
 
-To learn more about different GIS file formats, please find our [common GIS file formats guide.](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html#shapefile "common GIS file formats guide.")
+To learn more about different GIS file formats, please find our [Common GIS File Formats guide.](./file-formats.html#shapefile "common GIS file formats guide.")
 
 ## Bring the data into QGIS
 
-If you do not already have QGIS, you will need to download the free software first. To learn how to download and use QGIS, please find the [getting started with QGIS guide.](https://geoservices.leventhalmap.org/cartinal/guides/get-started-qgis/#what-is-qgis "getting started with QGIS guide.")
+If you do not already have QGIS, you will need to download the free software first. To learn how to download and use QGIS, please find the [Get Started with QGIS guide.](./get-started-qgis/#what-is-qgis "getting started with QGIS guide.")
 
 Once you have a new QGIS project open, you can add the data to the project by selecting `Layer > Add Layer > Add Vector Layer`
 

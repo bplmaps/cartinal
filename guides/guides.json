@@ -139,8 +139,17 @@
     "name": "Georeferenced Map Collections",
     "description": "Simple steps for extracting BPL Map Collections in geospatial formats",
     "theme": "BPL Map Collections",
-    "path": "./lmec-dc-geo",
+    "path": "./lmec-dc-geo.html",
     "type": "Tutorial",
+    "level": "Beginning"
+  },
+  {
+    "GuideID": 17,
+    "name": "File Naming Conventions",
+    "description": "Brief notes on how to name geospatial data files",
+    "theme": "Geospatial Data",
+    "path": "./file-naming.html",
+    "type": "Guide",
     "level": "Beginning"
   }
 ]

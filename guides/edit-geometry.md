@@ -11,19 +11,19 @@ There may be cases where you want to edit the features of an existing vector GIS
 You can edit any vector GIS data you like, so long as it is in a file format that is supported by GIS Desktop Software like QGIS. 
 
 ::: tip Common GIS File Formats
-To refresh or learn about vector file formats, check out our <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/guides/file-formats.html'>Common GIS File Formats Guide</a>.
+To refresh or learn about vector file formats, check out our <a href ='./file-formats.html'>Common GIS File Formats Guide</a>.
 :::
 
 Exact steps for editing GIS data will differ depending on whether you are working with point, line or polygon features. This guide is written to edit polygon parcel boundaries. 
 
-To download data for this tutorial, follow the steps in the <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/tutorials/mass-parcels.html'>Massachusetts Property Boundaries Tutorial</a>.
+To download data for this tutorial, follow the steps in the <a href ='./mass-parcels.html'>Massachusetts Property Boundaries guide</a>.
 
 
 ## Edit the geometry
 
 Once you have the polygon parcel data downloaded and opened in QGIS, you can start editing the shape of the features. 
 
-To make the layer editable, turn on `Toggle Editing` by clicking the pencil icon in the main header toolbar.
+To make the layer editable, turn on `Toggle Editing` by clicking the pencil icon in the main header toolbar. There are a *lot* of icons here, and the interface can be a bit unintuitive sometimes. The pencil icon is in the second row of the toolbars, a little bit from the left.
 
 ![Pencil icon](./media/pencil-icon.png)
 
@@ -70,7 +70,7 @@ Right-click the layer in the layer window and select `Export > Save Features As`
 
 This guide is a good way to think about how you might want to get started editing geometry and attributes in QGIS, but much fuller documentation and tutorials exist describing all the myriad tools and functionalities QGIS has to offer. 
 
-Check out <a target = "_blank" href ='https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html'>The QGIS User Manual</a>for more complete information.
+Check out <a target = "_blank" href ='https://docs.qgis.org/2.8/en/docs/user_manual/working_with_vector/editing_geometry_attributes.html'>The QGIS User Manual</a> for more complete information.
 
 ## Creating new layers
 
@@ -81,8 +81,7 @@ There may be cases where you want to create a new layer, completely from scratch
 A dialog box will pop up asking you to name your database and table. You can choose whichever names make sense to you. 
 
 ::: tip File Naming Conventions
-Please find this guide created published by the USGS on 
-<a target = "_blank" href ='https://my.usgs.gov/confluence/display/EGIS/Naming+Stuff+In+ArcGIS'>GIS file naming conventions</a>.
+You can learn about how to name your files in the [File Naming Conventions guide](./file-naming.html).
 :::
 
 You will need to select the layer type: `point`, `line` or `polygon`.

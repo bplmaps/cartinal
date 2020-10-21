@@ -34,7 +34,7 @@ For this task, two datasets are required:
 - Boston neighborhood boundaries to isolate Jamaica Plain as the clipping geography
 
 
-1). Navigate to each dataset's webpage in a new tab: [buildings](https://docs.digital.mass.gov/dataset/massgis-data-building-structures-2-d "MassGIS building footprint dataset record") | [neighborhoods](https://data.boston.gov/dataset/boston-neighborhoods "Analyze Boston neighborhood dataset record")
+1). Navigate to each dataset's webpage in a new tab: [buildings](https://docs.digital.mass.gov/dataset/massgis-data-building-structures-2-d) | [neighborhoods](https://data.boston.gov/dataset/boston-neighborhoods "Analyze Boston neighborhood dataset record")
 
 2. Download the Massachusetts Building Footprints by clicking "Shapefile"
 ![download buildings](./media/download-buildings.png)
@@ -50,7 +50,7 @@ and then selecting "Download" <br>
 
 ## Prepare data for clipping 
 
-1. Open QGIS. If you do not already have QGIS, download it [here](https://qgis.org/en/site/forusers/download.html "QGIS download")
+1. Open QGIS. If you do not already have QGIS, you can learn how to download it from the [Get Started with QGIS Guide](./get-started-qgis/).
 
 2. Bring both datasets into the program. You can import data by using the [import data](https://guides.library.duke.edu/QGIS/ImportData "import data qgis") menu, or by simply dragging the file with the .shp extension into QGIS.
 ![Add data to QGIS](./media/add-data.gif)
