@@ -28,9 +28,9 @@ This bar holds the most basic functionality having to do with your current proje
 
 Under `Project`, you can **Open** a new or existing document, **Save** your current document, or **Export** it in a different file format compatible with a different software. 
 
-Here you can also create a **Print Layout**, a map document formatted for presentation or inclusion in a report. For information about print layouts, see our [Create a Print Layout guide](https://geoservices.leventhalmap.org/cartinal/guides/print-layout.html). 
+Here you can also create a **Print Layout**, a map document formatted for presentation or inclusion in a report. For information about print layouts, see our [Create a Print Layout guide](../print-layout.html). 
 
-Under `Layer`, you can use the `Data Source Manager` to **Add Data** to your map project. This data can take the form of vector data, raster data, data tables, and more. For more information on the types of data compatible with QGIS, see our [GIS Data Types and Formats guide](https://geoservices.leventhalmap.org/cartinal/).
+Under `Layer`, you can use the `Data Source Manager` to **Add Data** to your map project. This data can take the form of vector data, raster data, data tables, and more. For more information on the types of data compatible with QGIS, see our [Common GIS File Formats guide](../file-formats.html).
 
 Under `Plugins`, you can access plugins that will allow you to perform initial tasks beyond QGIS's core functionality. Like QGIS itself, plugins are coded open source by developers, and are available for free. For many common tasks, such as **Georeferencing** and **Geocoding**, installing or enabling an appropriate plugin is necessary.
 
@@ -90,4 +90,4 @@ QGIS can support data that does not contain any spatial components. This data ca
 
 
 
-Now that you understand the basics of the QGIS interface, see [our other guides](https://geoservices.leventhalmap.org/cartinal/) to learn how to perform specific tasks in QGIS.
+Now that you understand the basics of the QGIS interface, see [our other guides](../) to learn how to perform specific tasks in QGIS.

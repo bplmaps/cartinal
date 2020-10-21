@@ -3,165 +3,144 @@
     "GuideID": 1,
     "name": "Get Started with QGIS",
     "theme": "Digital Mapping",
-    "description": "Simple introduction to the desktop GIS interface, QGIS.",
+    "description": "Simple introduction to the desktop GIS interface, QGIS",
     "path": "./get-started-qgis/",
     "type": "Guide",
-    "tags": ["Software", "Desktop GIS"],
-    "level": "Beginning",
-    "underConstruction": false
+    "level": "Beginning"
   },
   {
     "GuideID": 2,
     "name": "Georeference a Map",
-    "description": "Brief notes on the status of MapWarper, and the best way to get started georeferencing.",
+    "description": "Brief notes on the status of MapWarper, and the best way to get started georeferencing",
     "theme": "Digital Mapping",
     "path": "./georeference.html",
     "type": "Tutorial",
-    "tags": ["Historic GIS"],
-    "level": "Beginning",
-    "underConstruction": [true]
+    "level": "Beginning"
   },
   {
     "GuideID": 3,
     "name": "Clip Data by Geographic Extent",
-    "description": "Step-by-step tutorial on clipping GIS data to a desired extent.",
+    "description": "Step-by-step tutorial on clipping GIS data to a desired extent",
     "theme": "Digital Mapping",
     "path": "./clip-by-extent.html",
     "type": "Tutorial",
-    "tags": ["Data Management"],
-    "level": "Fundamentals",
-    "underConstruction": false
+    "level": "Fundamentals"
   },
   {
     "GuideID": 4,
     "name": "Symbolize by Value",
-    "description": "Step-by-step tutorial on changing the style of data features based on their stored attribute characteristics.",
+    "description": "Step-by-step tutorial on changing the style of data features based on their stored attribute characteristics",
     "theme": "Digital Mapping",
     "path": "./symbolize-value.html",
     "type": "Tutorial",
-    "tags": ["Data Visualization", "Symbology"],
-    "level": "Fundamentals",
-    "underConstruction": false
+    "level": "Fundamentals"
   },
   {
     "GuideID": 5,
     "name": "Edit Existing GIS Data",
-    "description": "Notes on using QGIS to edit existing vector data.",
+    "description": "Notes on using QGIS to edit existing vector data",
     "theme": "Digital Mapping",
     "path": "./edit-geometry.html",
     "type": "Guide",
-    "tags": ["Feature Editing", "Historic GIS"],
-    "level": "Fundamentals",
-    "underConstruction": true
+    "level": "Fundamentals"
   },
   {
     "GuideID": 6,
     "name": "Set Up a Mac with GIS Software",
-    "description": "Installation guide for mapping on a mac. Includes Homebrew, Python and other mapping tools.",
+    "description": "Installation guide for mapping on a mac. Includes Homebrew, Python and other mapping tools",
     "theme": "Digital Mapping",
     "path": "./mac-setup.html",
     "type": "Guide",
-    "tags": ["Software", "Mac", "Python", "Homebrew"],
-    "level": "Fundamentals",
-    "underConstruction": false
+    "level": "Fundamentals"
   },
   {
     "GuideID": 7,
     "name": "Set Up a PC for Python and GIS Libraries",
-    "description": "Step-by-step tutorial on configuring a virtual environment to be able to use various geospatial Python libraries on a PC.",
+    "description": "Step-by-step tutorial on configuring a virtual environment to be able to use various geospatial Python libraries on a PC",
     "theme": "Digital Mapping",
     "path": "./windows-anaconda.html",
     "type": "Guide",
-    "tags": ["Software", "Windows", "Python", "Anaconda"],
-    "level": "Advanced",
-    "underConstruction": false
+    "level": "Advanced"
   },
   {
     "GuideID": 8,
     "name": "Use Python to Work with GIS Data",
-    "description": "Workshop activity for cleaning data and making a web map using Python, Geopandas, and Nominatum.",
+    "description": "Workshop activity for cleaning data and making a web map using Python, Geopandas, and Nominatum",
     "theme": "Digital Mapping",
     "path": "./python.html",
     "type": "Tutorial",
-    "tags": ["Workshops", "Nominatum", "Python", "Data Management"],
-    "level": "Fundamentals",
-    "underConstruction": false
+    "level": "Fundamentals"
   },
   {
     "GuideID": 9,
     "name": "Common GIS File Formats",
-    "description": "Notes on properties of common geospatial file formats.",
+    "description": "Notes on properties of common geospatial file formats",
     "theme": "Geospatial Data",
     "path": "./file-formats.html",
     "type": "Guide",
-    "tags": ["Data Management", "Data Literacy"],
-    "level": "Beginning",
-    "underConstruction": true
+    "level": "Beginning"
   },
   {
     "GuideID": 10,
     "name": "Massachusetts Aerial Photography",
-    "description": "Background information on aerial photography made available for Massachusetts and notes on how to work with it in QGIS, ArcGIS Online and Leaflet.",
+    "description": "Background information on aerial photography made available for Massachusetts and notes on how to work with it in QGIS, ArcGIS Online and Leaflet",
     "theme": "Geospatial Data",
     "path": "./aerial.html",
     "type": "Guide",
-    "tags": ["Historic GIS", "Aerial Imagery"],
-    "level": "Beginning",
-    "underConstruction": false
+    "level": "Beginning"
   },
   {
     "GuideID": 11,
     "name": "Massachusetts Property Boundaries",
-    "description": "Background information on parcel and property data made available for Massachusetts and notes on how to work with it in QGIS.",
+    "description": "Background information on parcel and property data made available for Massachusetts and notes on how to work with it in QGIS",
     "theme": "Geospatial Data",
     "path": "./mass-parcels.html",
     "type": "Tutorial",
-    "tags": ["Feature Editing"],
-    "level": "Fundamentals",
-    "underConstruction": true
+    "level": "Fundamentals"
   },
   {
     "GuideID": 12,
     "name": "Create an Annotated Map Story",
-    "description": "Step-by-step tutorial on using the LMEC's annotation web tool to tell stories with digital map collections.",
+    "description": "Step-by-step tutorial on using the LMEC's annotation web tool to tell stories with digital map collections",
     "theme": "BPL Map Collections",
     "path": "./create-stories.html",
     "type": "Tutorial",
-    "tags": ["Map Collections", "LMEC Digital Tools"],
-    "level": "Beginning",
-    "underConstruction": false
+    "level": "Beginning"
   },
   {
     "GuideID": 13,
     "name": "Bring Atlascope Tiles into Your Map",
-    "description": "Background information on BPL urban atlas tiles created by LMEC and notes on how to work with them in QGIS, ArcGIS Online and Leaflet.",
+    "description": "Background information on BPL urban atlas tiles created by LMEC and notes on how to work with them in QGIS, ArcGIS Online and Leaflet",
     "theme": "BPL Map Collections",
     "path": "./atlascope-tiles.html",
     "type": "Tutorial",
-    "tags": ["Map Collections", "LMEC Digital Tools", "Historic GIS"],
-    "level": "Fundamentals",
-    "underConstruction": true
+    "level": "Fundamentals"
   },
   {
     "GuideID": 14,
     "name": "Geotransform Urban Atlases",
-    "description": "Internal best practices and process notes for transforming individual atlas plates into stitched, tiled web layers using open source software.",
+    "description": "Internal best practices and process notes for transforming individual atlas plates into stitched, tiled web layers using open source software",
     "theme": "BPL Map Collections",
     "path": "./create-urban-atlas-data.html",
     "type": "Guide",
-    "tags": ["Map Collections", "LMEC Digital Tools", "Historic GIS"],
-    "level": "Advanced",
-    "underConstruction": true
+    "level": "Advanced"
   },
   {
     "GuideID": 15,
     "name": "Use the Atlascope Portal",
-    "description": "Background information on the Atlascope project and instructions on how to use the web tool to browse historical urban atlases.",
+    "description": "Background information on the Atlascope project and instructions on how to use the web tool to browse historical urban atlases",
     "theme": "BPL Map Collections",
     "path": "./atlascope-tool-guide.html",
     "type": "Guide",
-    "tags": ["Map Collections", "LMEC Digital Tools", "Historic GIS"],
-    "level": "Beginning",
-    "underConstruction": true
+    "level": "Beginning"
+  },
+  {
+    "GuideID": 16,
+    "name": "Georeferenced Map Collections",
+    "description": "Simple steps for extracting BPL Map Collections in geospatial formats",
+    "theme": "BPL Map Collections",
+    "path": "./lmec-dc-geo",
+    "type": "Tutorial",
+    "level": "Beginning"
   }
 ]
