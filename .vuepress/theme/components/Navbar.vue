@@ -117,7 +117,7 @@ $navbar-horizontal-padding = 1.5rem
 
 #topbar
   width 100%
-  background-color: $topbarBackground
+  background-color: #2c3e50
 #topbar-inner
   padding: 5px $navbar-horizontal-padding
   color: white

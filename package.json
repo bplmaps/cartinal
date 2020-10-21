@@ -19,5 +19,14 @@
     "@vuepress/plugin-google-analytics": "^1.6.0",
     "@vuepress/plugin-medium-zoom": "^1.3.1",
     "vuepress": "^1.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.17.3",
+    "sass": "^1.27.0",
+    "vue": "^2.6.12",
+    "vue-click-outside": "^1.1.0",
+    "vue-multiselect": "^2.1.6"
   }
 }

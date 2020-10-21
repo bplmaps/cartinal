@@ -3,7 +3,6 @@
     <header class="hero">
         <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
         <p v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</p>
-             <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
     </header>
 
     <div v-if="data.themes && data.themes.length" class="themes">
@@ -32,20 +31,16 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
-
 export default {
     name: 'ResourceHome',
-
     components: {
         NavLink
     },
-
     methods: {
         whatsUp() {
             console.log(this.data)
         }
     },
-
     computed: {
         data() {
             return this.$page.frontmatter
@@ -111,11 +106,6 @@ export default {
     color lighten($textColor, 25%)
   ul
     padding-left 2.5rem
-
-
-
-
-
 @media (max-width: $MQMobileNarrow)
   .resourcehome
     padding-left 1.5rem
@@ -134,5 +124,4 @@ export default {
       .action-button
         font-size 1rem
         padding 0.6rem 1.2rem
-
 </style>

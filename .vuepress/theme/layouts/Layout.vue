@@ -16,6 +16,7 @@
 
     <Home v-if="$page.frontmatter.home" />
 
+    <GuidesLanding v-if="$page.frontmatter.guideslanding" />
     <ResourceHome v-if="$page.frontmatter.resourcehome" />
 
     <Page v-else :sidebar-items="sidebarItems">
@@ -31,6 +32,7 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
+import GuidesLanding from '@theme/components/GuidesLanding.vue'
 import ResourceHome from '@theme/components/ResourceHome.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
@@ -42,6 +44,7 @@ export default {
 
   components: {
     Home,
+    GuidesLanding,
     ResourceHome,
     Page,
     Sidebar,

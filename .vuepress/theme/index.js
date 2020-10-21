@@ -14,6 +14,8 @@ module.exports = (options, ctx) => {
 
   const enableSmoothScroll = themeConfig.smoothScroll === true
 
+
+
   return {
     alias () {
       return {
