@@ -1,18 +1,17 @@
 <template>
   <div id="page-banners" :class="showPageBanners">
-    <h3>⚠️ Page Health</h3>
-    <div
-      v-if="underConstruction">This page is <strong>under construction</strong>.
+    <div v-if="underConstruction"> 
+      <h3>{{ this.emoji.constructionalert }} Page Health</h3>
+      This page is <strong>under construction</strong>.
     </div>
-
-    <div
-      v-if="flagged">This page has been <strong>flagged</strong>. It may contain known errors or problems.
+    <div v-if="flagged"> 
+      <h3>{{ this.emoji.flaggedalert }} Page Health</h3>
+      This page has been <strong>flagged</strong>. It may contain known errors or problems.
     </div>
-
-    <div
-      v-if="outOfDate">It has been {{daysSinceUpdate}} days since this page was last updated.
+    <div v-if="outOfDate"> 
+      <h3>{{ this.emoji.outdatedalert }} Page Health</h3>
+      It has been {{daysSinceUpdate}} days since this page was <strong>last updated</strong>.
     </div>
-
   </div>
 </template>
 
@@ -21,7 +20,16 @@ import isNil from 'lodash/isNil'
 
 export default {
   name: 'PageBanners',
-
+    data() {
+        return {
+          title: "Page Health",
+          emoji: {
+            constructionalert: "🚧",
+            flaggedalert: "📢",
+            outdatedalert: "🕒"
+          }
+        }
+    },
   computed: {
     showPageBanners() {
       if( isNil(this.$page.frontmatter.health) && !(Math.round((Date.now() - new Date(this.$page.lastUpdated))/(1000 * 3600 * 24)) > this.$site.themeConfig.oldPageCutoff)) {

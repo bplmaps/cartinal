@@ -171,7 +171,7 @@ export default {
       padding .1rem .8rem .1rem .8rem
       margin-bottom 1rem
       border-radius 4rem
-      font-size 1.7rem
+      font-size 1.4rem
       font-weight 400
       border-bottom none
       padding-bottom 0

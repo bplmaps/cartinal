@@ -14,7 +14,7 @@ We apologize for any inconvenience.
 
 The Leventhal Map & Education Center, which undertakes many digital humanities projects for which georeferencing is a core staple, carries out all georeferencing processes using QGIS. 
 
-QGIS is a free desktop mapping software with a rich suite of functionalities. To get started with QGIS, please find the <a target = "_blank" href ='./resources/guides/download-qgis.html'>Get Started with QGIS Guide</a>.
+QGIS is a free desktop mapping software with a rich suite of functionalities. To get started with QGIS, please find the <a target = "_blank" href ='./get-started-qgis/'>Get Started with QGIS Guide</a>.
 
 Once you have QGIS installed on your computer, you can georeference any map by following this <a target = "_blank" href ='https://www.qgistutorials.com/en/docs/georeferencing_basics.html'>Georeferencing Basics Tutorial</a>.
 
