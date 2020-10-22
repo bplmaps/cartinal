@@ -1,11 +1,12 @@
 ---
 sidebar: auto
-inprogress: true
+health:
+    underConstruction: true
 ---
 
 # Common GIS File Formats
 
-This guide is meant to simply provide a few notes on common hang-ups related to popular formats of GIS data, and is not intended at all to be an exhaustive list or glossary.
+This guide is meant to provide a few notes on common hang-ups related to popular formats of GIS data, and is not at all intended to be an exhaustive list or glossary.
 
 
 ## Shapefile

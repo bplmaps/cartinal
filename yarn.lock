@@ -1120,10 +1120,10 @@
   dependencies:
     lodash.debounce "^4.0.8"
 
-"@vuepress/plugin-google-analytics@^1.6.0":
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.6.0.tgz#1a3960259556016b668276ab00417f1c96ddf4bd"
-  integrity sha512-CPRTQsq6KnZEb4SEB/6KdXHFKGvKdsg0GWtSYpLTbF/aUETVRUVJsqR7i/tLWgtyB8qFMwzPUiTc7KlEFjvYyg==
+"@vuepress/plugin-google-analytics@^1.7.1":
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/@vuepress/plugin-google-analytics/-/plugin-google-analytics-1.7.1.tgz#c337e13c8a27f6fea911a04db22a3f3596a571fb"
+  integrity sha512-27fQzRMsqGYpMf+ruyhsdfLv/n6z6b6LutFLE/pH66Itlh6ox9ew31x0pqYBbWIC/a4lBfXYUwFvi+DEvlb1EQ==
 
 "@vuepress/plugin-last-updated@1.6.0":
   version "1.6.0"
@@ -1633,6 +1633,13 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.10.1.tgz#e1e82e4f3e999e2cfd61b161280d16a111f86428"
   integrity sha512-zg7Hz2k5lI8kb7U32998pRRFin7zJlkfezGJjUc2heaD4Pw2wObakCDVzkKztTm/Ln7eiVvYsjqak0Ed4LkMDA==
 
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 babel-loader@^8.0.4:
   version "8.1.0"
   resolved "https://registry.yarnpkg.com/babel-loader/-/babel-loader-8.1.0.tgz#c611d5112bd5209abe8b9fa84c3e4da25275f1c3"
@@ -2081,6 +2088,21 @@ chalk@^3.0.0:
   dependencies:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
+
+"chokidar@>=2.0.0 <4.0.0":
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
+  integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
 
 chokidar@^2.0.3, chokidar@^2.1.8:
   version "2.1.8"
@@ -3465,7 +3487,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.0.0:
+follow-redirects@^1.0.0, follow-redirects@^1.10.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
@@ -6180,6 +6202,13 @@ readdirp@~3.4.0:
   dependencies:
     picomatch "^2.2.1"
 
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
+  dependencies:
+    picomatch "^2.2.1"
+
 reduce@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/reduce/-/reduce-1.0.2.tgz#0cd680ad3ffe0b060e57a5c68bdfce37168d361b"
@@ -6431,6 +6460,13 @@ safe-regex@^1.1.0:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+
+sass@^1.27.0:
+  version "1.27.0"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.27.0.tgz#0657ff674206b95ec20dc638a93e179c78f6ada2"
+  integrity sha512-0gcrER56OkzotK/GGwgg4fPrKuiFlPNitO7eUJ18Bs+/NBlofJfMxmxqpqJxjae9vu0Wq8TZzrSyxZal00WDig==
+  dependencies:
+    chokidar ">=2.0.0 <4.0.0"
 
 sax@~1.2.4:
   version "1.2.4"
@@ -7487,6 +7523,11 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.2.tgz#78641c488b8e6ca91a75f511e7a3b32a86e5dda0"
   integrity sha512-2ham8XPWTONajOR0ohOKOHXkm3+gaBmGut3SRuu75xLd/RRaY6vqgh8NBYYk7+RW3u5AtzPQZG8F10LHkl0lAQ==
 
+vue-click-outside@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/vue-click-outside/-/vue-click-outside-1.1.0.tgz#48b7680b518923e701643cccb3e165854aad99eb"
+  integrity sha512-pNyvAA9mRXJwPHlHJyjMb4IONSc7khS5lxGcMyE2EIKgNMAO279PWM9Hyq0d5J4FkiSRdmFLwnbjDd5UtPizHQ==
+
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
@@ -7502,6 +7543,11 @@ vue-loader@^15.7.1:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-multiselect@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/vue-multiselect/-/vue-multiselect-2.1.6.tgz#5be5d811a224804a15c43a4edbb7485028a89c7f"
+  integrity sha512-s7jmZPlm9FeueJg1RwJtnE9KNPtME/7C8uRWSfp9/yEN4M8XcS/d+bddoyVwVnvFyRh9msFo0HWeW0vTL8Qv+w==
 
 vue-router@^3.1.3:
   version "3.4.5"
@@ -7543,7 +7589,7 @@ vue-template-es2015-compiler@^1.9.0:
   resolved "https://registry.yarnpkg.com/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha512-4gDntzrifFnCEvyoO8PqyJDmguXgVPxKiIxrBKjIowvL9l+N66196+72XVYR8BBf1Uv1Fgt3bGevJ+sEmxfZzw==
 
-vue@^2.6.10:
+vue@^2.6.10, vue@^2.6.12:
   version "2.6.12"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==

@@ -9,9 +9,9 @@ features:
 - title: Make a Data Request
   details: Book a librarian for personalized help with your project.
   link: https://www.leventhalmap.org/research/geospatial/
-- title: All Geospatial Services
-  details: Visit the homepage for Geospatial Information Services at LMEC.
-  link: https://www.leventhalmap.org/research/geospatial/
+- title: All Research Services
+  details: Visit the homepage for Research Services at LMEC.
+  link: https://www.leventhalmap.org/research/
 
 footer: MIT Licensed | Copyright © 2020 LMEC
 ---

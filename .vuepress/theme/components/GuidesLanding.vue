@@ -11,7 +11,7 @@
 
           <!-- Type dropdown -->
           <label class = "dropdown">
-              <div class="dd-button">Resource Type</div>
+              <div class="dd-button">What do you need?</div>
               <input type="checkbox" class="dummy-input" @click="typeseen= !typeseen">
               <div v-if="typeseen">
                 <ul class="dd-menu" >
@@ -25,9 +25,10 @@
               </div>
           </label>
 
+
           <!-- Level dropdown -->
           <label class = "dropdown">
-              <div class="dd-button">Resource Level </div>
+              <div class="dd-button">What skill level are you looking for?</div>
               <input type="checkbox" class="dummy-input" @click="levelseen= !levelseen">
               <div v-if="levelseen">
                 <ul class="dd-menu">
@@ -40,7 +41,7 @@
 
           <!-- Theme dropdown -->
           <label class = "dropdown">
-              <div class="dd-button">Resource Theme </div>
+              <div class="dd-button">What do you want to do?</div>
               <input type="checkbox" class="dummy-input" @click="themeseen= !themeseen">
               <div v-if="themeseen">
                 <ul class="dd-menu">
@@ -52,7 +53,7 @@
           </label>
 
         <!-- ✔️ end of facet container ✔️ -->  
-        </div>
+      </div>
 
         <!-- Display the results of the filters -->
     
@@ -91,7 +92,7 @@ export default {
           guides: [],
           types: ["Tutorial", "Guide"],
           levels: ["Beginning", "Fundamentals", "Advanced"],
-          themes: ["Digital Mapping", "Geospatial Data", "BPL Map Collections"],
+          themes: ["Make a map", "Georeference", "Find and use data", "Use BPL map collections", "Teach spatial concepts"],
           checkedTypes: [],
           checkedLevels: [],
           checkedThemes: [],
@@ -203,17 +204,16 @@ export default {
     text-align center
     color lighten($textColor, 25%)
   ul
-    padding-left 2.5rem
+    padding-left 1.5rem
 
 .dropdown 
   display inline-block
   position relative
-.dd-button 
+.dd-button
   display inline-block
   border 1px solid gray
   border-radius 4rem
   padding 10px 30px 10px 20px
-  background-color #ffffff
   cursor pointer
   white-space nowrap
 
@@ -256,6 +256,7 @@ h2
   display none
 
 .dd-menu li 
+  z-index 20
   width 107%
   left -2.5rem
   position relative
@@ -280,12 +281,16 @@ h2
 .guide-result 
   border .05rem solid #E8E8E8
   margin-top .5rem 
+  padding-right .5rem
 
-#facet-bar
+div#facet-bar
   display flex
-  flex-direction row
-  justify-content space-between
-  width 60%
+  flexbox-direction row
+  flex-wrap wrap
+
+ul.dd-menu
+  z-index 20
+  padding-left 2.5rem
 
 
 
@@ -308,8 +313,8 @@ h2
         font-size 1rem
         padding 0.6rem 1.2rem
     .dd-button 
-        white-space normal
     a.topic-link 
       font-size .8rem
+
 
 </style>
