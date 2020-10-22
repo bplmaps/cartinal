@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Setting up a Mac for geospatial computing
 
 ## Installing Homebrew 

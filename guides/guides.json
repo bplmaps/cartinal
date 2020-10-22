@@ -151,5 +151,14 @@
     "path": "./file-naming.html",
     "type": "Guide",
     "level": "Beginning"
+  },
+  {
+    "GuideID": 18,
+    "name": "Understanding Jupyter and Binder",
+    "description": "Notes on the conceptual purpose behind using web tools Jupyter and Binder for code demonstrations",
+    "theme": "Geospatial Data",
+    "path": "./jupyter-binder.html",
+    "type": "Guide",
+    "level": "Fundamentals"
   }
 ]
