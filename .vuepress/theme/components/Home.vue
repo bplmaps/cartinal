@@ -86,12 +86,11 @@ export default {
         background-color lighten($accentColor, 10%)
   a.feature-link
       font-size 1.4rem
-      font-weight 500
       border-bottom none
       padding-bottom 0
       color #2c503e
-   a.feature-link:hover
-    font-weight 600
+      &:hover
+        border-bottom: 1px solid black;
   .features
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -114,7 +113,6 @@ export default {
     p
       color lighten($textColor, 25%)
       font-weight 400
-      font-family 'Avenir', Helvetica, Arial, sans-serif;
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
