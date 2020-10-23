@@ -4,9 +4,25 @@ sidebar: auto
 
 # Creating an Annotated Map Story
 
-**Annotated Map Stories** are lightweight, interactive interpretive overlays on our Digital Collections. They are best for annotating zoomed-in sections of one or more maps.
+**Annotated Map Stories** are a web tool created by the LMEC for adding captions and annotating zoomed-in sections of maps in the digital collections, or any photos, manuscripts or other digital records in the BPL Digital Commonwealth.
 
-Some examples include: [Building the Tremont Street Subway](https://geoservices.leventhalmap.org/map-stories/#tremont-subway/) and [Land of the Mashpee](https://geoservices.leventhalmap.org/map-stories/#mashpee-map/).
+Annotated Map Stories are useful for exploring the fine-tuned details of primary source documents, and presenting information about them, without having to download the images.
+
+## Examples
+
+Here are some examples, made by staff at the Map Center, which are embedded into this guide to show how the tool works. You can click the link below each story to find the full screen version.
+
+### Building the Tremont Street Subway
+
+<iframe src="https://geoservices.leventhalmap.org/map-stories/#tremont-subway/"  width="100%" height="500px" title="Building the Tremont Street Subway"></iframe>
+
+[Building the Tremont Street Subway](https://geoservices.leventhalmap.org/map-stories/#tremont-subway/) 
+
+### Land of the Mashpee
+
+<iframe src="https://geoservices.leventhalmap.org/map-stories/#mashpee-map/"  width="100%" height="500px" title="Land of the Mashpee"></iframe>
+
+[Land of the Mashpee](https://geoservices.leventhalmap.org/map-stories/#mashpee-map/).
 
 ## What you will need
 
@@ -39,7 +55,7 @@ Some examples include: [Building the Tremont Street Subway](https://geoservices.
 Even if you mess up the `repo` column, the object will still display. This column is only used to control whether the browser opens LMEC Digital Collections or Digital Commonwealth when the user clicks the **Collections page for this item** button. 
 :::
 
-5. As of now, you should just enter the number 0 in the sequence column, for every row. 
+5. As of now, you should enter the number 0 in the sequence column, for every row. 
 
 ::: warning About the sequence column
 This is a placeholder for a future improvement which will allow us to work with multi-image objects. Right now, only single-image objects can be used.
@@ -48,7 +64,7 @@ This is a placeholder for a future improvement which will allow us to work with 
 
 ### Decide which zoom of the object to show
 
-1. If you just to show the entire object, just enter the word fit in the `extent` column of the row you just created
+1. If you want to show the entire object, enter the word fit in the `extent` column of the row you created
 2. If you want this stop on the storyline to show a zoomed in section of the object, go to the [IIIF Extent Viewer](https://geoservices.leventhalmap.org/iiif-extent-viewer/) in another tab.  
 3. Paste the `id` string for your map into the “Enter Digital Commonwealth ID” field of the Extent Viewer, and click “Load” 
 
@@ -60,7 +76,7 @@ This is a placeholder for a future improvement which will allow us to work with 
 The story viewer will automatically give you a bit of buffer on the bottom edge  of the extent to account for overlap the caption box, but you should still give a generous margin on the bottom side of your area.
 ::: 
 
-5. If you need to adjust the extent selection box, shift and drag on one of its edges, or just shift and drag in a new part of the image.
+5. If you need to adjust the extent selection box, shift and drag on one of its edges, or shift and drag in a new part of the image.
 
 ![](./media/shift-drag.png)
 
@@ -99,4 +115,4 @@ To edit your story, make the necessary changes in your spreadsheet. Then, return
 
 #### Deleting a story
 
-There's currently no user-accessible way to delete a story. Contact Garrett if you need to delete a story entirely.
+There's currently no user-accessible way to delete a story. Contact Garrett, Map Center Curator and author of this tool (gnelson@leventhalmap.org) if you need to delete a story entirely.
