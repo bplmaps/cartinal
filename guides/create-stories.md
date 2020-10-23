@@ -4,9 +4,9 @@ sidebar: auto
 
 # Creating an Annotated Map Story
 
-**Annotated Map Stories** are a web tool created by the LMEC for adding captions and annotating zoomed-in sections of maps in the digital collections, or any photos, manuscripts or other digital records in the BPL Digital Commonwealth.
+**Annotated Map Stories** are a web tool created by the LMEC for adding captions and annotating zoomed-in sections of [maps in our digital collections](https://collections.leventhalmap.org/), or other primary sources from the [Digital Commonwealth](https://www.digitalcommonwealth.org/).
 
-Annotated Map Stories are useful for exploring the fine-tuned details of primary source documents, and presenting information about them, without having to download the images.
+Annotated Map Stories are useful for exploring the fine-tuned details of primary source documents, and presenting information about them in a shareable link. 
 
 ## Examples
 
@@ -24,7 +24,7 @@ Here are some examples, made by staff at the Map Center, which are embedded into
 
 [Land of the Mashpee](https://geoservices.leventhalmap.org/map-stories/#mashpee-map/).
 
-## What you will need
+## What you will need to create your own
 
 1. A browser tab open to our [Digital Collections portal](https://collections.leventhalmap.org/ "Digital Collections portal") and/or [Digital Commonwealth](https://www.digitalcommonwealth.org/ "Digital Commonwealth")  <br>
 2. A browser tab open to the [IIIF Extent Viewer tool](https://geoservices.leventhalmap.org/iiif-extent-viewer/ "IIIF Extent Viewer tool")  <br> 
