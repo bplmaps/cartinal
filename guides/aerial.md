@@ -60,7 +60,7 @@ http://tiles.arcgis.com/tiles/hGdibHYSPO59RG1h/arcgis/rest/services/BW_Orthos_Ti
 
 Now that you have the correct tile URL, you can bring this layer into QGIS as a basemap!
 
-1. Open <a target = "_blank" href ='./resources/guides/download-qgis.html'>QGIS</a>. 
+1. Open <a target = "_blank" href ='./get-started-qgis/'>QGIS</a>. 
 
 2. To get a reference map of real-life geography, in the Browser, which can be toggled on under `View → Panels → Browser`, expand XYZ Tiles and double click OpenStreetMap
 

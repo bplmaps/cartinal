@@ -84,7 +84,7 @@
     "GuideID": 5,
     "name": "Edit Existing GIS Data",
     "description": "Notes on using QGIS to edit existing vector data",
-    "theme": "Find and use data",
+    "theme": "Make a map",
     "path": "./edit-geometry.html",
     "type": "Guide",
     "level": "Fundamentals"

@@ -55,5 +55,5 @@ At the Map Center, we like to store most of our vector information in `GeoJSON`.
 
 If your data needs are to work with and edit vector information in a desktop tool like QGIS, you can understand shapefiles, geopackages, and GeoJSON as effectively interchangable. They are all common formats for storing point, line & polygon GIS information. They will all work in QGIS.
 
-If you are having trouble navigating file formats, or think your needs might be a bit more particular, <a target = "_blank" href ='./resources/request.html'>drop us a line!</a>
+If you are having trouble navigating file formats, or think your needs might be a bit more particular, <a target = "_blank" href ='https://www.leventhalmap.org/research/geospatial/'>drop us a line!</a>
 

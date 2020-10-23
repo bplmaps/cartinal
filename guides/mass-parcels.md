@@ -8,9 +8,9 @@ sidebar: auto
 
 Each Massachusetts municipality creates and maintains their own property boundary files. MassGIS has worked to standardize these files across municipalities. 
 
-To learn more about this dataset and access the data codebook, please find <a target = "_blank" href ='https://docs.digital.mass.gov/dataset/massgis-data-standardized-assessors-parcels'>MassGIS Data: Standardized Assessors' Parcels</a>
+To **download the data** in this tutorial, learn more about this dataset and access the data codebook, please find <a target = "_blank" href ='https://docs.digital.mass.gov/dataset/massgis-data-standardized-assessors-parcels'>MassGIS Data: Standardized Assessors' Parcels</a>
 
-To find the correct download file by location, select the `From a Map` option.
+On this page, there are options for finding the data. To narrow down the data to the correct location you are looking for, select the `From a Map` option.
 
 ![MassGIS](./media/by-map.png)
 
@@ -29,7 +29,7 @@ Zoom in to the area of interest, and select the city or town by clicking on the 
 Select `Download Shapefile` and unzip / extract the download.
 
 ::: danger
-The data inside this data folder, when unzipped will look very messy and confusing. If you are new to working with shapefiles, it may be helpful to read our <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/guides/file-formats.html'>Common GIS File Formats: Shapefile Guide</a> first.
+The data inside this data folder, when unzipped will look very messy and confusing. If you are new to working with shapefiles, it may be helpful to read our <a href ='./file-formats.html'>Common GIS File Formats: Shapefile Guide</a> first.
 :::
 
 
@@ -37,17 +37,17 @@ The data inside this data folder, when unzipped will look very messy and confusi
 
 In an attempt to standardize the way this data is compiled across multiple municipalities, MassGIS has broken the data in to three different layers: `Miscellaneous Features`, `Other Legal Interests`, and `Tax Parcels`. 
 
-We are interested in the `Tax Parcels` layer, but all of the different extensions of all three shapefiles will be bunched together in your data download. You will have to sort through the files to find one that ends in `TaxPar.shp`.
+We are interested in the `Tax Parcels` layer, so we are looking for the file that has `TaxPar` in the name.
 
-Drag `TaxPar.shp` into the QGIS map document. 
+From QGIS, select `Layer > Add Layer > Add Vector Layer`.
 
-::: tip Correct file
-![Correct file amongst many incorrect files](./media/correct-file.png)
-:::
+`Source Type: File` is OK as default, then click the elipses button to the right of `Source Vector Datasets`
 
-::: tip Bringing the file into QGIS
-![GIF dragging the shape file into QGIS](./media/shapefile-drag.gif)
-:::
+Navigate to the file that contains the string `TaxPar` and ends in the file extension `.shp`. QGIS is smart enough to bring in all of the other files associated with that file, so selecting just the `.shp` extension is OK.
+
+Select `Add` and then `OK`.
+
+![Somerville parcels](./media/somerville-parcels-2.png)
 
 ## Interpreting the data
 
