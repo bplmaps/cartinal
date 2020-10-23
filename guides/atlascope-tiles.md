@@ -1,11 +1,20 @@
 ---
 sidebar: auto
-underconstruction: true
+health: 
+    underConstruction: true
+    flagged: true
 ---
-
 # Bring BPL Atlas Tiles into QGIS
+
+::: warning Actively in development
+Our Atlascope data processing, describing and hosting workflows have improved since these guides were first created. We are actively working on making this data more accesible, at which point we will update this series of guides and documentation with the most current information. Meanwhile, you can still use these guides to learn about the project. 
+
+For direct help accessing these datasets, submit a [data request]("https://www.leventhalmap.org/research/geospatial/").
+:::
+
+
 ## Understanding Atlascope tiles
-With [Atlascope](https://atlascope.leventhalmap.org), you can digitally access our collection of historical urban atlases of the Boston area. Over 100 of these important documents are now available as georeferenced atlas mosaics that you can either explore and compare within our application or bring into a GIS for your own storytelling or analysis. We have also converted these mosaics into web-based tiles that anyone can access and use as data in a variety of GIS systems. This guide will walk through some of the ways to get started using these tiles in your projects. 
+With [Atlascope](https://atlascope.leventhalmap.org), you can digitally access our collection of historical urban atlases of the Boston area. Over one hundred layers are now available as georeferenced atlas mosaics that you can either explore and compare within our application or bring into a GIS for your own storytelling or analysis. We have also converted these mosaics into web-based tiles that anyone can access and use as data in a variety of GIS systems. This guide will walk through some of the ways to get started using these tiles in your projects. 
 
 ### What are our atlas tiles?
 After digitally scanning, georeferencing, and stitching together all of the plates of an atlas, we combine these into one large .tif file known as the atlas **mosaic**. Because the mosaic file is so large, it cannot be rendered quickly in a GIS application. For this reason, we must generate a **tile cache**. Tiling essentially breaks the mosaic down into a series of small .png image files for various browser zoom levels. Rather than reload the mosaic in complete detail every time you pan or scroll, the GIS will only have to load the smaller files relevant to your area of focus at your chosen zoom level. This process allows you to use layers with large amounts of data with much greater ease.
@@ -21,33 +30,30 @@ After digitally scanning, georeferencing, and stitching together all of the plat
 <dd> <i> Combine inferred data from atlas layers with other datasets for analysis or storytelling </i> </dd>
 
 ### Where do these tiles live? 
-Another difference between a mosaic and a tile cache is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile endpoints**. 
+Another difference between a mosaic and a tile cache (or XYZ layer, as we sometimes call them, referring to the `XYZ tile pyramid schema` ) is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile endpoints**. 
 
 ## Finding and accessing BPL atlas tile layers
 There are, generally speaking, two ways to find Atlascope tile endpoints for your project. Your choice will depend on what information you are beginning your project with.
 
 ### Finding layers by atlas
-If you are already aware of the atlas(es) you plan on using for your project, you can find tile endpoints by atlas.
+If you already know the atlas volume you wish to work with, either by the name, year or call number, you can look up the **tile endpoint** in a number of ways.
 
-#### Access data by referencing our documentation
+#### Find all Atlascope data by referencing our documentation
 
-Our [Use Digitized Urban Atlases as GIS Source Data](https://geoservices.leventhalmap.org/cartinal/resources/documentation/access-urban-atlas-data.html) documentation contains detailed information on how to access *all* underlying Atlascope data (tiles, metadata, geography, etc.). 
-
-All atlases included in Atlascope are included  documentation guide https://geoservices.leventhalmap.org/cartinal/resources/documentation/access-urban-atlas-data.html#tabular-list-of-atlases
+Our [Use Digitized Urban Atlases as GIS Source Data](../documentation/access-urban-atlas-data.html) documentation contains detailed information on how to access *all* underlying Atlascope data (tiles, georeferenced control points, mosaic TIFFs, and boundary footprints)
 
 ::: tip NOTE
 This documentation page assumes prior knowledge with GIS and data tools.
 :::
 
 
-#### Access 
+#### Find endpoints using our BPL atlas libguide
 Citations for all BPL urban atlases, which include tile links where available, are also available in our Historical Urban Atlases libguides. Urban atlases for geographies encompassing or within the City of Boston can be found [here](https://guides.bpl.org/urban-atlases/list), while those corresponding to other Boston-area towns and cities can be found [here](https://guides.bpl.org/mass-urban-atlases).
 
 ::: tip Example libguide citations
 ![Citation tiles](./media/tile-citation.png)
 :::
 
-ADD SOMETHING HERE ABOUT HOW YOU SHOULD JUST COPY THE URL, NOT THE WHOLE THING
 
 ### Using Atlascope to find layers geographically
 "the visual approach"
