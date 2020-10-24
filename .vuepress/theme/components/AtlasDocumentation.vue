@@ -113,14 +113,6 @@ export default {
         }
     },
     methods: {
-        whatsUp(item) {
-            if (!this.checkedPublishers.length)
-              return this.atlases
-            //this gives an error that publisher is undefined
-            //because you're not actually looping through until 
-            //the filter part is run down in compute
-            console.log(this.applyPublisher())
-        },
         copyToClipboard(copiedvalue){
           var copyText = document.getElementById(copiedvalue)
           copyText.select()
