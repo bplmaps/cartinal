@@ -25,26 +25,19 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
-
 export default {
   name: 'Home',
-
   components: { NavLink },
-
-
-
   computed: {
     data () {
       return this.$page.frontmatter
     },
-
     actionFunction () {
       return {
         link: this.data.actionLink,
         text: this.data.actionText
       }
     }
-
   }
 }
 </script>
@@ -118,7 +111,6 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
-
 @media (max-width: $MQMobile)
   .home
     .features
@@ -126,7 +118,6 @@ export default {
     .feature
       max-width 100%
       padding 0 2.5rem
-
 @media (max-width: $MQMobileNarrow)
   .home
     padding-left 1.5rem

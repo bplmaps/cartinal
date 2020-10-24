@@ -18,6 +18,7 @@
 
     <GuidesLanding v-if="$page.frontmatter.guideslanding" />
     <ResourceHome v-if="$page.frontmatter.resourcehome" />
+    <AtlasDocumentation v-if="$page.frontmatter.atlasdocumentation" />
 
     <Page v-else :sidebar-items="sidebarItems">
       <template #top>
@@ -33,6 +34,7 @@
 <script>
 import Home from '@theme/components/Home.vue'
 import GuidesLanding from '@theme/components/GuidesLanding.vue'
+import AtlasDocumentation from '@theme/components/AtlasDocumentation.vue'
 import ResourceHome from '@theme/components/ResourceHome.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
@@ -45,6 +47,7 @@ export default {
   components: {
     Home,
     GuidesLanding,
+    AtlasDocumentation,
     ResourceHome,
     Page,
     Sidebar,
