@@ -6,7 +6,7 @@ themes:
 - themeTitle: Atlascope 
   topics: 
     - topicName: Use Digitized Urban Atlases as GIS Sources
-      link: ./access-urban-atlas-data.html
+      link: ./atlas-data.html
 
 - themeTitle: Data Archive
   topics: 
