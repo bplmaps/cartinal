@@ -1,7 +1,7 @@
 ---
 home: true
 tagline: Welcome to Cartinal, The LMEC Documentation Database
-bodycontent: Cartinal is a portal with numerous guides, tutorials, and documentation sources for geospatial data and projects. You'll find step-by-step guides that are suitable for beginners who have never worked with GIS before, as well as technical documentation for data services and resources provided by LMEC.
+bodycontent: Cartinal is a portal where you'll find tutorials and guides for learning GIS, as well as technical documentation for data services and resources provided by the Leventhal Map & Education Center (LMEC) at the Boston Public Library (BPL).
 features:
 - title: Get Started with Guides
   details: View a full list of guides and tutorials available in Cartinal.
