@@ -27,11 +27,10 @@ Another difference between a mosaic and a tile cache (or XYZ layer, as we someti
 There are, generally speaking, two ways to find Atlascope tile endpoints for your project. Your choice will depend on what information you are beginning your project with.
 
 ### Finding layers by atlas citation
-If you already know the atlas volume you wish to work with, either by the name, year or call number, you can look up the **tile endpoint** in a number of ways.
+If you already know the atlas volume you wish to work with, either by the name, year or call number, you can look up the **tile endpoint** in our technical documentation.
 
-#### Find all Atlascope data by referencing our documentation
 
-Our [Accessing Atlascope Data](../documentation/access-urban-atlas-data.html) technical documentation contains information on how to access *all* underlying Atlascope data, including tiles, boundary files, and metadata records. 
+Our [Accessing Atlascope Data](../documentation/atlas-data.html) documentation contains information on how to access *all* underlying Atlascope data, including tiles, boundary files, and metadata records. 
 
 ::: warning NOTE
 This documentation page assumes prior knowledge with GIS and data tools.
@@ -46,7 +45,7 @@ You can find the atlas of your choice by sorting atlases in the `Layer List` by 
 ### Using Atlascope to find layers geographically
 The "visual approach"
 
-The names of each atlas, which often refer to a geographapy, e.g. `East Boston, 1892` can often be deceiving. Sometimes, an atlas titled `East Boston` can actually contain coverage for areas in East Boston, South Boston *and* Roxbury. These are historical objects which reflected municipal boundaries that were actively changing during the time the atlases were created. 
+The names of each atlas, which often refer to a geography, e.g. `East Boston, 1892` can often be deceiving. Sometimes, an atlas titled `East Boston` can actually contain coverage for areas in East Boston, South Boston *and* Roxbury. These are historical objects which reflected municipal boundaries that were actively changing during the time the atlases were created. 
 
 
 Atlascope solves this problem of geographic idiosyncracy in the source material by allowing you to search for layers by a precise location. If you don't already know which layers are available for your area of interest, you should start with Atlascope, rather than the layer list to find out what's available.
@@ -112,7 +111,7 @@ You can now use this layer as a basemap. You can bring in other datasets to comp
 
 ArcGIS Online (AGOL) is one of the more popular out-of-the-box web mapping tools. With it, users can make free online web maps from many different data sources.
 
-AGOL does allow one to bring in XYZ tilesets to display in a shareable web map. Unfortunately, AGOL does not accommodate the TMS specification our tiles were initially created in, it only allows for the XYZ specification. We are in the process of translating our Boston tiles to the XYZ pyramid schema, in order to ensure compatibility with this popular tool. While this transition process is underway, if there are particular layers you are interested in working with right now in ArcGIS Online, please <a target = "_blank" href ='https://geoservices.leventhalmap.org/cartinal/resources/request.html'>let us know</a>, and we will prioritize these tilelayers and get them formatted for you in a speedy manner. To inquire about the schema specifications for any given atlas volume, please consult our [documentation](https://geoservices.leventhalmap.org/cartinal/resources/documentation/access-urban-atlas-data.html), or drop us a line.
+AGOL does allow one to bring in XYZ tilesets to display in a shareable web map. Unfortunately, AGOL does not accommodate the TMS specification our tiles were initially created in, it only allows for the XYZ specification. We are in the process of translating our Boston tiles to the XYZ pyramid schema, in order to ensure compatibility with this popular tool. While this transition process is underway, if there are particular layers you are interested in working with right now in ArcGIS Online, please <a target = "_blank" href ='https://www.leventhalmap.org/research/geospatial/'>let us know</a>, and we will prioritize these tilelayers and get them formatted for you in a speedy manner. To inquire about the schema specifications for any given atlas volume, please consult our [documentation](../documentation/atlas-data.html), or drop us a line.
 
 
 ### Leaflet
