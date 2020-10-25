@@ -1,17 +1,8 @@
 ---
 sidebar: auto
-health: 
-    underConstruction: true
-    flagged: true
+
 ---
 # Bring BPL Atlas Tiles into QGIS
-
-::: warning Actively in development
-Our Atlascope data processing, describing and hosting workflows have improved since these guides were first created. We are actively working on making this data more accesible, at which point we will update this series of guides and documentation with the most current information. Meanwhile, you can still use these guides to learn about the project. 
-
-For direct help accessing these datasets, submit a [data request]("https://www.leventhalmap.org/research/geospatial/").
-:::
-
 
 ## Understanding Atlascope tiles
 With [Atlascope](https://atlascope.leventhalmap.org), you can digitally access our collection of historical urban atlases of the Boston area. Over one hundred layers are now available as georeferenced atlas mosaics that you can either explore and compare within our application or bring into a GIS for your own storytelling or analysis. We have also converted these mosaics into web-based tiles that anyone can access and use as data in a variety of GIS systems. This guide will walk through some of the ways to get started using these tiles in your projects. 
@@ -30,37 +21,37 @@ After digitally scanning, georeferencing, and stitching together all of the plat
 <dd> <i> Combine inferred data from atlas layers with other datasets for analysis or storytelling </i> </dd>
 
 ### Where do these tiles live? 
-Another difference between a mosaic and a tile cache (or XYZ layer, as we sometimes call them, referring to the `XYZ tile pyramid schema` ) is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile endpoints**. 
+Another difference between a mosaic and a tile cache (or XYZ layer, as we sometimes call them, referring to the [XYZ tile pyramid schema]("https://en.wikipedia.org/wiki/Tiled_web_map") ) is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile endpoints**. 
 
 ## Finding and accessing BPL atlas tile layers
 There are, generally speaking, two ways to find Atlascope tile endpoints for your project. Your choice will depend on what information you are beginning your project with.
 
-### Finding layers by atlas
+### Finding layers by atlas citation
 If you already know the atlas volume you wish to work with, either by the name, year or call number, you can look up the **tile endpoint** in a number of ways.
 
 #### Find all Atlascope data by referencing our documentation
 
-Our [Use Digitized Urban Atlases as GIS Source Data](../documentation/access-urban-atlas-data.html) documentation contains detailed information on how to access *all* underlying Atlascope data (tiles, georeferenced control points, mosaic TIFFs, and boundary footprints)
+Our [Accessing Atlascope Data](../documentation/access-urban-atlas-data.html) technical documentation contains information on how to access *all* underlying Atlascope data, including tiles, boundary files, and metadata records. 
 
-::: tip NOTE
+::: warning NOTE
 This documentation page assumes prior knowledge with GIS and data tools.
 :::
 
+You can find the atlas of your choice by sorting atlases in the `Layer List` by either geography or publisher, and copying the tile endpoint link. The link will look something like this:
 
-#### Find endpoints using our BPL atlas libguide
-Citations for all BPL urban atlases, which include tile links where available, are also available in our Historical Urban Atlases libguides. Urban atlases for geographies encompassing or within the City of Boston can be found [here](https://guides.bpl.org/urban-atlases/list), while those corresponding to other Boston-area towns and cities can be found [here](https://guides.bpl.org/mass-urban-atlases).
+![Atlascope docs](./media/atlascope-docs.png)
 
-::: tip Example libguide citations
-![Citation tiles](./media/tile-citation.png)
-:::
-
+*^ Screenshot of tile endpoint example from Accessing Atlascope Data technical documentation*
 
 ### Using Atlascope to find layers geographically
-"the visual approach"
+The "visual approach"
 
-The best way to find available layers by geography is to use <a target = "_blank" href ='https://atlascope.leventhalmap.org/'>Atlascope.</a>
+The names of each atlas, which often refer to a geographapy, e.g. `East Boston, 1892` can often be deceiving. Sometimes, an atlas titled `East Boston` can actually contain coverage for areas in East Boston, South Boston *and* Roxbury. These are historical objects which reflected municipal boundaries that were actively changing during the time the atlases were created. 
 
-Zoom in to a location in Atlascope, and the menus will update with every atlas we have available for that precise location. 
+
+Atlascope solves this problem of geographic idiosyncracy in the source material by allowing you to search for layers by a precise location. If you don't already know which layers are available for your area of interest, you should start with Atlascope, rather than the layer list to find out what's available.
+
+Zoom in to a location in <a target = "_blank" href ='https://atlascope.leventhalmap.org/'>Atlascope</a>, and the menus will update with every atlas we have available for that precise location. 
 
 Engage with the year layer you are interested in by turning it on in the menu, and clicking `About this map`
 
@@ -76,7 +67,7 @@ At the bottom of each layer's `About this map` page is a link to the tile endpoi
 
 ### Using our atlas tiles with QGIS
 
-1. Copy the URL to the atlas layer you want to use by [referencing the documentation][(https://geoservices.leventhalmap.org/cartinal/resources/documentation/access-urban-atlas-data.html), [searching in Atlascope](<a href ='./atlascope-tiles.html#Finding-layers-by-geography'>searching in Atlascope</a>, or <a target = "_blank" href ='https://guides.bpl.org/urban-atlases/list'>using our library guides.</a>
+1. Copy the URL to the atlas layer you want to use by [referencing the documentation](../documentation/atlas-data.html) or [searching in Atlascope](./atlascope-tiles.html#using-atlascope-to-find-layers-geographically).
 
 2. Open QGIS. 
 
@@ -126,7 +117,7 @@ AGOL does allow one to bring in XYZ tilesets to display in a shareable web map. 
 
 ### Leaflet
 
-If you are planning to use a Boston atlas which has not yet been converted from the TMS pyramid specification to the XYZ specification, please note that Leaflet does not accept the -y parameter, and you will need to format the tile definition in Leaflet in the following way, by adding the `tms: true` flag.
+If you are planning to use a Boston atlas which has not yet been converted from the TMS pyramid specification to the XYZ specification, please note that Leaflet does not accept the -y parameter present in the TMS link syntax, and you will need to format the tile definition in Leaflet in the following way, by adding the `tms: true` flag.
 
 ``` javascript
 L.tileLayer(

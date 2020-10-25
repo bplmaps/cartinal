@@ -3,6 +3,7 @@
     <header class="hero">
         <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
         <p v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</p>
+        <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p> 
     </header>
 
     <div v-if="data.themes && data.themes.length" class="themes">
@@ -11,16 +12,15 @@
             <div v-if="theme.topics && theme.topics.length" class="topics">
                 <div v-for="(topic, index) in theme.topics" :key="index" class="topic">
                 <ul>
-                    <li><a class="topic-link" :href="topic.link">{{topic.topicName}} </a></li>
+                    <li>
+                      <h3><a class="topic-link" :href="topic.link">{{topic.topicName}}</a></h3>
+                      <p>{{topic.description}}</p>
+                    
+                    </li>
                 </ul>
                 </div>
-
-
             </div>
-
-
         </div>
-
     </div>
     </div>
 
@@ -73,14 +73,6 @@ export default {
       color #1A1A37
   .descriptionlong
     font-size 1.3rem
-  a.topic-link
-      font-size 1.2rem
-      font-weight 500
-      border-bottom none
-      padding-bottom 0
-      color #2c503e
-   a.topic-link:hover
-    font-weight 600
   .themes
     border-top 1px solid $borderColor
     padding 1.2rem 0
@@ -89,16 +81,6 @@ export default {
     flex-direction column
   .theme
     flex-grow 1
-    h2
-      font-size 1.6rem
-      font-weight 500
-      border-bottom none
-      padding-bottom 0
-      color #6a8bad
-    p
-      color lighten($textColor, 25%)
-      font-weight 400
-      font-family 'Avenir', Helvetica, Arial, sans-serif;
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor
