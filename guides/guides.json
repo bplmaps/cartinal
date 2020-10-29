@@ -120,7 +120,7 @@
     "GuideID": 13,
     "name": "Use Atlascope Tiles in Your Map",
     "description": "Background information on BPL urban atlas tiles created by LMEC and notes on how to work with them in QGIS, ArcGIS Online and Leaflet",
-    "theme": "Use BPL map collection",
+    "theme": "Use BPL map collections",
     "path": "./atlascope-tiles.html",
     "type": "Tutorial",
     "level": "Fundamentals"
@@ -158,6 +158,15 @@
     "description": "Notes on the conceptual purpose behind using web tools Jupyter and Binder for code demonstrations",
     "theme": "Teach spatial concepts",
     "path": "./jupyter-binder.html",
+    "type": "Guide",
+    "level": "Fundamentals"
+  },
+  {
+    "GuideID": 19,
+    "name": "README Instructions",
+    "description": "Instructions for providing helpful context when contributing data to the LMEC",
+    "theme": "Find and use data",
+    "path": "./readme-instructions.html",
     "type": "Guide",
     "level": "Fundamentals"
   }
