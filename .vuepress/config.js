@@ -29,7 +29,20 @@ module.exports = {
 		nav: [
 			{ text: 'Guides and Tutorials', link: '/guides/' },
 			{ text: 'Documentation', link: '/documentation/' }
-		],
+    ],
+    plugins: [
+      [
+        'register-components',
+        {
+          components: [
+            {
+              name: 'atlas-layer-list',
+              path: '@theme/components/AtlasLayerList.vue'
+            }
+          ]
+        }
+      ]
+    ],
     sidebar: {
       "/guides/get-started-qgis/": [
         '',
