@@ -38,6 +38,10 @@ module.exports = {
             {
               name: 'atlas-layer-list',
               path: '@theme/components/AtlasLayerList.vue'
+            },
+            {
+              name: 'schema-full',
+              path: '@theme/components/SchemaFull.vue'
             }
           ]
         }

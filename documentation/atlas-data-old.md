@@ -1,3 +1,0 @@
----
-atlasdocumentation: true
----
