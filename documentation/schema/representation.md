@@ -9,7 +9,7 @@
 # representation
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.representation" id ="property-table">
      <p class="larger-text">{{this.dataBiography.representation.description}}</p>
   <tr>
     <th>Property</th>

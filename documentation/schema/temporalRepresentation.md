@@ -11,7 +11,7 @@ sidebar: auto
 ## Definition
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.subjectTagging.temporal" id ="property-table">
      <p class="larger-text">{{this.subjectTagging.temporal.properties.temporalRepresentation.description}}</p>
   <tr>
     <th>Property</th>

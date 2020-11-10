@@ -8,7 +8,7 @@
 # accessCondition
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.accessCondition" id = "container">
       <p class="larger-text">{{this.coreCitation.accessCondition.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.accessCondition.type}}</strong></p>
     </div>

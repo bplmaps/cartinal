@@ -9,7 +9,7 @@
 # coreCitation
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.schema.coreCitation" id ="property-table">
      <p class="larger-text">{{this.schema.coreCitation.description}}</p>
   <tr>
     <th>Property</th>

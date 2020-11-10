@@ -9,7 +9,7 @@
 # privacy
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.privacy" id ="property-table">
      <p class="larger-text">{{this.dataBiography.privacy.description}}</p>
   <tr>
     <th>Property</th>

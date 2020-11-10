@@ -8,7 +8,7 @@
 # collectionItems
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.collectionItems" id = "container">
       <p class="larger-text">{{this.coreCitation.collectionItems.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.collectionItems.type}}</strong></p>
     </div>

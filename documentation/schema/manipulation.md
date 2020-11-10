@@ -9,7 +9,7 @@
 # manipulation
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataLifecycle.manipulation" id ="property-table">
      <p class="larger-text">{{this.dataLifecycle.manipulation.description}}</p>
   <tr>
     <th>Property</th>

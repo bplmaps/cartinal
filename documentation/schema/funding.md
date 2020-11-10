@@ -9,7 +9,7 @@
 # funding
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.funding" id ="property-table">
      <p class="larger-text">{{this.dataBiography.funding.description}}</p>
   <tr>
     <th>Property</th>

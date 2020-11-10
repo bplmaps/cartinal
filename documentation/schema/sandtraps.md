@@ -8,7 +8,7 @@
 # sandtraps
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.process.properties.sandtraps.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.process.properties.sandtraps.type}}</strong></p>
     </div>

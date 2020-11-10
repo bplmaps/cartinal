@@ -9,7 +9,7 @@
 # dataLifecycle
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.schema.dataLifecycle" id ="property-table">
      <p class="larger-text">{{this.schema.dataLifecycle.description}}</p>
   <tr>
     <th>Property</th>

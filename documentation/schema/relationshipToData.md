@@ -8,7 +8,7 @@
 # relationshipToData
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.contextProvider.properties.relationshipToData.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.contextProvider.properties.relationshipToData.type}}</strong></p>
       <p >Options: <strong></strong></p>

@@ -8,7 +8,7 @@
 # temporalNotes
 
 <template>
-    <div id = "container">
+    <div v-if="this.subjectTagging.temporal" id = "container">
       <p class="larger-text">{{this.subjectTagging.temporal.properties.temporalNotes.description}}</p>
       <p >Expected Type: <strong>{{this.subjectTagging.temporal.properties.temporalNotes.type}}</strong></p>
     </div>

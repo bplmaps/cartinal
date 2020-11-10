@@ -8,7 +8,7 @@
 # maintainedBy
 
 <template>
-    <div id = "container">
+    <div v-if="this.resourceConstellation.codebooks" id = "container">
       <p class="larger-text">{{this.resourceConstellation.codebooks.items[0].properties.maintainedBy.description}}</p>
       <p >Expected Type: <strong>{{this.resourceConstellation.codebooks.items[0].properties.maintainedBy.type}}</strong></p>
     </div>

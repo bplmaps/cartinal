@@ -9,7 +9,7 @@
 # suggestedEntryPoints
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.resourceConstellation.suggestedEntryPoints" id ="property-table">
      <p class="larger-text">{{this.resourceConstellation.suggestedEntryPoints.description}}</p>
   <tr>
     <th>Property</th>

@@ -8,7 +8,7 @@
 # freeSubjectTags
 
 <template>
-    <div id = "container">
+    <div v-if="this.subjectTagging.thematic" id = "container">
       <p class="larger-text">{{this.subjectTagging.thematic.properties.freeSubjectTags.description}}</p>
       <p >Expected Type: <strong>{{this.subjectTagging.thematic.properties.freeSubjectTags.type}}</strong></p>
     <table id ="property-table">

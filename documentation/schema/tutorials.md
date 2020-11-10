@@ -9,7 +9,7 @@
 # tutorials
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.resourceConstellation.tutorials" id ="property-table">
      <p class="larger-text">{{this.resourceConstellation.tutorials.description}}</p>
   <tr>
     <th>Property</th>

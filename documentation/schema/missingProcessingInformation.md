@@ -8,7 +8,7 @@
 # missingProcessingInformation
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.actors.items[0].properties.missingProcessingInformation.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.actors.items[0].properties.missingProcessingInformation.type}}</strong></p>
     </div>

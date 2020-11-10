@@ -9,7 +9,7 @@
 # subjectTagging
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.schema.subjectTagging" id ="property-table">
      <p class="larger-text">{{this.schema.subjectTagging.description}}</p>
   <tr>
     <th>Property</th>

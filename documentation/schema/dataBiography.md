@@ -9,7 +9,7 @@ sidebar: none
 # dataBiography
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.schema.dataBiography" id ="property-table">
      <p class="larger-text">{{this.schema.dataBiography.description}}</p>
   <tr>
     <th>Property</th>

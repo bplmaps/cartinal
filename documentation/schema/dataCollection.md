@@ -9,7 +9,7 @@
 # dataCollection
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.dataCollection" id ="property-table">
      <p class="larger-text">{{this.dataBiography.dataCollection.description}}</p>
   <tr>
     <th>Property</th>

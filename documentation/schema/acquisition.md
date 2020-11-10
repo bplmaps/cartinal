@@ -9,7 +9,7 @@
 # acquisition
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataLifecycle.acquisition" id ="property-table">
      <p class="larger-text">{{this.dataLifecycle.acquisition.description}}</p>
   <tr>
     <th>Property</th>

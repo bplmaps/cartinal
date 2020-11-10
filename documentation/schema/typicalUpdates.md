@@ -8,7 +8,7 @@
 # typicalUpdates
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.maintenance" id = "container">
       <p class="larger-text">{{this.dataLifecycle.maintenance.properties.typicalUpdates.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.maintenance.properties.typicalUpdates.type}}</strong></p>
     </div>

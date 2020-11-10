@@ -8,7 +8,7 @@
 # contextPublicationDate
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.contextPublicationDate.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.contextPublicationDate.type}}</strong></p>
     </div>

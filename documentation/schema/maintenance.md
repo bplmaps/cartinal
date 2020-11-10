@@ -9,7 +9,7 @@
 # maintenance
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataLifecycle.maintenance" id ="property-table">
      <p class="larger-text">{{this.dataLifecycle.maintenance.description}}</p>
   <tr>
     <th>Property</th>

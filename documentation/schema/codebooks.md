@@ -9,7 +9,7 @@
 # codebooks
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.resourceConstellation.codebooks" id ="property-table">
      <p class="larger-text">{{this.resourceConstellation.codebooks.description}}</p>
   <tr>
     <th>Property</th>

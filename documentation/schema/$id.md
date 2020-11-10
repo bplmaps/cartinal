@@ -8,7 +8,7 @@
 # $id
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.$id" id = "container">
       <p class="larger-text">{{this.coreCitation.$id.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.$id.type}}</strong></p>
     </div>

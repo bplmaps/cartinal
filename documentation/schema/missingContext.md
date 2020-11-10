@@ -8,7 +8,7 @@
 # missingContext
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.missingContext.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.missingContext.type}}</strong></p>
     </div>

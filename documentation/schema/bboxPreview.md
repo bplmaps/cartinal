@@ -9,7 +9,7 @@
 # bboxPreview
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.coreCitation.bboxPreview" id ="property-table">
      <p class="larger-text">{{this.coreCitation.bboxPreview.description}}</p>
   <tr>
     <th>Property</th>

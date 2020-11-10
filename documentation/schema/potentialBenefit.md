@@ -9,7 +9,7 @@
 # potentialBenefit
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.potentialBenefit" id ="property-table">
      <p class="larger-text">{{this.dataBiography.potentialBenefit.description}}</p>
   <tr>
     <th>Property</th>

@@ -8,7 +8,7 @@
 # successes
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.process.properties.successes.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.process.properties.successes.type}}</strong></p>
     </div>

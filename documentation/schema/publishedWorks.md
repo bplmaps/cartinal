@@ -9,7 +9,7 @@
 # publishedWorks
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.resourceConstellation.publishedWorks" id ="property-table">
      <p class="larger-text">{{this.resourceConstellation.publishedWorks.description}}</p>
   <tr>
     <th>Property</th>

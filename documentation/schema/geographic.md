@@ -9,8 +9,8 @@
 # geographic
 
 <template>
-   <table id ="property-table">
-     <!-- <p class="larger-text">{{this.schema.subjectTagging.thematic.description}}</p> -->
+   <table v-if="this.subjectTagging.geographic" id ="property-table">
+     <p class="larger-text">{{this.subjectTagging.geographic.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>

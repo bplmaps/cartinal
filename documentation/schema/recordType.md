@@ -8,7 +8,7 @@
 # recordType
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.recordType" id = "container">
       <p class="larger-text">{{this.coreCitation.recordType.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.recordType.type}}</strong></p>
       <p >Options: <strong></strong></p>

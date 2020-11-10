@@ -8,7 +8,7 @@
 # actors
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.actors.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.actors.type}}</strong></p>
     <table id ="property-table">

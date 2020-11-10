@@ -8,7 +8,7 @@
 # shortGenealogyDescription
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.shortGenealogyDescription" id = "container">
       <p class="larger-text">{{this.coreCitation.shortGenealogyDescription.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.shortGenealogyDescription.type}}</strong></p>
     </div>

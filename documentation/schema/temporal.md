@@ -9,8 +9,8 @@
 # temporal
 
 <template>
-   <table id ="property-table">
-     <!-- <p class="larger-text">{{this.schema.subjectTagging.temporal.description}}</p> -->
+   <table v-if="this.subjectTagging.temporal" id ="property-table">
+     <p class="larger-text">{{this.subjectTagging.temporal.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>

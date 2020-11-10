@@ -8,7 +8,7 @@
 # LCSH
 
 <template>
-    <div id = "container">
+    <div v-if="this.subjectTagging.thematic" id = "container">
       <p class="larger-text">{{this.subjectTagging.thematic.properties.LCSH.description}}</p>
       <p >Expected Type: <strong>{{this.subjectTagging.thematic.properties.LCSH.type}}</strong></p>
     <table id ="property-table">

@@ -8,10 +8,10 @@
 # otherSubjectAuthorities
 
 <template>
-    <div id = "container">
+    <div v-if="this.subjectTagging.thematic" id = "container">
       <p class="larger-text">{{this.subjectTagging.thematic.properties.otherSubjectAuthorities.description}}</p>
       <p >Expected Type: <strong>{{this.subjectTagging.thematic.properties.otherSubjectAuthorities.type}}</strong></p>
-    <table id ="property-table">
+    <table v-if="this.subjectTagging.thematic" id ="property-table">
         <tr>
             <th>Property</th>
             <th>Expected Type</th>

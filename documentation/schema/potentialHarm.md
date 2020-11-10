@@ -9,7 +9,7 @@
 # potentialHarm
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.potentialHarm" id ="property-table">
      <p class="larger-text">{{this.dataBiography.potentialHarm.description}}</p>
   <tr>
     <th>Property</th>

@@ -8,7 +8,7 @@
 # includesDataTypes
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.includesDataTypes" id = "container">
       <p class="larger-text">{{this.coreCitation.includesDataTypes.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.includesDataTypes.type}}</strong></p>
       <p >Options: <strong></strong></p>

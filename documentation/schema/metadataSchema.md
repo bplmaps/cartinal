@@ -8,7 +8,7 @@
 # metadataSchema
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.metadataSchema.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.metadataSchema.type}}</strong></p>
     <table id ="property-table">

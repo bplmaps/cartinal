@@ -8,7 +8,7 @@
 # title
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.title" id = "container">
       <p class="larger-text">Resource title</p>
       <p >Expected Type: <strong>{{this.coreCitation.title.type}}</strong></p>
     </div>

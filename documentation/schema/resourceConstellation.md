@@ -9,7 +9,7 @@ sidebar: none
 # resourceConstellation
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.schema.resourceConstellation" id ="property-table">
      <p class="larger-text">{{this.schema.resourceConstellation.description}}</p>
   <tr>
     <th>Property</th>

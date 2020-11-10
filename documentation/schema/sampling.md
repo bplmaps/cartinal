@@ -9,7 +9,7 @@
 # sampling
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataBiography.sampling" id ="property-table">
      <p class="larger-text">{{this.dataBiography.sampling.description}}</p>
   <tr>
     <th>Property</th>

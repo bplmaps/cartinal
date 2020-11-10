@@ -8,7 +8,7 @@
 # shortProcessDescription
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.process.properties.shortProcessDescription.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.process.properties.shortProcessDescription.type}}</strong></p>
     </div>

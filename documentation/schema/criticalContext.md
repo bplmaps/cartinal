@@ -8,7 +8,7 @@
 # criticalContext
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.criticalContext.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.criticalContext.type}}</strong></p>
     </div>

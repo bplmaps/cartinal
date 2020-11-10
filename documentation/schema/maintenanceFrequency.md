@@ -8,7 +8,7 @@
 # maintenanceFrequency
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.maintenance" id = "container">
       <p class="larger-text">{{this.dataLifecycle.maintenance.properties.maintenanceFrequency.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.maintenance.properties.maintenanceFrequency.type}}</strong></p>
     </div>

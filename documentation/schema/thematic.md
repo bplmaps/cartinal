@@ -9,8 +9,8 @@
 # thematic
 
 <template>
-   <table id ="property-table">
-     <!-- <p class="larger-text">{{this.schema.subjectTagging.thematic.description}}</p> -->
+   <table v-if="this.subjectTagging.thematic" id ="property-table">
+     <p class="larger-text">{{this.subjectTagging.thematic.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>

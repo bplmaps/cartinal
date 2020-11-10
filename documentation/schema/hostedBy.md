@@ -8,7 +8,7 @@
 # hostedBy
 
 <template>
-    <div id = "container">
+    <div v-if="this.coreCitation.hostedBy" id = "container">
       <p class="larger-text">{{this.coreCitation.hostedBy.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.hostedBy.type}}</strong></p>
       <p >Options: <strong></strong></p>

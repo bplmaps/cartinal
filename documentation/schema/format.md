@@ -8,7 +8,7 @@
 # format
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.manipulation" id = "container">
       <p class="larger-text">{{this.dataLifecycle.manipulation.properties.records.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.records.type}}</strong></p>
       <p >Options: <strong></strong></p>

@@ -8,7 +8,7 @@
 # contextOnBehalfOf
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.contextOnBehalfOf.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.contextOnBehalfOf.type}}</strong></p>
     <table id ="property-table">

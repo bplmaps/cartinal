@@ -8,10 +8,10 @@
 # dataEndpoints
 
 <template>
-    <div id = "container">
+    <div v-if="this.dataEndpoints" id = "container">
       <p class="larger-text">{{this.dataEndpoints.description}}</p>
       <p >Expected Type: <strong>{{this.dataEndpoints.type}}</strong></p>
-    <table id ="property-table">
+    <table v-if="this.dataEndpoints.items" id ="property-table">
         <tr>
             <th>Property</th>
             <th>Expected Type</th>

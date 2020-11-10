@@ -8,7 +8,7 @@
 # EPSG
 
 <template>
-    <div id = "container">
+    <div v-if="this.subjectTagging.geographic" id = "container">
       <p class="larger-text">{{this.subjectTagging.geographic.properties.EPSG.description}}</p>
       <p >Expected Type: <strong>{{this.subjectTagging.geographic.properties.EPSG.type}}</strong></p>
     <table id ="property-table">

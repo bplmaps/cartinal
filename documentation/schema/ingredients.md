@@ -11,7 +11,7 @@ sidebar: auto
 ## Definition
 
 <template>
-   <table id ="property-table">
+   <table v-if="this.dataLifecycle.acquisition" id ="property-table">
      <p class="larger-text">{{this.dataLifecycle.acquisition.properties.ingredients.description}}</p>
   <tr>
     <th>Property</th>
