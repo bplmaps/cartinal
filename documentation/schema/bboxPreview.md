@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to Schema Home](./schema.html)
+[← Back to Schema Home](./)
 
 # bboxPreview
 
