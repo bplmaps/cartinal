@@ -15,11 +15,13 @@
         <tr>
             <th>Property</th>
             <th>Expected Type</th>
+            <th>Required</th>
             <th>Description</th>
         </tr>
         <tr v-for="item, index in this.dataEndpoints.items[0].properties" :key="index">
             <td>{{index}}</td>
             <td>{{item.type}}</td>
+            <td id="required">{{checkRequired(index, schema.dataEndpoints.required)}}</td>
             <td>{{item.description}}</td>
         </tr>
     </table> 
@@ -46,6 +48,13 @@ export default {
     methods: {
         whatsUp(){
           console.log(this.dataEndpoints)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
         }
     },
     computed: {
@@ -78,6 +87,9 @@ table#property-table
 
 p.larger-text
   font-size 120%
+
+td#required
+  text-align center
 
 </style>
 

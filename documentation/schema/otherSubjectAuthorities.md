@@ -15,11 +15,13 @@
         <tr>
             <th>Property</th>
             <th>Expected Type</th>
+            <th>Required</th>
             <th>Description</th>
         </tr>
         <tr v-for="item, index in this.subjectTagging.thematic.properties.otherSubjectAuthorities.items[0].properties" :key="index">
             <td>{{index}}</td>
             <td>{{item.type}}</td>
+            <td></td>
             <td>{{item.description}}</td>
         </tr>
     </table> 

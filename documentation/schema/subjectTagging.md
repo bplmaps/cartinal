@@ -14,11 +14,13 @@
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr v-for="item, index in this.subjectTagging" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
+    <td id="required">{{checkRequired(index, schema.subjectTagging.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -44,6 +46,13 @@ export default {
     methods: {
         whatsUp(){
           console.log(this.subjectTagging)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
         }
     },
     computed: {
@@ -76,5 +85,8 @@ table#property-table
 
 p.larger-text
   font-size 120%
+
+td#required
+  text-align center
 
 </style>

@@ -14,11 +14,13 @@
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr v-for="item, index in this.resourceConstellation.suggestedEntryPoints.items[0].properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>string</td>
+    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.suggestedEntryPoints.items[0].required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -44,6 +46,13 @@ export default {
     methods: {
         whatsUp(){
           console.log(this.subjectTagging)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
         }
     },
     computed: {
@@ -76,6 +85,9 @@ table#property-table
 
 p.larger-text
   font-size 120%
+
+td#required
+  text-align center
 
 </style>
 

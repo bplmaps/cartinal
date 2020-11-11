@@ -14,11 +14,13 @@
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr v-for="item, index in this.dataBiography.potentialBenefit.items[0].properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
+    <td></td>
     <td>{{item.description}}</td>
   </tr>
 </table> 

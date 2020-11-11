@@ -16,11 +16,13 @@ sidebar: auto
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
+    <th>Required</th>
     <th>Description</th>
   </tr>
   <tr v-for="item, index in this.subjectTagging.temporal.properties.temporalRepresentation.properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{index}}</td>
     <td>{{item.type}}</td>
+    <td></td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
