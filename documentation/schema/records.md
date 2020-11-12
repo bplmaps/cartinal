@@ -87,7 +87,7 @@ p.larger-text
 
 ``` json
 "records": [{
-	"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
+	"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
 	"format": "Jupyter Notebook",
 	"author": "Garrett Dash Nelson"
 }]

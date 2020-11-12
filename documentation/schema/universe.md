@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to sampling](./sampling)
 
-# notes
+# universe
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Place to provide additional clarity</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.dataBiography.sampling" id ="property-table">
+     <p class="larger-text">{{this.dataBiography.sampling.properties.universe.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.dataBiography.sampling.properties.universe.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,12 +40,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: [],
+          dataLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.subjectTagging)
         }
     },
     computed: {
@@ -69,8 +81,11 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example
 
 ``` json
-"notes": "The LMEC carried out this data process and also described the processing steps in a Jupyter notebook."
+"universe": [{
+	"notes": "Interview or survey rules define the universe or target population for a survey, and so identify the units and people eligible for inclusion. This includes considerations like how incarcerated or those in health care facilities are categorized and counted, as well as those experiencing homelessness. There are also special considerations for how children are included. All of these rules, as defined by the Census Bureau, are described in the ACS Design and Methodology Report Survey Rules, Concepts, Definitions.",
+	"resource": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch06_2014.pdf"
+}]
 ```

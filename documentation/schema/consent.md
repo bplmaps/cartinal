@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to privacy](./privacy)
 
-# notes
+# consent
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Place to provide additional clarity</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.dataBiography.sampling" id ="property-table">
+     <p class="larger-text">{{this.dataBiography.privacy.properties.consent.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.dataBiography.privacy.properties.consent.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,12 +40,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: [],
+          dataLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.subjectTagging)
         }
     },
     computed: {
@@ -69,8 +81,11 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example
 
 ``` json
-"notes": "The LMEC carried out this data process and also described the processing steps in a Jupyter notebook."
+"consent": [{
+	"notes": "Notes about how the Census Bureau conceives of its questionnaire content in relation to the mandatory nature of the ACS is available in the ACS Design and Methodology Report Content Development Process.",
+	"resource": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch05_2014.pdf"
+}]
 ```

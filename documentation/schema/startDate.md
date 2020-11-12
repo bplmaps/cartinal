@@ -4,21 +4,21 @@
 
 <br>
 
-[← Back to coreCitation](./coreCitation)
+[← Back to dataCollection](./dataCollection)
 
-# bboxPreview
+# startDate
 
 <template>
-   <table v-if="this.coreCitation.bboxPreview" id ="property-table">
-     <p class="larger-text">{{this.coreCitation.bboxPreview.description}}</p>
+   <table v-if="this.dataBiography.dataCollection" id ="property-table">
+     <p class="larger-text">{{this.dataBiography.dataCollection.properties.startDate.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.coreCitation.bboxPreview.properties" :key="index">
-    <td>{{index}}</td>
+  <tr v-for="item, index in this.dataBiography.dataCollection.properties.startDate.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
     <td></td>
     <td>{{item.description}}</td>
@@ -84,9 +84,8 @@ p.larger-text
 ## Example
 
 ``` json
-"bboxPreview": {
-  "previewSRS": "EPSG:4326",
-  "lowerCorner": [-73.508210, 41.239062],
-  "upperCorner": [-69.928093, 42.886778]
-}
+"startDate": [{
+	"notes": "With full implementation beginning in 2005, population and housing profiles for 2005 first became available in the summer of 2006 and have been available every year thereafter for specific geographic areas with populations of 65,000 or more. Three-year period estimates, reflecting combined data from the 2005−2007 ACS, were available for the first time late in 2008 for specific areas with populations of 20,000 or more, and 5-year period estimates, reflecting combined data from the 2005−2009 ACS, became available late in 2010 for areas down to the smallest block groups, census tracts, and small local governments. Beginning in 2010, the nation had a 5-year period estimate, available as an alternative to the decennial census long-form sample, for nearly all geographic areas recognized by the Census Bureau, including census tracts and block groups.",
+	"resource": "https://www2.census.gov/programs-surveys/acs/methodology/design_and_methodology/acs_design_methodology_ch02_2014.pdf"
+}]
 ```

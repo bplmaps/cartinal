@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to description](./description.html)
+<a href="javascript:history.back()">← Back</a>
 
 # language
 

@@ -3,28 +3,14 @@
 
 <br>
 
-[← Back to Schema Home](./)
+<a href="javascript:history.back()">← Back</a>
 
-# dataEndpoints
+# relatedResourceURL
 
 <template>
-    <div v-if="this.dataEndpoints" id = "container">
-      <p class="larger-text">{{this.dataEndpoints.description}}</p>
-      <p >Expected Type: <strong>{{this.dataEndpoints.type}}</strong></p>
-    <table v-if="this.dataEndpoints.items" id ="property-table">
-        <tr>
-            <th>Property</th>
-            <th>Expected Type</th>
-            <th>Required</th>
-            <th>Description</th>
-        </tr>
-        <tr v-for="item, index in this.dataEndpoints.items[0].properties" :key="index">
-            <td>{{index}}</td>
-            <td>{{item.type}}</td>
-            <td id="required">{{checkRequired(index, schema.dataEndpoints.required)}}</td>
-            <td>{{item.description}}</td>
-        </tr>
-    </table> 
+    <div id = "container">
+      <p class="larger-text">Direct access resource link</p>
+      <p >Expected Type: <strong>String</strong></p>
     </div>
 </template>
 
@@ -47,14 +33,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.dataEndpoints)
-        },
-        checkRequired(evaluatedItem, requiredFieldsList){
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+          console.log(this.coreCitation)
         }
     },
     computed: {
@@ -88,19 +67,10 @@ table#property-table
 p.larger-text
   font-size 120%
 
-td#required
-  text-align center
-
 </style>
 
 ## Example 
 
 ``` json
-	"dataEndpoints": [{
-		"$id": "ark:/76611/dkgskarjx/endpoint/1",
-		"relatedResourceURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
-		"format": "Shapefile",
-		"source": "MassGIS",
-		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers"
-	}]
+"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
 ```

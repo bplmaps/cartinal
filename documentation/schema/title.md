@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to Schema Home](./) 
+<a href="javascript:history.back()">← Back</a>
 
 # title
 

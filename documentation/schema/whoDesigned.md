@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
-[← Back to records](./records.html) 
+[← Back to dataCollection](./dataCollection)
 
-# accessURL
+# whoDesigned
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Direct access resource link</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.dataBiography.dataCollection" id ="property-table">
+     <p class="larger-text">{{this.dataBiography.dataCollection.properties.whoDesigned.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.dataBiography.dataCollection.properties.whoDesigned.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,12 +40,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: [],
+          dataLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.subjectTagging)
         }
     },
     computed: {
@@ -69,8 +81,3 @@ p.larger-text
 
 </style>
 
-## Example 
-
-``` json
-"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
-```

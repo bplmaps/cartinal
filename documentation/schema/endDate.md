@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to dataCollection](./dataCollection)
 
-# notes
+# endDate
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Place to provide additional clarity</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.dataBiography.dataCollection" id ="property-table">
+     <p class="larger-text">{{this.dataBiography.dataCollection.properties.endDate.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.dataBiography.dataCollection.properties.endDate.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,12 +40,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: [],
+          dataLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.subjectTagging)
         }
     },
     computed: {
@@ -69,8 +81,10 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example
 
 ``` json
-"notes": "The LMEC carried out this data process and also described the processing steps in a Jupyter notebook."
+"endDate": [{
+	"notes": "This survey is continuously rolling. It uses a series of monthly samples to produce annually updated estimates."
+}]
 ```
