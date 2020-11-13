@@ -1,5 +1,5 @@
 ---
-
+sidebar: auto
 ---
 
 <br>
@@ -7,6 +7,8 @@
 [← Back to Schema Home](./)
 
 # coreCitation
+
+## Schema
 
 <template>
   <table v-if="this.schema.coreCitation" id ="property-table">
@@ -90,3 +92,25 @@ td#required
   text-align center
 
 </style>
+
+## Examples
+
+### Dataset Example
+
+```json
+"coreCitation": {
+	"$id": "ark:/76611/dkgsk7g8m",
+	"title": "Simplified Massachusetts Town Boundaries",
+	"recordType": "Dataset",
+	"hostedBy": "Internal",
+	"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
+	"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
+	"includesDataTypes": ["MultiPolygon"],
+	"bboxPreview": {
+		"previewSRS": "EPSG:4326",
+		"lowerCorner": [-73.508210, 41.239062],
+		"upperCorner": [-69.928093, 42.886778]
+	},
+	"accessCondition": "This item is in the public domain. There are no restrictions on use."
+}
+```
