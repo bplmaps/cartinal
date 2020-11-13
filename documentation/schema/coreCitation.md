@@ -114,3 +114,17 @@ td#required
 	"accessCondition": "This item is in the public domain. There are no restrictions on use."
 }
 ```
+
+### Collection Example
+``` json
+"coreCitation": {
+	"$id": "ark:/76611/dkgsjlciz",
+	"title": "Historic Boston Shoreline",
+	"recordType": "Collection",
+	"hostedBy": "Internal",
+	"shortDataDescription": "Collection of data files depicting Boston's historic shoreline across various years.",
+	"shortGenealogyDescription": "These files were created by manually 'digitizing' or  creating vector features from a collectin of born-digital maps held by the Leventhal Map and Education Center. This collection can be accessed here: https://collections.leventhalmap.org/search?utf8=%E2%9C%93&q=mapworks . As the original data used to create these maps was not preserved, the geospatial vector data was re-created in 2019, and this collection refers to the data created by that process.",
+	"accessCondition": "This collection is in the public domain. There are no restrictions on use.",
+	"collectionItems": ["ark:/76611/dkhgt7w5x", "ark:/76611/dkhgt8ebr", "ark:/76611/dkhgt8vf7", "ark:/76611/dkhgt9azf", "ark:/76611/dkgsjly1z", "ark:/76611/dkhgt9v8a", "ark:/76611/dkhgtbi20", "ark:/76611/dkhgtbvan"]
+}
+```

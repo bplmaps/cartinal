@@ -85,9 +85,10 @@ p.larger-text
 
 ``` json
 "publishedWorks": [{
-	"title": "The Atlas of Boston History",
-	"author": "Nancy Seasholes",
-	"publisher": "University of Chicago Press",
-	"datePublished": "2019-10-10"
+	"$id": "https://www.nationalgeographic.com/news/2017/06/Boston-landfill-maps-history/#close",
+	"title": "All Over the Map: How Boston Made Itself Bigger",
+	"author": "Betsy Mason",
+	"publisher": "National Geographic",
+	"datePublished": "2017-06-13"
 }]
 ```
