@@ -99,14 +99,9 @@ p.larger-text
 ### Range 
 ```json
 "temporalRepresentation": {
-	"temporalType": "temporalRange",
-	"startRangeValue": {
-		"encoding": "https://www.w3.org/TR/NOTE-datetime",
-		"value": "1630"
-	},
-	"endRangeValue": {
-		"encoding": "https://www.w3.org/TR/NOTE-datetime",
-		"value": "1995"
-	}
+  "temporalType": "temporalRange",
+  "encoding": "https://www.w3.org/TR/NOTE-datetime",
+	"startRangeValue": "1630",
+	"endRangeValue": "1995"
 }
 ```
