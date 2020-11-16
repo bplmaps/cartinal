@@ -99,8 +99,8 @@ p.larger-text
 ### Range 
 ```json
 "temporalRepresentation": {
-  "temporalType": "temporalRange",
-  "encoding": "https://www.w3.org/TR/NOTE-datetime",
+	"temporalType": "temporalRange",
+	"encoding": "https://www.w3.org/TR/NOTE-datetime",
 	"startRangeValue": "1630",
 	"endRangeValue": "1995"
 }
