@@ -94,17 +94,10 @@ td#required
 ## Examples
 
 ```json
-"tutorials": [{
-		"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-		"title": "Creating a clean boundary file for Massachusetts municipalities",
-		"maintainedBy": "LMEC",
-		"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-	},
-	{
-		"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
-		"title": "Understanding Jupyter and Binder",
-		"maintainedBy": "LMEC",
-		"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
+"supplementaryFiles": [{
+		"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/RentMapCartographyFiles.zip",
+    "title": "Supplementary cartography files",
+		"notes": "Daniel Huffman provided final versions of the Boston rent map in PDF, JPEF and Adobe Illustrator .AI file formats."
 	}
 ]
 ```
