@@ -9,18 +9,18 @@
 # supplementaryFiles
 
 <template>
-   <table v-if="this.resourceConstellation.tutorials" id ="property-table">
-     <p class="larger-text">{{this.resourceConstellation.tutorials.description}}</p>
+   <table v-if="this.resourceConstellation.supplementaryFiles" id ="property-table">
+     <p class="larger-text">{{this.resourceConstellation.supplementaryFiles.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.resourceConstellation.tutorials.items[0].properties" :key="index">
+  <tr v-for="item, index in this.resourceConstellation.supplementaryFiles.items[0].properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>string</td>
-    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.tutorials.items[0].required)}}</td>
+    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.supplementaryFiles.items[0].required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
