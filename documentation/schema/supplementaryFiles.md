@@ -97,6 +97,7 @@ td#required
 "supplementaryFiles": [{
 		"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/RentMapCartographyFiles.zip",
     "title": "Supplementary cartography files",
+    "datePublished": "2020-11-17",
 		"notes": "Daniel Huffman provided final versions of the Boston rent map in PDF, JPEF and Adobe Illustrator .AI file formats."
 	}
 ]
