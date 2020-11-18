@@ -11,10 +11,6 @@
     <div v-if="this.dataLifecycle.description" id = "container">
       <p class="larger-text">{{this.dataLifecycle.description.properties.contextProvider.properties.relationshipToData.description}}</p>
       <p >Expected Type: <strong>{{this.dataLifecycle.description.properties.contextProvider.properties.relationshipToData.type}}</strong></p>
-      <p >Options: <strong></strong></p>
-      <ul v-for="item, index in this.dataLifecycle.description.properties.contextProvider.properties.relationshipToData.items.enum" :key="index">
-      <li><strong>{{item}}</strong></li>
-      </ul>
     </div>
 </template>
 
