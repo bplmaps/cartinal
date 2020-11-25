@@ -48,11 +48,15 @@ export default {
           console.log(this.coreCitation)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
             if (requiredFieldsList.includes(evaluatedItem)){
                 return 'x'
             } else {
                 return ''
             }
+          }
         }
     },
     computed: {

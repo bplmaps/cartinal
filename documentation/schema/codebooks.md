@@ -48,12 +48,16 @@ export default {
           console.log(this.schema.resourceConstellation.properties.codebooks.items[0].required)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
+          } else {
+              return ''
+          }
         }
+      }
     },
     computed: {
         data() {

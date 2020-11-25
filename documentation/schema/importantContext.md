@@ -4,27 +4,17 @@
 
 <br>
 
-[← Back to resourceConstellation](./resourceConstellation.html)
+<a href="javascript:history.back()">← Back</a>
 
-# tutorials
+# importantContext
+
+## Description
 
 <template>
-  <button @click="whatsUp">HI</button>
-   <table v-if="this.schema.resourceConstellation" id ="property-table">
-     <p class="larger-text">{{this.schema.resourceConstellation.properties.tutorials.description}}</p>
-  <tr>
-    <th>Property</th>
-    <th>Expected Type</th>
-    <th>Required</th>
-    <th>Description</th>
-  </tr>
-  <tr v-for="item, index in this.schema.resourceConstellation.properties.tutorials.items[0].properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
-    <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.tutorials.items[0].required)}}</td>
-    <td>{{item.description}}</td>
-  </tr>
-</table> 
+    <div id = "container">
+      <p class="larger-text">Optional front-end flag to indicate context fields to elevate to high prominence in a discovery environment</p>
+      <p >Expected Type: <strong>Boolean</strong></p>
+    </div> 
 </template>
 
 <script>
@@ -46,7 +36,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.schema.resourceConstellation.properties.tutorials)
+          console.log(this.subjectTagging)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
           if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -96,20 +86,8 @@ td#required
 
 </style>
 
-## Examples
+## Example
 
 ```json
-"tutorials": [{
-		"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-		"title": "Creating a clean boundary file for Massachusetts municipalities",
-		"maintainedBy": "LMEC",
-		"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-	},
-	{
-		"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
-		"title": "Understanding Jupyter and Binder",
-		"maintainedBy": "LMEC",
-		"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
-	}
-]
+"importantContext": true
 ```

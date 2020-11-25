@@ -50,11 +50,15 @@ export default {
       console.log(this.schema.coreCitation.required)
     },
     checkRequired(evaluatedItem, requiredFieldsList){
-        if (requiredFieldsList.includes(evaluatedItem)){
-          return 'x'
-        }else {
+      if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
           return ''
+      } else {
+        if (requiredFieldsList.includes(evaluatedItem)){
+            return 'x'
+        } else {
+            return ''
         }
+      }
     }
   },
   computed: {

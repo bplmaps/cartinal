@@ -4,26 +4,17 @@
 
 <br>
 
-[← Back to resourceConstellation](./resourceConstellation.html)
+<a href="javascript:history.back()">← Back</a>
 
-# suggestedEntryPoints
+# contextMissing
+
+## Description
 
 <template>
-   <table v-if="this.resourceConstellation.suggestedEntryPoints" id ="property-table">
-     <p class="larger-text">{{this.resourceConstellation.suggestedEntryPoints.description}}</p>
-  <tr>
-    <th>Property</th>
-    <th>Expected Type</th>
-    <th>Required</th>
-    <th>Description</th>
-  </tr>
-  <tr v-for="item, index in this.resourceConstellation.suggestedEntryPoints.items[0].properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
-    <td>string</td>
-    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.suggestedEntryPoints.items[0].required)}}</td>
-    <td>{{item.description}}</td>
-  </tr>
-</table> 
+    <div id = "container">
+      <p class="larger-text">Optional front-end flag to indicate context fields for which the metadata writer believes context would have been helpful, but no information is available or easily discoverable via original data providers</p>
+      <p >Expected Type: <strong>Boolean</strong></p>
+    </div> 
 </template>
 
 <script>
@@ -48,11 +39,15 @@ export default {
           console.log(this.subjectTagging)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
             if (requiredFieldsList.includes(evaluatedItem)){
                 return 'x'
             } else {
                 return ''
             }
+          }
         }
     },
     computed: {
@@ -94,15 +89,5 @@ td#required
 ## Example
 
 ```json
-"suggestedEntryPoints": [{
-		"$id": "ark:/76611/dkgskarjx",
-		"title": "MassGIS Data: Community Boundaries (Towns) from Survey Points",
-		"notes": "MassGIS dataset this data improves upon."
-	},
-	{
-		"$id": "https://github.com/nblmc/massachusetts-municipal-boundaries",
-		"title": "Creating a clean boundary file for Massachusetts municipalities",
-		"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
-	}
-]
+"contextMissing": true
 ```

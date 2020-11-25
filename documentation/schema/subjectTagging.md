@@ -44,16 +44,20 @@ export default {
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.subjectTagging)
-        },
-        checkRequired(evaluatedItem, requiredFieldsList){
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+      whatsUp(){
+        console.log(this.schema.subjectTagging.properties)
+      },
+      checkRequired(evaluatedItem, requiredFieldsList){
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
+          } else {
+              return ''
+          }
         }
+      }
     },
     computed: {
         data() {

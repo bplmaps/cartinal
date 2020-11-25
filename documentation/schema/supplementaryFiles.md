@@ -19,7 +19,7 @@
   </tr>
   <tr v-for="item, index in this.resourceConstellation.supplementaryFiles.items[0].properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
-    <td>string</td>
+    <td>{{item.type}}</td>
     <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.supplementaryFiles.items[0].required)}}</td>
     <td>{{item.description}}</td>
   </tr>
@@ -48,11 +48,15 @@ export default {
           console.log(this.subjectTagging)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
             if (requiredFieldsList.includes(evaluatedItem)){
                 return 'x'
             } else {
                 return ''
             }
+          }
         }
     },
     computed: {
