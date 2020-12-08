@@ -19,7 +19,7 @@ Or you can jump to sub-sections of the schema:
 - [subjectTagging](./subjectTagging.html)
 - [dataBiography](./databiography.html)
 - [resourceConstellation](./resourceConstellation.html)
-- [dataLifecycle](./dataLifeCycle.html)
+- [dataLifecycle](./dataLifecycle.html)
 
 ## Full JSON
 
