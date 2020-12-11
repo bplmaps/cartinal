@@ -16,4 +16,10 @@ themes:
       link: ./schema/
       description: Reference documentation for using the LMEC descriptive metadata schema for providing context to data resources.
 
+- themeTitle: Library Hacks
+  topics: 
+    - topicName: Union Search Web Component
+      link: ./union-search-webcomponent.html
+      description: Digitized historic objects at the LMEC are found on two major repository systems -- the Digital Collections portal and Internet Archive. Because these two repositories do not have a shared search system, this web component offers a shim to search both with a single keyword search.
+
 ---
