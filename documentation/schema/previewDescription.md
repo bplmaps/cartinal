@@ -5,12 +5,12 @@
 
 [← Back to coreCitation](./coreCitation.html) 
 
-# shortDataDescription
+# previewDescription
 
 <template>
     <div v-if="this.coreCitation.shortDataDescription" id = "container">
-      <p class="larger-text">{{this.coreCitation.shortDataDescription.description}}</p>
-      <p >Expected Type: <strong>{{this.coreCitation.shortDataDescription.type}}</strong></p>
+      <p class="larger-text">{{this.coreCitation.previewDescription.description}}</p>
+      <p >Expected Type: <strong>{{this.coreCitation.previewDescription.type}}</strong></p>
     </div>
 </template>
 
@@ -72,5 +72,5 @@ p.larger-text
 ## Example 
 
 ``` json
-"shortDataDescription": "Depicts Boston's historic shoreline from the year 1916."
+"previewDescription": "Depicts Boston's historic shoreline from the year 1916."
 ```
