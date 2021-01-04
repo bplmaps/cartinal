@@ -5,12 +5,12 @@
 
 [← Back to coreCitation](./coreCitation.html) 
 
-# shortGenealogyDescription
+# briefGenealogy
 
 <template>
-    <div v-if="this.coreCitation.shortGenealogyDescription" id = "container">
-      <p class="larger-text">{{this.coreCitation.shortGenealogyDescription.description}}</p>
-      <p >Expected Type: <strong>{{this.coreCitation.shortGenealogyDescription.type}}</strong></p>
+    <div v-if="this.coreCitation.briefGenealogy" id = "container">
+      <p class="larger-text">{{this.coreCitation.briefGenealogy.description}}</p>
+      <p >Expected Type: <strong>{{this.coreCitation.briefGenealogy.type}}</strong></p>
     </div>
 </template>
 
@@ -72,5 +72,5 @@ p.larger-text
 ## Example 
 
 ``` json
-"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products."
+"briefGenealogy": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products."
 ```

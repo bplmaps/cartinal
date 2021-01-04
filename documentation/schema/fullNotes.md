@@ -5,12 +5,12 @@
 
 [← Back to coreCitation](./coreCitation.html) 
 
-# detailsFull
+# fullNotes
 
 <template>
-    <div v-if="this.coreCitation.detailsFull" id = "container">
-      <p class="larger-text">{{this.coreCitation.detailsFull.description}}</p>
-      <p >Expected Type: <strong>{{this.coreCitation.detailsFull.type}}</strong></p>
+    <div v-if="this.coreCitation.fullNotes" id = "container">
+      <p class="larger-text">{{this.coreCitation.fullNotes.description}}</p>
+      <p >Expected Type: <strong>{{this.coreCitation.fullNotes.type}}</strong></p>
     </div>
 </template>
 
