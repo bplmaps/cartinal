@@ -11,7 +11,7 @@
   "scripts": {
     "dev": "vuepress dev",
     "build": "vuepress build",
-    "sync": "rsync -r -a -v -e ssh --delete .vuepress/dist/ geoservices@172.29.102.73:/var/www/geoservices/cartinal/"
+    "sync": "echo 'Enter geoservices IP'; read geoservices_ip; rsync -r -a -v -e ssh --delete .vuepress/dist/ geoservices@$geoservices_ip:/var/www/geoservices/cartinal/"
   },
   "license": "MIT",
   "devDependencies": {

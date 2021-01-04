@@ -24,7 +24,7 @@ module.exports = {
 		lastUpdated: 'Last Updated',
 		smoothScroll: true,
 		topbarUrl: 'https://www.leventhalmap.org',
-		topbarText: '↩ Leventhal Map & Education Center Home',
+		topbarText: '↩ LMEC Home',
 		oldPageCutoff: 180,
 		nav: [
 			{ text: 'Guides and Tutorials', link: '/guides/' },
