@@ -8,7 +8,7 @@
 # previewDescription
 
 <template>
-    <div v-if="this.coreCitation.shortDataDescription" id = "container">
+    <div v-if="this.coreCitation.previewDescription" id = "container">
       <p class="larger-text">{{this.coreCitation.previewDescription.description}}</p>
       <p >Expected Type: <strong>{{this.coreCitation.previewDescription.type}}</strong></p>
     </div>
