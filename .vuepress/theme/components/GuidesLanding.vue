@@ -2,7 +2,7 @@
     <!-- Frontmatter -->
     <main class="guideslanding" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
         <header class="hero">
-            <p v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</p>
+            <h1 v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
             <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
         </header>
 

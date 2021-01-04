@@ -20,7 +20,7 @@
     <ResourceHome v-if="$page.frontmatter.resourcehome" />
 
 
-    <Page v-else :sidebar-items="sidebarItems">
+    <Page v-if="!$page.frontmatter.home && !$page.frontmatter.guideslanding && !$page.frontmatter.resourcehome" :sidebar-items="sidebarItems">
       <template #top>
         <slot name="page-top" />
       </template>
