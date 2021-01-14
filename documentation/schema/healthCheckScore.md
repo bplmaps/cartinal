@@ -1,29 +1,17 @@
 ---
-
 ---
 
 <br>
 
-[← Back to dataBiography](./dataBiography.html)
+<a href="javascript:history.back()">← Back</a>
 
-# funding
+# healthCheckScore
 
 <template>
-   <table v-if="this.dataBiography.funding" id ="property-table">
-     <p class="larger-text">{{this.dataBiography.funding.description}}</p>
-  <tr>
-    <th>Property</th>
-    <th>Expected Type</th>
-    <th>Required</th>
-    <th>Description</th>
-  </tr>
-  <tr v-for="item, index in this.dataBiography.funding.properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
-    <td>{{item.type}}</td>
-    <td></td>
-    <td>{{item.description}}</td>
-  </tr>
-</table> 
+    <div id = "container">
+      <p class="larger-text">Ranking of available context 1-5. Value 1 (unhealthy) - 5 (healthy)</p>
+      <p >Expected Type: <strong>Integer</strong></p>
+    </div>
 </template>
 
 <script>
@@ -40,12 +28,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: []
+          dataLifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.subjectTagging)
+          console.log(this.coreCitation)
         }
     },
     computed: {

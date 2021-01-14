@@ -1,29 +1,17 @@
 ---
-
 ---
 
 <br>
 
-[← Back to dataBiography](./dataBiography.html)
+<a href="javascript:history.back()">← Back</a>
 
-# potentialBenefit
+# healthCheckQualifier
 
 <template>
-   <table v-if="this.dataBiography.potentialBenefit" id ="property-table">
-     <p class="larger-text">{{this.dataBiography.potentialBenefit.description}}</p>
-  <tr>
-    <th>Property</th>
-    <th>Expected Type</th>
-    <th>Required</th>
-    <th>Description</th>
-  </tr>
-  <tr v-for="item, index in this.dataBiography.potentialBenefit.items[0].properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
-    <td>{{item.type}}</td>
-    <td></td>
-    <td>{{item.description}}</td>
-  </tr>
-</table> 
+    <div id = "container">
+      <p class="larger-text">Notes describing the reason for the given health check score</p>
+      <p >Expected Type: <strong>String</strong></p>
+    </div>
 </template>
 
 <script>
@@ -40,12 +28,12 @@ export default {
           subjectTagging: [],
           dataBiography: [],
           resourceConstellation: [],
-          dataLifecycle: []
+          dataLifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.subjectTagging)
+          console.log(this.coreCitation)
         }
     },
     computed: {
