@@ -20,7 +20,7 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 
 #### Nutshell example
 
-```htmlembedded=
+```html
 
 <!-- polyfill for Web Components; you can omit if you don't want to support older browsers -->
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
@@ -72,7 +72,7 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
 
 #### Example: a minimum viable screenplay, with one scene
 
-```json=
+```json
 {
     "metadata": {
         "title": "A single-scene screenplay"
