@@ -14,8 +14,8 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 1. Import a **Web Component polyfill** if you plan to support older browsers that do not have native support for Web Components.
 2. Import **Vue** from a CDN or locally. If Vue is already part of your page's environment, you can omit this. 
 3. Import the hosted panel-truck script from `https://geoservices.leventhalmap.org/panel-truck/panel-truck-webcomponent.js` 
-4. Create a sized container for the panel-truck component. It can be statically or dynamically sized; in either case, the panel-truck component will fill the size of its parent container.
-5. Inside of your sized container, add the panel-truck component, and pass a JSON source for your screenplay, as `<panel-truck screenplaySrc="https://some-example.org/screenplay.json"></panel-truck>`
+4. Create a sized container for the p`anel-truck` component. It can be statically or dynamically sized; in either case, the `panel-truck` component will fill the size of its parent container.
+5. Inside of your sized container, add the `panel-truck` component, and pass a JSON source for your screenplay, as `<panel-truck screenplaySrc="https://some-example.org/screenplay.json"></panel-truck>`
 
 
 #### Nutshell example
@@ -97,8 +97,16 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
 
 See [this Gist](https://gist.github.com/garrettdashnelson/73b32f40cccbe30239838dd3bd63988a) for the screenplay used to create the example panel-truck presentation from the first section of this document.
 
-## Using panel-truck
 
-panel-truck is free to use for non-commercial institutions, provided that you retain the Leventhal Map & Education Center credit in the final slide. Feel free to [get in touch](https://www.leventhalmap.org/about/people/garrett-nelson/) if you found this project useful, or if you want access to the source code.
+## License
+
+Panel-truck is released on the MIT License. You can find the source code on [GitHub](https://github.com/bplmaps/panel-truck). If you use it in a project and find it useful, you might:
+
+- Let us know where you are using the project by sending us a note at <info@leventhalmap.org>
+- Tag us on social media @bplmaps
+- Retain the Leventhal Map & Education Center credit which is included by default in the final slide of a Panel Truck presentation
+
+LMEC is a small nonprofit institution, financially independent of the Boston Public Library. If you have institutional resources available, consider [making a donation](https://www.leventhalmap.org/donate/) to support our mission.
+
 
 
