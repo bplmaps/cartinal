@@ -13,6 +13,6 @@ features:
   details: Book a librarian for personalized help with your project
   link: https://www.leventhalmap.org/research/geospatial/
 
-footer: MIT Licensed | Copyright © 2020 LMEC
+footer: MIT Licensed | Unless otherwise noted, all content is CC BY-NC 2.0, Leventhal Map & Education Center 2021
 ---
 
