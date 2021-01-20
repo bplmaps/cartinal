@@ -81,7 +81,7 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
     "scenes": [
         {
             "sceneSource": {
-                "sceneType: ""iiif",
+                "sceneType": "iiif",
                 "iiifImage": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633fb18t"
                 },
             "caption": {
