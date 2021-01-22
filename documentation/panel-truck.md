@@ -13,7 +13,7 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 
 1. Import a **Web Component polyfill** if you plan to support older browsers that do not have native support for Web Components.
 2. Import **Vue** from a CDN or locally. If Vue is already part of your page's environment, you can omit this. 
-3. Import the hosted panel-truck script from `https://geoservices.leventhalmap.org/panel-truck/panel-truck-webcomponent.js` 
+3. Import the hosted panel-truck script from `https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.1/panel-truck.min.js` 
 4. Create a sized container for the p`anel-truck` component. It can be statically or dynamically sized; in either case, the `panel-truck` component will fill the size of its parent container.
 5. Inside of your sized container, add the `panel-truck` component, and pass a JSON source for your screenplay, as `<panel-truck screenplaySrc="https://some-example.org/screenplay.json"></panel-truck>`
 
@@ -21,17 +21,16 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 #### Nutshell example
 
 ```html
-
 <!-- polyfill for Web Components; you can omit if you don't want to support older browsers -->
 <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     
 <!-- you can omit the Vue import if Vue is already present -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
 
-<script src="https://geoservices.leventhalmap.org/panel-truck/panel-truck-webcomponent.js">
+<script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.1/panel-truck.min.js"></script>
 
 <div style="width:1000px;height:800px;"><!-- the panel-truck componenet will take the size of its parent element -->
-<panel-truck screenplaySrc="https://some-example.org/screenplay.json"></panel-truck>
+<panel-truck screenplay-src="https://some-example.org/screenplay.json"></panel-truck>
 </div>
 
 ```
@@ -50,7 +49,7 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
 
 `scenes`: ✴️ an array of objects, each of which create a "scenes" (i.e., "slide") in the narration. Each scene object includes the following key-value pairs:
  * `sceneSource`: ✴️ an object with the following key-value pairs:
-     * `sceneType`: ✴️ string, one of:
+     * `sourceType`: ✴️ string, one of:
          * `iiif`
          * `image`
          * `geoMap`
@@ -81,7 +80,7 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
     "scenes": [
         {
             "sceneSource": {
-                "sceneType": "iiif",
+                "sourceType": "iiif",
                 "iiifImage": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633fb18t"
                 },
             "caption": {
