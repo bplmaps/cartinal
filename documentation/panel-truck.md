@@ -59,7 +59,8 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
          * `sequence`: defaults to `0` if unset
          * `canvas`: defaults to `0` if unset
          * `image`: defaults to `0` if unset
-     * `iiifImage`:  if `sceneType` is `iiif`, pass an IIIF Image endpoint as a string
+     * `iiifImage`:  if `sceneType` is `iiif`, passes an IIIF Image endpoint as an object with the following key-value pairs:
+        * `image`: fully qualified URL to Image endpoint
      * `imageSource`: if `sceneType` is `image`, passes a static image URL as a string
      * `tileJSON`: if `sceneType` is `geoMap`, passes a TileJSON URL as a string
      * `tileXYZ`: if `sceneType` is `geoMap`, passes an XYZ tile scema as a string, which must contain `{x}`, `{y}`, and `{z}` placeholders
@@ -81,7 +82,8 @@ A screenplay is a JSON file. You can host it anywhere, or generate it dynamicall
         {
             "sceneSource": {
                 "sourceType": "iiif",
-                "iiifImage": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633fb18t"
+                "iiifImage": 
+                    {"image": "https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:x633fb18t" }
                 },
             "caption": {
                 "text": "This is a map made by John Speed"
