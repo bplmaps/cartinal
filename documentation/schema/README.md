@@ -25,3 +25,9 @@ Or you can jump to sub-sections of the schema:
 
 Browse the full schema in JSON format here:
 - [Full schema JSON](https://github.com/nblmc/Data-Context/blob/master/schema.json)
+
+
+## Health Check Scores
+
+You can learn how we rate documenatation here:
+- [Health check score breakdown](./healthcheck.html)
