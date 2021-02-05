@@ -52,6 +52,16 @@ module.exports = {
         '',
         'interface',
         'basics'
+      ],
+      "/guides/critical-intro-to-data/session-1/": [
+        "./",
+        "part-1",
+        "part-2",
+        "part-3",
+        "part-4",
+        "part-5",
+        "part-6",
+        "part-7"
       ]
     }    
   }
