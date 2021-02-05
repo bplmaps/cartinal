@@ -16,46 +16,51 @@ These scores are used to aid in the evaluation of available official documentati
 
 ### Score Breakdown
 
-#### Score 0
-No context has been provided in the official documentation.<br>
-<img src="./media/score0.png" alt="Score 0" width="400"><br>
+#### 0 Stars: No Documentation
+Documentation is nonexistent.<br>
+<img src="./media/score0.png" alt="Score 0" width="300"><br>
 
 
-#### Score 1
-Official documentation provides minimal or incomplete context about the circumstances of the dataset's creation. <br>
-<img src="./media/score1.png" alt="Score 1" width="400"><br>
+#### 1 Star: Unhealthy, Missing or Incomplete Documentation 
+Documentation exists, but does not meet any of the standards defined by the categorical evaluation checklist.<br>
+<img src="./media/score1.png" alt="Score 1" width="300"><br>
 
 
-#### Score 2
-Context about the details of the dataset's creation is available, but does not speak to social impact of the choices made. <br>
-<img src="./media/score2.png" alt="Score 2" width="400"><br>
+
+#### 2 Stars: Below Average Documentation Health
+Documentation exists, but meets few standards defined by the categorical evaluation checklist.<br>
+<img src="./media/score2.png" alt="Score 2" width="300"><br>
 
 
-#### Score 3
-Context is comprehensive and addresses the data creators' considerations and actions in relation to the dataset's impact on society. <br>
-<img src="./media/score3.png" alt="Score 3" width="400"><br>
+
+#### 3 Stars: Average Documentation Health
+Documentation exists, and meets some of the standards defined by the categorical evaluation checklist.<br>
+<img src="./media/score3.png" alt="Score 3" width="300"><br>
+
+
+#### 4 Stars: Above Average Healthy Documentation
+Documentation exists, and meets many of the standards defined by the categorical evaluation checklist.<br>
+<img src="./media/score4.png" alt="Score 4" width="300"><br>
+
+
+#### 5 Stars: Extremely Healthy Documentation
+ Documentation exists and meets all of the standards defined by the categorical evaluation checklist.<br>
+<img src="./media/score5.png" alt="Score 5" width="300"><br>
 
 ## Evaluation Checklist
 
-### Overview
-
 These checklists are used as the guides for informing the themed section scores.
 
-### Evaluation Categories
 
-#### Social Justice and Representation
+### Social Justice and Representation
 
 - To what extent does this documentation describe how the data creators or project designers considered the inclusion of voices of the people who are represented by the dataset, or most likely to be impacted by the dataset?
 
-#### Reliability and Public Responsibility
+### Ethical Governance and Public Responsibility
 
 - Does the documentation communicate what steps are taken to assure participants' privacy?
 
 - How does the documentation handle the issue of participant consent, does it speak to how consent is defined, and the degree to which participants' understood how their data would be used?
-
-- Does the documentation state the limitations of the dataset, citing examples of what it can and cannot be used to show?
-
-- Does the documentation explain the original purpose for the data, including any funding stipulations?
 
 - Does the documentation explain the data creators' or maintainer's motivation for making the data open, how they envision it could be beneficial to society?
 
@@ -64,8 +69,7 @@ These checklists are used as the guides for informing the themed section scores.
 - Do official sources include ways they envision opportunities for public collaboration?
 
 
-
-#### Historic Conditions and Influences
+### Historic Conditions and Influences
 
 - How thoughtfully does the documentation reflect on ways the data project could perpetuate past systemic injustices 
 
@@ -73,7 +77,22 @@ These checklists are used as the guides for informing the themed section scores.
 
 - Does the documentation indicate if there is a potential for any past harms to be repeated by this dataset?
 
-#### Potential Future Impact
+### Methodology and Provenance
+
+- How well does the documentation explain the process by which this data came to be?
+
+- Does the documentation provide sufficient information about relevant methodological choices?
+
+- If this data has been cleaned, pre-processed or analyzed, how well could someone new to the data reproduce the processing steps, based on the provided documentation?
+
+- If additional assets were required to perform processing or analysis, such as scripts or supplementary data files, are those assets clearly defined and openly accessible?
+
+- Does the documentation state the limitations of the dataset, citing examples of what it can and cannot be used to show?
+
+- Does the documentation explain the original purpose for the data, including any funding stipulations?
+
+
+### Potential Future Impact
 
 - Does the documenation indicate potential value from this dataset to empower the public?
 
@@ -86,5 +105,5 @@ These checklists are used as the guides for informing the themed section scores.
 - If any future funding is dependent on this dataset or any related outputs, does the documentation note that?
 
 
-*Graphics via [the Noun Project](https://thenounproject.com/term/rating/1293617/)*
+
 
