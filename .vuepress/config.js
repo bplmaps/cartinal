@@ -40,6 +40,10 @@ module.exports = {
               path: '@theme/components/AtlasLayerList.vue'
             },
             {
+              name: 'Hideable',
+              path: '@theme/components/Hideable.vue'
+            },
+            {
               name: 'schema-full',
               path: '@theme/components/SchemaFull.vue'
             }

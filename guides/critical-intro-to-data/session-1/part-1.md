@@ -1,12 +1,66 @@
+---
+health:
+    underConstruction: true
+---
+
 # What is a map? What is data?
 
-You might be wondering, "what's the point of looking at so many maps and data sets? Why can't I just make a map?" And this is a valid inquiry. 
+## How maps and data are different
 
-[A good way to think about it is this: when we learned more advanced reading and writing in middle school, we first learned the ins and outs of grammar. We learned different types of words (nouns, verbs, adjectives, and so on), and we learned proper sentence structure. Only when we understand those basics could we start reading and analyzing books, articles, and poetry. Maps are like sentences in this way: they are made up of component parts, which are put together according to a set of rules and conventions. It's only when we know these rules and conventions that we can start making well-considered maps, and being thoughtful consumers of maps made by others.]  
+* Like most people, you might find that the terms "maps" and "data" blend together in your head
+* Do you think ...
+    * Is a map data?
+    * Does a map *show* data?
+    * Is a map *made up of* data?
+    * Are *all* maps related to data, or are data maps a particular type of map?
 
-A good way to think about it is like this: data are the component parts that make up a map, just how words are the component parts of a sentence. The use and manipulation of data are the means by which we make sense of it, just how grammatical structure defines the meaning of a sentence. If we do not understand grammatical theory, we cannot interpret and construct language as fluently. Similarly, taking a look at existing maps and asking about the meta-attributes of data prepare us to know what exactly we communicate when we do build a map. 
+<aside>
 
-[[By learning to interpret, analyze and create digital maps, you are strengthening your geoliteracy skills. What do we mean by geoliteracy?
+Try running a [Google Image search](https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1341&ei=4IklYLu4CZC1ggeL5ZaIAQ&q=data&oq=data&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6AggAOggIABCxAxCDAVC-BFieBmCAB2gAcAB4AIABeogB9wGSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwi7qMLYzOLuAhWQmuAKHYuyBREQ4dUDCAY&uact=5) for the word "data."  What kinds of stereotypes do you find relating to this word looking at just the first page of results?
+
+</aside>
+
+* A metaphor from language and grammar
+    * Data are the component parts that make up a map, in much the same way that words are the component parts of a sentence
+    * Just like words can become part of sentences and then become, for instance, a spoken lecture, maps are one particular form through which data can be communicated.
+* Breaking down a map into its components allows us to understand what's going on
+* It also gives us a framework for thinking about how to "speak" in this language yourself
+
+## Data are observations about the world
+
+* You might have a strong association between the word "data" and "numbers in a computer"
+* Data is really a more general term about _information_
+    * Medieval European maps, for example, were made up of "data" that were gathered from sources of evidence like the passages of the Bible
+
+<aside>
+
+Can you think of a type of geographic data that you create and use in your everyday life? Think about observations about space and place that you are making all the time.
+
+</aside>
+
+* Consider an ordinary web map that you might use to get to the nearest coffee shop
+    * Data about ...
+    * Where coffee shops are located
+    * What those coffee shops are called and when they're open
+    * Where you are located
+    * How you're planning to get around (walk, bike, transit, drive)
+    * How roads and paths are connected in space
+    * What the roads are named
+    * And more!
+
+## In between data and a map are people
+
+* Data can *never* become a map all by itself
+* For even the simplest data set, there are hundreds of different methods and techniques for possible visual representation
+* The relationship betwen "data" and "map" is never one-to-one
+
+## Check yourself
+
+1. True or false: One single map always uses exactly one data set.
+2. True or false: Not all data can be read by computers
+
+
+<Hideable title="On your own time">
 
 A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe  visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.]]
 
@@ -41,3 +95,11 @@ Thematic maps of Denver, showing the surface temperature and household income. P
 Making a map is a long process of abstraction, translation, and communication. We will soon learn that part of the abstraction begins much earlier than that: in the collection and creation of data. But first, let's make a map!
 
 
+
+</Hideable>
+
+<Hideable title="References and more reading">
+
+* Lewis Carroll, _Sylvie and Bruno Concluded_ (1893)
+
+</Hideable>

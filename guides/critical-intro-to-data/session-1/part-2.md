@@ -1,3 +1,8 @@
+---
+health:
+    underConstruction: true
+---
+
 # Exercise: Draw Your Own Map
 
 Now that we have started to understand what are maps, we can move onto making handdrawn maps as you too can be a mapmaker! Pick a place that's important to you such as where you live, your school, or another familiar location.

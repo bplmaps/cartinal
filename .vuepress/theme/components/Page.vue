@@ -29,5 +29,17 @@ export default {
 .page
   padding-bottom 2rem
   display block
+  & aside
+    width: 40%
+    float: right
+    margin-left: 20px
+    border 1px dotted #1a1a37
+    padding: 0 15px
+    color: #777
+    box-shadow: -3px -3px 0 lighten(#1a1a37, 80%)
+    background-color: white
+
+
+
 
 </style>
