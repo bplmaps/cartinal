@@ -4,20 +4,20 @@
 
 <br>
 
-[← Back to coreCitation](./coreCitation)
+[← Back to citation](./citation)
 
 # bboxPreview
 
 <template>
-   <table v-if="this.coreCitation.bboxPreview" id ="property-table">
-     <p class="larger-text">{{this.coreCitation.bboxPreview.description}}</p>
+   <table v-if="this.citation.bboxPreview" id ="property-table">
+     <p class="larger-text">{{this.citation.bboxPreview.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.coreCitation.bboxPreview.properties" :key="index">
+  <tr v-for="item, index in this.citation.bboxPreview.properties" :key="index">
     <td>{{index}}</td>
     <td>{{item.type}}</td>
     <td></td>
@@ -35,7 +35,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -58,7 +58,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

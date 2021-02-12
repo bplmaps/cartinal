@@ -1,5 +1,7 @@
 ---
 sidebar: auto
+health:
+    underConstruction: true
 ---
 
 # LMEC Data Description Schema
@@ -14,7 +16,7 @@ Browse the full schema hierarchy here:
 
 Or you can jump to sub-sections of the schema:
 
-- [coreCitation](./coreCitation.html)
+- [citation](./citation.html)
 - [dataEndpoints](./dataEndpoints.html)
 - [subjectTagging](./subjectTagging.html)
 - [dataBiography](./databiography.html)
@@ -30,4 +32,4 @@ Browse the full schema in JSON format here:
 ## Health Check Scores
 
 You can learn how we rate documenatation here:
-- [Health check score breakdown](./healthcheck.html)
+- [Healthy documentation checklist](./healthcheck.html)

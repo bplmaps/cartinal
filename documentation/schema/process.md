@@ -3,14 +3,14 @@
 
 <br>
 
-[← Back to manipulation](./manipulation.html)
+[← Back to processing](./processing.html)
 
 # process
 
 <template>
-    <div v-if="this.dataLifecycle.manipulation" id = "container">
-      <p class="larger-text">{{this.dataLifecycle.manipulation.properties.process.description}}</p>
-      <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.process.type}}</strong></p>
+    <div v-if="this.dataLifecycle.processing" id = "container">
+      <p class="larger-text">{{this.dataLifecycle.processing.properties.process.description}}</p>
+      <p >Expected Type: <strong>{{this.dataLifecycle.processing.properties.process.type}}</strong></p>
     <table id ="property-table">
         <tr>
             <th>Property</th>
@@ -18,7 +18,7 @@
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.dataLifecycle.manipulation.properties.process.properties" :key="index">
+        <tr v-for="item, index in this.dataLifecycle.processing.properties.process.properties" :key="index">
             <td><a :href="index + '.html'" >{{index}}</a></td>
             <td>{{item.type}}</td>
             <td></td>
@@ -37,7 +37,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -60,7 +60,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

@@ -35,7 +35,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -69,7 +69,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

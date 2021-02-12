@@ -6,23 +6,23 @@ sidebar: auto
 
 [← Back to Schema Home](./)
 
-# coreCitation
+# citation
 
 ## Schema
 
 <template>
-  <table v-if="this.schema.coreCitation" id ="property-table">
-    <p class="larger-text">{{this.schema.coreCitation.description}}</p>
+  <table v-if="this.schema.citation" id ="property-table">
+    <p class="larger-text">{{this.schema.citation.description}}</p>
     <tr>
       <th>Property</th>
       <th>Expected Type</th>
       <th>Required</th>
       <th>Description</th>
     </tr>
-    <tr v-for="item, index in this.schema.coreCitation.properties" :key="index">
+    <tr v-for="item, index in this.schema.citation.properties" :key="index">
       <td><a :href="index + '.html'" >{{index}}</a></td>
       <td>{{item.type}}</td>
-      <td id="required">{{checkRequired(index, schema.coreCitation.required)}}</td>
+      <td id="required">{{checkRequired(index, schema.citation.required)}}</td>
       <td>{{item.description}}</td>
     </tr>
   </table>
@@ -37,7 +37,7 @@ export default {
   data() {
     return {
       schema: [],
-      coreCitation: [],
+      citation: [],
       dataEndpoints: [],
       subjectTagging: [],
       dataBiography: [],
@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     whatsUp(){
-      console.log(this.schema.coreCitation.required)
+      console.log(this.schema.citation.required)
     },
     checkRequired(evaluatedItem, requiredFieldsList){
       if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -71,7 +71,7 @@ export default {
   axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
         .then(response => {
           this.schema = response.data.properties
-          this.coreCitation = response.data.properties.coreCitation.properties
+          this.citation = response.data.properties.citation.properties
           this.dataEndpoints = response.data.properties.dataEndpoints
           this.subjectTagging = response.data.properties.subjectTagging.properties
           this.dataBiography = response.data.properties.dataBiography.properties
@@ -102,7 +102,7 @@ td#required
 ### Dataset Example
 
 ```json
-"coreCitation": {
+"citation": {
 	"$id": "ark:/76611/dkgsk7g8m",
 	"title": "Simplified Massachusetts Town Boundaries",
 	"recordType": "Dataset",
@@ -121,7 +121,7 @@ td#required
 
 ### Collection Example
 ``` json
-"coreCitation": {
+"citation": {
 	"$id": "ark:/76611/dkgsjlciz",
 	"title": "Historic Boston Shoreline",
 	"recordType": "Collection",
