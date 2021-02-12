@@ -3,14 +3,14 @@
 
 <br>
 
-[← Back to manipulation](./manipulation.html)
+[← Back to processing](./processing.html)
 
 # actors
 
 <template>
-    <div v-if="this.dataLifecycle.manipulation" id = "container">
-      <p class="larger-text">{{this.dataLifecycle.manipulation.properties.actors.description}}</p>
-      <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.actors.type}}</strong></p>
+    <div v-if="this.dataLifecycle.processing" id = "container">
+      <p class="larger-text">{{this.dataLifecycle.processing.properties.actors.description}}</p>
+      <p >Expected Type: <strong>{{this.dataLifecycle.processing.properties.actors.type}}</strong></p>
     <table id ="property-table">
         <tr>
             <th>Property</th>
@@ -18,10 +18,10 @@
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.dataLifecycle.manipulation.properties.actors.items[0].properties" :key="index">
+        <tr v-for="item, index in this.dataLifecycle.processing.properties.actors.items[0].properties" :key="index">
             <td><a :href="index + '.html'" >{{index}}</a></td>
             <td>{{item.type}}</td>
-            <td id="required">{{checkRequired(index, schema.dataLifecycle.properties.manipulation.properties.actors.items[0].required)}}</td>
+            <td id="required">{{checkRequired(index, schema.dataLifecycle.properties.processing.properties.actors.items[0].required)}}</td>
             <td>{{item.description}}</td>
         </tr>
     </table> 
@@ -37,7 +37,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -47,7 +47,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.schema.dataLifecycle.properties.manipulation.properties.actors.items[0].required)
+          console.log(this.schema.dataLifecycle.properties.processing.properties.actors.items[0].required)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
             if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -71,7 +71,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

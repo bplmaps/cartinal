@@ -8,11 +8,11 @@
 # format
 
 <template>
-    <div v-if="this.dataLifecycle.manipulation" id = "container">
-      <p class="larger-text">{{this.dataLifecycle.manipulation.properties.records.description}}</p>
-      <p >Expected Type: <strong>{{this.dataLifecycle.manipulation.properties.records.type}}</strong></p>
+    <div v-if="this.dataLifecycle.processing" id = "container">
+      <p class="larger-text">{{this.dataLifecycle.processing.properties.records.description}}</p>
+      <p >Expected Type: <strong>{{this.dataLifecycle.processing.properties.records.type}}</strong></p>
       <p >Options: <strong></strong></p>
-      <ul v-for="item, index in this.dataLifecycle.manipulation.properties.records.items[0].properties.format.enum" :key="index">
+      <ul v-for="item, index in this.dataLifecycle.processing.properties.records.items[0].properties.format.enum" :key="index">
       <li><strong>{{item}}</strong></li>
       </ul>
     </div>
@@ -27,7 +27,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -37,7 +37,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.citation)
         }
     },
     computed: {
@@ -50,7 +50,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

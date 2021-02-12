@@ -6,21 +6,21 @@
 
 [← Back to dataLifecycle](./dataLifecycle.html)
 
-# manipulation
+# processing
 
 <template>
-   <table v-if="this.dataLifecycle.manipulation" id ="property-table">
-     <p class="larger-text">{{this.dataLifecycle.manipulation.description}}</p>
+   <table v-if="this.dataLifecycle.processing" id ="property-table">
+     <p class="larger-text">{{this.dataLifecycle.processing.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.dataLifecycle.manipulation.properties" :key="index">
+  <tr v-for="item, index in this.dataLifecycle.processing.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.dataLifecycle.properties.manipulation.required)}}</td>
+    <td id="required">{{checkRequired(index, schema.dataLifecycle.properties.processing.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -35,7 +35,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -45,7 +45,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.schema.dataLifecycle.properties.manipulation)
+          console.log(this.schema.dataLifecycle.properties.processing)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
           if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -69,7 +69,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties

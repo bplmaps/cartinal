@@ -3,14 +3,14 @@
 
 <br>
 
-[← Back to coreCitation](./coreCitation.html) 
+[← Back to citation](./citation.html) 
 
-# briefDescription
+# previewDescription
 
 <template>
-    <div v-if="this.coreCitation.briefDescription" id = "container">
-      <p class="larger-text">{{this.coreCitation.briefDescription.description}}</p>
-      <p >Expected Type: <strong>{{this.coreCitation.briefDescription.type}}</strong></p>
+    <div v-if="this.citation.previewDescription" id = "container">
+      <p class="larger-text">{{this.citation.previewDescription.description}}</p>
+      <p >Expected Type: <strong>{{this.citation.previewDescription.type}}</strong></p>
     </div>
 </template>
 
@@ -23,7 +23,7 @@ export default {
     data() {
         return {
           schema: [],
-          coreCitation: [],
+          citation: [],
           dataEndpoints: [],
           subjectTagging: [],
           dataBiography: [],
@@ -33,7 +33,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.coreCitation)
+          console.log(this.citation)
         }
     },
     computed: {
@@ -46,7 +46,7 @@ export default {
         axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.coreCitation = response.data.properties.coreCitation.properties
+                this.citation = response.data.properties.citation.properties
                 this.dataEndpoints = response.data.properties.dataEndpoints
                 this.subjectTagging = response.data.properties.subjectTagging.properties
                 this.dataBiography = response.data.properties.dataBiography.properties
@@ -72,5 +72,5 @@ p.larger-text
 ## Example 
 
 ``` json
-"briefDescription": "Depicts Boston's historic shoreline from the year 1916."
+"previewDescription": "Depicts Boston's historic shoreline from the year 1916."
 ```
