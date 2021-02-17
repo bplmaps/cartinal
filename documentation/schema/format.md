@@ -8,11 +8,11 @@
 # format
 
 <template>
-    <div v-if="this.dataLifecycle.processing" id = "container">
-      <p class="larger-text">{{this.dataLifecycle.processing.properties.records.description}}</p>
-      <p >Expected Type: <strong>{{this.dataLifecycle.processing.properties.records.type}}</strong></p>
+    <div v-if="this.peopleLifecycle.processing" id = "container">
+      <p class="larger-text">{{this.peopleLifecycle.processing.properties.records.description}}</p>
+      <p >Expected Type: <strong>{{this.peopleLifecycle.processing.properties.records.type}}</strong></p>
       <p >Options: <strong></strong></p>
-      <ul v-for="item, index in this.dataLifecycle.processing.properties.records.items[0].properties.format.enum" :key="index">
+      <ul v-for="item, index in this.peopleLifecycle.processing.properties.records.items[0].properties.format.enum" :key="index">
       <li><strong>{{item}}</strong></li>
       </ul>
     </div>
@@ -28,11 +28,11 @@ export default {
         return {
           schema: [],
           citation: [],
-          dataEndpoints: [],
-          subjectTagging: [],
-          dataBiography: [],
-          resourceConstellation: [],
-          dataLifecycle: [],
+          endpoints: [],
+          filterTagging: [],
+          documentationHealth: [],
+          relatedResources: [],
+          peopleLifecycle: [],
         }
     },
     methods: {
@@ -51,11 +51,11 @@ export default {
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties
-                this.dataEndpoints = response.data.properties.dataEndpoints
-                this.subjectTagging = response.data.properties.subjectTagging.properties
-                this.dataBiography = response.data.properties.dataBiography.properties
-                this.resourceConstellation = response.data.properties.resourceConstellation.properties
-                this.dataLifecycle = response.data.properties.dataLifecycle.properties
+                this.endpoints = response.data.properties.endpoints
+                this.filterTagging = response.data.properties.filterTagging.properties
+                this.documentationHealth = response.data.properties.documentationHealth.properties
+                this.relatedResources = response.data.properties.relatedResources.properties
+                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

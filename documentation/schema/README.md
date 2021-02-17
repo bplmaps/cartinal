@@ -1,35 +1,24 @@
 ---
 sidebar: auto
-health:
-    underConstruction: true
 ---
 
-# LMEC Data Description Schema
+# LMEC Data Schema Homepage
 
-## Full hierarchy
+## Full schema in JSON format
 
-Browse the full schema hierarchy here:
+You can browse the full schema in JSON format here:
+- [Full schema JSON](https://github.com/bplmaps/Data-Context/blob/master/schema.json)
 
-- [Full schema hierarchy](./schema-full.html)
-
-## Sub-sections
-
-Or you can jump to sub-sections of the schema:
-
-- [citation](./citation.html)
-- [dataEndpoints](./dataEndpoints.html)
-- [subjectTagging](./subjectTagging.html)
-- [dataBiography](./databiography.html)
-- [resourceConstellation](./resourceConstellation.html)
-- [dataLifecycle](./dataLifecycle.html)
-
-## Full JSON
-
-Browse the full schema in JSON format here:
-- [Full schema JSON](https://github.com/nblmc/Data-Context/blob/master/schema.json)
+## Schema documentation by section
+<schema-full></schema-full>
 
 
-## Health Check Scores
+## Healthy documentation checklist
 
-You can learn how we rate documenatation here:
+You can learn how we evaluate data source's documentation here:
 - [Healthy documentation checklist](./healthcheck.html)
+
+
+
+
+

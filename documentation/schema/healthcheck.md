@@ -1,5 +1,5 @@
 --- 
-
+sidebar: auto
 ---
 
 <br>
@@ -11,10 +11,13 @@
 
 This checklist of questions is used by LMEC Data Librarians to aid in evaluating the health of any given dataset's documentation. Healthy documentation provided by the dataset's creator or maintainer gives people enough information to know how they should and shouldn't use the data.
 
+## Representation
 
 ### Did the data creators consider the voices of those who the dataset is most likely to affect?
 
 Q. To what extent does the documentation describe how the data creators or project designers considered the voices of those who the dataset represents or will most likely impact? 
+
+## Public Trust
 
 ### Are the data publishers committed to relationships of trust with the public, and if so, how?
 
@@ -28,6 +31,7 @@ Q. Do published materials by the data provider express a commitment to keeping t
 
 Q. Do published materials by the data provider outline any opportunities for public collaboration and engagement around this dataset?
 
+## Systemic Injustice
 
 ### What actions have the data creators taken to avoid the perpetuation of systemic injustice or the repeat of past harms?
 
@@ -36,6 +40,8 @@ Q. Does documentation reflect on ways the data project could perpetuate past sys
 Q. Does the documentation provide notes on the data creators' thinking in relation to the historic circumstances which led up to the dataset's creation?
 
 Q. Does the documentation indicate if there is a potential for any past harms to be repeated by this dataset?
+
+## Methodology
 
 ### Can we understand who funded, collected and analyzed the data, and how?
 
@@ -48,7 +54,7 @@ Q. If someone has cleaned, pre-processed or analyzed this data, how well could a
 Q. If data processing or analysis required additional assets, such as scripts or supplementary files, are they accessible and clearly defined?
 
 
-
+## Future Use
 
 ### Can we understand the potential future impact of this dataset, including what someone should and should not use it for?
 

@@ -5,23 +5,23 @@
 
 [← Back to Schema Home](./)
 
-# dataEndpoints
+# endpoints
 
 <template>
-    <div v-if="this.dataEndpoints" id = "container">
-      <p class="larger-text">{{this.dataEndpoints.description}}</p>
-      <p >Expected Type: <strong>{{this.dataEndpoints.type}}</strong></p>
-    <table v-if="this.dataEndpoints.items" id ="property-table">
+    <div v-if="this.endpoints" id = "container">
+      <p class="larger-text">{{this.endpoints.description}}</p>
+      <p >Expected Type: <strong>{{this.endpoints.type}}</strong></p>
+    <table v-if="this.endpoints.items" id ="property-table">
         <tr>
             <th>Property</th>
             <th>Expected Type</th>
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.dataEndpoints.items[0].properties" :key="index">
+        <tr v-for="item, index in this.endpoints.items[0].properties" :key="index">
             <td>{{index}}</td>
             <td>{{item.type}}</td>
-            <td id="required">{{checkRequired(index, schema.dataEndpoints.required)}}</td>
+            <td id="required">{{checkRequired(index, schema.endpoints.required)}}</td>
             <td>{{item.description}}</td>
         </tr>
     </table> 
@@ -38,16 +38,16 @@ export default {
         return {
           schema: [],
           citation: [],
-          dataEndpoints: [],
-          subjectTagging: [],
-          dataBiography: [],
-          resourceConstellation: [],
-          dataLifecycle: [],
+          endpoints: [],
+          filterTagging: [],
+          documentationHealth: [],
+          relatedResources: [],
+          peopleLifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.dataEndpoints)
+          console.log(this.endpoints)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
             if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -72,11 +72,11 @@ export default {
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties
-                this.dataEndpoints = response.data.properties.dataEndpoints
-                this.subjectTagging = response.data.properties.subjectTagging.properties
-                this.dataBiography = response.data.properties.dataBiography.properties
-                this.resourceConstellation = response.data.properties.resourceConstellation.properties
-                this.dataLifecycle = response.data.properties.dataLifecycle.properties
+                this.endpoints = response.data.properties.endpoints
+                this.filterTagging = response.data.properties.filterTagging.properties
+                this.documentationHealth = response.data.properties.documentationHealth.properties
+                this.relatedResources = response.data.properties.relatedResources.properties
+                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
             }).catch(err => {
                 console.log(err)
             })
@@ -100,7 +100,7 @@ td#required
 ## Example 
 
 ``` json
-	"dataEndpoints": [{
+	"endpoints": [{
 		"$id": "ark:/76611/dkgskarjx/endpoint/1",
 		"relatedResourceURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
 		"format": "Shapefile",

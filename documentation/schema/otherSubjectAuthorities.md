@@ -8,17 +8,17 @@
 # otherSubjectAuthorities
 
 <template>
-    <div v-if="this.subjectTagging.thematic" id = "container">
-      <p class="larger-text">{{this.subjectTagging.thematic.properties.otherSubjectAuthorities.description}}</p>
-      <p >Expected Type: <strong>{{this.subjectTagging.thematic.properties.otherSubjectAuthorities.type}}</strong></p>
-    <table v-if="this.subjectTagging.thematic" id ="property-table">
+    <div v-if="this.filterTagging.thematic" id = "container">
+      <p class="larger-text">{{this.filterTagging.thematic.properties.otherSubjectAuthorities.description}}</p>
+      <p >Expected Type: <strong>{{this.filterTagging.thematic.properties.otherSubjectAuthorities.type}}</strong></p>
+    <table v-if="this.filterTagging.thematic" id ="property-table">
         <tr>
             <th>Property</th>
             <th>Expected Type</th>
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.subjectTagging.thematic.properties.otherSubjectAuthorities.items[0].properties" :key="index">
+        <tr v-for="item, index in this.filterTagging.thematic.properties.otherSubjectAuthorities.items[0].properties" :key="index">
             <td>{{index}}</td>
             <td>{{item.type}}</td>
             <td></td>
@@ -38,16 +38,16 @@ export default {
         return {
           schema: [],
           citation: [],
-          dataEndpoints: [],
-          subjectTagging: [],
-          dataBiography: [],
-          resourceConstellation: [],
-          dataLifecycle: [],
+          endpoints: [],
+          filterTagging: [],
+          documentationHealth: [],
+          relatedResources: [],
+          peopleLifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.dataEndpoints)
+          console.log(this.endpoints)
         }
     },
     computed: {
@@ -61,11 +61,11 @@ export default {
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties
-                this.dataEndpoints = response.data.properties.dataEndpoints
-                this.subjectTagging = response.data.properties.subjectTagging.properties
-                this.dataBiography = response.data.properties.dataBiography.properties
-                this.resourceConstellation = response.data.properties.resourceConstellation.properties
-                this.dataLifecycle = response.data.properties.dataLifecycle.properties
+                this.endpoints = response.data.properties.endpoints
+                this.filterTagging = response.data.properties.filterTagging.properties
+                this.documentationHealth = response.data.properties.documentationHealth.properties
+                this.relatedResources = response.data.properties.relatedResources.properties
+                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

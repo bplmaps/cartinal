@@ -4,23 +4,23 @@
 
 <br>
 
-[← Back to resourceConstellation](./resourceConstellation.html)
+[← Back to relatedResources](./relatedResources.html)
 
 # codebooks
 
 <template>
-   <table v-if="this.resourceConstellation.codebooks" id ="property-table">
-     <p class="larger-text">{{this.resourceConstellation.codebooks.description}}</p>
+   <table v-if="this.relatedResources.codebooks" id ="property-table">
+     <p class="larger-text">{{this.relatedResources.codebooks.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.resourceConstellation.codebooks.items[0].properties" :key="index">
+  <tr v-for="item, index in this.relatedResources.codebooks.items[0].properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.resourceConstellation.properties.codebooks.items[0].required)}}</td>
+    <td id="required">{{checkRequired(index, schema.relatedResources.properties.codebooks.items[0].required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -36,16 +36,16 @@ export default {
         return {
           schema: [],
           citation: [],
-          dataEndpoints: [],
-          subjectTagging: [],
-          dataBiography: [],
-          resourceConstellation: [],
-          dataLifecycle: []
+          endpoints: [],
+          filterTagging: [],
+          documentationHealth: [],
+          relatedResources: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.schema.resourceConstellation.properties.codebooks.items[0].required)
+          console.log(this.schema.relatedResources.properties.codebooks.items[0].required)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
         if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -70,11 +70,11 @@ export default {
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties
-                this.dataEndpoints = response.data.properties.dataEndpoints
-                this.subjectTagging = response.data.properties.subjectTagging.properties
-                this.dataBiography = response.data.properties.dataBiography.properties
-                this.resourceConstellation = response.data.properties.resourceConstellation.properties
-                this.dataLifecycle = response.data.properties.dataLifecycle.properties
+                this.endpoints = response.data.properties.endpoints
+                this.filterTagging = response.data.properties.filterTagging.properties
+                this.documentationHealth = response.data.properties.documentationHealth.properties
+                this.relatedResources = response.data.properties.relatedResources.properties
+                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

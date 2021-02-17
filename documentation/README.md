@@ -12,9 +12,9 @@ themes:
 
 - themeTitle: Data Archive
   topics: 
-    - topicName: LMEC Data Description Schema
+    - topicName: Data Schema Homepage
       link: ./schema/
-      description: Reference documentation for using the LMEC descriptive metadata schema for providing context to data resources.
+      description: Reference documentation for using the LMEC descriptive metadata schema for hosting open, humanistically-contextualized datasets.
 
 - themeTitle: Library Tools
   topics: 
