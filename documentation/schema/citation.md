@@ -1,6 +1,3 @@
----
-sidebar: auto
----
 
 <br>
 
@@ -8,8 +5,6 @@ sidebar: auto
 
 
 # citation
-
-## Schema
 
 <template>
   <table v-if="this.schema.citation" id ="property-table">
@@ -98,7 +93,7 @@ td#required
 
 </style>
 
-## Example
+## Example use
 
 
 ```json
