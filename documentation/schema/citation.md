@@ -6,6 +6,7 @@ sidebar: auto
 
 [← Back to Schema Home](./)
 
+
 # citation
 
 ## Schema
@@ -68,7 +69,7 @@ export default {
   },
   created() {
   //returns a promise
-  axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
+  axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
         .then(response => {
           this.schema = response.data.properties
           this.citation = response.data.properties.citation.properties
@@ -97,38 +98,23 @@ td#required
 
 </style>
 
-## Examples
+## Example
 
-### Dataset Example
 
 ```json
-"citation": {
-	"$id": "ark:/76611/dkgsk7g8m",
-	"title": "Simplified Massachusetts Town Boundaries",
-	"recordType": "Dataset",
-	"hostedBy": "Internal",
-	"shortDataDescription": "LMEC-recommended dataset for representing Massachusetts town features.",
-	"shortGenealogyDescription": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products.",
-	"includesDataTypes": ["MultiPolygon"],
-	"bboxPreview": {
-		"previewSRS": "EPSG:4326",
-		"lowerCorner": [-73.508210, 41.239062],
-		"upperCorner": [-69.928093, 42.886778]
-	},
-	"accessCondition": "This item is in the public domain. There are no restrictions on use."
-}
-```
-
-### Collection Example
-``` json
-"citation": {
-	"$id": "ark:/76611/dkgsjlciz",
-	"title": "Historic Boston Shoreline",
-	"recordType": "Collection",
-	"hostedBy": "Internal",
-	"shortDataDescription": "Collection of data files depicting Boston's historic shoreline across various years.",
-	"shortGenealogyDescription": "These files were created by manually 'digitizing' or  creating vector features from a collectin of born-digital maps held by the Leventhal Map and Education Center. This collection can be accessed here: https://collections.leventhalmap.org/search?utf8=%E2%9C%93&q=mapworks . As the original data used to create these maps was not preserved, the geospatial vector data was re-created in 2019, and this collection refers to the data created by that process.",
-	"accessCondition": "This collection is in the public domain. There are no restrictions on use.",
-	"collectionItems": ["ark:/76611/dkhgt7w5x", "ark:/76611/dkhgt8ebr", "ark:/76611/dkhgt8vf7", "ark:/76611/dkhgt9azf", "ark:/76611/dkgsjly1z", "ark:/76611/dkhgt9v8a", "ark:/76611/dkhgtbi20", "ark:/76611/dkhgtbvan"]
-}
+	"citation": {
+		"$id": "ark:/76611/dkgsk7g8m",
+		"title": "LMEC Massachusetts Town Boundaries",
+		"recordType": "Dataset",
+		"shortDescription": "Standardized boundary file showing city and town extents, updated to include a census join field; geography covers the state of Massachusetts; time period reflects the present",
+		"fullDescription": "This dataset represents town boundaries in the state of Massachusetts. The geographic coverage is the state of Massachusetts. The time coverage reflects the present day. This dataset originates from data created and published by MassGIS. The LMEC has standardized MassGIS's town boundaries to ensure compatibility with census products. ",
+		"keyAttributes": ["MassGIS Town Name", "MassGIS Town ID", "Census Town Name", "Census Town ID"],
+		"dataTypes": ["MultiPolygon"],
+		"bboxPreview": {
+			"previewSRS": "EPSG:4326",
+			"lowerCorner": [-73.508210, 41.239062],
+			"upperCorner": [-69.928093, 42.886778]
+		},
+		"accessCondition": "This item is in the public domain. There are no restrictions on use."
+	}
 ```

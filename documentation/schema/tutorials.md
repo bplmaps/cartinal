@@ -67,7 +67,7 @@ export default {
     },
     created() {
         //returns a promise
-        axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
+        axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties

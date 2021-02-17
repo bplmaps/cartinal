@@ -68,7 +68,7 @@ export default {
     },
     created() {
         //returns a promise
-        axios.get("https://raw.githubusercontent.com/nblmc/Data-Context/master/schema.json")
+        axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
                 this.citation = response.data.properties.citation.properties
@@ -100,11 +100,11 @@ td#required
 ## Example 
 
 ``` json
-	"endpoints": [{
-		"$id": "ark:/76611/dkgskarjx/endpoint/1",
-		"relatedResourceURL": "http://download.massgis.digital.mass.gov/shapefiles/state/townssurvey_shp.zip",
-		"format": "Shapefile",
-		"source": "MassGIS",
-		"accessedViaURL": "https://docs.digital.mass.gov/dataset/massgis-data-layers"
+	"endpoints":[{
+		"$id": "ark:/76611/dkgsk7g8m/endpoint/1",
+		"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkgsk7g8m/mass-municipalities.geojson",
+		"title": "Massachusetts Town Boundaries GeoJSON",		
+		"source": "Leventhal Map & Education Center",
+		"format": "GeoJSON"
 	}]
 ```
