@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to peopleLifecycle](./peopleLifecycle.html)
+[← Back to Schema Home](./)
 
 # acquisition
 
@@ -81,14 +81,18 @@ p.larger-text
 
 </style>
 
-## Example
+## Example use
 
 ``` json
 "acquisition": {
-	"ingredients": [{
-		"$id": "ark:/76611/dkgskarjx",
-		"type": "linearPredecessor",
-		"notes": "This data directly improves upon the MassGIS Data: Community Boundaries (Towns) from Survey Points"
-	}]
+  "ingredients": [{
+      "$id": "ark:/76611/dkhqbwezw",
+      "notes": "This census tract geography data was joined to census statistical demographic data"
+    },
+    {
+      "$id": "ark:/76611/dkhqhgkkt",
+      "notes": "This statistical census demographic data was joined to census tract geography data"
+    }
+  ]
 }
 ```

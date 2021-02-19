@@ -1,18 +1,20 @@
 ---
+
 ---
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
-# previewDescription
+# healthEvaluation
 
 <template>
-    <div v-if="this.citation.previewDescription" id = "container">
-      <p class="larger-text">{{this.citation.previewDescription.description}}</p>
-      <p >Expected Type: <strong>{{this.citation.previewDescription.type}}</strong></p>
+    <div id = "container" v-if="this.documentationHealth.representation">
+      <p class="larger-text">{{this.documentationHealth.representation.properties.healthEvaluation.description}}</p>
+      <p >Expected Type: <strong>{{this.documentationHealth.representation.properties.healthEvaluation.type}}</strong></p>
     </div>
 </template>
+
 
 <script>
 import axios from 'axios'
@@ -28,12 +30,23 @@ export default {
           filterTagging: [],
           documentationHealth: [],
           relatedResources: [],
-          peopleLifecycle: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.citation)
+          console.log(this.filterTagging)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
+          }
         }
     },
     computed: {
@@ -67,10 +80,21 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
-## Example 
+## Health checklist
+
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+
+## Example Use
 
 ``` json
-"previewDescription": "Depicts Boston's historic shoreline from the year 1916."
+"healthEvaluation": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."		
+
 ```

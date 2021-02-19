@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to citation](./citation)
+[← Back to Schema Home](./)
 
 # bboxPreview
 
@@ -81,7 +81,7 @@ p.larger-text
 
 </style>
 
-## Example
+## Example use
 
 ``` json
 "bboxPreview": {

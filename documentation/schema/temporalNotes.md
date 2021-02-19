@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to temporal](./temporal.html) 
+[← Back to Schema Home](./)
 
 # temporalNotes
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1916. It was digitally derived in 2019 from born-digital maps published in 1995."

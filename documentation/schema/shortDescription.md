@@ -3,28 +3,14 @@
 
 <br>
 
-[← Back to processing](./processing.html)
+[← Back to Schema Home](./)
 
-# records
+# shortDescription
 
 <template>
-    <div v-if="this.peopleLifecycle.processing" id = "container">
-      <p class="larger-text">{{this.peopleLifecycle.processing.properties.records.description}}</p>
-      <p >Expected Type: <strong>{{this.peopleLifecycle.processing.properties.records.type}}</strong></p>
-    <table id ="property-table">
-        <tr>
-            <th>Property</th>
-            <th>Expected Type</th>
-            <th>Required</th>
-            <th>Description</th>
-        </tr>
-        <tr v-for="item, index in this.peopleLifecycle.processing.properties.records.items[0].properties" :key="index">
-            <td><a :href="index + '.html'" >{{index}}</a></td>
-            <td>{{item.type}}</td>
-            <td></td>
-            <td>{{item.description}}</td>
-        </tr>
-    </table> 
+    <div v-if="this.citation.shortDescription" id = "container">
+      <p class="larger-text">{{this.citation.shortDescription.description}}</p>
+      <p >Expected Type: <strong>{{this.citation.shortDescription.type}}</strong></p>
     </div>
 </template>
 
@@ -47,7 +33,7 @@ export default {
     },
     methods: {
         whatsUp(){
-          console.log(this.endpoints)
+          console.log(this.citation)
         }
     },
     computed: {
@@ -83,12 +69,9 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"records": [{
-	"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb",
-	"format": "Jupyter Notebook",
-	"author": "Garrett Dash Nelson"
-}]
+"shortDescription": "Estimated modes of transportation as a percent of total workers over the age of 16, aggregated to the census tract level; geography covers the City of Boston; time period covers 2014-2018 as a five year average"
+
 ```

@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to description](./description.html)
+[← Back to Schema Home](./)
 
 # contextProvider
 
@@ -83,7 +83,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "contextProvider": {

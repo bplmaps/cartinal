@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to filterTagging](./filterTagging.html)
+[← Back to Schema Home](./)
 
 # temporal
 
@@ -95,3 +95,21 @@ td#required
 
 </style>
 
+## Example use
+
+``` json
+"temporal": {
+  "temporalNotes": "This data represents the historic state of the Boston shoreline in the year 1995. It was digitally derived in 2019 from born-digital maps published in 1995.",
+  "temporalRepresentation": {
+    "valueType": "temporalRange",
+    "encoding": "https://www.w3.org/TR/NOTE-datetime",
+    "rangeStart": "1630",
+    "rangeEnd": "1995"
+  },
+  "temporalPublication": {
+    "valueType": "singularExpression",
+    "encoding": "https://www.w3.org/TR/NOTE-datetime",
+    "singleDate": "2019"
+  }
+}
+```

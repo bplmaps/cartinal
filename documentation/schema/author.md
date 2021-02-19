@@ -3,7 +3,7 @@
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to Schema Home](./)
 
 # author
 
@@ -69,8 +69,8 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"author": "Garrett Dash Nelson"
+"author": "Nancy Seasholes"
 ```

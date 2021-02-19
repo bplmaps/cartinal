@@ -3,14 +3,14 @@
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to Schema Home](./)
 
-# healthCheckScore
+# fullDescription
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Ranking of available context 1-5. Value 1 (unhealthy) - 5 (healthy)</p>
-      <p >Expected Type: <strong>Integer</strong></p>
+    <div v-if="this.citation.fullDescription" id = "container">
+      <p class="larger-text">{{this.citation.fullDescription.description}}</p>
+      <p >Expected Type: <strong>{{this.citation.fullDescription.type}}</strong></p>
     </div>
 </template>
 
@@ -69,3 +69,9 @@ p.larger-text
 
 </style>
 
+## Example use
+
+``` json
+"fullDescription": "This dataset represents modes of transportation as a percent of total workers over the age of 16. The data originates from the United States Census Bureau's American Community Survey. The Census Bureau has aggregated individual survey responses to census tract geographies. The LMEC worked with cartographer Daniel Huffman to process the census data. We created a new dataset from the census data to study popular modes of transportation in Boston. The geography covers the City of Boston. The time coverage compares changes between 2006-2010 and 2014-2018, each as five-year averages. "
+
+```

@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to maintenance](./maintenance.html) 
+[← Back to Schema Home](./)
 
 # typicalUpdates
 

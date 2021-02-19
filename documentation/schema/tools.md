@@ -1,21 +1,29 @@
 ---
+
 ---
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
-# hostedBy
+# tools
 
 <template>
-    <div v-if="this.citation.hostedBy" id = "container">
-      <p class="larger-text">{{this.citation.hostedBy.description}}</p>
-      <p >Expected Type: <strong>{{this.citation.hostedBy.type}}</strong></p>
-      <p >Options: <strong></strong></p>
-      <ul v-for="item, index in this.citation.hostedBy.enum" :key="index">
-      <li><strong>{{item}}</strong></li>
-      </ul>
-    </div>
+   <table v-if="this.peopleLifecycle.processing" id ="property-table">
+     <p class="larger-text">{{this.peopleLifecycle.processing.properties.tools.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.peopleLifecycle.processing.properties.tools.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td ></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -32,12 +40,23 @@ export default {
           filterTagging: [],
           documentationHealth: [],
           relatedResources: [],
-          peopleLifecycle: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.citation)
+          console.log(this.schema.peopleLifecycle.properties.processing)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
+          }
         }
     },
     computed: {
@@ -71,10 +90,17 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
-## Example 
-
+## Example use
 ``` json
-"hostedBy": "Internal"
+"tools": [{
+  "title": "Data Processing Script",
+  "author": "Garrett Dash Nelson",
+  "format": "Python script",
+  "accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkircu2ol/processor.py"
+}]
 ```

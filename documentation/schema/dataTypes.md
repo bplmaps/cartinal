@@ -3,14 +3,18 @@
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
-# fullNotes
+# dataTypes
 
 <template>
-    <div v-if="this.citation.fullNotes" id = "container">
-      <p class="larger-text">{{this.citation.fullNotes.description}}</p>
-      <p >Expected Type: <strong>{{this.citation.fullNotes.type}}</strong></p>
+    <div v-if="this.citation.dataTypes" id = "container">
+      <p class="larger-text">{{this.citation.dataTypes.description}}</p>
+      <p >Expected Type: <strong>{{this.citation.dataTypes.type}}</strong></p>
+      <p >Options: <strong></strong></p>
+      <ul v-for="item, index in this.citation.dataTypes.items.enum" :key="index">
+      <li><strong>{{item}}</strong></li>
+      </ul>
     </div>
 </template>
 
@@ -69,3 +73,8 @@ p.larger-text
 
 </style>
 
+## Example use
+
+``` json
+"dataTypes": ["Line", "Point"]
+```

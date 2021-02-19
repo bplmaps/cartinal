@@ -3,14 +3,14 @@
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to Schema Home](./)
 
-# relatedResourceURL
+# keyAttributes
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Direct access resource link</p>
-      <p >Expected Type: <strong>String</strong></p>
+    <div id = "container" v-if="this.citation.keyAttributes">
+      <p class="larger-text">{{this.citation.keyAttributes.description}}</p>
+      <p >Expected Type: <strong>{{this.citation.keyAttributes.type}}</strong></p>
     </div>
 </template>
 
@@ -69,8 +69,8 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"relatedResourceURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
+"keyAttributes": ["Workers", "Drive", "Carpool", "Transit", "Walk", "Bike"]
 ```

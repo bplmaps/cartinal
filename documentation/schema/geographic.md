@@ -4,24 +4,20 @@
 
 <br>
 
-[← Back to filterTagging](./filterTagging.html)
+[← Back to Schema Home](./)
 
 # geographic
 
 <template>
    <table v-if="this.filterTagging.geographic" id ="property-table">
-     <p class="larger-text">{{this.filterTagging.geographic.description}}</p>
+     <p class="larger-text">{{this.filterTagging.geographic.items[0].description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
-    <th>Required</th>
-    <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.filterTagging.geographic.properties" :key="index">
-    <td><a :href="index + '.html'" >{{index}}</a></td>
+  <tr v-for="item, index in this.filterTagging.geographic.items[0].properties" :key="index">
+    <td>{{index}}</td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.filterTagging.properties.geographic.required)}}</td>
-    <td>{{item.description}}</td>
   </tr>
 </table> 
 </template>
@@ -94,3 +90,32 @@ td#required
   text-align center
 
 </style>
+
+## Example use
+
+``` json
+"geographic":  [{
+  "authorityName": "geonames",
+  "authorityID": "http://www.geonames.org/ontology#",
+  "valueID": "http://sws.geonames.org/4930956",
+  "placeTag": "Boston"
+},
+{
+  "authorityName": "geonames",
+  "authorityID": "http://www.geonames.org/ontology#",
+  "valueID": "http://sws.geonames.org/4932780",
+  "placeTag": "Charles River"
+},
+{
+  "authorityName": "geonames",
+  "authorityID": "http://www.geonames.org/ontology#",
+  "valueID": "http://sws.geonames.org/4931972",
+  "placeTag": "Cambridge"
+},
+{
+  "authorityName": "geonames",
+  "authorityID": "http://www.geonames.org/ontology#",
+  "valueID": "http://sws.geonames.org/4951257",
+  "placeTag": "Somerville"
+}]
+```

@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to temporal](./temporal.html)
+[← Back to Schema Home](./)
 
 # temporalPublication
 
@@ -81,13 +81,13 @@ p.larger-text
 
 </style>
 
-## Example
+## Example use
 
 ```json
 "temporalPublication": {
-	"encoding": "https://www.w3.org/TR/NOTE-datetime",
-	"valueType": "singularExpression",
-	"singleDate": "2020"
+  "valueType": "singularExpression",
+  "encoding": "https://www.w3.org/TR/NOTE-datetime",
+  "singleDate": "2019"
 }
 ```
 

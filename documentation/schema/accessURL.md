@@ -3,14 +3,14 @@
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
-# steps
+# accessURL
 
 <template>
-    <div v-if="this.citation.steps" id = "container">
-      <p class="larger-text">{{this.citation.steps.description}}</p>
-      <p >Expected Type: <strong>{{this.citation.steps.type}}</strong></p>
+    <div id = "container">
+      <p class="larger-text">Direct access resource link</p>
+      <p >Expected Type: <strong>String</strong></p>
     </div>
 </template>
 
@@ -69,8 +69,12 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"steps": "The data described by this record was inferred from the official MassGIS-maintained town boundary data, and simplified in order to facilitate easier use with census products."
+"accessURL": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2yy1r/endpoints/ToJoin2018.csv"
+```
+
+``` json
+"accessURL": "https://github.com/nblmc/massachusetts-municipal-boundaries/blob/main/processor.ipynb"
 ```

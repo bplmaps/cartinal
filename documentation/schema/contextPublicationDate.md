@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to description](./description.html) 
+[← Back to Schema Home](./)
 
 # contextPublicationDate
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "contextPublicationDate": "2020-10-02"

@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
 # accessCondition
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "accessCondition": "This item is in the public domain. There are no restrictions on use."

@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
 # collectionItems
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "collectionItems": ["ark:/76611/dkgsjly1z", "ark:/76611/dkgsjlciz", "ark:/76611/dkgsk7g8m"]

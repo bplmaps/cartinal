@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to peopleLifecycle](./peopleLifecycle.html)
+[← Back to Schema Home](./)
 
 # maintenance
 
@@ -95,3 +95,11 @@ td#required
 
 </style>
 
+## Example use
+
+``` json
+"maintenance": {
+  "officialMaintainer": "Leventhal Map & Education Center",
+  "maintenanceFrequency": "This dataset is never updated"		
+}
+```

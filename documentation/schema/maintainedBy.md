@@ -3,13 +3,13 @@
 
 <br>
 
-[← Back to codebooks](./codebooks.html) 
+[← Back to Schema Home](./)
 
 # maintainedBy
 
 <template>
     <div v-if="this.relatedResources.codebooks" id = "container">
-      <p class="larger-text">{{this.relatedResources.codebooks.items[0].properties.maintainedBy.description}}</p>
+      <p class="larger-text">Person or organization responsible for maintaining and providing access to the resource</p>
       <p >Expected Type: <strong>{{this.relatedResources.codebooks.items[0].properties.maintainedBy.type}}</strong></p>
     </div>
 </template>
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "maintainedBy": "MassGIS"
