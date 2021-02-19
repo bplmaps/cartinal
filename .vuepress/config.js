@@ -19,6 +19,11 @@ module.exports = {
       gtag('config', 'UA-812961-14');
     `]
   ],
+  markdown: {
+    extendMarkdown: md => {
+      md.use(require('markdown-it-task-lists'))
+    }
+  },
 	themeConfig: {
 		logo: '/logo.png',
 		lastUpdated: 'Last Updated',

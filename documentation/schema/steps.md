@@ -1,18 +1,20 @@
 ---
+
 ---
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to Schema Home](./)
 
-# healthCheckQualifier
+# steps
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Notes describing the reason for the given health check score</p>
-      <p >Expected Type: <strong>String</strong></p>
+    <div id = "container" v-if="this.peopleLifecycle.processing">
+      <p class="larger-text">{{this.peopleLifecycle.processing.properties.steps.description}}</p>
+      <p >Expected Type: <strong>{{this.peopleLifecycle.processing.properties.steps.type}}</strong></p>
     </div>
 </template>
+
 
 <script>
 import axios from 'axios'
@@ -28,12 +30,23 @@ export default {
           filterTagging: [],
           documentationHealth: [],
           relatedResources: [],
-          peopleLifecycle: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.citation)
+          console.log(this.filterTagging)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
+            if (requiredFieldsList.includes(evaluatedItem)){
+                return 'x'
+            } else {
+                return ''
+            }
+          }
         }
     },
     computed: {
@@ -67,5 +80,13 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
+## Example Use
+
+``` json
+"steps": "\n \n 1. We downloaded statistics about median home value from a census data download tool \n 2. We also downloaded census tract GIS boundary files from the same tool \n 3. We edited the data tables to only include important information about the topic of study \n 4. We renamed columns with human-readable column headers \n 5. We documented the new names in a codebook \n 6. We combined the new data tables to the GIS boundary files using GIS software to create the final dataset"
+```

@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to description](./description.html)
+[← Back to Schema Home](./)
 
 # metadataSchema
 
@@ -81,11 +81,11 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "metadataSchema": {
-	"schemaName": "LMEC Data Description Schema",
-	"$id": "https://github.com/nblmc/Data-Context/blob/master/schema.json"
+    "schemaName": "LMEC Data Description Schema",
+    "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
 }
 ```

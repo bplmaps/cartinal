@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to peopleLifecycle](./peopleLifecycle.html)
+[← Back to Schema Home](./)
 
 # description
 
@@ -95,3 +95,22 @@ td#required
 
 </style>
 
+## Example use
+
+``` json
+"description": {
+  "contextProvider": {
+    "name": "Belle Lipton",
+    "relationshipToData": "Archivist"
+  },
+  "contextOnBehalfOf": {
+    "name": "Daniel Huffman",
+    "relationshipToData": "Cartographer"
+  },
+  "contextPublicationDate": "2020-11-24",
+  "metadataSchema": {
+    "schemaName": "LMEC Data Description Schema",
+    "$id": "https://github.com/bplmaps/data-description-schema/blob/master/schema.json"
+  }
+}
+```

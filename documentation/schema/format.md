@@ -3,18 +3,14 @@
 
 <br>
 
-[← Back to records](./records.html) 
+[← Back to Schema Home](./)
 
 # format
 
 <template>
-    <div v-if="this.peopleLifecycle.processing" id = "container">
-      <p class="larger-text">{{this.peopleLifecycle.processing.properties.records.description}}</p>
-      <p >Expected Type: <strong>{{this.peopleLifecycle.processing.properties.records.type}}</strong></p>
-      <p >Options: <strong></strong></p>
-      <ul v-for="item, index in this.peopleLifecycle.processing.properties.records.items[0].properties.format.enum" :key="index">
-      <li><strong>{{item}}</strong></li>
-      </ul>
+    <div id = "container">
+      <p class="larger-text">Place to denote format type</p>
+      <p >Expected Type: <strong>String</strong></p>
     </div>
 </template>
 
@@ -73,8 +69,8 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"format": "Jupyter Notebook"
+"format": "GeoJSON"
 ```

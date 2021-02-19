@@ -1,7 +1,5 @@
 <template>
     <div id="hierarchy-container">
-          <br>
-          <!-- Beginning of full hierarchy list -->
           <ul>
             <!-- Beginning of Core Citation section --> 
             <li> <a href="./citation.html">citation</a>  </li>

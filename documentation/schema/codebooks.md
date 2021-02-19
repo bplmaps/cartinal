@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to relatedResources](./relatedResources.html)
+[← Back to Schema Home](./)
 
 # codebooks
 
@@ -95,7 +95,7 @@ td#required
 
 </style>
 
-## Example
+## Example use
 
 ```json
 "codebooks": [{

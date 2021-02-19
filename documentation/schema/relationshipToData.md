@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to peopleLifecycle](./peopleLifecycle.html) 
+[← Back to Schema Home](./)
 
 # relationshipToData
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "relationshipToData": "Analyst"

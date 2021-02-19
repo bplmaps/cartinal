@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
 [← Back to Schema Home](./)
 
-# maintenanceFrequency
+# documentation
 
 <template>
-    <div v-if="this.peopleLifecycle.maintenance" id = "container">
-      <p class="larger-text">{{this.peopleLifecycle.maintenance.properties.maintenanceFrequency.description}}</p>
-      <p >Expected Type: <strong>{{this.peopleLifecycle.maintenance.properties.maintenanceFrequency.type}}</strong></p>
-    </div>
+   <table v-if="this.relatedResources.documentation" id ="property-table">
+     <p class="larger-text">{{this.relatedResources.documentation.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.relatedResources.documentation.items[0].properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td id="required">{{checkRequired(index, schema.relatedResources.properties.documentation.items[0].required)}}</td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,13 +40,24 @@ export default {
           filterTagging: [],
           documentationHealth: [],
           relatedResources: [],
-          peopleLifecycle: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.citation)
+          console.log(this.schema.relatedResources.properties.documentation.items[0].required)
+        },
+        checkRequired(evaluatedItem, requiredFieldsList){
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
+          } else {
+              return ''
+          }
         }
+      }
     },
     computed: {
         data() {
@@ -67,10 +90,17 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
 ## Example use
 
-``` json
-"maintenanceFrequency": "This data is updated frequently, roughly once a year, at no regular interval. Maintenance notes with all versions can be found in the codebook."
+```json
+  "documentation": [{
+    "$id": "https://nhgis.org/sites/www.nhgis.org/files/tract-availability.pdf",
+    "title": "Census Tract Boundary File Availability Chart by U.S. County",
+    "maintainedBy": "National Historic GIS (NHGIS)"
+  }
 ```

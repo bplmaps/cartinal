@@ -3,7 +3,7 @@
 
 <br>
 
-<a href="javascript:history.back()">← Back</a>
+[← Back to Schema Home](./)
 
 # notes
 
@@ -69,8 +69,8 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
-"notes": "The LMEC carried out this data process and also described the processing steps in a Jupyter notebook."
+"notes": "This Jupyter notebook contains step-by-step instructions to replicate the data manipulation process."
 ```

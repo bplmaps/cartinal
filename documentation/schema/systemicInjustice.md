@@ -4,23 +4,23 @@
 
 <br>
 
-[← Back to peopleLifecycle](./peopleLifecycle.html)
+[← Back to Schema Home](./)
 
-# processing
+# systemicInjustice
 
 <template>
-   <table v-if="this.peopleLifecycle.processing" id ="property-table">
-     <p class="larger-text">{{this.peopleLifecycle.processing.description}}</p>
+   <table v-if="this.documentationHealth.systemicInjustice" id ="property-table">
+     <p class="larger-text">{{this.documentationHealth.systemicInjustice.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.peopleLifecycle.processing.properties" :key="index">
+  <tr v-for="item, index in this.documentationHealth.systemicInjustice.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.peopleLifecycle.properties.processing.required)}}</td>
+    <td id="required">{{checkRequired(index, schema.documentationHealth.properties.systemicInjustice.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -44,20 +44,17 @@ export default {
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.schema.peopleLifecycle.properties.processing)
-        },
         checkRequired(evaluatedItem, requiredFieldsList){
-          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
-              return ''
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
           } else {
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+              return ''
           }
         }
+      }
     },
     computed: {
         data() {
@@ -95,3 +92,17 @@ td#required
 
 </style>
 
+## Health checklist
+
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+## Example use
+
+```json
+"systemicInjustice":{
+  "healthScore": 0,
+  "healthEvaluation": "The documentation does not reflect on the ways the data program is at risk for repeating past harms. It does not describe the ways in which U.S. census data collection has considered its relationship and contribution to systemic injustice."		
+}
+```

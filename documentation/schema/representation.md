@@ -6,21 +6,21 @@
 
 [← Back to Schema Home](./)
 
-# filterTagging
+# representation
 
 <template>
-   <table v-if="this.schema.filterTagging" id ="property-table">
-     <p class="larger-text">{{this.schema.filterTagging.description}}</p>
+   <table v-if="this.documentationHealth.representation" id ="property-table">
+     <p class="larger-text">{{this.documentationHealth.representation.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.filterTagging" :key="index">
+  <tr v-for="item, index in this.documentationHealth.representation.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.filterTagging.required)}}</td>
+    <td id="required">{{checkRequired(index, schema.documentationHealth.properties.representation.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -44,10 +44,7 @@ export default {
         }
     },
     methods: {
-      whatsUp(){
-        console.log(this.schema.filterTagging.properties)
-      },
-      checkRequired(evaluatedItem, requiredFieldsList){
+        checkRequired(evaluatedItem, requiredFieldsList){
         if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
             return ''
         } else {
@@ -94,3 +91,18 @@ td#required
   text-align center
 
 </style>
+
+## Health checklist
+
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+## Example use
+
+```json
+"representation":{
+  "healthScore": 3,
+  "healthEvaluation": "Official census documentation details how survey questions were first developed. It describes how ACS project designers first included stakeholders in that process. \n \n When it comes to future data collection and survey design, there is less information. The documentation does not address plans to include those the the data is most likely to affect."		
+}
+```

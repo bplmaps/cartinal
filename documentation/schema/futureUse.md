@@ -1,28 +1,26 @@
 ---
-sidebar: auto
+
 ---
 
 <br>
 
 [← Back to Schema Home](./)
 
-# temporalRepresentation
-
-## Definition
+# futureUse
 
 <template>
-   <table v-if="this.filterTagging.temporal" id ="property-table">
-     <p class="larger-text">{{this.filterTagging.temporal.properties.temporalRepresentation.description}}</p>
+   <table v-if="this.documentationHealth.futureUse" id ="property-table">
+     <p class="larger-text">{{this.documentationHealth.futureUse.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.filterTagging.temporal.properties.temporalRepresentation.properties" :key="index">
-    <td>{{index}}</td>
+  <tr v-for="item, index in this.documentationHealth.futureUse.properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td></td>
+    <td id="required">{{checkRequired(index, schema.documentationHealth.properties.futureUse.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -46,9 +44,17 @@ export default {
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.filterTagging)
+        checkRequired(evaluatedItem, requiredFieldsList){
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
+          } else {
+              return ''
+          }
         }
+      }
     },
     computed: {
         data() {
@@ -81,27 +87,22 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
-## Examples
+## Health checklist
 
-### Single Date
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+## Example use
 
 ```json
-"temporalRepresentation": {
-	"encoding": "https://www.w3.org/TR/NOTE-datetime",
-	"valueType": "singleDate",
-	"singleDate": "2020"
-}
-```
-
-
-### Range 
-```json
-"temporalRepresentation": {
-  "valueType": "range",
-  "encoding": "https://www.w3.org/TR/NOTE-datetime",
-  "rangeStart": "1630",
-  "rangeEnd": "1995"
+"futureUse":{
+  "healthScore": 3,
+  "healthEvaluation": "Documentation is clear about potential positive impact from the data. Public materials also outline future funding dependent on this data program. \n \n There is not discoverable information about potential negative impact. The documentation could be more clear how someone should and should not use the data. There are not accessible guides about known limitations for any given set of census data."		
 }
 ```

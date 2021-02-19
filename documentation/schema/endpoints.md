@@ -1,5 +1,3 @@
----
----
 
 <br>
 
@@ -19,7 +17,7 @@
             <th>Description</th>
         </tr>
         <tr v-for="item, index in this.endpoints.items[0].properties" :key="index">
-            <td>{{index}}</td>
+            <td><a :href="index + '.html'" >{{index}}</a></td>
             <td>{{item.type}}</td>
             <td id="required">{{checkRequired(index, schema.endpoints.required)}}</td>
             <td>{{item.description}}</td>
@@ -97,7 +95,7 @@ td#required
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 	"endpoints":[{

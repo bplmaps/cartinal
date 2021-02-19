@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to thematic](./thematic.html)
+[← Back to Schema Home](./)
 
 # otherSubjectAuthorities
 

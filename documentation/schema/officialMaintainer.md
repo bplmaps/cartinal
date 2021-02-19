@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to maintenance](./maintenance.html) 
+[← Back to Schema Home](./)
 
 # officialMaintainer
 
@@ -69,7 +69,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "officialMaintainer": "MassGIS"

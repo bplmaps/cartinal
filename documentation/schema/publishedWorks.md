@@ -4,7 +4,7 @@
 
 <br>
 
-[← Back to relatedResources](./relatedResources.html)
+[← Back to Schema Home](./)
 
 # publishedWorks
 
@@ -81,7 +81,7 @@ p.larger-text
 
 </style>
 
-## Examples
+## Example use
 
 ``` json
 "publishedWorks": [{

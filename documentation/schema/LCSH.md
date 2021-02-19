@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to thematic](./thematic.html)
+[← Back to Schema Home](./)
 
 # LCSH
 
@@ -97,32 +97,18 @@ td#required
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "LCSH": [{
-		"authority": "LCSH",
-		"authorityID": "http://id.loc.gov/authorities/subjects.html",
-		"language": "eng",
-		"subjectTag": "Cities and towns"
-	},
-	{
-		"authority": "LCSH",
-		"authorityID": "http://id.loc.gov/authorities/subjects.html",
-		"language": "eng",
-		"subjectTag": "Towns"
-	},
-	{
-		"authority": "LCSH",
-		"authorityID": "http://id.loc.gov/authorities/subjects.html",
-		"language": "eng",
-		"subjectTag": "Municipalities"
-	},
-	{
-		"authority": "LCSH",
-		"authorityID": "http://id.loc.gov/authorities/subjects.html",
-		"language": "eng",
-		"subjectTag": "Cartography"
-	}
-]
+        "authorityName": "LCSH",
+        "authorityID": "http://id.loc.gov/authorities/subjects.html",
+        "subjectTag": "Coasts"
+    },
+    {
+        "authorityName": "LCSH",
+        "authorityID": "http://id.loc.gov/authorities/subjects.html",
+        "subjectTag": "Coastal mapping"
+    }
+]}
 ```

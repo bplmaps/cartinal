@@ -9,7 +9,7 @@
 
 <template>
     <div v-if="this.citation.$id" id = "container">
-      <p class="larger-text">{{this.citation.$id.description}}</p>
+      <p class="larger-text">The resource's unique id</p>
       <p >Expected Type: <strong>{{this.citation.$id.type}}</strong></p>
     </div>
 </template>
@@ -69,8 +69,13 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "$id": "ark:/76611/dkgsk7g8m"
 ```
+
+``` json
+"$id": "https://www.youtube.com/watch?v=P1znKKm8vX4"
+```
+

@@ -1,32 +1,20 @@
 ---
+
 ---
 
 <br>
 
-[← Back to thematic](./thematic.html)
+[← Back to Schema Home](./)
 
-# ISO19115
+# healthScore
 
 <template>
-    <div v-if="this.filterTagging.thematic" id = "container">
-      <p class="larger-text">{{this.filterTagging.thematic.properties.ISO19115.description}}</p>
-      <p >Expected Type: <strong>{{this.filterTagging.thematic.properties.ISO19115.type}}</strong></p>
-    <table id ="property-table">
-        <tr>
-            <th>Property</th>
-            <th>Expected Type</th>
-            <th>Required</th>
-            <th>Constant Value</th>
-        </tr>
-        <tr v-for="item, index in this.filterTagging.thematic.properties.ISO19115.items[0].properties" :key="index">
-            <td>{{index}}</td>
-            <td>{{item.type}}</td>
-            <td id="required">{{checkRequired(index, schema.filterTagging.properties.thematic.properties.ISO19115.items[0].required)}}</td>
-            <td>{{item.const}}</td>
-        </tr>
-    </table> 
+    <div id = "container" v-if="this.documentationHealth.representation">
+      <p class="larger-text">{{this.documentationHealth.representation.properties.healthScore.description}}</p>
+      <p >Expected Type: <strong>{{this.documentationHealth.representation.properties.healthScore.type}}</strong></p>
     </div>
 </template>
+
 
 <script>
 import axios from 'axios'
@@ -42,23 +30,23 @@ export default {
           filterTagging: [],
           documentationHealth: [],
           relatedResources: [],
-          peopleLifecycle: [],
+          peopleLifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.endpoints)
+          console.log(this.filterTagging)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
-            if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
-                return ''
-            } else {
+          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+              return ''
+          } else {
             if (requiredFieldsList.includes(evaluatedItem)){
                 return 'x'
             } else {
                 return ''
             }
-            }
+          }
         }
     },
     computed: {
@@ -97,14 +85,15 @@ td#required
 
 </style>
 
-## Example 
+## Health checklist
+
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+
+## Example Use
 
 ``` json
-"ISO19115": [{
-    "authority": "ISO191115TopicCategory",
-    "authorityID": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_TopicCategoryCode",
-    "language": "eng",
-    "valueID": "boundaries",
-    "subjectTag": "Boundaries"
-}]
+"healthScore": 3
 ```

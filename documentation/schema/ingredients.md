@@ -1,14 +1,12 @@
 ---
-sidebar: auto
+
 ---
 
 <br>
 
-[← Back to acquisition](./acquisition.html)
+[← Back to Schema Home](./)
 
 # ingredients
-
-## Definition
 
 <template>
    <table v-if="this.peopleLifecycle.acquisition" id ="property-table">
@@ -20,7 +18,7 @@ sidebar: auto
     <th>Description</th>
   </tr>
   <tr v-for="item, index in this.peopleLifecycle.acquisition.properties.ingredients.items[0].properties" :key="index">
-    <td>{{index}}</td>
+    <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
     <td></td>
     <td>{{item.description}}</td>
@@ -83,34 +81,11 @@ p.larger-text
 
 </style>
 
-## Examples
-
-### Linear 
+## Example use
 
 ``` json
-"ingredients": [{
-	"$id": "ark:/76611/dkgskarjx",
-	"type": "linearPredecessor",
-	"notes": "This data directly improves upon the MassGIS Data: Community Boundaries (Towns) from Survey Points"
-}]
-```
-
-### Composite 
-```json
-"ingredients": [{
-		"$id": "ark:/76611/dkgsjlciz",
-		"type": "compositeIngredient",
-		"notes": "The statistical demographic data present in the dataset being described was inferred from this source ingredient, extracted from NHGIS.org."
-	},
-	{
-		"$id": "ark:/76611/dkgsjly1z",
-		"type": "compositeIngredient",
-		"notes": "During processing, statistical demographic data was joined to this ingredient, United States Census Tract Geographies, obtained from NHGIS.org."
-	},
-	{
-		"$id": "ark:/76611/dkgsk7g8m",
-		"type": "compositeIngredient",
-		"notes": "This cartography ingredient was used to clip the joined population statistics and census tract files to create the new dataset this record describes, which represents population data only for the geographic extent of Boston, Massachusetts."
-	}
-]
+  "ingredients": [{
+    "$id": "ark:/76611/dkgskarjx",
+    "notes": "The Leventhal Map & Education Center changed this ingredient dataset to create the new simplified towns dataset"
+  }]
 ```

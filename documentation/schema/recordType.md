@@ -3,7 +3,7 @@
 
 <br>
 
-[← Back to citation](./citation.html) 
+[← Back to Schema Home](./)
 
 # recordType
 
@@ -73,7 +73,7 @@ p.larger-text
 
 </style>
 
-## Example 
+## Example use
 
 ``` json
 "recordType": "Dataset"

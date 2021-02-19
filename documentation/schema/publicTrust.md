@@ -4,23 +4,23 @@
 
 <br>
 
-[← Back to relatedResources](./relatedResources.html)
+[← Back to Schema Home](./)
 
-# supplementaryFiles
+# publicTrust
 
 <template>
-   <table v-if="this.relatedResources.supplementaryFiles" id ="property-table">
-     <p class="larger-text">{{this.relatedResources.supplementaryFiles.description}}</p>
+   <table v-if="this.documentationHealth.publicTrust" id ="property-table">
+     <p class="larger-text">{{this.documentationHealth.publicTrust.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.relatedResources.supplementaryFiles.items[0].properties" :key="index">
+  <tr v-for="item, index in this.documentationHealth.publicTrust.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.relatedResources.properties.supplementaryFiles.items[0].required)}}</td>
+    <td id="required">{{checkRequired(index, schema.documentationHealth.properties.publicTrust.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -44,20 +44,17 @@ export default {
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.filterTagging)
-        },
         checkRequired(evaluatedItem, requiredFieldsList){
-          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
-              return ''
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
           } else {
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+              return ''
           }
         }
+      }
     },
     computed: {
         data() {
@@ -95,13 +92,17 @@ td#required
 
 </style>
 
-## Examples
+## Health checklist
+
+::: tip How we check documentation health
+You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
+:::
+
+## Example use
 
 ```json
-"supplementaryFiles": [{
-	"$id": "https://s3.us-east-2.wasabisys.com/public-geospatial/dkhm2954o/RentMapCartographyFiles.zip",
-	"title": "Supplementary cartography files",
-	"datePublished": "2020-11-17",
-	"notes": "Daniel Huffman provided final versions of the Boston rent map in PDF, JPEG and Adobe Illustrator .AI file formats."
-}]
+"publicTrust":{
+  "healthScore": 3,
+  "healthEvaluation": "Census documentation is clear about methods used for anonymizing and participant privacy. It discusses the challenges of grouping or [aggregating](http://wiki.gis.com/wiki/index.php/Aggregation) survey responses into homogenous areas. It acknowledges Census Bureau reasoning for why the survey is mandatory. It explains why the data is beneficial to society. \n \n The documentation does not address how the Census Bureau understands participant consent. It is not clear if all participants understand how their data will be used. "		
+}
 ```

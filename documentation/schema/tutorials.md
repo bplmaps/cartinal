@@ -9,7 +9,6 @@
 # tutorials
 
 <template>
-  <button @click="whatsUp">HI</button>
    <table v-if="this.schema.relatedResources" id ="property-table">
      <p class="larger-text">{{this.schema.relatedResources.properties.tutorials.description}}</p>
   <tr>
@@ -96,7 +95,7 @@ td#required
 
 </style>
 
-## Examples
+## Example use
 
 ```json
 "tutorials": [{
