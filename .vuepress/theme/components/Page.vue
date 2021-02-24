@@ -33,6 +33,7 @@ export default {
     width: 40%
     float: right
     margin-left: 20px
+    margin-top: 20px
     border 1px dotted #1a1a37
     padding: 0 15px
     color: #777

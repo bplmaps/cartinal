@@ -1,6 +1,10 @@
-::: warning
-🚧 This guide is under construction 🚧
-:::
+---
+health:
+    underConstruction: true
+---
+
+
+# Creating mosaics
 
 ## Introduction
 
