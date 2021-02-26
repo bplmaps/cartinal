@@ -1,7 +1,9 @@
 <template>
 <div>
-    <h3><button @click="toggle">{{hideShowText}}</button> {{title}}</h3>
+    <h4><button @click="toggle">{{hideShowText}}</button> {{title}}</h4>
+    <div class="content">
     <slot v-if="!hidden"></slot>
+    </div>
 </div>
 </template>
 
@@ -23,7 +25,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="stylus">
 button {
   background: transparent;
   box-shadow: 0px 0px 0px transparent;
@@ -49,6 +51,12 @@ button:active {
 
 button:focus {
   outline: 0;
+}
+
+.content {
+  border-left: 3px solid lighten(#1a1a37, 80%)
+  padding-left: 10px;
+  color: #777
 }
 </style>
 

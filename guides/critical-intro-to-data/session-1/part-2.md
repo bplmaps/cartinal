@@ -5,9 +5,20 @@ health:
 
 # Exercise: Draw Your Own Map
 
-Now that we have started to understand what are maps, we can move onto making handdrawn maps as you too can be a mapmaker! Pick a place that's important to you such as where you live, your school, or another familiar location.
+## What geographic information is already in your head?
 
-Grab a piece of paper and take 5 minutes to draw your place of choosing. Feel free to add colors, explanations, labels and whatever else you feel is important to communicated about the area you are mapping.
+* Pick a place that's important to you
+    * It could be where you live, your school, or another familiar location
+* Grab a piece of paper and take 5 minutes to draw this place
+* Add as much information as you can about this place
+    * Feel free to add colors, explanations, labels and whatever else you feel is important to communicated about the area you are mapping
 
-Now that you have your hand drawn map, go to [Google Maps](https://www.google.com/maps) and find the same location you mapped. What is different about how you drew the place and how Google depicts it? Is anything missing or lacking from either map? How did you choose what to include on your map? These are all questions that are important in critically evaluating maps, putting yourself in the shoes of a mapmaker helps you to become aware of the crucial decisions that go into making maps.
+## How would you tell a computer what you know?
+
+* Now go to [OpenStreetMap](https://www.openstreetmap.org/) and find the same location you mapped
+* What is different about how you drew the place and how it's shown on the computer map?
+    * Is anything missing or lacking from either map?
+    * Which map seems more "accurate" to you?
+* How do you think OpenStreetMap encodes the information that appears on the screen?
+
 

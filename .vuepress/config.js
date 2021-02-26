@@ -49,6 +49,10 @@ module.exports = {
               path: '@theme/components/Hideable.vue'
             },
             {
+              name: 'Quizlet',
+              path: '@theme/components/Quizlet.vue'
+            },
+            {
               name: 'schema-full',
               path: '@theme/components/SchemaFull.vue'
             }
