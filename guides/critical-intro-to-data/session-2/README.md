@@ -1,6 +1,6 @@
 # Session 2
 
-Welcome back to Exploring the World with Maps and Data! 
+Welcome back to **Exploring the World with Maps and Data**! 
 
 #### In this session, we will 
 
