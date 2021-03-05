@@ -3,7 +3,7 @@ health:
     underConstruction: true
 ---
 
-# (6) Learning to question data
+# Learning to question data
 
 ## In between the world and data are people
 * Just as there's a human behind every map, there is a human behind every dataset. This person chooses how to observe the world, how to organize these observations, and how to share the dataset with the world. 
@@ -61,7 +61,7 @@ However, we must also acknowledge questions of underlying power and privilege th
 <Quizlet 
     title="Check your understanding"
     :questions="[
-        {text: 'Datasets never have to be updated or altered; once they're made, they remain accurate for all time.'',
+        {text: 'Datasets never have to be updated or altered; once they\'re made, they remain accurate for all time.',
         answers: [
             {text: 'True'},
             {text: 'False', correct: true}

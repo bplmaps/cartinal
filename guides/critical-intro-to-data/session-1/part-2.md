@@ -3,9 +3,15 @@ health:
     underConstruction: true
 ---
 
-# (3) Exercise: Draw Your Own Map
+# Exercise: Draw Your Own Map
 
 ## What geographic information is already in your head?
+
+<aside>
+
+Check out these COVID-era [hand drawn maps](https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/) of people's homes and neighborhoods! 
+
+</aside>
 
 * Pick a place that's important to you
     * It could be where you live, your school, or another familiar location
@@ -13,11 +19,7 @@ health:
 * Add as much information as you can about this place
     * Feel free to add colors, explanations, labels and whatever else you feel is important to communicated about the area you are mapping
 
-<aside>
 
-Check out these COVID-era [hand drawn maps](https://www.bloomberg.com/features/2020-coronavirus-lockdown-neighborhood-maps/) of people's homes and neighborhoods! 
-
-</aside>
 
 ## How would you tell a computer what you know?
 

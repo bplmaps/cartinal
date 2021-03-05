@@ -90,6 +90,8 @@ There are generally two elements of geospatial data: the *what* and the *where*.
         ]
         }
     ]"
-/>
-    ![](https://i.imgur.com/BP8YjPZ.jpg)
+>
+
+![](https://i.imgur.com/BP8YjPZ.jpg)
+
 </Quizlet>

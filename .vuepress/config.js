@@ -74,8 +74,7 @@ module.exports = {
         "part-3",
         "part-4",
         "part-5",
-        "part-6",
-        "part-7"
+        "part-6"
       ],
 
       "/guides/critical-intro-to-data/session-2/": [
@@ -86,7 +85,16 @@ module.exports = {
         "part-4",
         "part-5",
         "part-6",
-        "part-7"      ]
+        "part-7"      ],
+
+        "/guides/critical-intro-to-data/session-2/": [
+          "./",
+          "part-1",
+          "part-2",
+          "part-3",
+          "part-4"     ]
+
+
     }    
   }
 };

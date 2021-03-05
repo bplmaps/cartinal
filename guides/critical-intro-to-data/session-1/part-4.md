@@ -3,7 +3,7 @@ health:
     underConstruction: true
 ---
 
-# (5) The human role in mapping: from data to maps
+# The human role in mapping: from data to maps
 
 
 ## In between data and maps are people 

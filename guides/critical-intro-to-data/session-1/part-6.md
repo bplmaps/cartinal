@@ -3,7 +3,7 @@ health:
     underConstruction: true
 ---
 
-# (7) Concluding thoughts
+# Concluding thoughts
 
 * Some cartographic choices are made consciously, but some are made unconsciously, leading cartographer J.B. Harley to argue, **“the map is a silent arbiter of power.” ([Harley](https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext))**
 * Spatial arguments, like this one that shows surface temperature alongside median household income, are powerful and persuasive. 
