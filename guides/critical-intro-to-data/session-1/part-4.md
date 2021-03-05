@@ -1,35 +1,81 @@
-## Diving Deep into Data
+---
+health:
+    underConstruction: true
+---
+
+# (5) The human role in mapping: from data to maps
 
 
-Having covered the basics of maps, let's dig into data!  
+## In between data and maps are people 
+* Data can never become a map all by itself. In between data and maps are people!  
+* For even the simplest data set, there are hundreds of different methods and techniques for possible visual representation
 
-**Data** are records of observations of phenomena. Data are an integral part of how we abstract the world into a visualization. To be good mapmakers, we must dig into the details of data: maps don't just show space, they show data. 
+![](https://i.imgur.com/LezjKov.png)
 
-![](https://www.researchgate.net/profile/Michael_Rigby5/publication/301633576/figure/fig24/AS:614355829792775@1523485252647/A-basic-map-communication-model-for-cartography-conceptualising-the-transmission-of.png)
-###### Cartographic communication diagram, Michael Rigby (2016). (Redrawn from Keates, 1996)
 
-Data do not exist without human observation, classification, organization, and maintenance. ~~If data record what occurred, data analysis allows us to figure out why or how it occurred.~~ When data are organized and analyzed, we can call it “information.” But in its raw, unprocessed form, data are relatively useless, simply observations that are seemingly random. 
+* **Cartographers** make decisions about how data is visualized that affect the appearance of the map. 
+* One dataset can produce two (or more!) totally different maps.  
 
-Let’s consider a dataset of texts we receive in a day. Through observation, we can see we receive texts and there are some qualities of the text that might be interesting to record. We might want to record who the text is from, at what time it’s received, and the general nature of the text. Many people have undertaken projects like this, where they record texts received in a year, emotions felt in a day, or types of goodbyes they say in a week. A whole year can be spent recording and visualizing data in this way, [as Giorgia Lupi and Stefanie Posavec did in their project, Dear Data](http://www.dear-data.com/theproject). 
+![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
+**"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.** 
 
-![reference link](https://images.squarespace-cdn.com/content/v1/54eec73ee4b0ae0904da0e94/1469543541721-UB2SLPATTAHHT23DXU3K/ke17ZwdGBToddI8pDm48kAYCpg1VIiwn4rHNOpB5c4B7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UVjdAUSUmuEOi_N_6GrwUPyU5pNi1K8-4PrHaCC_jPqmRwI9WTNiCkeSufsKtaOj1w/image-asset.jpeg?format=1500w) 
-###### Dear Data postcards, Giorgia Lupi and Stefanie Posavec (2016). 
+![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
+**"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.** 
 
-[Some people even spend a decade](https://www.wired.com/2015/10/nicholas-felton-obsessively-recorded-his-private-data-for-10-years/) observing their lives and recording it in data. In Session 3, we’ll spend time thinking about how to make our own datasets. But for now, let’s turn to geospatial data.  
+* This makes it important to look at the dataset behind the map, to see how the cartographer might have analyzed and visually (mis)represented the data.  
 
-**Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns of occurrence across space. We could make the Texts Received data into geospatial data by including information on *where we were* when the text was received. Perhaps this wouldn’t show any sort of spatial pattern. But consider a dataset about instances of illness, like this one, drawn in 1854. 
+<hideable title = "More reading on your own time">
 
-![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
-###### John Snow's map of the cholera outbreak around the Broad Street pump (1854). 
+Let's look at this dataset on Boston Public Internet Access, which is available on the LMEC Public Data Portal.
 
-The cartographer, John Snow, drew on work done in the Paris cholera outbreak of 1832 and visualized individual cases not in a table, or a data visualization, but on a map. The result is striking: it shows that there was an outbreak clustered around the water pump on Broad Street. Snow’s map showed a compelling spatial pattern that would have been more difficult to discern if he had kept his data in a table. 
+![Reference Link](https://i.imgur.com/ixxu4VB.png)
+###### LMEC Boston Public Internet Access Data File
 
-Nowadays, geospatial data are most often visualized and manipulated in geographic information system (GIS) software such as ArcGIS, QGIS. We’ll learn a bit more about this software in Session 2. Before we can get to that, we have to get a bit more in the weeds of geospatial data. 
+We've learned that it's crucial to ask questions of data: who made the dataset? When was the data collected?  Remember that the numbers represent human observations: There is always a person behind the numbers and strings. Returning to the *context* of the data is a crucial step in being a mapmaker and mapreader. 
 
-There are generally two elements of geospatial data: the *what* and the *where*. The where data are called **features data**, and they provide the spatial information that will be the visual basis of your map. Features data are things like state or national boundaries, cities, roads, rivers, buildings: things that are physically in the world. The what data are called **attribute data**. You can’t see attribute data with your naked eye: attribute data describe an object’s characteristics, like the name, depth, and water quality of a river; the height, construction date, and use of a building; or household income. You can think of features as an empty cup that the what data is poured into, or the tack that pins the what data to a specific location. 
+From glancing at this dataset, it might be hard to see how this data might be visualized on a map. It's the job of a **cartographer** to visualize spatial data and designs maps. There is a human behind every map you see: not just in the observation of phenomena and collection of data, but in the visualization of that data. 
 
-Let’s return to the Bureau of Labor Statistics thematic map. What are the features of the map? What are the attributes? 
+Let's take a look at one map created with this intenet access data. 
+
+![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
+**"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.** 
+
+You will notice that the different shapes that make up Boston are colored with different shades of pink and purple. This kind of map is refered to as a **choropleth map**: it pairs different shades of color with different statistics of the theme it's showing. 
+
+What kind of argument does this map make? What do you, as the mapreader, take away from this map? 
+
+Now let's look at a different map, made *with the same data* as the first one. 
+
+![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
+**"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.** 
+
+This map seems to tell a different story. But it's using the same exact data as the first one. What does this map say? 
+
+<aside>
+
+A key concept of chloropleth maps is establishing how to bucket or group the data into ranges, and which colors to assign those ranges. In the purple map, there are just three buckets, while in the red map, there are six. Can you think of reasons why cartographers might use more or fewer buckets? 
+
+</aside>
+
+No matter the map, no matter the topic, cartographers make conscious and unconscious decisions in how they choose to display information and data. As cartographer J.B. Harley wrote, “All maps state an argument about the world and they are propositional in nature.” ([Harley](https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext))  
+
+</hideable>
+
+## Discussion: same data, different maps
+
+**Discussion question 1**
+
+Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data in very differrent ways. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
+
+![](https://i.imgur.com/Jtog9My.png)
+Image source: [CDC](https://www.cdc.gov/sleep/data_statistics.html)
+
+![](https://i.imgur.com/kI83xl7.jpg)
+Image source: [STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/)
+
+**Discussion question 2**
+
+Every component of a map represents the mapmaker's choices, arguments, or assumptions. We've seen how different buckets of data can change the entire look and message of a choropleth map, and there are similar choices behind *every part* of *every map*. Consider this Bureau of Labor Statistics map. The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative to the contiguous United States. Even the decision to have a white background instead of a basemap that shows bodies of water and neighboring countries was a decision that affects the how we as viewers understand map.
 
 ![](https://i.imgur.com/BP8YjPZ.jpg)
-###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics
-
+###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.

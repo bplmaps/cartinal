@@ -17,7 +17,7 @@ In this lesson, we'll begin piecing together the relationship between the visual
 * How can we interpret what kind of data was needed to make a map?
 * When you set out to make a map on a particular topic, what kinds of data will you need?
 * What are the limitations of what kind of information a computer can work with?
-* What are some reasons we should be careful about the ways that data is encoded and represented?
+* What are some reasons we should be careful about the ways that data is represented and encoded?
 
 ## Key Terms
 
@@ -32,7 +32,7 @@ At the end of this lesson, you'll be able to:
 
 * Look at a map and make a good guess about what kinds of computer data went in to producing it
 * Understand what kinds of special features are found in *geospatial* data
-* Explain why we need to be careful about the view of the world that is presented in a data set
+* Explain why we need to be careful about the view of the world that is presented in a map and in a data set
 
 ## Let's get started!
 
