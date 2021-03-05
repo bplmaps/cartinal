@@ -3,27 +3,21 @@ health:
     underConstruction: true
 ---
 
-# What is a map? What is data?
+# (1) Session 1: Reverse Engineering Maps
 
-## How maps and data are different
+Welcome to the first session of the **Critical Introduction to Maps and Data**.
 
-* Like most people, you might find that the terms "maps" and "data" blend together in your head
-* Do you think ...
-    * Is a map data?
-    * Does a map *show* data?
-    * Is a map *made up of* data?
-    * Are *all* maps related to data, or are data maps a particular type of map?
-* A metaphor from language
-    * Data sets are the "words" which, in isolation, don't mean very much
-    * A mapmaker uses a "grammar" to make data communicable
-* Breaking down a map into its components allows us to understand what's going on
-* It also gives us a framework for thinking about how to "speak" in this language yourself
+![1910 map of National Forests](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7h149z08g/17479,10403,5665,2672/,1200/0/default.jpg)
 
-<Hideable title="More reading on your own time">
+In this lesson, we'll begin piecing together the relationship between the visual device called "a map" and the much larger category of "data." We'll take a look at some already-existing maps and think about what kind of data was needed to create them. We'll investigate what kinds of simple data structures computers are able to understand and process. And we'll conclude by opening up critical questions that we should bring to bear on any map or data set.
 
-A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe  visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.
+## Key Questions
 
-</Hideable>
+* What is the difference between "a map" and "data"? 
+* How can we interpret what kind of data was needed to make a map?
+* When you set out to make a map on a particular topic, what kinds of data will you need?
+* What are the limitations of what kind of information a computer can work with?
+* What are some reasons we should be careful about the ways that data is represented and encoded?
 
 ## Data are observations about the world
 
