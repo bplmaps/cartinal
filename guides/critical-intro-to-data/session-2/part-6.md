@@ -1,49 +1,61 @@
-# LMEC Public Data Portal
-
-## Overview
-
-* The **LMEC Public Data Portal** houses a variety of datasets drawn from data collectors and sources like federal and local governments. 
-* The Data Portal is a useful resource because it offers a more critical look into where the data comes from and how the data was created. This additional information is called **metadata**, and it is an integral part of any dataset—but unfortunately, this information is not  included with every dataset. 
-* Many of the features and search tools mirror other data retrieval sites so you can apply these skills to other data portals you might run into.  
-
-## Searching the Data Portal
-
-When you first enter the data portal you will see this search screen.
-
-![](https://ibb.co/XsV8Wtv)
+# Decoding Data Types
 
 
-Let's try searching for the Boston internet access data we were looking at in the last Session. 
+*This section can serve as a reference on your mapping journey. Do not feel pressure to dive into all of these techniques now, but the resources linked below can help you use these tools as you need them.* 
 
-[insert image here]
+As you might imagine, data comes in many shapes and sizes and with that comes file extensions! Here are the most common ones that you might run into.
 
-Enter a key word, such as "internet," that relate to the topic you want to find. When you see the result you want to explore, click on the data to be taken to the main page for the data source. 
+## Spatial Data File Types and Software
 
-[insert image here]
+* Common spatial file types include **Shapefiles**, **GeoJSON**, and **GeoTIFF**
+* Each file type stores geographic data in a different way and is used in specific circumstances (recall vector vs. raster!)
+* GIS software reads these data types; there are desktop programs like QGIS and web-based programs like Carto. 
 
-Here you can see various information about the data being collected including authors, sources, curators, and more. This is metadata, which we'll dive into in Session 3. 
+<hideable title = "On your own time">
 
+There is a family of file types used specifially by the mapmakers of the world. These methods of data storage are specifically used for spatial or geographic purpose. Some common examples are Shapefiles, GeoJSON, and GeoTIFF. 
 
+| File Type| Extension | Description |
+| -------- | -------- | -------- |
+| Shape File     | .shp     | contains feature geometry and attributes together; often a bundle of separate files each of which contains different information, like projection     |
+| GeoJSON     | .GEOJSON     | JavaScript-based vector geometries (i.e. points, lines, and polygons); good for web-mapping, i.e. mapping on a browser-based platform like Google Maps and Carto    |
+| GeoTIFF    | .TIF    | standard raster file type for satelite and GIS images     |
 
-## Data Geneology 
-* The **Data Geneology** section on the Data Portal tells you if the dataset you're looking at was created from multiple source datasets were combined to create the dataset 
+Read more about data types on Cartinal [here](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html).
 
-![Reference Link](https://i.imgur.com/U06yfZ6.png)
+We need specialized programs to open spatial files and view their contents. These programs come in two basic forms: you can download a desktop GIS program, like ArcGIS or [QGIS](https://www.qgis.org/en/site/), to your computer, or you can use a web-mapping service, which is based in an internet browser. Web-mapping progrms like [Carto](https://carto.com/), Google Maps, GeoJSON.io, have gained huge popularity because they're easy to use and don't require too much technical expertise. If you're ready to take the plunge into mapping wth desktop GIS software, the LMEC has a great [introduction to QGIS](https://geoservices.leventhalmap.org/cartinal/guides/get-started-qgis/).  
 
-* The Source Datasets indicate which datasets make up the final version being offered for download on the site. 
-* Processing Steps outline the actions taken by the mapmaker to alter or combine the Source Datasets to create the dataset being offered for download. 
+</hideable>
 
-<aside> 
+<aside>
 
-Often when making a map, data needs to be changed an adapted to fit the user's need. This is called **data cleaning** and is an important step in all mapping projects. Because this introduces humans playing with the data, it is important to document what changes and steps were made to get to the dataset as presented. Many times this information is not included but here in the BPL Data Portal we can clearly follow how the dataset was made.
+**Geocoding** can convert address data to a GIS-readable format. This is what Google Maps does every time you enter an address into the search bar! Its algorithms assign that address a coordinate that can then displayed on the map. Think of it this way: a computer can't show you where an address is on a map, but it can show you where a coordinate point is on a map. Remember, computers aren't smart! Learn how to georeference [here](https://geoservices.leventhalmap.org/cartinal/guides/georeference.html). 
 
 </aside>
 
-## Comprehension check
-What do you notice about the two Source Datasets listed in the Data Geneology for the internet access dataset? Can you recognize feature and attribute data? How do you think this spatial and attribute data were combined into one? 
+## Attribute Data File Types and Software
 
-<hideable title = "Check your answer">
+* Attribute data are stored in a table with rows and columns. This is often called a tabular dataset.
+* Some common file types for this include Excel Spreadsheets, Google Sheets, and Comma Separated Files
 
-You probably guessed it: a join! Joining is a common data processing step that allows us to give attribute data spatial significance so we can understand how the information is spread out.
+<Hideable title = "On your own time">
 
-</hideable>
+In most cases, you will find the information you want to use in a Comma Separated File. The CSV works very similarly to an Excel sheet or Google Sheet. Luckily, once you are comfortable working with one of these, you will be able to navigate all of them. 
+
+
+| File Type| Extension | Description |
+| -------- | -------- | -------- |
+| Comma Separated Value     | .csv   | tabular data file usually with geometry id and characteristics of each geometry  |
+
+A CSV is an example of a **tabular** data source: data that is formatted in a spreadsheet with rows and columns. This is how we look at our attribute data when using GIS software. When performing a join, a column from our tabular data source serves as the identifying information that makes the join possible. For example, there could be a column listing the names of states used to join the data with a spatial resources. 
+
+These are just a few of the data types we think you should know so you can interpret what kind of data you may be downloading! For more information on other data types please refer to [this page](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html) from LMEC on file types.
+
+</Hideable>
+ 
+<aside>
+ 
+**Discussion question**
+How might these various file types and data collection and storage methods introduce bias?
+
+</aside>

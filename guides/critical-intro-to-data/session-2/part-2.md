@@ -1,38 +1,61 @@
-# Projections
+# Feature data
 
-* Map **projection** describes how a given map has warped the earth's curved surface into a  flat image. 
-*  There are many different projections, and while none is perfect, some distort the earth less than others. 
+## Types of feature data
 
-<aside>
+* **Review: Feature data describe “where” something is happening.** Feature data are things we can see in the world, like roads, state boundaries, and waterways.
+* There are two types of feature data: **raster** and **vector**. Raster data are used to make maps of continuous, like types of land cover or air temperature. Vector data are used with phenomena that have discrete spatial boundaries, like election results or building value.
+* There are three types of “shapes” within vector data: **points**, **lines**, and **polygons**.  
 
-Can you think of how ways in which projections relate to power? Why might certain countries or people prefer one projection to another? 
+###### Example of a map using raster data
+![reference link](https://news.psu.edu/sites/default/files/styles/photo_gallery_large/public/map_OMI_Difference_Press1024_1.jpg?itok=LOMorxvc) 
 
-</aside>
-
-###### Goode Homolosine projection
-
-![reference link](https://upload.wikimedia.org/wikipedia/commons/f/f2/Goode_homolosine_projection_SW.jpg)
-
-###### Mercator projection
-
-![reference link](https://upload.wikimedia.org/wikipedia/commons/7/73/Mercator_projection_Square.JPG)
+###### Example of a map using vector data
+![](https://www.climate.gov/sites/default/files/N%26F_Boston_Air_Quality_Lg.png)
 
 <hideable>
 
-Another key cartographic ingredient to get to know is the world of **projections**. When we take Earth, a spherical object, and represent it on a flat piece of paper, we have to distort its proportions. Different projections distort the Earth in different ways. The process can intentionally or unintentionally perpetuate pre-existing power structures and even construct new ones.
+We have many ways to describe physical features of the world around us: a road can be narrow, wide, winding, straight, rocky, dirt, paved. We understand, inherently, that the boundary between ocean and dry land is not a perfect line: it changes over the course of the day. But computers can’t handle all of this complexity. They need us to simplify all of the nuance and intricacy of the physical world so they can interpret and represent it. 
 
-Many times we think about projections of the entire globe. A classic [controversy](https://www.theguardian.com/education/2017/mar/19/boston-public-schools-world-map-mercator-peters-projection) has to do with the Mercator projection, which is notorious for distorting the relative sizes of various land masses and making North America and Europe look proportionally much larger than they are. This distortion can perpetuate colonialist ideas of superiority. One of the most interesting aspects of this is that the original intention was that the map be used for navigation, yet it is now commonly used in schools and even on Google Maps. 
+There are just two ways that computers can see the world and make shapes to represent it. We, in turn, have to create data in these two forms. On one hand, there is **raster data**, which represent the world like a vast mosaic, dividing up into a grid of tiles of equal size. On the other hand, **vector data** represent the world like a stained glass window, with shards of glass cut into different shapes and sizes and soldered together. 
 
-<aside> 
+One type of geospatial data is not better than the other: each is suited to certain types of mapping exercises. Raster data are often used to make maps that describe phenomena that are continuous across space, such as types of land cover (forest, marsh, swamp, desert, etc) or air temperature. On the other hand, vector data are used with phenomena that have discrete spatial boundaries, like election results, which hew to election district boundaries, or building value, which hew to tax parcels.
 
-New digital applications like [The True Size Of...](https://thetruesize.com) show how much the Mercator projection distorts the size of landmasses. 
+![reference link](https://news.psu.edu/sites/default/files/styles/photo_gallery_large/public/map_OMI_Difference_Press1024_1.jpg?itok=LOMorxvc) 
+###### A map from Penn State researchers showing the changes in nitrogen dioxide concentrations in the northeast United States between April 2020 and the previous four years. Oranges and reds indicate higher concentrations and greens and blues showing lower concentrations. Notice how the data are represented in a mosaic style, with a grid of equal-sized squares covering the whole area of the map. 
 
-</aside>
+Notice how in this map, the colors don’t change from state to state: Pennsylvania is not orange and Delaware is not blue. Rather, the whole area is divided up into a grid of squares, and each square has a color associated with a numerical value. This is an example of a map made with raster data. 
 
-The story of the Mercator projection demonstrates that unintended consequences abound in the world of cartography, and understanding the origins of maps can help avoid disaster later on. 
+Let’s see how raster data compares to these maps that show the positive health effects of reduced greenhouse gasses. In this map, the space is divided up by county, and the color of each county corresponds to a numerical value. You can almost imagine someone cutting the shapes of each county from a sheet of glass, and soldering them together to make this stained glass window.  
 
-A common replacement many are turning to is the Galls-Peter projection, which does display relative size more accurately. There are also many more projections to check out, some of which are mentioned [here](https://www.visualcapitalist.com/problem-with-our-maps/). Every projection, though, comes with tradeoffs, which is why different projections are useful in different contexts.
+![](https://www.climate.gov/sites/default/files/N%26F_Boston_Air_Quality_Lg.png)
 
-Projection don't just have to do with how we look at the globe as a whole. Projections can be developed to look at a specific city with more accuracy than zooming in from a global projection would provide. GIS software allows you to choose what projection to use for your project. 
+###### A map from the NOAA showing positive health effects of reduced greenhouse gasses in the Boston area. 
+
+In the stained-glass-world of vector data, there are three types of shape: the point, the line, and the polygon. The **point** is a single location. The **line** connects two or more points. The **polygon** is a two-dimensional shape that has an area. In the NOAA maps of Boston, the counties are polygons, and the symbol that represents Boston is a point. Can you think of an example of a kind of spatial feature might be represented with a line? 
+
+</hideable>
+
+---
+## Comprehension check: identify types of data 
+
+Can you identify which types of geospatial data are used in this map of hazardous sites and poverty in Massachusetts? Be specific: identify each element you see on the map and define what shape it is.
+
+![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:rr173g321/datastreams/access800/content)
+###### Massachusetts income and hazardous sites. 
+
+<hideable title = "Check your answers">
+
+The towns (colored yellow, orange, and red according to the share of population below the poverty line) are polygons. The hazardous site dots are points. Bonus points if you got this one: the highways, shown in white in the surrounding states are lines!
+
+</hideable>
+
+What type of vector data are used to represent the supermarkets in this map of Boston? What about the parks?
+
+![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:ht250c591/datastreams/access800/content)
+###### Open space and supermarkets in Boston. 
+
+<hideable title = "Check your answers">
+
+The parks are polygons. The supermarkets are points, but the points are styled to look like shopping carts! 
 
 </hideable>

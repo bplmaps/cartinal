@@ -6,9 +6,9 @@ Welcome back to **Exploring the World with Maps and Data**!
 
 * dive deeper into different types of data
 * introduce projections
-* go over the concept of joining spatial and non-spatial data
-* review the different file types you might encounter when making a map
-* have a closer look at the LMEC Public Data Portal and learn about metadata.  
+* go over the concept of relating spatial data and attributes ("joining" data)
+* review some common file types you might encounter when making a map
+* have a closer look at the LMEC Public Data Portal and learn about metadata  
 
 In the last session, we 
 
@@ -18,6 +18,14 @@ In the last session, we
 
 
 ## Human bias in data
+
+<aside>
+
+Example: Covid-19 testing capacity
+
+Early in the pandemic, a lack of testing infrastructure clouded our understanding of community spread and transmission. Fluctuations in testing capacity and infrastructure affect the accuracy of the data.
+
+</aside>
 
 * What gets lost in translation between spreadsheet and map?
     * Distortion actually begins with data collection (and lack thereof)
@@ -32,14 +40,7 @@ In the last session, we
 Any mode of data collection is imperfect; it is an attempt to record phenomena in our world. Let's learn more about methods of data collection. 
 
 
-<aside>
 
-Example: Covid-19 testing capacity
-
-Early in the pandemic, a lack of testing infrastructure clouded our understanding of community spread and transmission. Fluctuations in testing capacity and infrastructure effect the accuracy of the data.
-    
-
-</aside>
 
 
 <Hideable title = 'On your own time'>

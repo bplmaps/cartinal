@@ -1,4 +1,4 @@
-## How Do We Approach Data?
+# How Do We Approach Data?
 
 Now, let’s return to data in context and turn our attention to the [City Health Dashboard](https://www.cityhealthdashboard.com/). Once [recognized](https://carto.com/blog/map-city-health-dashboard/) as Carto’s Map of the Month, the City Health Dashboard provides extensive insights into a number of issues at the city level using census tract data. For now, let’s explore High Blood Pressure in Boston. 
 
