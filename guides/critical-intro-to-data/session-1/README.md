@@ -5,7 +5,7 @@ health:
 
 # Session 1: Reverse Engineering Maps
 
-Welcome to the first session of the **Critical Introduction to Maps and Data**.
+Welcome to the very first session of the **Critical Introduction to Maps and Data**.
 
 ![1910 map of National Forests](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7h149z08g/17479,10403,5665,2672/,1200/0/default.jpg)
 
