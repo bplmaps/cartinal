@@ -1,19 +1,50 @@
-# Projections
+# Coordinates and projections
 
-* Map **projection** describes how a given map has warped the earth's curved surface into a  flat image. 
-*  There are many different projections, and while none is perfect, some distort the earth less than others. 
+## How do we match feature data to the earth?
+
+* In the last slide, we noted that vector data is like a game of connect the dots
+* But how do we tell a computer where the dots are?
+* Each dot is a *coordinate* in space, with `x` and `y` positions (and sometimes `z` if we're including elevation)
+* There are thousands of different **coordinate reference systems** that are used to match points to the earth's surface
 
 <aside>
 
-Can you think of how ways in which projections relate to power? Why might certain countries or people prefer one projection to another? 
+If you go to Google Maps and right click anywhere on the map, the first entry in the menu will be the WGS 84 coordinates of the place you just clicked.
 
 </aside>
 
-###### Goode Homolosine projection
+  * The most common is known as **WGS 84**, and it uses latitude and longitude.
+    * In **WGS 84**, the coordinate `(0, 0)` is at the intersection of the Equator and the Prime Meridian in the Gulf of Guinea
+    * The front door of the Boston Public Library is `(42.34953, -71.0775)`. The first number is positive because we're north of the Equator, and the second is negative because we're west of the Prime Meridian
+* There are many other coordinate systems that are used for different purposes
+
+::: tip
+
+Confusing coordinate systems are one of the number one reasons why you might encounter problems with data! While many modern data sets are standardizing on WGS 84 coordinates, you'll want to figure out what coordinate system your data is in when you access it.
+
+:::
+
+## Map projections
+
+
+<aside>
+
+
+Can you think of how ways in which projections relate to power and representation? Why might certain countries or people prefer one projection to another? 
+
+</aside>
+
+* If we ask the computer to graph the coordinates directly onto the screen, that's called an **unprojected** presentation
+*  However, oftentimes we'll want to choose a **projection** which transforms the source coordinates into rendered coordinates on the screen or page
+*  At smaller scales, like a single neighborhood, the projection doesn't make a huge difference, because there's not a lot of curvature in a small space
+*  But at the global scale, a projection makes a *huge* difference in what we see, because the projection controls how the round earth is made flat
+
+### Example: Goode Homolosine projection
 
 ![reference link](https://upload.wikimedia.org/wikipedia/commons/f/f2/Goode_homolosine_projection_SW.jpg)
 
-###### Mercator projection
+### Example: Mercator projection
+
 
 ![reference link](https://upload.wikimedia.org/wikipedia/commons/7/73/Mercator_projection_Square.JPG)
 
@@ -36,3 +67,25 @@ A common replacement many are turning to is the Galls-Peter projection, which do
 Projection don't just have to do with how we look at the globe as a whole. Projections can be developed to look at a specific city with more accuracy than zooming in from a global projection would provide. GIS software allows you to choose what projection to use for your project. 
 
 </hideable>
+
+<Quizlet
+	title="Check yourself"
+	:questions="
+	[{
+		text: 'How many different numbers are necessary, at a minimum, to define a coordinate?',
+		answers: [
+		{text: '1'},
+		{text: '2', correct: true},
+		{text: '3'}
+		]
+	},
+		{
+		text: 'Which of these two maps will be more distorted depending on which projection system is chosen?',
+		answers: [
+		{text: 'A map of Copley Square'},
+		{text: 'A map of North America', correct: true}
+		]
+		}]
+	"
+/>
+

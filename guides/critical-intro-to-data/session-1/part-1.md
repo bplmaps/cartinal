@@ -63,7 +63,6 @@ Try running a [Google Image search](https://www.google.com/search?tbm=isch&sourc
             {text: 'True'},
             {text: 'False', correct: true}
         ]},
-
         {text: 'Only specific types of data can be read by computers.',
         answers: [
             {text: 'True', correct: true},

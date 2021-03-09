@@ -39,6 +39,33 @@ Often when making a map, data needs to be changed an adapted to fit the user's n
 
 </aside>
 
+
+
+## Human bias in data
+
+<aside>
+
+
+Example: Covid-19 testing capacity
+
+Early in the pandemic, a lack of testing infrastructure clouded our understanding of community spread and transmission. Fluctuations in testing capacity and infrastructure affect the accuracy of the data.
+
+</aside>
+
+* What gets lost in translation between spreadsheet and map?
+  * Distortion actually begins with data collection (and lack thereof)
+  * Some helpful vocabulary for identifying this distortion:
+    * **Response bias**
+    * **Non-response bias** 
+    * **Sample size** 
+    * **Survey design (e.g. leading questions)**
+    * **Missing data**
+      * i.e. the information that we fail to record  (more to come in session 3)
+
+Any mode of data collection is imperfect; it is an attempt to record phenomena in our world. Let's learn more about methods of data collection. 
+
+
+
 ## Comprehension check
 What do you notice about the two Source Datasets listed in the Data Geneology for the internet access dataset? Can you recognize feature and attribute data? How do you think this spatial and attribute data were combined into one? 
 

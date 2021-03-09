@@ -87,7 +87,7 @@ module.exports = {
         "part-6",
         "part-7"      ],
 
-        "/guides/critical-intro-to-data/session-2/": [
+        "/guides/critical-intro-to-data/session-3/": [
           "./",
           "part-1",
           "part-2",

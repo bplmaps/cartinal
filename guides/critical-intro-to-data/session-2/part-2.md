@@ -2,14 +2,32 @@
 
 ## Types of feature data
 
-* **Review: Feature data describe “where” something is happening.** Feature data are things we can see in the world, like roads, state boundaries, and waterways.
-* There are two types of feature data: **raster** and **vector**. Raster data are used to make maps of continuous, like types of land cover or air temperature. Vector data are used with phenomena that have discrete spatial boundaries, like election results or building value.
-* There are three types of “shapes” within vector data: **points**, **lines**, and **polygons**.  
+* **Review: Feature data describe “where” something is happening.**
+  * Feature data refers to the actual *geography* on the earth's surface
+  * Some features are possible to see in real life, like the trace of a roadway or river
+  * Some features are invisible, like the boundaries of a state or a census tract
+  * We also call it the **geometry** or the **shape**
+* There are two types of feature data: **raster** and **vector**
+  * **Raster data** is like a giant piece of gridded paper, where each cell is a section of the earth's surface
+  * **Vector data**  is like a game of connect the dots
+    * Vector data has three main types: **points, lines, and polygons**  
+  * Remember, a computer is not very smart when it comes to shapes!
+    * It doesn't know what "a circle" is, and certainly not what "the shape of Massachusetts" is
+    * Raster and vector data are both methods for creating shapes out of simple numbers and rules
 
-###### Example of a map using raster data
+## Raster data: the earth as a spreadsheet
+
+* In this map, a grid is laid on top of the northeastern US, and each cell has an attribute (in this case, NO<sub>2</sub> emissions, visualized as colors)
+
 ![reference link](https://news.psu.edu/sites/default/files/styles/photo_gallery_large/public/map_OMI_Difference_Press1024_1.jpg?itok=LOMorxvc) 
 
-###### Example of a map using vector data
+## Vector data: connecting dots into shapes
+
+* In this map, the boundaries of states and the counties inside them are vector geometries
+  * Each shape is made from dozens of points connected together in order
+  * Because the points form a closed loop in these examples, they are **polygons**
+  * The location of Boston is also vector data; it's a **point** because it's one-dimensional
+
 ![](https://www.climate.gov/sites/default/files/N%26F_Boston_Air_Quality_Lg.png)
 
 <hideable>
@@ -36,26 +54,37 @@ In the stained-glass-world of vector data, there are three types of shape: the p
 </hideable>
 
 ---
-## Comprehension check: identify types of data 
+## Comprehension check: identify types of data
 
-Can you identify which types of geospatial data are used in this map of hazardous sites and poverty in Massachusetts? Be specific: identify each element you see on the map and define what shape it is.
+#### Map 1: Health Crisis
+
+* Can you identify which types of geospatial data are used in this map of hazardous sites and poverty in Massachusetts?
+* Be specific: identify each element you see on the map and define what type of geometry it is (**raster** or **vector**, and, if it's vector, **point, line, or polygon**)
 
 ![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:rr173g321/datastreams/access800/content)
-###### Massachusetts income and hazardous sites. 
 
-<hideable title = "Check your answers">
+<hideable title = "Check your responses for 'Health Crisis'">
 
-The towns (colored yellow, orange, and red according to the share of population below the poverty line) are polygons. The hazardous site dots are points. Bonus points if you got this one: the highways, shown in white in the surrounding states are lines!
+* The towns and cities (colored yellow, orange, and red according to the share of population below the poverty line) are **polygons**
+* The shape of the states are also **polygons**
+* The hazardous site dots are **points**
+* Bonus points if you got these: the highways, shown in white in the surrounding states are **lines**! Some of the rivers are also **lines**, while waterbodies like the Quabbin Reservoir are **polygons**
 
 </hideable>
 
-What type of vector data are used to represent the supermarkets in this map of Boston? What about the parks?
+#### Map 2: Boston Open Space and Supermarkets
+
+* What type of vector data are used to represent the supermarkets in this map of Boston?
+* What about the parks?
+* What about the neighborhoods?
 
 ![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:ht250c591/datastreams/access800/content)
-###### Open space and supermarkets in Boston. 
 
-<hideable title = "Check your answers">
+<hideable title="Check your responses for Boston Open Space and Supermarkets">
 
-The parks are polygons. The supermarkets are points, but the points are styled to look like shopping carts! 
+* The parks are **polygons**
+* The supermarkets are **points**, but the points are styled to look like shopping carts
+  * The convention of using a **dot** to represent a point is just that—a representational convention. A point isn't "really" a dot to a computer, it's just a single mathematical coordinate 
+* The neighborhood boundaries are **polygons**
 
 </hideable>

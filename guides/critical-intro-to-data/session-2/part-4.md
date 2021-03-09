@@ -1,25 +1,30 @@
 # Joining feature and attribute data
 
+## How do features and attributes get together?
 
-#### Maps are the outcome of tying two pieces of information together: the what and the where. This tying together process is called joining data, and it’s an integral part of making maps. 
-
-* At its core, joining has to do with the use of a **stable identifier** or **unique identifier**
+* Most data maps show both the shape of places (**features**) and information that we know about those places (**attributes**)
+* How do we connect these two different types of data?
+* Merging features and attributes typically requires connecting data sets through a process called a **join**
+* To join two more more sets of data, we need something called **stable identifier** or **unique identifier**
     * A stable identifer is shared by the feature and attribute data and tells the computer which data corresponds to what geographical place.
-    * Looking at the attribute table for the Wi-Fi maps we have discussed, we can see how joins work:
-        * Entries in the GEO_ID column correspond with census tracts, feature data that also have a GEO_ID column.  
-        * The GEO_ID is the **stable identifier** that we use to link the numerical internet data with the spatial data.
-        * When we join attribute data to feature data, we tell the computer to fill the shape of the feature data (a polygon, a point, a line, or a grid square of a raster file) with the information in a certain row of the attribute data. 
+    
+## An example join
 
-<aside>
+Looking at the attribute table for the Wi-Fi maps we have discussed, we can see how joins work:
 
-Let’s return (again!) to the BLS unemployment maps. The information held in the table (the name of the state and its unemployment rate) is joined to the shape of each state. The mapmaker tells the computer, through joining feature and attribute data, that the shape of Alaska has a numerical value of 5.8.
-
-</aside>
+* Each row of attribute data has a value called `GEO_ID`
+* The feature data (which contians the shape of each Census tract) also has a `GEO_ID` value
+* The GEO_ID is the **stable identifier** that we use to link the information about internet access with information about the shapes of Census tracts
+* When we join attribute data to feature data, we tell the computer to fill the shape of the feature data (a polygon, a point, a line, or a grid square of a raster file) with the information in a certain row of the attribute data.
 
 ![Reference Link](https://i.imgur.com/ixxu4VB.png)
-###### Screenshot of the LMEC Boston Public Internet Access data table.
 
-[insert map screenshot here]
+::: tip
+
+To join data, the identifiers need to be **exactly** the same as one another.
+
+:::
+
 
 <Hideable title = 'On your own time'>
 
@@ -35,3 +40,15 @@ The key to a join is a **stable identifier**, or **unique identifier** that is s
 ###### Screenshot of the LMEC Boston Public Internet Access data table.
 
 </Hideable>
+
+<Quizlet
+	title="Check yourself"
+	:questions="[
+		{text: 'You have some feature data of states where each state is defined by its abbrevation (e.g., MA). You also have an attribute table where each state is defined by its name (e.g., Massachusetts). Could we join these two data sets in their current format?',
+		answers: [
+			{text: 'Yes'},
+			{text: 'No', correct: true}
+		]}
+	]"
+/>
+

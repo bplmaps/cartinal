@@ -1,1 +1,2 @@
-# Critical Introduction to Data
+# Making Sense of Maps & Data
+

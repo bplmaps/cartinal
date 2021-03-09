@@ -26,7 +26,7 @@ In this lesson, we'll begin piecing together the relationship between the visual
 * attributes
 * rendering
 
-## Goals of this lesson
+## Goals of this session
 
 At the end of this lesson, you'll be able to:
 
