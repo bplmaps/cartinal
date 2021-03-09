@@ -10,9 +10,13 @@
                 </li>
               </ul>
             <!-- Beginning of Data Endpoint section --> 
-            <li><a href="./access.html"> access </a></li>
-                <ul v-for="item, index in this.access.items[0].properties" :key="index">
-                  <li><a :href="index + '.html'" >{{index}}</a></li>
+            <li v-if="this.access.items"><a href="./access.html"> access </a></li>
+                <ul>
+                  <li><a href="$id.html" >$id</a></li>
+                  <li><a href="accessURL.html" >accessURL</a></li>
+                  <li><a href="title.html" >title</a></li>
+                  <li><a href="source.html" >source</a></li>
+                  <li><a href="format.html" >format</a></li>
                 </ul>
             <!-- Beginning of Filter Tagging section --> 
             <li><a href="./tags.html"> tags </a></li>
