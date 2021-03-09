@@ -8,9 +8,9 @@
 # fullDescription
 
 <template>
-    <div v-if="this.citation.fullDescription" id = "container">
-      <p class="larger-text">{{this.citation.fullDescription.description}}</p>
-      <p >Expected Type: <strong>{{this.citation.fullDescription.type}}</strong></p>
+    <div v-if="this.core.fullDescription" id = "container">
+      <p class="larger-text">{{this.core.fullDescription.description}}</p>
+      <p >Expected Type: <strong>{{this.core.fullDescription.type}}</strong></p>
     </div>
 </template>
 
@@ -23,17 +23,17 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: [],
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.citation)
+          console.log(this.core)
         }
     },
     computed: {
@@ -46,12 +46,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.considerations = response.data.properties.considerations.properties
+                this.resources = response.data.properties.resources.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

@@ -1,34 +1,37 @@
 <template>
     <div id="hierarchy-container">
           <ul>
-            <!-- Beginning of Core Citation section --> 
-            <li> <a href="./citation.html">citation</a>  </li>
-              <!-- Beginning of each property in Core Citation list --> 
-              <ul v-for="item, index in this.citation" :key="index">
+            <!-- Beginning of description section --> 
+            <li> <a href="./core.html">core</a>  </li>
+              <!-- Beginning of each property in description list --> 
+              <ul v-for="item, index in this.core" :key="index">
                 <li>
                   <a :href="index + '.html'" >{{index}}</a>
                 </li>
               </ul>
             <!-- Beginning of Data Endpoint section --> 
-            <li><a href="./endpoints.html"> endpoints </a></li>
+            <li><a href="./access.html"> access </a></li>
+                <ul v-for="item, index in this.access.items[0].properties" :key="index">
+                  <li><a :href="index + '.html'" >{{index}}</a></li>
+                </ul>
             <!-- Beginning of Filter Tagging section --> 
-            <li><a href="./filterTagging.html"> filterTagging </a></li>
-                <ul v-for="item, index in this.filterTagging" :key="index">
+            <li><a href="./tags.html"> tags </a></li>
+                <ul v-for="item, index in this.tags" :key="index">
                   <li><a :href="index + '.html'" >{{index}}</a></li>
                 </ul>
             <!-- Beginning of People Lifecycle section --> 
-            <li><a href="./peopleLifecycle.html"> peopleLifecycle </a></li>
-                <ul v-for="item, index in this.peopleLifecycle" :key="index">
+            <li><a href="./lifecycle.html"> lifecycle </a></li>
+                <ul v-for="item, index in this.lifecycle" :key="index">
                   <li><a :href="index + '.html'" >{{index}}</a></li>
                 </ul>
             <!-- Beginning of Documentation Health section --> 
-            <li><a href="./documentationHealth.html"> documentationHealth </a></li>
-                <ul v-for="item, index in this.documentationHealth" :key="index">
+            <li><a href="./considerations.html"> considerations </a></li>
+                <ul v-for="item, index in this.considerations" :key="index">
                   <li><a :href="index + '.html'" >{{index}}</a></li>
                 </ul>
             <!-- Beginning of Related Resources section --> 
-            <li><a href="./relatedResources.html"> relatedResources </a></li>
-                <ul v-for="item, index in this.relatedResources" :key="index">
+            <li><a href="./resources.html"> resources </a></li>
+                <ul v-for="item, index in this.resources" :key="index">
                   <li><a :href="index + '.html'" >{{index}}</a></li>
                 </ul>
           </ul>
@@ -45,17 +48,17 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: []
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.filterTagging)
+          console.log(this.tags)
         }
     },
     computed: {
@@ -68,12 +71,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
+                this.resources = response.data.properties.resources.properties
+                this.considerations = response.data.properties.considerations.properties
             }).catch(err => {
                 console.log(err)
             })

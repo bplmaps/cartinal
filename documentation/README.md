@@ -8,7 +8,7 @@ themes:
   topics: 
     - topicName: Accessing Atlascope Data
       link: ./atlas-data.html
-      description: Notes about how to access the underlying data sources of the Atlascope project, including raster imagery, vector boundary files, and metadata records. Includes a list of all available atlas layers with data access endpoints.
+      description: Notes about how to access the underlying data sources of the Atlascope project, including raster imagery, vector boundary files, and metadata records. Includes a list of all available atlas layers with data access access.
 
 - themeTitle: Data Archive
   topics: 

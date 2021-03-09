@@ -9,18 +9,18 @@ sidebar: auto
 This is the homepage for the LMEC's data description schema. The data description schema is used to write metadata which can power the hosting of open, humanistically-contextualized datasets.
 
 ::: tip Schema overview
-The schema is organized into 5 top-level categories: `citation`, `endpoints`, `filterTagging`, `peopleLifecycle`, `documentationHealth`, and `relatedResources`.
-- `citation` addresses basics of the dataset
+The schema is organized into 6 top-level categories: `core`, `access`, `tags`, `lifecycle`, `considerations`, and `resources`
+- `core` addresses basics of the dataset
 
-- `endpoints` links to URLs for direct data access
+- `access` links to URLs for direct data access
 
-- `filterTagging`  uses standard vocabularies and free tags to enable searching and filtering
+- `tags`  uses standard vocabularies and free tags to enable searching and filtering
 
-- `peopleLifecycle` documents the checkpoints at which people have come into contact with or changed the dataset
+- `lifecycle` documents the checkpoints at which people have come into contact with or changed the dataset to help paint a picture of the data's lineage
 
-- `documentationHealth` allows the data describer to evaluate the usefulness of the dataset's official documentation
+- `considerations` allows the data describer to evaluate the public usefulness of the data's formatting and available context
 
-- `relatedResources` creates a constellation of resources to help someone make sense of the data, including publications, codebooks & documentation, supplementary files, and tutorials
+- `resources` creates a constellation of resources to help someone make sense of the data, including publications, codebooks & documentation, supplementary files, and tutorials
 ::: 
 
 ## Schema documentation

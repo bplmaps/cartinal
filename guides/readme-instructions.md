@@ -28,7 +28,7 @@ We accept contextual information about your data processing workflow in multiple
 
 Step-by-step tutorials in the format of blogs, articles, Jupyter notebooks or any other narrative format explaining your process can be an excellent way to extend the health, longevity and reusability of your work.
 
-This format of sequential explanation, though more time consuming, will ensure that someone else could reproduce your process. It also lives on as an educational resource, adding to the larger [constellation of resources](../documentation/schema/relatedResources.html) orbiting the data. 
+This format of sequential explanation, though more time consuming, will ensure that someone else could reproduce your process. It also lives on as an educational resource, adding to the larger [constellation of resources](../documentation/schema/resources.html) orbiting the data. 
 
 ::: tip
 See an example LMEC-published Jupyter notebook describing one of our own datasets here: [LMEC Data Processing Description Example](https://github.com/nblmc/massachusetts-municipal-boundaries)
@@ -92,7 +92,7 @@ If you cleaned data, deleted, renamed, mathematically calculated or inferred fie
 
 ## Bonus Points
 
-Check out our [descriptive metadata](../documentation/schema) template to get a sense of what types of information we typically capture. If you are privy to any additional information, particularly related to our [Documentation Health](../documentation/schema/documentationHealth.html) section, please don't hesitate to include.
+Check out our [descriptive metadata](../documentation/schema) template to get a sense of what types of information we typically capture. If you are privy to any additional information, particularly related to our [Documentation Health](../documentation/schema/considerations.html) section, please don't hesitate to include.
 
 *You can contact us about submitting your data project by emailing Belle Lipton at blipton@leventhalmap.org*
 

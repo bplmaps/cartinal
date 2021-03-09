@@ -9,18 +9,18 @@
 # publicTrust
 
 <template>
-   <table v-if="this.documentationHealth.publicTrust" id ="property-table">
-     <p class="larger-text">{{this.documentationHealth.publicTrust.description}}</p>
+   <table v-if="this.considerations.publicTrust" id ="property-table">
+     <p class="larger-text">{{this.considerations.publicTrust.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.documentationHealth.publicTrust.properties" :key="index">
+  <tr v-for="item, index in this.considerations.publicTrust.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.documentationHealth.properties.publicTrust.properties.required)}}</td>
+    <td id="required">{{checkRequired(index, schema.considerations.properties.publicTrust.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -35,12 +35,12 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: []
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: []
         }
     },
     methods: {
@@ -66,12 +66,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.considerations = response.data.properties.considerations.properties
+                this.resources = response.data.properties.resources.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

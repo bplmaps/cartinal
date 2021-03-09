@@ -20,9 +20,9 @@ The `<script>` tag only needs to be included once on a single page; if you would
 
 This compiled web component bundles Vue, which is a dependency. If you are including it in a project where Vue is already available, you can recompile it using `vue-cli` with the `--inlineVue` flag excluded.
 
-## Search endpoints
+## Search access
 
-The search widget passes the query to the following endpoints, which return JSON with results.
+The search widget passes the query to the following access, which return JSON with results.
 
 Digital Collections: `https://collections.leventhalmap.org/search?utf8=✓&q={QUERY}`
 

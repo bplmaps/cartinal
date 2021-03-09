@@ -75,7 +75,7 @@ One should consider the data at hand -- if the maps requiring alignment have sta
 <summary>Locating and managing BPL source imagery</summary>
 
 > - Locate the correct atlas using BPL [town](http://guides.bpl.org/mass-urban-atlases "Massachusetts Town Atlases") and [city](http://guides.bpl.org/urban-atlases/list "Boston Urban Atlases") libguides <br>
-> - Included under the volume-level citation in the libuide is a link to a list of all of the plates in that volume in the digital collections.<br>
+> - Included under the volume-level description in the libuide is a link to a list of all of the plates in that volume in the digital collections.<br>
 > - In the list results, observe the range of plate numbers or letters in the atlas, the number of plates to be included in the mosaic, and how many of these plates need to be georeferenced (some will be non-cartographic front matter, like the title plate)<br>
 > - Open one of the individual maps. Note the **identifier** and **barcode** field in the metadata. <br>
 > - The **identifier** is the unique ID for every plate-level digital object. The literal string observed as the value for the **identifier** field in the object's metadata should be the file name every time you are exporting both geoTIFFFS and control points<br>

@@ -1,18 +1,31 @@
 ---
+sidebar: none
 ---
 
 <br>
 
 [← Back to Schema Home](./)
 
-# publisher
+# considerations
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Name of the publisher</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.schema.considerations" id ="property-table">
+     <p class="larger-text">{{this.schema.considerations.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.considerations" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td></td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
+
 
 <script>
 import axios from 'axios'
@@ -28,12 +41,12 @@ export default {
           tags: [],
           considerations: [],
           resources: [],
-          lifecycle: [],
+          lifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.core)
+          console.log(this.schema.considerations)
         }
     },
     computed: {
@@ -67,10 +80,5 @@ table#property-table
 p.larger-text
   font-size 120%
 
+
 </style>
-
-## Example use
-
-``` json
-"publisher": "University of Chicago Press"
-```
