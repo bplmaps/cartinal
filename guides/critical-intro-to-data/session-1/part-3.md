@@ -1,7 +1,17 @@
-## How Should We Look at Maps?
-    
+---
+health:
+    underConstruction: true
+---
 
+# How does a computer make a map?
+
+## 
+
+<Hideable title="More reading on your own time">
+    
 > **“It is better for us to begin from the premise that cartography is seldom what cartographers say it is.” ([J.B. Harley, "Deconstructing the Map"](https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext))**
+
+</Hideable>
 
 In order to learn how to critically evaluate maps, we will start by destructing one. While this might sound complicated and confusing, it really boils down to understanding the choices made by the mapmaker. 
 
