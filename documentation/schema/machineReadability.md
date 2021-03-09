@@ -6,21 +6,21 @@
 
 [← Back to Schema Home](./)
 
-# publicTrust
+# machineReadability
 
 <template>
-   <table v-if="this.considerations.publicTrust" id ="property-table">
-     <p class="larger-text">{{this.considerations.publicTrust.description}}</p>
+   <table v-if="this.considerations.machineReadability" id ="property-table">
+     <p class="larger-text">{{this.considerations.machineReadability.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.considerations.publicTrust.properties" :key="index">
+  <tr v-for="item, index in this.considerations.machineReadability.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
-    <td id="required">{{checkRequired(index, schema.considerations.properties.publicTrust.properties.required)}}</td>
+    <td id="required">{{checkRequired(index, schema.considerations.properties.machineReadability.properties.required)}}</td>
     <td>{{item.description}}</td>
   </tr>
 </table> 
@@ -92,17 +92,4 @@ td#required
 
 </style>
 
-## Health checklist
 
-::: tip How we check documentation health
-You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
-:::
-
-## Example use
-
-```json
-"publicTrust":{
-  "healthScore": 3,
-  "healthEvaluation": "Census documentation is clear about methods used for anonymizing and participant privacy. It discusses the challenges of grouping or [aggregating](http://wiki.gis.com/wiki/index.php/Aggregation) survey responses into homogenous areas. It acknowledges Census Bureau reasoning for why the survey is mandatory. It explains why the data is beneficial to society. \n \n The documentation does not address how the Census Bureau understands participant consent. It is not clear if all participants understand how their data will be used. "		
-}
-```

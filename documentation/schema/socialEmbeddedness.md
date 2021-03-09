@@ -6,15 +6,25 @@
 
 [← Back to Schema Home](./)
 
-# healthScore
+# socialEmbeddedness
 
 <template>
-    <div id = "container" v-if="this.considerations.representation">
-      <p class="larger-text">{{this.considerations.representation.properties.healthScore.description}}</p>
-      <p >Expected Type: <strong>{{this.considerations.representation.properties.healthScore.type}}</strong></p>
-    </div>
+   <table v-if="this.considerations.socialEmbeddedness" id ="property-table">
+     <p class="larger-text">{{this.considerations.socialEmbeddedness.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.considerations.socialEmbeddedness.properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td id="required">{{checkRequired(index, schema.considerations.properties.socialEmbeddedness.properties.required)}}</td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
-
 
 <script>
 import axios from 'axios'
@@ -34,20 +44,17 @@ export default {
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.tags)
-        },
         checkRequired(evaluatedItem, requiredFieldsList){
-          if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
-              return ''
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
           } else {
-            if (requiredFieldsList.includes(evaluatedItem)){
-                return 'x'
-            } else {
-                return ''
-            }
+              return ''
           }
         }
+      }
     },
     computed: {
         data() {
@@ -85,15 +92,4 @@ td#required
 
 </style>
 
-## Health checklist
 
-::: tip How we check documentation health
-You can find out how we check documentation in the [documentation health check guide](./healthcheck.html)
-:::
-
-
-## Example Use
-
-``` json
-"healthScore": 3
-```
