@@ -3,85 +3,66 @@ health:
     underConstruction: true
 ---
 
-# The human role in mapping: from data to maps
+# Geospatial data: the what and the where
 
+* **Data** are records of observations of phenomena. Data do not exist without human observation, classification, organization, and maintenance. 
+* Many types of observations can be organized into datasets and visualized,but only spatial data can be visualized on a map.
 
-## In between data and maps are people.
-* Data can never become a map all by itself. In between data and maps are people!  
-* For even the simplest data set, there are hundreds of different methods and techniques for possible visual representation.
+![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
+**John Snow's map of the cholera outbreak around the Broad Street pump (1854).** 
 
-![](https://i.imgur.com/LezjKov.png)
+* **Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns across space.
+* There are two elements of geospatial data: **feature data** (which encodes information about *where* an observation occurs) and **attribute data** (which encodes information about what occurs). 
 
+<Hideable title = "More reading on your own time">
 
-* **Cartographers** make data visualization decisions that affect the appearance of the map. Mapmakers have power over how we see data.
-* One dataset can produce two (or more!) completely different maps.  
+Data do not exist without human observation, classification, organization, and maintenance. When data are organized and analyzed, we can call it “information.” But in its raw, unprocessed form, data are relatively useless, simply observations that are seemingly random. 
 
-![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
-**"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.** 
+Lots of observations can be organized into data sets. Let’s consider a data set of texts we receive in a day. Through observation, we can see we receive texts and there are some qualities of the text that might be interesting to record. We might want to record who sent the text, when they sent it, and the overall subject matter. 
 
-![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
-**"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.** 
+Many people have undertaken projects like this and recorded the texts they received in a year, emotions felt in a day, or types of goodbyes they say in a week. A whole year can be spent recording and visualizing data in this way, [as Giorgia Lupi and Stefanie Posavec did in their project, Dear Data](http://www.dear-data.com/theproject). 
 
-* This makes it important to look at the data set behind the map, to see how the cartographer might have analyzed and visually (mis)represented the data.  
+![reference link](https://images.squarespace-cdn.com/content/v1/54eec73ee4b0ae0904da0e94/1469543541721-UB2SLPATTAHHT23DXU3K/ke17ZwdGBToddI8pDm48kAYCpg1VIiwn4rHNOpB5c4B7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UVjdAUSUmuEOi_N_6GrwUPyU5pNi1K8-4PrHaCC_jPqmRwI9WTNiCkeSufsKtaOj1w/image-asset.jpeg?format=1500w) 
+###### Dear Data postcards, Giorgia Lupi and Stefanie Posavec (2016). 
 
-<hideable title = "More reading on your own time">
+[Some people even spend a decade](https://www.wired.com/2015/10/nicholas-felton-obsessively-recorded-his-private-data-for-10-years/) observing their lives and recording it in data. 
 
-Let's look at this dataset on Boston Public Internet Access, which is available on the LMEC Public Data Portal.
+**Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns of occurrence across space. We could make the Texts Received data into geospatial data by including information on *where we were* when we received the texts. 
 
-![Reference Link](https://i.imgur.com/ixxu4VB.png)
-###### LMEC Boston Public Internet Access Data File
+Perhaps this text data set wouldn’t show any sort of spatial pattern. But consider a dataset about instances of illness, like this one, drawn in 1854. 
 
-From glancing at this data set, it might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
+![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
+**John Snow's map of the cholera outbreak around the Broad Street pump (1854).** 
 
-Let's take a look at one map created with this intenet access data. 
+The cartographer, John Snow, drew upon work done in the Paris cholera outbreak of 1832 and visualized individual cases not in a table or graph, but on a map. The result is striking; it shows that there was an outbreak clustered around the water pump on Broad Street. 
 
-![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
-**"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.** 
+Snow’s map showed a compelling spatial pattern that would have been more difficult to discern if he had kept his data in a table. Nowadays, geospatial data are most often visualized and manipulated in geographic information system (GIS) software such as ArcGIS, QGIS. 
 
-You will notice that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is refered to as a **choropleth map**: it pairs different shades of color with different statistics of the theme it's showing. 
+There are generally two elements of geospatial data: the *what* and the *where*. The where data are called **feature data**, and they provide the spatial information that will be the visual basis of your map. Features data are things like state or national boundaries, cities, roads, rivers, buildings, things that are physically in the world. 
 
-What kind of argument does this map make? What do you, as the mapreader, take away from this map? 
+The what data are called **attribute data**. You can’t see attribute data with your naked eye: attribute data describe an object’s characteristics, like the name, depth, and water quality of a river, the height, construction date, and use of a building, or household income. 
 
-Now let's look at a different map, made *with the same data* as the first one. 
+You can think of features as an empty cup that the attribute data is poured into, or the tack that pins the what data to a specific where. 
 
-![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
-**"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.** 
+</Hideable>
 
-This map seems to tell a different story. But it's using the same exact data as the first one. What does this map say? 
-
-<aside>
-
-Establishing how to bucket, or group, the data into ranges and which colors to assign those ranges are key tasks when making a choropleth map. In the purple map, there are just three buckets, while in the red map, there are six. Can you think of reasons why cartographers might use more or fewer buckets? 
-
-</aside>
-
-No matter the map, no matter the topic, cartographers make conscious and unconscious decisions in how they choose to display information and data. As cartographer J.B. Harley wrote, “All maps state an argument about the world and they are propositional in nature.” ([Harley](https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext))  
-
-</hideable>
-
-## Discussion: same data, different maps
-
-**Discussion question 1**
-
-Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
+<Quizlet 
+    title="Check your understanding"    
+    :questions="[
+        {text: 'What are the features of this map?',
+        answers: [
+            {text: 'Unemployment percentages'},
+            {text: 'The states', correct: true}
+        ]},
+        {text: 'What are the attributes of this map?',
+        answers: [
+            {text: 'Unemployment percentages', correct: true},
+            {text: 'Shades of blue'}
+        ]
+        }
+    ]"
+>
 
 ![](https://i.imgur.com/BP8YjPZ.jpg)
-###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.
 
-<Hideable title = 'Hints'>
-
-Every component of a map represents the mapmaker's choices, arguments, or assumptions. We've seen how different buckets of data can change the entire look and message of a choropleth map, and there are similar choices behind *every part* of *every map*. 
-
-The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative to the contiguous United States. Even the decision to have a white background instead of a basemap that shows bodies of water and neighboring countries was a decision that affects the how we as viewers understand map.
-
-<Hideable>
-
-**Discussion question 2**
-
-Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data very differently. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
-
-![](https://i.imgur.com/Jtog9My.png)
-Image source: [CDC](https://www.cdc.gov/sleep/data_statistics.html)
-
-![](https://i.imgur.com/kI83xl7.jpg)
-Image source: [STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/)
+</Quizlet>

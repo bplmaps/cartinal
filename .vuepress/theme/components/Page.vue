@@ -41,6 +41,11 @@ export default {
     background-color: white
 
 
+figcaption 
+  text-align: right
+  font-style: italic 
+  opacity: 0.7
+  font-size: 95%
 
 
 </style>

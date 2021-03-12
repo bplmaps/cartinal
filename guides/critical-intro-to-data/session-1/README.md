@@ -7,9 +7,21 @@ health:
 
 Welcome to the very first session of the **Critical Introduction to Maps and Data**.
 
+<figure>
+
 ![1910 map of National Forests](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7h149z08g/17479,10403,5665,2672/,1200/0/default.jpg)
 
+<figcaption>
+
+This will be a caption with a [link to the original map](http://livejournal.com)
+
+</figcaption>
+</figure>
+
+
 In this lesson, we'll begin piecing together the relationship between the visual device called "a map" and the much larger category of "data." We'll take a look at some already-existing maps and think about what kind of data was needed to create them. We'll investigate what kinds of simple data structures computers are able to understand and process. And we'll conclude by opening up critical questions that we should bring to bear on any map or data set.
+
+
 
 ## Key Questions
 
