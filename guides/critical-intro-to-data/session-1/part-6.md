@@ -13,11 +13,11 @@ health:
 
 <hideable title = "More reading on your own time">
 
-Some choices cartographers make are made consciously with a specific purpose in mind; but some are unconscious, and reflect biases that have been reinforced generation over generation. Some elements of map design that were once choices have been repeated so many times that they've become convention. Any given map we might pick up or click on today is the result of collective decisions that we have come to accept as truths. The expectations we might have for what a map is come from systemic reinforcement of specific traditions of map-making, and perpetuation of these traditions has created a list of “oughts” when looking at a map. Though we have a set of cartographic standards, these too are subjective choices, and there is little that a map must objectively contain. 
+ Some elements of map design that were once choices have been repeated so many times that they've become convention. Any given map we might pick up or click on today is the result of collective decisions that we have come to accept as truths. The expectations we might have for what a map is come from longterm reinforcement of specific traditions of map-making. Perpetuation of these traditions has created a list of “oughts” for a map. Though we have a set of cartographic standards, these too are subjective choices, and there is little that a map must objectively contain. 
 
-When we listen to a political speech, we know that what we hear are subjective opinions. But we don't often think of maps as subjective in the same way. This makes it even more important to consciously dissect what is going on in each piece we look at, and to always remember that maps are the culmination of a series of choices made by a mapmaker. 
+When we listen to a political speech, we know that what we hear are subjective opinions. But we don't often think of maps as subjective in the same way. This makes it even more important to consciously dissect maps. 
 
-Arguments made by maps have the capacity to be powerful; when we “see” problems laid out spatially, it helps us really understand what is going on. Maps can reveal disparities within communities and help lobby for racial and environmental justice. Consider this map of Denver, which shows a spatial correlation between higher temperatures and lower household incomes: 
+Arguments made by maps have the capacity to be powerful; spatial representations of issues nuance our understanding. Maps can reveal disparities within communities and help lobby for racial and environmental justice. Consider this map of Denver, which shows a spatial correlation between higher temperatures and lower household incomes: 
 
 ![reference link](https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2019/09/190907-HEAT-TRENDS-NPR-01.jpg) 
 **Thematic maps of Denver, showing the surface temperature and household income. Placing these maps side by side allows us to see how these variables are correlated: it is hotter where residents are of lower income.** 
@@ -30,9 +30,9 @@ Maps can show us where gender oppression is particularly pronounced, and they ca
 
 In the next session, we will 
 
-* Dive deeper into different types of data
-* Introduce projections
-* Go over the concept of joining spatial and non-spatial data
-* Review the different file types you might encounter when making a map
-* Have a closer look at the LMEC Public Data Portal and learn about metadata
+* Dive deeper into different types of data,
+* Introduce projections,
+* Go over the concept of joining spatial and non-spatial data,
+* Review the different file types you might encounter when making a map, and
+* Have a closer look at the LMEC Public Data Portal.
 

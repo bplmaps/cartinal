@@ -31,8 +31,6 @@ Let's look at this dataset on Boston Public Internet Access, which is available 
 ![Reference Link](https://i.imgur.com/ixxu4VB.png)
 ###### LMEC Boston Public Internet Access Data File
 
-We've learned that it's crucial to ask questions of data: who made the dataset? When collected the data, and when did they collect it? Remember that the numbers represent *human observations*; there is always a person behind the numbers and strings. Returning to the *context* of the data is a crucial step in reading and making maps. 
-
 From glancing at this data set, it might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
 
 Let's take a look at one map created with this intenet access data. 
@@ -65,6 +63,21 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 **Discussion question 1**
 
+Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
+
+![](https://i.imgur.com/BP8YjPZ.jpg)
+###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.
+
+<Hideable title = 'Hints'>
+
+Every component of a map represents the mapmaker's choices, arguments, or assumptions. We've seen how different buckets of data can change the entire look and message of a choropleth map, and there are similar choices behind *every part* of *every map*. 
+
+The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative to the contiguous United States. Even the decision to have a white background instead of a basemap that shows bodies of water and neighboring countries was a decision that affects the how we as viewers understand map.
+
+<Hideable>
+
+**Discussion question 2**
+
 Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data very differently. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
 
 ![](https://i.imgur.com/Jtog9My.png)
@@ -72,14 +85,3 @@ Image source: [CDC](https://www.cdc.gov/sleep/data_statistics.html)
 
 ![](https://i.imgur.com/kI83xl7.jpg)
 Image source: [STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/)
-
-**Discussion question 2**
-
-Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
-
-![](https://i.imgur.com/BP8YjPZ.jpg)
-###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.
-
-Every component of a map represents the mapmaker's choices, arguments, or assumptions. We've seen how different buckets of data can change the entire look and message of a choropleth map, and there are similar choices behind *every part* of *every map*. 
-
-The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative to the contiguous United States. Even the decision to have a white background instead of a basemap that shows bodies of water and neighboring countries was a decision that affects the how we as viewers understand map.
