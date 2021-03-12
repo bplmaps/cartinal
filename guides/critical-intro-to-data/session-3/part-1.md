@@ -13,6 +13,8 @@
 
 ## Where to find metadata
 
+<hideable title="More details">
+
 * **If it exists,** metadata will often be on the page where you downloaded the dataset or in a separate textfile that you get when you download the dataset itself.
 * If you are making your own dataset, it is your resposibility to create and share the metadata with others! Be sure to give context to your created data so that others may use it with the correct intentions. Feel free to explore this LMEC resource on [data documentation ](https://geoservices.leventhalmap.org/cartinal/guides/readme-instructions.html#general-information)
 
@@ -63,18 +65,21 @@
 * As critical viewers of data you should begin to prioritize and value ethical data transparency in order to make fair choies about what can and cannot be said from a given dataset.
 
 ## Check for Understanding
+
 ![Reference Link](https://i.imgur.com/LS1SLT3.png)
+
 ##### Wicked Free Wi-Fi, a dataset from the City of Boston on Public Wifi Spots
 
 <Quizlet
     title="Check your understanding"
     :questions="[
-        {text: 'Considering the dataset above, what metadata not present would make the dataset more transparent?. Choose all that apply',
-        answers: [
-            {text: 'The timeframe in which the data was collected'},
-            {text: 'How the cartographer worked with teh data', correct: true}
-            {text: The name of the dataset},
-            {text: Forseen limitations of using the datset, correct: true}
+        {
+            text: 'Considering the dataset above, what metadata not present would make the dataset more transparent?. Choose all that apply',
+            answers: [
+            {text: 'The timeframe in which the data was collected' },
+            {text: 'How the cartographer worked with the data', correct: true},
+            {text: 'The name of the dataset'},
+            {text: 'Forseen limitations of using the datset', correct: true}
         ]},
 
         {text: 'Once collected, data is not altered by humans in any form.',
@@ -82,11 +87,12 @@
             {text: 'True'},
             {text: 'False',correct: true}
         ]
-        }
+        },
+        
          {text: 'In mapping internet access in Boston, which of the following does the metadata help you understand',
         answers: [
-            {text: 'Which organization collected this data',correct:true},
-            {text: 'Internet Access in souther Massachusetts'}
+            {text: 'Which organization collected this data', correct:true},
+            {text: 'Internet Access in souther Massachusetts'},
             {text: 'The quality of the WiFi offered'}
         ]
         }

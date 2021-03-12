@@ -74,7 +74,7 @@ Every component of a map represents the mapmaker's choices, arguments, or assump
 
 The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative to the contiguous United States. Even the decision to have a white background instead of a basemap that shows bodies of water and neighboring countries was a decision that affects the how we as viewers understand map.
 
-<Hideable>
+</Hideable>
 
 **Discussion question 2**
 
