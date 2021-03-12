@@ -7,17 +7,17 @@ health:
 
 ## How maps and data are different
 
-* Like most people, you might find that the terms "maps" and "data" blend together in your head
+* Like most people, you might find that the terms "maps" and "data" blend together in your head.
 * Do you think ...
     * Is a map data?
     * Does a map *show* data?
     * Is a map *made up of* data?
     * Are *all* maps related to data, or are data maps a particular type of map?
 * A metaphor from language
-    * Data sets are the "words" which, in isolation, don't mean very much
-    * A mapmaker uses a "grammar" to make data communicable
-* Breaking down a map into its components allows us to understand what's going on
-* It also gives us a framework for thinking about how to "speak" in this language yourself
+    * Data sets are the "words" which, in isolation, don't mean very much.
+    * A mapmaker uses a "grammar" to make data communicable.
+* Breaking down a map into its components allows us to understand what's going on.
+* It also gives us a framework for thinking about how to "speak" in this language yourself.
 
 <Hideable title="More reading on your own time">
 
@@ -27,9 +27,9 @@ A good way to think about it is this: When someone is working on their written l
 
 ## Data are observations about the world
 
-* You might have a strong association between the word "data" and "numbers in a computer"
-* Data is really a more general term about _information_
-    * Medieval European maps, for example, were made up of "data" that were gathered from sources of evidence like the passages of the Bible
+* You might have a strong association between the word "data" and "numbers in a computer."
+* Data is really a more general term about _information_.
+    * Medieval European maps, for example, were made up of "data" that were gathered from sources of evidence like the passages of the Bible.
 
 <aside>
 
@@ -39,13 +39,13 @@ Can you think of a type of geographic data that you create and use in your every
 
 * Consider an ordinary web map that you might use to get to the nearest coffee shop
     * It would include data about ...
-    * Where coffee shops are located
-    * What those coffee shops are called and when they're open
-    * Where you are located
-    * How you're planning to get around (walk, bike, transit, drive)
-    * How roads and paths are connected in space
-    * What the roads are named
-    * And more!
+        * Where coffee shops are located,
+        * What those coffee shops are called and when they're open,
+        * Where you are located,
+        * How you're planning to get around (walk, bike, transit, drive),
+        * How roads and paths are connected in space,
+        * What the roads are named,
+        * And more!
 * Data encode human observations of the world in a way that is legible to computers. 
 
 <aside>
