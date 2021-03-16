@@ -17,7 +17,7 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 1. Import a **Web Component polyfill** if you plan to support older browsers that do not have native support for Web Components.
 2. Import **Vue** from a CDN or locally. If Vue is already part of your page's environment, you can omit this. 
 3. Import the hosted panel-truck script from `https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js` 
-4. Create a sized container for the `panel-truck` component. It can be statically or dynamically sized; in either case, the `panel-truck` component will fill the size of its parent container.
+4. Create a sized container for the p`anel-truck` component. It can be statically or dynamically sized; in either case, the `panel-truck` component will fill the size of its parent container.
 5. Inside of your sized container, add the `panel-truck` component, and pass a JSON source for your screenplay, as `<panel-truck screenplaySrc="https://some-example.org/screenplay.json"></panel-truck>`
 
 
@@ -32,7 +32,7 @@ The simplest way is to embed panel-truck by importing it as a [Web Component](ht
 
 <script src="https://geoservices.leventhalmap.org/panel-truck/webcomponent-0.2/panel-truck.min.js"></script>
 
-<div style="width:1000px;height:800px;"><!-- the panel-truck component will take the size of its parent element -->
+<div style="width:1000px;height:800px;"><!-- the panel-truck componenet will take the size of its parent element -->
 <panel-truck screenplay-src="https://some-example.org/screenplay.json"></panel-truck>
 </div>
 
