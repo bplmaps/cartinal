@@ -19,7 +19,7 @@ health:
 * Breaking down a map into its components allows us to understand what's going on.
 * It also gives us a framework for thinking about how to "speak" in this language yourself.
 
-<Hideable title="More reading on your own time">
+<Hideable title="Further explanation">
 
 A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe  visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.
 
@@ -46,7 +46,7 @@ Can you think of a type of geographic data that you create and use in your every
         * How roads and paths are connected in space,
         * What the roads are named,
         * And more!
-* Data encode human observations of the world in a way that is legible to computers. 
+* Data encode human observations of the world in a way that is legible to computers.
 
 <aside>
 
@@ -55,7 +55,7 @@ Try running a [Google Image search](https://www.google.com/search?tbm=isch&sourc
 </aside>
 
 
-<Quizlet 
+<Quizlet
     title="Check your understanding"
     :questions="[
         {text: 'A given map is produced from exactly one data set.',
