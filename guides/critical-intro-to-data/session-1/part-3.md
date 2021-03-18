@@ -8,7 +8,7 @@ health:
 ## Types of maps
 
 * Maps are an instrument that allow us to see themes and scales that are impossible to see with the naked eye.
-* **Reference maps** show us space at scales we cannot otherwise see. 
+* **Reference maps** help us understand spatial relationships at scales we cannot otherwise see. 
 * **Thematic maps** show us themes across space, which are otherwise invisible.  
 * Both kinds of map show not only space, but also data.
 

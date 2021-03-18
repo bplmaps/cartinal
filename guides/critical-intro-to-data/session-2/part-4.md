@@ -2,10 +2,10 @@
 
 ## How do features and attributes get together?
 
-* Most data maps show both the shape of places (**features**) and information that we know about those places (**attributes**)
+* Most data maps show both the shape and location of places (**features**) and information that we know about those places (**attributes**)
 * How do we connect these two different types of data?
 * Merging features and attributes typically requires connecting data sets through a process called a **join**
-* To join two more more sets of data, we need something called **stable identifier** or **unique identifier**
+* To join two or more sets of data, we need something called **stable identifier** or **unique identifier**
     * A stable identifer is shared by the feature and attribute data and tells the computer which data corresponds to what geographical place.
     
 ## An example join

@@ -6,7 +6,7 @@ health:
 # Geospatial data: the what and the where
 
 * **Data** are records of observations of phenomena. Data do not exist without human observation, classification, organization, and maintenance. 
-* Many types of observations can be organized into datasets and visualized,but only spatial data can be visualized on a map.
+* Many types of observations can be organized into datasets and visualized, but only spatial data can be visualized on a map.
 
 ![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
 **John Snow's map of the cholera outbreak around the Broad Street pump (1854).** 

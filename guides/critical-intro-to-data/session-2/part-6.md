@@ -49,7 +49,7 @@ In most cases, you will find the information you want to use in a Comma Separate
 
 A CSV is an example of a **tabular** data source: data that is formatted in a spreadsheet with rows and columns. This is how we look at our attribute data when using GIS software. When performing a join, a column from our tabular data source serves as the identifying information that makes the join possible. For example, there could be a column listing the names of states used to join the data with a spatial resources. 
 
-These are just a few of the data types we think you should know so you can interpret what kind of data you may be downloading! For more information on other data types please refer to [this page](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html) from LMEC on file types.
+These are just a few of the data types we think you should know so you can interpret what kind of data you may be downloading! For more information on other data types please refer to [this guide](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html) from LMEC on file types.
 
 </Hideable>
  

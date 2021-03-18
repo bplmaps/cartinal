@@ -64,7 +64,7 @@ The story of the Mercator projection demonstrates that unintended consequences a
 
 A common replacement many are turning to is the Galls-Peter projection, which does display relative size more accurately. There are also many more projections to check out, some of which are mentioned [here](https://www.visualcapitalist.com/problem-with-our-maps/). Every projection, though, comes with tradeoffs, which is why different projections are useful in different contexts.
 
-Projection don't just have to do with how we look at the globe as a whole. Projections can be developed to look at a specific city with more accuracy than zooming in from a global projection would provide. GIS software allows you to choose what projection to use for your project. 
+Projections don't just have to do with how we look at the globe as a whole. Projections can be developed to look at a specific city with more accuracy than zooming in from a global projection would provide. GIS software allows you to choose what projection to use for your project. 
 
 </hideable>
 

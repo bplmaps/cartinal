@@ -15,7 +15,7 @@ health:
     * Are *all* maps related to data, or are data maps a particular type of map?
 * A metaphor from language
     * Data sets are the "words" which, in isolation, don't mean very much.
-    * A mapmaker uses a "grammar" to make data communicable.
+    * A mapmaker combines data components to communicate visually with a map
 * Breaking down a map into its components allows us to understand what's going on.
 * It also gives us a framework for thinking about how to "speak" in this language yourself.
 

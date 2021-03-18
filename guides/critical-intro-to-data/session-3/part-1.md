@@ -3,36 +3,57 @@
 ## Basics of metadata
 
 * To become data detectives, we have to be readers—and writers—of metadata.
-* Metadata provide information about data. Recording information about datasets is  as important as the dataset itself. Metadata helps answer questions such as
+* Metadata provides information about data. Recording information about datasets is  as important as the dataset itself. Metadata helps answer questions such as
     * Who collected the data?
     * For what purpose?
     * What methods were used?
     * When did they collect the data, and when was the data last updated?
     * How was the project funded?
-* This information is vital for learning how we can and cannot use a given dataset and helps users understand what biases might live behind the data.
+* This information is vital for learning how we can and cannot use a given dataset and helps us understand potential sandtraps in the data
 
 ## Where to find metadata
+
+- On the same page as the data
+- Included with the download files
+- [Ask a librarian](https://www.leventhalmap.org/research/geospatial/)!
 
 <hideable title="More details">
 
 * **If it exists,** metadata will often be on the page where you downloaded the dataset or in a separate textfile that you get when you download the dataset itself.
-* If you are making your own dataset, it is your resposibility to create and share the metadata with others! Be sure to give context to your created data so that others may use it with the correct intentions. Feel free to explore this LMEC resource on [data documentation ](https://geoservices.leventhalmap.org/cartinal/guides/readme-instructions.html#general-information)
+* If you are making your own dataset, it is your resposibility to create and share the metadata with others! Be sure to give context to your created data so that others may use it with the correct intentions. The LMEC offers [free guides ](https://geoservices.leventhalmap.org/cartinal/guides/readme-instructions.html) on how to get started capturing good metadata in a README for data preservation and reusability
 
 </hideable>
 
 
 
 ## Metadata on the LMEC Public Data Portal
-* The LMEC Public Data Portal has a variety of unique metadata available which we will walk through the various sections below using the Internet Access dataset as an example.
+You can find detailed metadata in the LMEC Public Data Portal. We will walk through how to understand this information using the Internet Access & connectivity dataset as an example.
 
 
-#### "About this data"
+### About this data
 
-* The "About this data" section of the page includes an overview of where the data comes from, what information it contains, and who can access it.  
+* The "About this data" section of the page includes an overview or description of the dataset including:
+    - What **topics or themes** does the dataset address?
+    - What **time period** does the dataset cover?
+    - **Where** in the world does the dataset represent?
+        - *Many, but not all, are of Boston!*
+    - **Who** originally collected and cleaned the dataset?
+    - **Why is it archived** in the LMEC portal?
+* As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
 ![Reference Link](https://i.imgur.com/Lg1YGZ3.png)
 
-* This information is what you might find on any standard data portal. However, the LMEC portal also offers more comprehensive and critical metadata to consider.
+
+### The data lifecycle
+* The data lifecycle tells you where and how people have worked with, changed or edited the data
+* This section provides links to the records of those who have worked with data, describing, in their own words, their steps and choices
+* You will not find this in most data portals, but we think it is important to preserve
+* You can use this section to understand how the data has been shaped, and by who
+* You can also use this section to repeat the steps of the original data processor, if you want
+
+
+![Data lifecycle](./media/datalifecycle.png)
+
 
 
 
@@ -50,13 +71,7 @@
 
 
 
-### The data lifecycle
-* The data lifecycle describes the various human actions that affected and contintue to affect the dataset.
-![Reference Link](https://i.imgur.com/J23QqJM.png)
-* Some of these actions involve creating, cleaning, and maintaining.
-* Here you can even find a record of the decisions made by the data creator, Daniel Huffman, along with how often the data is updated.
-* Data is constantly being shaped by the people who work with it and by the judgements they make regarding the datasets. Providing transparent details cartographic choices enables users to make informed choices about the data they are using and one should always seek to locate this information about the datasets they are working with.
-* This section is also unique to the LMEC Public Data Portal; often, this informatoin is part of the metadata of a dataset, but is not organized in this way.
+
 
 ### Data transparency
 

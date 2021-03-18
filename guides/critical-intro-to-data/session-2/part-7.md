@@ -2,9 +2,15 @@
 
 ## Overview
 
-* The **LMEC Public Data Portal** houses a variety of datasets drawn from data collectors and sources like federal and local governments. 
-* The Data Portal is a useful resource because it offers a more critical look into where the data comes from and how the data was created. This additional information is called **metadata**, and it is an integral part of any dataset—but unfortunately, this information is not  included with every dataset. 
-* Many of the features and search tools mirror other data retrieval sites so you can apply these skills to other data portals you might run into.  
+* The **LMEC Public Data Portal** houses a variety of datasets drawn from numerous data sources 
+* This search tool expands the usefulness of these data sources by offering a more detailed information than is commonly available about:
+    - where data comes from, 
+    - how it has evolved over time, 
+    - **who** has changed or edited it, 
+    - and how easy it is for people to use
+* Information about data is called **metadata**, and it is integral to understanding how to work with a dataset
+* You might not always be able to find *as* detailed information as is available with the LMEC portal, but no matter which data retrieval site you are using, you will need to know how to work with metadata
+
 
 ## Searching the Data Portal
 
@@ -26,18 +32,17 @@ Here you can see various information about the data being collected including au
 
 
 ## Data Geneology 
-* The **Data Geneology** section on the Data Portal tells you if the dataset you're looking at was created from multiple source datasets were combined to create the dataset 
+* The **Data Geneology** section on the Data Portal traces the data lineage of a dataset
+* Was it combined from other sources? Joined like how we learned in Session 2?
+* Processing steps are provided so you could retrace the steps
 
 ![Reference Link](https://i.imgur.com/U06yfZ6.png)
 
-* The Source Datasets indicate which datasets make up the final version being offered for download on the site. 
-* Processing Steps outline the actions taken by the mapmaker to alter or combine the Source Datasets to create the dataset being offered for download. 
+<hideable title = "Learn more">
 
-<aside> 
+Often when making a map, data needs to be changed an adapted to fit the user's need. This is called **data cleaning** and is an important step in all mapping projects. Because this introduces humans playing with the data, it is important to document what changes and steps were made to get to the dataset as presented. Many times this information is not included but here in the LMEC Data Portal we can clearly follow how the dataset was made.
 
-Often when making a map, data needs to be changed an adapted to fit the user's need. This is called **data cleaning** and is an important step in all mapping projects. Because this introduces humans playing with the data, it is important to document what changes and steps were made to get to the dataset as presented. Many times this information is not included but here in the BPL Data Portal we can clearly follow how the dataset was made.
-
-</aside>
+</hideable>
 
 
 
