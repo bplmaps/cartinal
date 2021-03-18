@@ -2,7 +2,7 @@
 
 ## How do we match feature data to the earth?
 
-* In the last slide, we noted that vector data is like a game of connect the dots
+* In the last section, we noted that vector data is like a game of connect the dots
 * But how do we tell a computer where the dots are?
 * Each dot is a *coordinate* in space, with `x` and `y` positions (and sometimes `z` if we're including elevation)
 * There are thousands of different **coordinate reference systems** that are used to match points to the earth's surface
@@ -29,15 +29,15 @@ Confusing coordinate systems are one of the number one reasons why you might enc
 
 <aside>
 
-
-Can you think of how ways in which projections relate to power and representation? Why might certain countries or people prefer one projection to another? 
+Can you think of how ways in which projections relate to power and representation? Why might certain countries or people prefer one projection to another?
 
 </aside>
 
-* If we ask the computer to graph the coordinates directly onto the screen, that's called an **unprojected** presentation
-*  However, oftentimes we'll want to choose a **projection** which transforms the source coordinates into rendered coordinates on the screen or page
-*  At smaller scales, like a single neighborhood, the projection doesn't make a huge difference, because there's not a lot of curvature in a small space
-*  But at the global scale, a projection makes a *huge* difference in what we see, because the projection controls how the round earth is made flat
+* If we ask the computer to graph the coordinates directly onto the screen, that's called an **unprojected** presentation.
+*  However, oftentimes we'll want to choose a **projection** which transforms the source coordinates into rendered coordinates on the screen or page.
+* Projections allow us to see the earth's surface, which is curved, in two dimensions.
+*  At smaller scales, like a single neighborhood, the projection doesn't make a huge difference, because there's not a lot of curvature in a small space.
+*  But at the global scale, a projection makes a *huge* difference in what we see, because the projection controls how the round earth is made flat.
 
 ### Example: Goode Homolosine projection
 
@@ -45,26 +45,17 @@ Can you think of how ways in which projections relate to power and representatio
 
 ### Example: Mercator projection
 
-
 ![reference link](https://upload.wikimedia.org/wikipedia/commons/7/73/Mercator_projection_Square.JPG)
 
-<hideable>
+* Projections can intentionally or unintentionally perpetuate pre-existing power structures and even construct new ones.
 
-Another key cartographic ingredient to get to know is the world of **projections**. When we take Earth, a spherical object, and represent it on a flat piece of paper, we have to distort its proportions. Different projections distort the Earth in different ways. The process can intentionally or unintentionally perpetuate pre-existing power structures and even construct new ones.
+<hideable Title = "More reading on why projections matter">
 
-Many times we think about projections of the entire globe. A classic [controversy](https://www.theguardian.com/education/2017/mar/19/boston-public-schools-world-map-mercator-peters-projection) has to do with the Mercator projection, which is notorious for distorting the relative sizes of various land masses and making North America and Europe look proportionally much larger than they are. This distortion can perpetuate colonialist ideas of superiority. One of the most interesting aspects of this is that the original intention was that the map be used for navigation, yet it is now commonly used in schools and even on Google Maps. 
+The Mercator projection was a widely-used projection for hundreds of years, but has recently [come under fire](https://www.theguardian.com/education/2017/mar/19/boston-public-schools-world-map-mercator-peters-projection) for distorting the relative sizes of various land masses and making North America and Europe look proportionally much larger than they are. This distortion can perpetuate colonialist ideas of superiority. One of the most interesting aspects of this is that the original intention was that the map be used for navigation, yet it is now commonly used in schools and even on Google Maps. The story of the Mercator projection demonstrates that unintended consequences abound in the world of cartography, and understanding the origins of maps can help avoid disaster later on.
 
-<aside> 
+A common replacement for the Mercator projection is the Galls-Peter projection, which displays relative size more accurately, but comes with its own tradeoffs. There are also many  projections to check out, some of which are mentioned [here](https://www.visualcapitalist.com/problem-with-our-maps/).
 
-New digital applications like [The True Size Of...](https://thetruesize.com) show how much the Mercator projection distorts the size of landmasses. 
-
-</aside>
-
-The story of the Mercator projection demonstrates that unintended consequences abound in the world of cartography, and understanding the origins of maps can help avoid disaster later on. 
-
-A common replacement many are turning to is the Galls-Peter projection, which does display relative size more accurately. There are also many more projections to check out, some of which are mentioned [here](https://www.visualcapitalist.com/problem-with-our-maps/). Every projection, though, comes with tradeoffs, which is why different projections are useful in different contexts.
-
-Projections don't just have to do with how we look at the globe as a whole. Projections can be developed to look at a specific city with more accuracy than zooming in from a global projection would provide. GIS software allows you to choose what projection to use for your project. 
+New digital applications like [The True Size Of...](https://thetruesize.com) show how much the Mercator projection distorts the size of landmasses.
 
 </hideable>
 
@@ -88,4 +79,3 @@ Projections don't just have to do with how we look at the globe as a whole. Proj
 		}]
 	"
 />
-

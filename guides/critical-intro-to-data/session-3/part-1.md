@@ -13,14 +13,13 @@
 
 ## Where to find metadata
 
-- On the same page as the data
-- Included with the download files
-- [Ask a librarian](https://www.leventhalmap.org/research/geospatial/)!
-
-<hideable title="More details">
-
 * **If it exists,** metadata will often be on the page where you downloaded the dataset or in a separate textfile that you get when you download the dataset itself.
-* If you are making your own dataset, it is your resposibility to create and share the metadata with others! Be sure to give context to your created data so that others may use it with the correct intentions. The LMEC offers [free guides ](https://geoservices.leventhalmap.org/cartinal/guides/readme-instructions.html) on how to get started capturing good metadata in a README for data preservation and reusability
+On the same page as the data
+* [Ask a librarian](https://www.leventhalmap.org/research/geospatial/)where to find metadata!
+
+<hideable title="Making your own metadata">
+
+* If you are making your own dataset, it is your responsibility to create and share the metadata with others! Be sure to give context to your created data so that others may use it with the correct intentions. The LMEC offers [free guides ](https://geoservices.leventhalmap.org/cartinal/guides/readme-instructions.html) on how to get started capturing good metadata in a README for data preservation and reusability
 
 </hideable>
 
@@ -103,7 +102,7 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
             {text: 'False',correct: true}
         ]
         },
-        
+
          {text: 'In mapping internet access in Boston, which of the following does the metadata help you understand',
         answers: [
             {text: 'Which organization collected this data', correct:true},

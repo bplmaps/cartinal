@@ -1,10 +1,8 @@
-# Exercise: Finding data
+# Exercise: Creating and updating geospatial data
 
-## Comparing data sources and identifying data types
+## Drawing geospatial features in geoJSON.io
 
-* In small groups, we will review the datasets that participants found for homework. We will also:
-* Review some common places to find data and download data. 
-* Compare the useability and clarity of these sites.
-* Notice different types of data (strings and numbers) within the tables we download. 
- 
-
+* geoJSON.io is an online platform where you can view geospatial data
+* In this exercise, we will create our own geospatial data by drawing vector features (points, lines, or polygons) on the map, and populating the attribute table for these features.
+* Ideas for data you can draw: parks in Boston; neighborhoods; points of interests
+* You could even try to recreate the map you hand-drew in Session 1! 

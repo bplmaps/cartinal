@@ -12,9 +12,10 @@ health:
 **John Snow's map of the cholera outbreak around the Broad Street pump (1854).**
 
 * **Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns across space.
-* There are two elements of geospatial data: **feature data** (which encodes information about *where* an observation occurs) and **attribute data** (which encodes information about what occurs).
+* There are two elements of geospatial data: **feature data** (which encodes information about *where* an observation occurs) and **attribute data** (which encodes information about *what* occurs).
+* An easy rule of thumb: Feature data are things like state or national boundaries, cities, roads, rivers, buildings, things that are physically in the world that you can see. Attribute  data describe an object’s characteristics, like the name, depth, and water quality of a river, the height, construction date, and use of a building, or household income—things you can't see with your naked eye.
 
-<Hideable title = "More on visualization and seeing patterns in data">
+<Hideable title = "More on data: observation, visualization, and discerning patterns">
 
 Data do not exist without human observation, classification, organization, and maintenance. When data are organized and analyzed, we can call it “information.” But in its raw, unprocessed form, data are relatively useless, simply observations that are seemingly random.
 
@@ -29,34 +30,21 @@ Many people have undertaken projects like this and recorded the texts they recei
 
 **Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns of occurrence across space. We could make the Texts Received data into geospatial data by including information on *where we were* when we received the texts.
 
-Perhaps this text data set wouldn’t show any sort of spatial pattern. But consider a dataset about instances of illness, like this one, drawn in 1854.
+You can think of geospatial data as a way to *pin down* non-spatial information to a specific place or location.
 
-![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
-**John Snow's map of the cholera outbreak around the Broad Street pump (1854).**
-
-The cartographer, John Snow, drew upon work done in the Paris cholera outbreak of 1832 and visualized individual cases not in a table or graph, but on a map. The result is striking; it shows that there was an outbreak clustered around the water pump on Broad Street.
-
-Snow’s map showed a compelling spatial pattern that would have been more difficult to discern if he had kept his data in a table. Nowadays, geospatial data are most often visualized and manipulated in geographic information system (GIS) software such as ArcGIS, QGIS.
-
-### The two elements of spatial data
-
-There are generally two elements of geospatial data: the *what* and the *where*. The where data are called **feature data**, and they provide the spatial information that will be the visual basis of your map. Features data are things like state or national boundaries, cities, roads, rivers, buildings, things that are physically in the world.
-
-The what data are called **attribute data**. You can’t see attribute data with your naked eye: attribute data describe an object’s characteristics, like the name, depth, and water quality of a river, the height, construction date, and use of a building, or household income.
-
-You can think of features as an empty cup that the attribute data is poured into, or the tack that pins the what data to a specific where.
+John Snow did something similar when he decided to attach a spatial location to the cholera occurence data. Think about it like this: Snow could have kept the Cholera Occurence data in a table, and tracked the outbreak that way. But, drawing on work done in the Paris cholera outbreak of 1832, he chose to assign to record the spatial location of each occurence, and then chose to visualize these data a map. The spatial pattern that would have been more difficult to discern if he had kept his data in a table—or if he had chosen not to record the spatial data of each case of cholera.
 
 </Hideable>
 
 <Quizlet
     title="Check your understanding"    
     :questions="[
-        {text: 'What are the features of this map?',
+        {text: '**What are the features of this map?**',
         answers: [
             {text: 'Unemployment percentages'},
             {text: 'The states', correct: true}
         ]},
-        {text: 'What are the attributes of this map?',
+        {text: '**What are the attributes of this map?**',
         answers: [
             {text: 'Unemployment percentages', correct: true},
             {text: 'Shades of blue'}
