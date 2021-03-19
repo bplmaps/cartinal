@@ -54,5 +54,6 @@ John Snow did something similar when he decided to attach a spatial location to 
 >
 
 ![](https://i.imgur.com/BP8YjPZ.jpg)
+**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.**
 
 </Quizlet>

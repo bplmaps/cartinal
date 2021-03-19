@@ -11,6 +11,7 @@ health:
 * Any given data set could produce many different maps. 
 
 ![](https://i.imgur.com/LezjKov.png)
+**An illustration of the human role in data analysis, Tess McCann (2021).**
 
 * **Cartographers** have power over how we see data.
 * It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data? 
@@ -24,12 +25,12 @@ health:
 
 <hideable title = "More reading on a cartographer's choices">
 
-Let's look at this dataset on Boston Public Internet Access, which is available on the LMEC Public Data Portal.
+Let's look at the data set behind these maps, which is available on the LMEC Public Data Portal.
 
 ![Reference Link](https://i.imgur.com/ixxu4VB.png)
 ###### LMEC Boston Public Internet Access Data File
 
-From glancing at this data set, it might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
+It might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
 
 You will notice in the two maps above that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is referred to as a **choropleth map**. It pairs different shades of color with different statistics of the theme it's showing. 
 
@@ -48,7 +49,7 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
 
 ![](https://i.imgur.com/BP8YjPZ.jpg)
-###### Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.
+**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (November 2020).**
 
 <Hideable title = 'Hints'>
 
@@ -63,7 +64,8 @@ The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative t
 Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data very differently. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
 
 ![](https://i.imgur.com/Jtog9My.png)
-Image source: [CDC](https://www.cdc.gov/sleep/data_statistics.html)
+**Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014).**
 
 ![](https://i.imgur.com/kI83xl7.jpg)
-Image source: [STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/)
+**[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).** 
+

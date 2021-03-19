@@ -7,7 +7,7 @@ health:
 
 ## In between the world and data are people.
 
-* Just as there's a human behind every map, there is a human behind every dataset. This person chooses how to observe the world, how to organize these observations, and how to share the data set with the world.
+* Just as there's a human behind every map, there is a human behind every data set. This person chooses how to observe the world, how to organize these observations, and how to share the data set with the world.
 
 <aside>
 
@@ -18,6 +18,7 @@ In their book, Data Feminism, Catherine D'Ignazio and Lauren Klein introduce the
 * Because there are humans in data, data is exposed to human error, oversight, and bias.
 
 ![](https://i.imgur.com/hAo8TCn.png)
+**An illustration of the human role in data collection, Tess McCann (2021).**
 
 ## What questions should we ask of data?
 
@@ -36,7 +37,7 @@ In their book, Data Feminism, Catherine D'Ignazio and Lauren Klein introduce the
 * One example of changing feature data is rising sea levels. Data that describes the coastline has to be updated frequently, and old files might be inaccurate.
 
  ![Reference Link](https://i.imgur.com/mxDglHY.jpg)
-*Flood Progression Map: 2070 and Beyond*
+**Flood Progression Map: 2070 and Beyond, Leventhal Map and Education Center**
 
 <hideable Title = "More on changing spaces">
 
@@ -44,12 +45,9 @@ It is more straightforward to imagine attribute data changing (ex. the populatio
 
 The simple answer is: yes! And we can recognize this in our own lifetimes: street locations, national borders, and boundaries are constantly changing. Climate change presents a particularly stark example. Data that represents the coastline from five years ago is simply out of date. Because of rising sea levels, today's coastline is significantly different than the coastline that the old data represents. Spatial data also needs constant maintenance to stay up to date. We need to ask the same questions of it as we do of attribute data: who, what, where, when, why, and how. We can see this idea reflected in the LMEC's work to [map the effects of climate change in Boston](https://collections.leventhalmap.org/map-sets/191).  In this map we see how rising sea levels and floods may change the geography of the city and what areas are above water.
 
-![Reference Link](https://i.imgur.com/mxDglHY.jpg)
-###### Flood Progression Map: 2070 and Beyond
-
 Another example of how spatial data should be questioned is regarding politically recognized borders and or regions. If one entity - such as a country - does not legally recognize the rights of a certain people or group, their datasets may not reflect the existence of such boundaries.
 
-[Open Street Map](https://www.openstreetmap.org/#map=5/38.007/-95.844) or OSM for short, is an open source map project created and maintained by the public is a great example of how datasets can be changing and evolving over time. Users can add in polygons, points, and lines to update the world around them. This collective approach might feel refreshing, but even seemingly democratic platforms can perpetuate oppressive power structures. In the case of OSM, those with the time and resources to contribute are not representative of the world the project aims to describe, and the site is currently undergoing significant controversy over corporate influence on the data set.
+[Open Street Map](https://www.openstreetmap.org/#map=5/38.007/-95.844) or OSM for short, is an open source map project created and maintained by the public is a great example of how datasets can be changing and evolving over time. Users can add in polygons, points, and lines to update the world around them. This collective approach might feel refreshing, but even seemingly democratic platforms can perpetuate oppressive power structures. In the case of OSM, those with the time and resources to contribute are not representative of the world the project aims to describe, and the site continues to undergo controversy regarding who is contributing and for what purposes.
 
 </hideable>
 

@@ -5,10 +5,10 @@ health:
 
 # Introducing geospatial data
 
-* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye;"Thematic maps, focused as they are on the spatial distribution of concepts, “reveal the presence of phenomena that are beyond our normal bodily senses.”
+* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye; "Thematic maps, focused as they are on the spatial distribution of concepts, “reveal the presence of phenomena that are beyond our normal bodily senses.”
 
 <aside>
-Dennis Cosgove reference
+For more information, check out Cosgrove's “Moving Maps” from *Geography and Vision: Seeing, Imagining and Representing the World*. 
 
 
 </aside>
@@ -20,7 +20,7 @@ Dennis Cosgove reference
 
 <aside>
 
-*Can you think of examples of reference maps that you use in your everyday life? Are there specific places or contexts where you might see thematic maps?  
+Can you think of examples of reference maps that you use in your everyday life? Are there specific places or contexts where you might see thematic maps?  
 
 </aside>
 
