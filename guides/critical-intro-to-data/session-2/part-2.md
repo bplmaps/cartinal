@@ -8,7 +8,7 @@
   * Some features are invisible, like the boundaries of a state or a census tract
   * We also call it the **geometry** or the **shape**
 * There are two types of feature data: **raster** and **vector**
-  * **Raster data** is like a giant piece of gridded paper, where each cell is a section of the earth's surface
+  * **Raster data** is like a giant piece of gridded paper, where each cell is a section of the Earth's surface
   * **Vector data**  is like a game of connect the dots
     * Vector data has three main types: **points, lines, and polygons**  
   * Remember, a computer is not very smart when it comes to shapes!

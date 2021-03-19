@@ -15,14 +15,14 @@ Looking at the attribute table for the Wi-Fi maps we have discussed, we can see 
 * Each row of attribute data has a value called `GEO_ID`.
 * The feature data (which contains the shape of each Census tract) also has a `GEO_ID` value.
 * The GEO_ID is the **stable identifier** that we use to link the information about internet access with information about the shapes of Census tracts.
-* The GEO_ID field is uniquely suited to be the stable identifier: it serves one purpose and is not likely to be misinterpreted as an attribute data.
+* The GEO_ID field is uniquely suited to be the stable identifier: it serves one purpose and is not likely to be misinterpreted as attribute data.
 * When we join attribute data to feature data, we tell the computer to fill the shape of the feature data (a polygon, a point, a line, or a grid square of a raster file) with the information in a certain row of the attribute data.
 
 ![Reference Link](https://i.imgur.com/ixxu4VB.png)
 
 ::: tip
 
-To join data, the identifiers need to be **exactly** the same as one another.
+To join data, the identifiers need to be **exactly** the same as one another. An extra space, capitalization and even other symbols are all reasons the computer might fail to complete a join.
 
 :::
 

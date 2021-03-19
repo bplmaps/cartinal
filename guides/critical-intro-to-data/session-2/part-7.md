@@ -4,10 +4,10 @@
 
 * The **LMEC Public Data Portal** houses a variety of datasets drawn from numerous data sources
 * This search tool expands the usefulness of these data sources by offering a more detailed information than is commonly available about:
-    - where data comes from,
-    - how it has evolved over time,
+    - **where** the data came from,
+    - **how** it has evolved over time,
     - **who** has changed or edited it,
-    - and how easy it is for people to use
+    - and how **easy** it is for people to use
 * Information about data is called **metadata**, and it is integral to understanding how to work with a dataset
 * You might not always be able to find *as* detailed information as is available with the LMEC portal, but no matter which data retrieval site you are using, you will need to know how to work with metadata
 
@@ -40,7 +40,7 @@ Here you can see various information about the data being collected including au
 
 <hideable title = "Learn more: cleaning data">
 
-Often when making a map, data needs to be changed an adapted to fit the user's need. This is called **data cleaning** and is an important step in all mapping projects. Because this introduces humans playing with the data, it is important to document what changes and steps were made to get to the dataset as presented. Many times this information is not included but here in the LMEC Data Portal we can clearly follow how the dataset was made.
+Often when making a map, data needs to be changed and adapted to fit the user's need. This is called **data cleaning** and is an important step in all mapping projects. Because this introduces the element of humans manipulating the original data, it is important to document what changes and steps were made to get to the dataset as presented. Many times this information is not included but here in the LMEC Data Portal we can clearly follow how the dataset was made.
 
 </hideable>
 

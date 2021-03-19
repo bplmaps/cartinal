@@ -1,11 +1,11 @@
 # Coordinates and projections
 
-## How do we match feature data to the earth?
+## How do we match feature data to the Earth?
 
 * In the last section, we noted that vector data is like a game of connect the dots
 * But how do we tell a computer where the dots are?
 * Each dot is a *coordinate* in space, with `x` and `y` positions (and sometimes `z` if we're including elevation)
-* There are thousands of different **coordinate reference systems** that are used to match points to the earth's surface
+* There are thousands of different **coordinate reference systems** that are used to match points to the Earth's surface
 
 <aside>
 
@@ -20,7 +20,7 @@ If you go to Google Maps and right click anywhere on the map, the first entry in
 
 ::: tip
 
-Confusing coordinate systems are one of the number one reasons why you might encounter problems with data! While many modern data sets are standardizing on WGS 84 coordinates, you'll want to figure out what coordinate system your data is in when you access it.
+Confusing coordinate systems are one of the number one reasons why you might encounter problems with data! While many modern data sets are standardizing on WGS 84 coordinates, you'll want to figure out what coordinate system your data is in when you access it. You can either find the coordinate system on the portal you downloaded the data from or by bringing it into GIS software.
 
 :::
 
@@ -35,9 +35,9 @@ Can you think of how ways in which projections relate to power and representatio
 
 * If we ask the computer to graph the coordinates directly onto the screen, that's called an **unprojected** presentation.
 *  However, oftentimes we'll want to choose a **projection** which transforms the source coordinates into rendered coordinates on the screen or page.
-* Projections allow us to see the earth's surface, which is curved, in two dimensions.
+* Projections allow us to see the Earth's surface, which is curved, in two dimensions.
 *  At smaller scales, like a single neighborhood, the projection doesn't make a huge difference, because there's not a lot of curvature in a small space.
-*  But at the global scale, a projection makes a *huge* difference in what we see, because the projection controls how the round earth is made flat.
+*  But at the global scale, a projection makes a *huge* difference in what we see, because the projection controls how the round Earth is made into a flat representation.
 
 ### Example: Goode Homolosine projection
 
