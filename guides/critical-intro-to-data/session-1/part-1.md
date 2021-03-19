@@ -5,27 +5,26 @@ health:
 
 # What is a map? What is data?
 
-## How maps and data are different
+## How are maps and data different?
 
 * Like most people, you might find that the terms "maps" and "data" blend together in your head.
-* Do you think ...
+* You might wonder ...
     * Is a map data?
     * Does a map *show* data?
     * Is a map *made up of* data?
-    * Are *all* maps related to data, or are data maps a particular type of map?
-* A metaphor from language
-    * Data sets are the "words" which, in isolation, don't mean very much.
-    * A mapmaker combines data components to communicate visually with a map
-* Breaking down a map into its components allows us to understand what's going on.
-* It also gives us a framework for thinking about how to "speak" in this language yourself.
-
+    * Are *all* maps related to data?
+* A metaphor from language:
+    * Data are the "words" which, in isolation, don't mean very much.
+    * A mapmaker combines data components to communicate visually with a map.
+    * Breaking down a map allows us to understand its components and learn to "speak" the language of mapmaking.
+    
 <Hideable title="Further explanation">
 
-A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe  visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.
+A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.
 
 </Hideable>
 
-## Data are observations about the world
+## Data are observations about the world.
 
 * You might have a strong association between the word "data" and "numbers in a computer."
 * Data is really a more general term about _information_.
@@ -33,11 +32,11 @@ A good way to think about it is this: When someone is working on their written l
 
 <aside>
 
-Can you think of a type of geographic data that you create and use in your everyday life? Think about observations about space and place that you are making all the time.
+Can you think of a type of geographic data that you create and use in your everyday life? What observations of space and place do you make all the time?
 
 </aside>
 
-* Consider an ordinary web map that you might use to get to the nearest coffee shop
+* Consider an ordinary web map that you might use to get to the nearest coffee shop.
     * It would include data about ...
         * Where coffee shops are located,
         * What those coffee shops are called and when they're open,
@@ -50,7 +49,7 @@ Can you think of a type of geographic data that you create and use in your every
 
 <aside>
 
-Try running a [Google Image search](https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1341&ei=4IklYLu4CZC1ggeL5ZaIAQ&q=data&oq=data&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6AggAOggIABCxAxCDAVC-BFieBmCAB2gAcAB4AIABeogB9wGSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwi7qMLYzOLuAhWQmuAKHYuyBREQ4dUDCAY&uact=5) for the word "data."  What kinds of stereotypes do you find relating to this word looking at just the first page of results?
+Try running a [Google Image search](https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1341&ei=4IklYLu4CZC1ggeL5ZaIAQ&q=data&oq=data&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6AggAOggIABCxAxCDAVC-BFieBmCAB2gAcAB4AIABeogB9wGSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwi7qMLYzOLuAhWQmuAKHYuyBREQ4dUDCAY&uact=5) for the word "data."  What kinds of stereotypes of data are evident from the results?
 
 </aside>
 

@@ -7,23 +7,20 @@ health:
 
 
 ## In between data and maps are people.
-* Data can never become a map all by itself. In between data and maps are people!  
-* For even the simplest data set, there are hundreds of different methods and techniques for possible visual representation.
+* Data can never become a map all by themselves.
+* Any given data set could produce many different maps. 
 
 ![](https://i.imgur.com/LezjKov.png)
 
-
-* **Cartographers** make data visualization decisions that affect the appearance of the map. Mapmakers have power over how we see data.
-* One dataset can produce two (or more!) completely different maps.  
+* **Cartographers** have power over how we see data.
+* It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data? 
+* What kind of arguments do each of these maps make? What do you, as the mapreader, take away from each map?
 
 ![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
 **"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.**
 
 ![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
 **"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.**
-
-* This makes it important to look at the data set behind the map, to see how the cartographer might have analyzed and visually (mis)represented the data.  
-* Questions for thought: What kind of arguments do each of these maps make? What do you, as the mapreader, take away from each map?
 
 <hideable title = "More reading on a cartographer's choices">
 
@@ -34,7 +31,9 @@ Let's look at this dataset on Boston Public Internet Access, which is available 
 
 From glancing at this data set, it might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
 
-You will notice in the two maps above, that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is referred to as a **choropleth map**: it pairs different shades of color with different statistics of the theme it's showing. The cartographer chose to set the bounds of data (i.e. "Up to 70%," "70 to 80%," and "over 80%") and chose the colors to visualize these different percentages.
+You will notice in the two maps above that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is referred to as a **choropleth map**. It pairs different shades of color with different statistics of the theme it's showing. 
+
+The cartographer chose to set the bounds of data (i.e. "Up to 70%," "70 to 80%," and "over 80%") and chose the colors to visualize these different percentages.
 
 Establishing how to bucket, or group, the data into ranges and which colors to assign those ranges are key tasks when making a choropleth map. In the purple map, there are just three buckets, while in the red map, there are six. Can you think of reasons why cartographers might use more or fewer buckets?
 

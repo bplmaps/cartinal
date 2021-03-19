@@ -5,29 +5,29 @@ health:
 
 # Introducing geospatial data
 
-## Types of maps
-
-* Maps are an instrument that allow us to see themes and scales that are impossible to see with the naked eye.
-* **Reference maps** help us understand spatial relationships at scales we cannot otherwise see. They specify locations of physical features such as coastlines, roads, rivers, cities, mountain ranges, and coffee shops. Examples of reference maps include atlases, road maps, globes, and Google Maps.
-* **Thematic maps** show us themes across space, which are otherwise invisible, such as household income, annual rainfall, population density, or air quality.
+* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye;"Thematic maps, focused as they are on the spatial distribution of concepts, “reveal the presence of phenomena that are beyond our normal bodily senses.”
 
 <aside>
+Dennis Cosgove reference
 
-*Discussion question*: Can you think of examples of reference maps that you use in your everyday life? Are there specific places or contexts where you might see thematic maps?  
 
 </aside>
 
-* Both kinds of map show not only space, but also data.
+## Types of maps
+
+* **Reference maps** specify locations of physical features such as coastlines, roads, rivers, cities, mountain ranges, or coffee shops. Examples of reference maps include atlases, road maps, globes, and Google Maps.
+* **Thematic maps** show us trends across space, which are otherwise invisible, such as distribution of household income, annual rainfall, population density, or air quality.
+
+<aside>
+
+*Can you think of examples of reference maps that you use in your everyday life? Are there specific places or contexts where you might see thematic maps?  
+
+</aside>
+
+* Both kinds of map rely on and represent data.
 * In this course, we focus on the creation of thematic maps because they show us how to work with *both spatial and non-spatial data*.
 
-
-<hideable title = "More on maps as instruments and abstractions">
-
-### Maps as microscopes and telescopes
-
-Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye." Thematic maps, focused as they are on the spatial distribution of concepts, “reveal the presence of phenomena that are beyond our normal bodily senses.”
-
-### Maps and abstractions
+<hideable title = "Maps in literature">
 
 In 1893, long before the advent of mapping software, Lewis Carroll summarized many of the fundamental troubles faced by contemporary mapmakers. In his book *Sylvie and Bruno Concluded*, he describes a conversation between the narrator and a German man, Mein Herr:
 
@@ -43,8 +43,8 @@ In 1893, long before the advent of mapping software, Lewis Carroll summarized ma
 >
 > “It has never been spread out, yet,” said Mein Herr: “the farmers objected: they said it would cover the whole country, and shut out the sunlight!”
 
-You might be thinking, “That’s absurd!” (*Sylvie and Bruno Concluded* is indeed billed as a comedy.) But the absurd comedy of Mein Herr’s one-mile-to-one-mile map exposes one assumption we have of maps: that they are smaller than the space they are representing. We know already, then, that a map is an abstraction of the world. It is a simplification, a representation, a “[scaled model of reality.](https://projecteuclid.org/euclid.ss/1124891287)” Maps are not supposed to be reality itself—which is why Mein Herr’s map is so preposterous.
+You might be thinking, “That’s absurd!” (*Sylvie and Bruno Concluded* is indeed billed as a comedy.) But the absurd comedy of Mein Herr’s one-mile-to-one-mile map exposes one of many assumptions we have about maps: that they are smaller than the space they are representing. We know already, then, that a map is an abstraction of the world. It is a simplification, a representation, a “[scaled model of reality.](https://projecteuclid.org/euclid.ss/1124891287)” Maps are not supposed to be reality itself—which is why Mein Herr’s map is so preposterous.
 
-Making a map is a long process of abstraction, translation, and communication. We know already that part of the abstraction begins much earlier than visualizing space: it begins in the collection and creation of data.
+Making a map is a long process of abstraction, translation, and communication. That abstraction begins in the collection of data.
 
 </hideable>
