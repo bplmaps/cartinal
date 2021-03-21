@@ -16,8 +16,7 @@
 
 <aside>
 
-**Discussion question**
-How might these various file types and data collection and storage methods introduce bias?
+**Consider this:** How might these various file types and data collection and storage methods introduce bias?
 
 </aside>
 
@@ -31,7 +30,7 @@ How might these various file types and data collection and storage methods intro
 | -------- | -------- | -------- |
 | Shape File     | .shp     | contains feature geometry and attributes together; often a bundle of separate files each of which contains different information, like projection     |
 | GeoJSON     | .GEOJSON     | JavaScript-based vector geometries (i.e. points, lines, and polygons); good for web-mapping, i.e. mapping on a browser-based platform like Google Maps and Carto    |
-| GeoTIFF    | .TIF    | standard raster file type for satelite and GIS images     |
+| GeoTIFF    | .TIF    | standard raster file type for satellite and GIS images     |
 
 
 <hideable title = "More resources on file types and software">

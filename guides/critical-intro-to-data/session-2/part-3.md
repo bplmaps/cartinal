@@ -29,7 +29,7 @@ Confusing coordinate systems are one of the number one reasons why you might enc
 
 <aside>
 
-Can you think of how ways in which projections relate to power and representation? Why might certain countries or people prefer one projection to another?
+**Consider this:** Can you think of how ways in which projections relate to power and representation? Why might certain countries or people prefer one projection to another?
 
 </aside>
 

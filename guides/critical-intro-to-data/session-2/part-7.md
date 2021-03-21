@@ -2,7 +2,7 @@
 
 ## Overview
 
-* The **LMEC Public Data Portal** houses a variety of datasets drawn from numerous data sources
+* The **[LMEC Public Data Portal](data.leventhalmap.org)** houses a variety of datasets drawn from numerous data sources
 * This search tool expands the usefulness of these data sources by offering a more detailed information than is commonly available about:
     - **where** the data came from,
     - **how** it has evolved over time,
@@ -16,8 +16,7 @@
 
 When you first enter the data portal you will see this search screen.
 
-![](https://ibb.co/XsV8Wtv)
-
+[insert image here]
 
 Let's try searching for the Boston internet access data we were looking at in the last Session.
 
@@ -50,10 +49,7 @@ Often when making a map, data needs to be changed and adapted to fit the user's 
 
 <aside>
 
-
-Example: Covid-19 testing capacity
-
-Early in the pandemic, a lack of testing infrastructure clouded our understanding of community spread and transmission. Fluctuations in testing capacity and infrastructure affect the accuracy of the data.
+**Real-world example:** Covid-19 testing capacity. Early in the pandemic, a lack of testing infrastructure clouded our understanding of community spread and transmission. Fluctuations in testing capacity and infrastructure affected the accuracy of the data.
 
 </aside>
 
