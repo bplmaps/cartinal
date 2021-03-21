@@ -17,7 +17,7 @@ health:
     * Data are the "words" which, in isolation, don't mean very much.
     * A mapmaker combines data components to communicate visually with a map.
     * Breaking down a map allows us to understand its components and learn to "speak" the language of mapmaking.
-    
+
 <Hideable title="Further explanation">
 
 A good way to think about it is this: When someone is working on their written literacy skills, they usually practice both reading *and* writing to become a more skilled communicator. We believe visual means of communication (like maps) are exactly the same — in order to best "read" maps, you should also be able to understand a little about the craft by which they are constructed. Today, this almost always involves the use of geospatial data. You can think about data, with all of its formats, rules and structure, like the underlying grammar beneath maps.
@@ -32,9 +32,15 @@ A good way to think about it is this: When someone is working on their written l
 
 <aside>
 
-Can you think of a type of geographic data that you create and use in your everyday life? What observations of space and place do you make all the time?
+**Consider this:** Can you think of a type of geographic data that you create and use in your everyday life? What observations of space and place do you make all the time?
 
 </aside>
+
+<hideable title = "A grammatical note on 'data'""
+
+To most English-speakers, data sounds like a singular noun. It's common to say "data is a general term about information," or "data records phenomena." as we have done above. But some practitioners think of data as a plural; you'll hear people say "data are observations about the world," or "data record phenomena." There's no consensus about which is correct, even among data scientists! In this course, we use data as a singular noun. 
+
+</hideable>
 
 * Consider an ordinary web map that you might use to get to the nearest coffee shop.
     * It would include data about ...

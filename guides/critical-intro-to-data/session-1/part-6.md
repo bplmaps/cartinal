@@ -11,14 +11,24 @@ health:
 
 <aside>
 
-In their book, Data Feminism, Catherine D'Ignazio and Lauren Klein introduce the idea of a "privilege hazard." They write, "When data teams are primarily composed of people from dominant groups, those perspectives come to exert outsized influence on the decisions being made—to the exclusion of other identities and perspectives. This is not usually intentional; it comes from the ignorance of being on top. We describe this deficiency as a privilege hazard." You can read the whole chapter [here](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/3)!
+"Privilege hazard" is a term developed by Catherine D'Ignazio and Lauren Klein in their book *Data Feminism*. The whole chapter on power is useful in learning to critically question data.  You can read it [here](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/3)!
 
 </aside>
 
 * Because there are humans in data, data is exposed to human error, oversight, and bias.
+* The concept of a "privilege hazard" captures the oversights that occur when perspectives of those in power "exert an outsized influence on the decisions being made" with a given dataset, often "to the exclusion of other perspectives."  
 
 ![](https://i.imgur.com/hAo8TCn.png)
 **An illustration of the human role in data collection, Tess McCann (2021).**
+
+<hidable title = "Read more about the privilege hazard">
+
+In their book, *Data Feminism*, Catherine D'Ignazio and Lauren Klein describe "privilege hazard" as the following:
+> "When data teams are primarily composed of people from dominant groups, those perspectives come to exert outsized influence on the decisions being made—to the exclusion of other identities and perspectives. This is not usually intentional; it comes from the ignorance of being on top. We describe this deficiency as a privilege hazard."
+
+Inherent in this definition is a question of *power*. Power is expressed in data science and mapping all the time and at every stage of the data collection, analysis, cartographic design, and production process. Power is at the heart of critical questions we pose of data. Answering these questions shines a light on where power is lurking in seemingly benign objects like maps.   
+
+</hideable>
 
 ## What questions should we ask of data?
 
@@ -28,6 +38,7 @@ In their book, Data Feminism, Catherine D'Ignazio and Lauren Klein introduce the
     * **When** was the data collected? Can the data still be used to make accurate conclusions?
     * **What** is being counted or recorded? What is *not* being counted? What does this imply about the data set?
     * **Where** is the region that this data covers? Where was the data collected?
+
 
 ## Changing spaces, changing data
 
@@ -39,7 +50,7 @@ In their book, Data Feminism, Catherine D'Ignazio and Lauren Klein introduce the
  ![Reference Link](https://i.imgur.com/mxDglHY.jpg)
 **Flood Progression Map: 2070 and Beyond, Leventhal Map and Education Center**
 
-<hideable Title = "More on changing spaces">
+<hideable Title = "Read more about changing spaces">
 
 It is more straightforward to imagine attribute data changing (ex. the population in a region increases) than feature data changing. However, it is still important to ask questions of the feature data - the *where* data. Remember that feature data include streets, country borders, townlines and other physical elements of the world. Can these physical elements around us change?
 
@@ -53,7 +64,7 @@ Another example of how spatial data should be questioned is regarding politicall
 
 ## Introduction to the LMEC Public Data Portal
 
-* In the next sessions, we will dive into the Leventhal Map and Education Center's Public Data Portal.
+* In the next sessions, we will dive into the [Leventhal Map and Education Center's Public Data Portal](data.leventhalmap.org).
 * It offers curated Boston-centric datasets along with a variety of other resources to kickstart your mapping adventures!
 * It includes robust information about the datasets it houses. This information helps us answer the critical questions we've discussed today.
 

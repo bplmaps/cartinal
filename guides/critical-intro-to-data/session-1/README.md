@@ -25,7 +25,7 @@ In this lesson, we'll begin piecing together the relationship between the visual
 
 ## Key Questions
 
-* What is the difference between "a map" and "data"? 
+* What is the difference between "a map" and "data"?
 * How can we interpret what kind of data was needed to make a map?
 * When you set out to make a map on a particular topic, what kinds of data will you need?
 * What are the limitations of what kind of information a computer can work with?
@@ -34,6 +34,7 @@ In this lesson, we'll begin piecing together the relationship between the visual
 ## Key Terms
 
 * GIS
+* data and geospatial data
 * geometry
 * attributes
 * rendering

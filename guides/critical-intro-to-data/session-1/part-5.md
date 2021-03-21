@@ -7,14 +7,14 @@ health:
 
 
 ## In between data and maps are people.
-* Data can never become a map all by themselves.
-* Any given data set could produce many different maps. 
 
 ![](https://i.imgur.com/LezjKov.png)
 **An illustration of the human role in data analysis, Tess McCann (2021).**
 
+* Data can never become a map all by itself.
+* Any given data set could produce many different maps.
 * **Cartographers** have power over how we see data.
-* It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data? 
+* It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data?
 * What kind of arguments do each of these maps make? What do you, as the mapreader, take away from each map?
 
 ![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
@@ -32,7 +32,7 @@ Let's look at the data set behind these maps, which is available on the LMEC Pub
 
 It might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
 
-You will notice in the two maps above that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is referred to as a **choropleth map**. It pairs different shades of color with different statistics of the theme it's showing. 
+You will notice in the two maps above that the different shapes that make up Boston are shaded according to WiFi access. This kind of map is referred to as a **choropleth map**. It pairs different shades of color with different statistics of the theme it's showing.
 
 The cartographer chose to set the bounds of data (i.e. "Up to 70%," "70 to 80%," and "over 80%") and chose the colors to visualize these different percentages.
 
@@ -67,5 +67,4 @@ Compare these two maps of sleep deprivation in the United States. Both of these 
 **Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014).**
 
 ![](https://i.imgur.com/kI83xl7.jpg)
-**[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).** 
-
+**[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).**

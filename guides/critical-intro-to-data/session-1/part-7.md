@@ -11,7 +11,7 @@ health:
 **Thematic maps of Denver, showing the surface temperature and household income.**
 * We can make maps to advocate for issues we care about in our communities, like environmental justice. But to do this, we also need to become good *readers* of maps.
 
-<hideable title = "More on maps as visual arguments">
+<hideable title = "Maps as visual arguments">
 
  Some elements of map design that were once choices have been repeated so many times that they've become convention. Any given map we might pick up or click on today is the result of collective decisions that we have come to accept as truths. The expectations we might have for what a map is come from longterm reinforcement of specific traditions of map-making. Perpetuation of these traditions has created a list of “oughts” for a map. Though we have a set of cartographic standards, these too are subjective choices, and there is little that a map must objectively contain.
 

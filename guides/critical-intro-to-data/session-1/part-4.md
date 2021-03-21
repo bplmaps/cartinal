@@ -32,19 +32,19 @@ Many people have undertaken projects like this and recorded texts received in a 
 
 You can think of geospatial data as means to *pin down* non-spatial information to a specific place.
 
-John Snow did something similar when he decided to attach a spatial location to the cholera occurence data. Think about it like this: Snow could have kept the Cholera Occurence data in a table and tracked the outbreak that way. But, drawing on work done in the Paris cholera outbreak of 1832, he chose to record and visualize the spatial distribution of each case. Mapping the locations of cases revealed the source of the outbreak. 
+John Snow did something similar when he decided to attach a spatial location to the cholera occurence data. Think about it like this: Snow could have kept the Cholera Occurence data in a table and tracked the outbreak that way. But, drawing on work done in the Paris cholera outbreak of 1832, he chose to record and visualize the spatial distribution of each case. Mapping the locations of cases revealed the source of the outbreak.
 
 </Hideable>
 
 <Quizlet
     title="Check your understanding"    
     :questions="[
-        {text: '**What are the features of this map?**',
+        {text: 'What are the features of this map?',
         answers: [
             {text: 'Unemployment percentages'},
             {text: 'The states', correct: true}
         ]},
-        {text: '**What are the attributes of this map?**',
+        {text: 'What are the attributes of this map?',
         answers: [
             {text: 'Unemployment percentages', correct: true},
             {text: 'Shades of blue'}
