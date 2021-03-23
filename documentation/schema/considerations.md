@@ -115,7 +115,7 @@ Human readability refers to how easily accessible or intelligible a dataset is t
 #### Definition
 
 Social embeddedness refers to the concept that datasets cannot be understood separately from the social circumstances in which they are created and used. The LMEC considers a dataset socially embedded if it:
-- was created by, for, or collaboratively in partnership with the people it represents
+- was created by or collaboratively in partnership with the people it represents
 - has accompanying materials which outline the questions it was designed to answer
 - has accompanying materials which thoughtfully reflect on the dataset's usefulness for social justice
 
