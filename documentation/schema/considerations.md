@@ -120,6 +120,6 @@ Social embeddedness refers to the concept that datasets cannot be understood sep
 - has accompanying materials which thoughtfully reflect on the dataset's usefulness for social justice
 
 #### More resources
-- [Embeddedness, Social Science Concept](https://www.britannica.com/topic/embeddedness), Encyclopedia Britannica 
+- [Embeddedness](https://www.britannica.com/topic/embeddedness), Encyclopedia Britannica 
 - [The Numbers Don't Speak for Themselves](https://data-feminism.mitpress.mit.edu/pub/czq9dfs5/release/2), Klein & D'Ignazio
 - [Data as Performace – Showcasing cities through open data maps](https://journals.sagepub.com/doi/10.1177/2053951720907953), Currie
