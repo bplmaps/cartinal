@@ -8,8 +8,8 @@ health:
 * **Data** are records of observations of phenomena. Data do not exist without human observation, classification, organization, and maintenance.
 * Many types of observations can be organized into data sets and visualized, but only spatial data can be visualized on a map.
 
-![reference link](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Snow-cholera-map-1.jpg/1200px-Snow-cholera-map-1.jpg)
-**John Snow's map of the cholera outbreak around the Broad Street pump (1854).**
+![John Snow cholera map](./media/JohnSnowCholeraMap.jpeg)
+**John Snow's map of the cholera outbreak around the Broad Street pump (1854).** Source: Artoria2e5, Wikipedia, Wikimedia Commons.
 
 * **Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns across space.
 * There are two elements of geospatial data: **feature data** (which encode information about *where* an observation occurs) and **attribute data** (which encode information about *what* occurs).
@@ -53,7 +53,7 @@ John Snow did something similar when he decided to attach a spatial location to 
     ]"
 >
 
-![](https://i.imgur.com/BP8YjPZ.jpg)
-**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, November 2020.**
+![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap)
+**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, January 2021.** Source: [Bureau of Labor Statistics]( https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#)
 
 </Quizlet>

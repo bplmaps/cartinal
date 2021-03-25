@@ -14,20 +14,17 @@
 
 ## Searching the Data Portal
 
-When you first enter the data portal you will see this search screen.
+* When you first enter the data portal you will see this search screen.
 
-[insert image here]
+![A screenshot of the LMEC Public Data Portal homepage](./media/DataPortalHomepage)
 
-Let's try searching for the Boston internet access data we were looking at in the last Session.
+* Let's try searching for the Boston internet access data we were looking at in the last Session. Enter a key word, such as "internet," that relate to the topic you want to find.
 
-[insert image here]
+![A screenshot of the LMEC Public Data Portal search results page](./media/DataPortalSearchResults)
 
-Enter a key word, such as "internet," that relate to the topic you want to find. When you see the result you want to explore, click on the data to be taken to the main page for the data source.
+* When you see the result you want to explore, click on the data to be taken to the main page for the data source. Here you can see various information about the data being collected including authors, sources, curators, and more. This is metadata, which we'll dive into in Session 3.
 
-[insert image here]
-
-Here you can see various information about the data being collected including authors, sources, curators, and more. This is metadata, which we'll dive into in Session 3.
-
+![A screenshot of the LMEC Public Data Portal dataset download page](./media/DataPortalDownloadPage)
 
 
 ## Data Geneology
@@ -35,7 +32,7 @@ Here you can see various information about the data being collected including au
 * Was it combined from other sources? Joined like how we learned in Session 2?
 * Processing steps are provided so you could retrace the steps
 
-![Reference Link](https://i.imgur.com/U06yfZ6.png)
+![A screenshot of the Data Geneology section of the dataset download page.](./media/DataGeneology)
 
 <hideable title = "Learn more: cleaning data">
 

@@ -8,6 +8,9 @@
 * To join two or more sets of data, we need something called **stable identifier** or **unique identifier**
     * A stable identifier is shared by the feature and attribute data and tells the computer which data corresponds to what geographical place.
 
+![A drawing showing how attirbutes and feature are joined](./media/joining-features-attributes.jpg)
+**A drawing showing how attributes (the numbers) and features (the empty shapes) are joined together. The dotted lines represent the "stable identifier" that links the two data. Drawn by Tess McCann, 2021.**
+
 ## An example join
 
 Looking at the attribute table for the Wi-Fi maps we have discussed, we can see how joins work:

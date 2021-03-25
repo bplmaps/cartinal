@@ -22,15 +22,16 @@ Where does this map come from?
 
 -->
 
-
-![](https://i.imgur.com/BP8YjPZ.jpg)
+![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap)
+**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, January 2021.** Source: [Bureau of Labor Statistics]( https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#)
 
 ######
 
 * But what does the computer actually "see"?
 * Here is the **attribute table** that created this map presented in spreadsheet form:
 
-![](https://i.imgur.com/g0WonNO.png)
+![Table of values and states associated with the BLS unemployment map/](./media/BLSUnemploymentTable)
+**Attribute table associated with the unemployment map.** Source: [Bureau of Labor Statistics]( https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#)
 
 
 <Quizlet

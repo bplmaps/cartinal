@@ -7,8 +7,8 @@ health:
 
 * Some cartographic choices are made consciously, but some are made unconsciously, leading cartographer J.B. Harley to argue, **“the map is a silent arbiter of power.” ([Harley](https://quod.lib.umich.edu/p/passages/4761530.0003.008/--deconstructing-the-map?rgn=main;view=fulltext))**
 * Spatial arguments, like this one that shows surface temperature alongside median household income, are powerful and persuasive.
-![reference link](https://wp-denverite.s3.amazonaws.com/wp-content/uploads/sites/4/2019/09/190907-HEAT-TRENDS-NPR-01.jpg)
-**Thematic maps of Denver, showing the surface temperature and household income.**
+![Two thematic maps, one showing household income and one showing temperature in Denver](./media/HeatIncomeMapDenver)
+**Thematic maps of Denver, showing the surface temperature and household income.** Source: [NPR](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most)
 * We can make maps to advocate for issues we care about in our communities, like environmental justice. But to do this, we also need to become good *readers* of maps.
 
 <hideable title = "Maps as visual arguments">

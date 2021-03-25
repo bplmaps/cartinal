@@ -8,7 +8,7 @@ health:
 
 ## In between data and maps are people.
 
-![](https://i.imgur.com/LezjKov.png)
+![An illustration of the human role in data analysis](./media/human-in-mapping)
 **An illustration of the human role in data analysis, Tess McCann (2021).**
 
 * Data can never become a map all by itself.
@@ -17,10 +17,10 @@ health:
 * It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data?
 * What kind of arguments do each of these maps make? What do you, as the mapreader, take away from each map?
 
-![reference link](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:3x8177423/datastreams/access800/content)
+![Map showing abundance of internet access in Boston](./media/WifiConnectedMap.jpeg)
 **"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.**
 
-![](https://fedora.digitalcommonwealth.org/fedora/objects/commonwealth:s4657c413/datastreams/access800/content)
+![Map showing lack of internet access in Boston](./media/WifiDisconnectedMap.jpeg)
 **"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.**
 
 <hideable title = "More reading on a cartographer's choices">
@@ -48,8 +48,8 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
 
-![](https://i.imgur.com/BP8YjPZ.jpg)
-**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (November 2020).**
+![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap)
+**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (January 2021).**
 
 <Hideable title = 'Hints'>
 
@@ -63,8 +63,8 @@ The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative t
 
 Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data very differently. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
 
-![](https://i.imgur.com/Jtog9My.png)
+![Map showing sleep deprivation in the United States, 2014](./media/CDCSleepMap.jpeg)
 **Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014).**
 
-![](https://i.imgur.com/kI83xl7.jpg)
+![Map showing sleep deprivation in the United States, STAT version, 2014]((./media/STATSleepMap.jpeg))
 **[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).**

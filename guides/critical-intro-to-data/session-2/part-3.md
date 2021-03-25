@@ -41,11 +41,15 @@ Confusing coordinate systems are one of the number one reasons why you might enc
 
 ### Example: Goode Homolosine projection
 
-![reference link](https://upload.wikimedia.org/wikipedia/commons/f/f2/Goode_homolosine_projection_SW.jpg)
+![The world in a Goode Homolosine projection](./media/GoodeHomolosineProjection.jpeg)
+Source: Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_SW.jpg)
+
 
 ### Example: Mercator projection
 
-![reference link](https://upload.wikimedia.org/wikipedia/commons/7/73/Mercator_projection_Square.JPG)
+![The world in a Mercator projection](./media/MercatorProjection.jpeg)
+Source: Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG)
+
 
 * Projections can intentionally or unintentionally perpetuate pre-existing power structures and even construct new ones.
 
