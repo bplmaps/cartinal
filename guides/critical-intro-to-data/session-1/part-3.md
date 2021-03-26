@@ -1,7 +1,4 @@
----
-health:
-    underConstruction: true
----
+
 
 # Introducing geospatial data
 
@@ -24,10 +21,12 @@ For more information, check out Cosgrove's [Geography and Vision: Seeing, Imagin
 
 </aside>
 
-![Reference map of South America](./media/ReferenceMapSouthAmerica.jpeg)
+![Reference map of South America](./media/ReferenceMapSouthAmerica.jpg)
+
 **A reference map of South America showing country borders and locations of cities.** Source: [National Geographic](https://media.nationalgeographic.org/assets/photos/000/289/28906.jpg)  
 
 ![Population density of South America](./media/ThematicMapSouthAmerica.gif)
+
 **A map showing the population density across South America is an example of a thematic map, because it shows a specific theme—in this case, population density.** Source: [Britannica](https://kids.britannica.com/students/assembly/view/160672)
 
 * Both kinds of map rely on and represent data.

@@ -1,7 +1,4 @@
----
-health:
-    underConstruction: true
----
+
 
 # Learning to question data
 
@@ -18,17 +15,17 @@ health:
 * Because there are humans in data, data is exposed to human error, oversight, and bias.
 * The concept of a "privilege hazard" captures the oversights that occur when perspectives of those in power "exert an outsized influence on the decisions being made" with a given dataset, often "to the exclusion of other perspectives."  
 
-![An illustration of the human role in data collection](./media/human-in-data)
+![An illustration of the human role in data collection](./media/human-in-data.png)
 **An illustration of the human role in data collection, Tess McCann (2021).**
 
-<hidable title = "Read more about the privilege hazard">
+<Hideable title = "Read more about the privilege hazard">
 
 In their book, *Data Feminism*, Catherine D'Ignazio and Lauren Klein describe "privilege hazard" as the following:
 > "When data teams are primarily composed of people from dominant groups, those perspectives come to exert outsized influence on the decisions being made—to the exclusion of other identities and perspectives. This is not usually intentional; it comes from the ignorance of being on top. We describe this deficiency as a privilege hazard."
 
 Inherent in this definition is a question of *power*. Power is expressed in data science and mapping all the time and at every stage of the data collection, analysis, cartographic design, and production process. Power is at the heart of critical questions we pose of data. Answering these questions shines a light on where power is lurking in seemingly benign objects like maps.   
 
-</hideable>
+</Hideable>
 
 ## What questions should we ask of data?
 
@@ -68,7 +65,7 @@ Another example of how spatial data should be questioned is regarding politicall
 * It offers curated Boston-centric datasets along with a variety of other resources to kickstart your mapping adventures!
 * It includes robust information about the datasets it houses. This information helps us answer the critical questions we've discussed today.
 
-![A screenshot of the Data Portal homepage](./media/DataPortalHomepage)
+![A screenshot of the Data Portal homepage](./media/DataPortalHomepage.png)
 
 <Quizlet
     title="Check your understanding"

@@ -1,14 +1,11 @@
----
-health:
-    underConstruction: true
----
+
 
 # The human role in mapping: from data to maps
 
 
 ## In between data and maps are people.
 
-![An illustration of the human role in data analysis](./media/human-in-mapping)
+![An illustration of the human role in data analysis](./media/human-in-mapping.png)
 **An illustration of the human role in data analysis, Tess McCann (2021).**
 
 * Data can never become a map all by itself.
@@ -48,7 +45,7 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
 
-![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap)
+![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap.png)
 **Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (January 2021).**
 
 <Hideable title = 'Hints'>
@@ -66,5 +63,5 @@ Compare these two maps of sleep deprivation in the United States. Both of these 
 ![Map showing sleep deprivation in the United States, 2014](./media/CDCSleepMap.jpeg)
 **Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014).**
 
-![Map showing sleep deprivation in the United States, STAT version, 2014]((./media/STATSleepMap.jpeg))
+![Map showing sleep deprivation in the United States, STAT version, 2014](./media/STATSleepMap.jpeg)
 **[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).**

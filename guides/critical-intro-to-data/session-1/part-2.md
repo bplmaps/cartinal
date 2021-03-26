@@ -1,7 +1,4 @@
----
-health:
-    underConstruction: true
----
+
 
 # Exercise: Draw Your Own Map
 

@@ -1,7 +1,4 @@
----
-health:
-    underConstruction: true
----
+
 
 # Geospatial data: the what and the where
 
@@ -9,7 +6,7 @@ health:
 * Many types of observations can be organized into data sets and visualized, but only spatial data can be visualized on a map.
 
 ![John Snow cholera map](./media/JohnSnowCholeraMap.jpeg)
-**John Snow's map of the cholera outbreak around the Broad Street pump (1854).** Source: Artoria2e5, Wikipedia, Wikimedia Commons.
+**John Snow's map of the cholera outbreak around the Broad Street pump (1854).** Source: Artoria2e5, Wikipedia, Wiki./media Commons.
 
 * **Geospatial data** are records of what occurs in a certain place. Geospatial data are inherently locational, and, when analyzed, can shed light on patterns across space.
 * There are two elements of geospatial data: **feature data** (which encode information about *where* an observation occurs) and **attribute data** (which encode information about *what* occurs).
@@ -53,7 +50,7 @@ John Snow did something similar when he decided to attach a spatial location to 
     ]"
 >
 
-![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap)
+![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap.png)
 **Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, January 2021.** Source: [Bureau of Labor Statistics]( https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#)
 
 </Quizlet>
