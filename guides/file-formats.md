@@ -51,6 +51,10 @@ Other vector formats have been established as alternatives to shapefiles, like t
 
 At the Map Center, we like to store most of our vector information in `GeoJSON`. We do this because we do lots of web mapping at the LMEC, and GeoJSON is text-based, which means it is compatible with languages like JavaScript. It also displays exactly the same as a shapefile or geopackage would in QGIS or other desktop software. 
 
+## SQLite
+
+SQLite is a file-based database format, and Spatialite is a spatial extension to SQLite. It's useful when you have very large datasets for which querying from a text-based format (like GeoJSON) would grind the computer to a halt. QGIS can read SpatialLite out of the box (it's one of the defaults in the data source manager). 
+
 ## Which one should I download?
 
 If your data needs are to work with and edit vector information in a desktop tool like QGIS, you can understand shapefiles, geopackages, and GeoJSON as effectively interchangable. They are all common formats for storing point, line & polygon GIS information. They will all work in QGIS.
