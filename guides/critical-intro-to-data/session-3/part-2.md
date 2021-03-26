@@ -1,26 +1,87 @@
-# From Metadata to Missing Data
+# Metadata on the LMEC Public Data Portal
 
-* While we may have missing metadata, there is even another category of things that are missing: **missing data**.
-* These are topics and issues that we may not realize exist because:
-    * there a few (if any) known datasets about them; or
-    * they are rarely mapped
-* **Just because the data doesn't exist to map it, doesn't mean it isn't real.** Centuries of societal norms and thought practice have built up into what is mapped and what isn't.
-* Sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
-* But we hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
+You can find detailed metadata in the LMEC Public Data Portal. We will walk through how to understand this information using the Internet Access & connectivity dataset as an example.
 
-<hideable Title = "An artist's take on missing data">
+### About this data
 
-While we may have missing metadata and lacking data transparency, there is even another category of things that are missing: missing data. These are topics and issues that there are very little to zero known datasets about and people thus far have rarely mapped them. Artist Mimi Onuoha has compiled her thoughts on missing data which you can read [here](https://github.com/MimiOnuoha/missing-datasets). She writes the following:
-> "Missing data sets" are my term for the blank spots that exist in spaces that are otherwise data-saturated. My interest in them stems from the observation that within many spaces where large amounts of data are collected, there are often empty spaces where no data live. Unsurprisingly, this lack of data typically correlates with issues affecting those who are most vulnerable in that context.
+* The "About this data" section of the page includes an overview or description of the dataset including:
+    - What **topics or themes** does the dataset address?
+    - What **time period** does the dataset cover?
+    - **Where** in the world does the dataset represent?
+        - *Many, but not all, are of Boston!*
+    - **Who** originally collected and cleaned the dataset?
+    - **Why is it archived** in the LMEC portal?
+* As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
-Essentially: Data do not show us a complete picture of the world. There could be very real and pervasive phenomena in the world that we experience as humans that—because it's not recorded into datasets—does not get mapped. It's important to remember that just because the data doesn't exist to describe a phenomenon doesn't mean the phenomenon isn't real. Centuries of societal norms and thought practice have built up into what is mapped and what isn't. We hope this course empowers you to identify what isn't being mapped and what you can do about it! However, sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
+![Reference Link](https://i.imgur.com/Lg1YGZ3.png)
 
-Onuoha also outlines a few reasons why data are missing, including
-> 1. Those who have the resources to collect data lack the incentive to (corollary: often those who have access to a dataset are the same ones who have the ability to remove, hide, or obscure it)
-> 2. The data to be collected resist simple quantification (corollary: we prioritize collecting things that fit our modes of collection).
-> 3. The act of collection involves more work than the benefit the presence of the data is perceived to give.
-> 4. There are advantages to nonexistence.
 
-Does this list make you think of any recurring themes we've discussed in this class? Can you think of an example of a missing dataset?
+### The data lifecycle
+* The data lifecycle tells you where and how people have worked with, changed or edited the data
+* This section provides links to the records of those who have worked with data, describing, in their own words, their steps and choices
+* You will not find this in most data portals, but we think it is important to preserve
+* You can use this section to understand how the data has been shaped, and by who
+* You can also use this section to repeat the steps of the original data processor, if you want
 
-</hideable>
+
+![Data lifecycle](./media/datalifecycle.png)
+
+
+
+
+#### "Can You Trust This Data?""
+
+* This section shows an evaluation of the dataset *and its metadata* by LMEC Data Archivist Belle Lipton.
+
+![Reference link](https://i.imgur.com/FzhkeDe.png)
+
+* These evaluations aim to understand the value and limitations of the datsets that live on the portal, asking questions such as:
+    * Will using this dataset cause harm to those it is mapping?
+    * What is the intent behind the datasets?
+* It is a unique feature of the LMEC Public Data Portal; it's not a section you'll see consistently on sites that provide datasets.
+* Data documentation is increasingly important to understand where the data is coming from.
+
+
+
+
+
+### Data transparency
+
+* Data transparency applies not only to maps—"where does the data on that map come from"—but also to the data itself.
+* Both data and metadata needs to be looked at through the lense of transparency!
+* As critical viewers of data you should begin to prioritize and value ethical data transparency in order to make fair choies about what can and cannot be said from a given dataset.
+
+## Check for Understanding
+
+![Reference Link](https://i.imgur.com/LS1SLT3.png)
+
+##### Wicked Free Wi-Fi, a dataset from the City of Boston on Public Wifi Spots
+
+<Quizlet
+    title="Check your understanding"
+    :questions="[
+        {
+            text: 'Considering the dataset above, what metadata not present would make the dataset more transparent?. Choose all that apply',
+            answers: [
+            {text: 'The timeframe in which the data was collected' },
+            {text: 'How the cartographer worked with the data', correct: true},
+            {text: 'The name of the dataset'},
+            {text: 'Forseen limitations of using the datset', correct: true}
+        ]},
+
+        {text: 'Once collected, data is not altered by humans in any form.',
+        answers: [
+            {text: 'True'},
+            {text: 'False',correct: true}
+        ]
+        },
+
+         {text: 'In mapping internet access in Boston, which of the following does the metadata help you understand',
+        answers: [
+            {text: 'Which organization collected this data', correct:true},
+            {text: 'Internet Access in souther Massachusetts'},
+            {text: 'The quality of the WiFi offered'}
+        ]
+        }
+    ]"
+/>

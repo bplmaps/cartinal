@@ -1,23 +1,26 @@
-# (4) Where Do We Go From Here?
-###### tags: `session-3-chunkified`
+# Metadata Helps Missing or Messy Data
 
-## Now What?
-In this course, we have worked from the ground up introducing what a map and data are and how to critically evaluate and use them in your daily life. This extends to content that you see in the news to when you want to make your own mapping project!
+* While we may have missing metadata, there is even another category of things that are missing: **missing data**.
+* These are topics and issues that we may not realize exist because:
+    * there a few (if any) known datasets about them; or
+    * they are rarely mapped
+* **Just because the data doesn't exist to map it, doesn't mean it isn't real.** Centuries of societal norms and thought practice have built up into what is mapped and what isn't.
+* Sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
+* But we hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
 
-Here are some tips we have when planning out your next data project. Ask yourself the following questions to direct your thinking process!
-1. **Start with a question** - what question do you hope to answer? What topic are you interested in learning more about?
-2. **Identify data** - plan out what spatial and attirbute data you will you need to bring your idea to life, what resources might have the data you are looking for?
-3. **Collect Data** - find the data! Go download, collect, or even create the datasets you need for the project. Remember to record where you found the data and keep the context with the data
-4. **Map the Data** - create the map using digital software. While we did not cover this in our sessions, there are many great tutorials and resources on how to create maps with free online software. These include ARCGis Online, Carto, and QGIS just to name a few.
-5. **Communicate Findings** - take action! Once you have created your map, use it to tell a story. Put together a narrative to share your story and/or findings wiht others.
+<hideable Title = "An artist's take on missing data">
 
+While we may have missing metadata and lacking data transparency, there is even another category of things that are missing: missing data. These are topics and issues that there are very little to zero known datasets about and people thus far have rarely mapped them. Artist Mimi Onuoha has compiled her thoughts on missing data which you can read [here](https://github.com/MimiOnuoha/missing-datasets). She writes the following:
+> "Missing data sets" are my term for the blank spots that exist in spaces that are otherwise data-saturated. My interest in them stems from the observation that within many spaces where large amounts of data are collected, there are often empty spaces where no data live. Unsurprisingly, this lack of data typically correlates with issues affecting those who are most vulnerable in that context.
 
-## In-Class Discussion
-We'll briefly go around the room and share 1-2 takeaways from the course that you might work into your everyday life. We acknowledge that everyone has different backgrounds and opportunities to apply these ideas. If you already have a project in mind, feel free to share that as well!
+Essentially: Data do not show us a complete picture of the world. There could be very real and pervasive phenomena in the world that we experience as humans that—because it's not recorded into datasets—does not get mapped. It's important to remember that just because the data doesn't exist to describe a phenomenon doesn't mean the phenomenon isn't real. Centuries of societal norms and thought practice have built up into what is mapped and what isn't. We hope this course empowers you to identify what isn't being mapped and what you can do about it! However, sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
 
+Onuoha also outlines a few reasons why data are missing, including
+> 1. Those who have the resources to collect data lack the incentive to (corollary: often those who have access to a dataset are the same ones who have the ability to remove, hide, or obscure it)
+> 2. The data to be collected resist simple quantification (corollary: we prioritize collecting things that fit our modes of collection).
+> 3. The act of collection involves more work than the benefit the presence of the data is perceived to give.
+> 4. There are advantages to nonexistence.
 
-## Further Resources
-We hope you enjoyed the course and seeing data in new, critical ways. If you would like to continue learning about critical cartography, mapping, and data here are some more resources you can explore!
-* [Leventhal Map Center Tutorials](https://geoservices.leventhalmap.org/cartinal/guides/) - More amazing tutorials compiled by the team at LMEC which cover GIS basics and more.
-* [Data Feminism](https://datafeminism.io/) - A fascinating read about data and the structures is has been governed and shaped by written by Catherine D'Ignazio and Lauren F. Klein.
-* [Maptivist Project](https://lmec.maps.arcgis.com/apps/MapJournal/index.html?appid=8f5ef10ad2114bd69c0d6acb973f8741) The Maptivist project strives to combine mapping with activism with a focus on Boston Public Schools.
+Does this list make you think of any recurring themes we've discussed in this class? Can you think of an example of a missing dataset?
+
+</hideable>
