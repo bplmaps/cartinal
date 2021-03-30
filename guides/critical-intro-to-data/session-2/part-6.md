@@ -24,7 +24,7 @@
 
 * Common spatial file types include **Shapefiles**, **GeoJSON**, and **GeoTIFF**
 * Each file type stores geographic data in a different way and is used in specific circumstances (recall vector vs. raster!)
-* GIS software can these data types; there are desktop programs like QGIS and web-based programs like Carto.
+* GIS software is used to view and edit these data types; there are desktop programs like QGIS and web-based programs like Carto.
 
 | File Type| Extension | Description |
 | -------- | -------- | -------- |

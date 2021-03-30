@@ -64,7 +64,7 @@ New digital applications like [The True Size Of...](https://thetruesize.com) sho
 </hideable>
 
 <Quizlet
-	title="Check yourself"
+	title="Comprehension check"
 	:questions="
 	[{
 		text: 'How many different numbers are necessary, at a minimum, to define a coordinate?',
