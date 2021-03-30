@@ -21,13 +21,26 @@ For more information, check out Cosgrove's [Geography and Vision: Seeing, Imagin
 
 </aside>
 
-![Reference map of South America](./media/ReferenceMapSouthAmerica.jpg)
+<figure>
 
-**A reference map of South America showing country borders and locations of cities.** Source: [National Geographic](https://media.nationalgeographic.org/assets/photos/000/289/28906.jpg)  
+![Reference map of South America](./media/ReferenceMapSouthAmerica.jpg)
+<figcaption>
+
+A reference map of South America showing country borders and locations of cities (2009). Source: National Geographic](https://media.nationalgeographic.org/assets/photos/000/289/28906.jpg) 
+
+</figcaption>
+</figure>
+
+<figure>
 
 ![Population density of South America](./media/ThematicMapSouthAmerica.gif)
 
-**A map showing the population density across South America is an example of a thematic map, because it shows a specific theme—in this case, population density.** Source: [Britannica](https://kids.britannica.com/students/assembly/view/160672)
+<figcaption>
+
+A map showing the population density across South America is an example of a thematic map, because it shows a specific theme—in this case, population density.** Source: [Britannica](https://kids.britannica.com/students/assembly/view/160672)
+
+</figcaption>
+</figure>
 
 * Both kinds of map rely on and represent data.
 * In this course, we focus on the creation of thematic maps because they show us how to work with *both spatial and non-spatial data*.

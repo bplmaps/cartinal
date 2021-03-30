@@ -11,7 +11,7 @@
     * Is a map *made up of* data?
     * Are *all* maps related to data?
 * A metaphor from language:
-    * Data are the "words" which, in isolation, don't mean very much.
+    * Data makes up the "words" which, in isolation, don't mean very much.
     * A mapmaker combines data components to communicate visually with a map.
     * Breaking down a map allows us to understand its components and learn to "speak" the language of mapmaking.
 
@@ -21,7 +21,7 @@ A good way to think about it is this: When someone is working on their written l
 
 </Hideable>
 
-## Data are observations about the world.
+## Data as observations about the world
 
 * You might have a strong association between the word "data" and "numbers in a computer."
 * Data is really a more general term about _information_.
@@ -48,7 +48,7 @@ To most English-speakers, data sounds like a singular noun. It's common to say "
         * How roads and paths are connected in space,
         * What the roads are named,
         * And more!
-* Data encode human observations of the world in a way that is legible to computers.
+* Data encodes human observations of the world in a way that is legible to computers.
 
 <aside>
 
@@ -60,7 +60,7 @@ Try running a [Google Image search](https://www.google.com/search?tbm=isch&sourc
 <Quizlet
     title="Check your understanding"
     :questions="[
-        {text: 'A given map is produced from exactly one data set.',
+        {text: 'A given map is produced from exactly one dataset.',
         answers: [
             {text: 'True'},
             {text: 'False', correct: true}

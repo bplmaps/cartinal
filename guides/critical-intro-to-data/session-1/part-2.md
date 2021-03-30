@@ -25,5 +25,3 @@ Check out these COVID-era [hand drawn maps](https://www.bloomberg.com/features/2
     * Is anything missing from either map?
     * Which map seems more "accurate" to you?
 * How do you think OpenStreetMap stores data associated with what appears on the screen?
-
-

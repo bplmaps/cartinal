@@ -5,27 +5,58 @@
 
 ## In between data and maps are people.
 
+<figure>
+
 ![An illustration of the human role in data analysis](./media/human-in-mapping.png)
-**An illustration of the human role in data analysis, Tess McCann (2021).**
+
+<figcaption>
+
+An illustration of the human role in data analysis, Tess McCann (2021).
+
+</figcaption>
+</figure>
 
 * Data can never become a map all by itself.
-* Any given data set could produce many different maps.
+* Any given dataset could produce many different maps.
 * **Cartographers** have power over how we see data.
-* It's important to look at the data behind the mapp; how did the cartographer analyze and (mis)represent the data?
+* It's important to look at the data behind the map; how did the cartographer analyze and (mis)represent the data?
 * What kind of arguments do each of these maps make? What do you, as the mapreader, take away from each map?
 
+<figure>
+
 ![Map showing abundance of internet access in Boston](./media/WifiConnectedMap.jpeg)
-**"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.**
+
+<figcaption>
+
+"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.
+
+</figcaption>
+<figure>
+
+<figure>
 
 ![Map showing lack of internet access in Boston](./media/WifiDisconnectedMap.jpeg)
-**"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.**
+
+<figcatpion>
+"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.
+
+</figcaption>
+</figure>
 
 <hideable title = "More reading on a cartographer's choices">
 
-Let's look at the data set behind these maps, which is available on the LMEC Public Data Portal.
+Let's look at the dataset behind these maps, which is available on the LMEC Public Data Portal.
+
+<figure>
 
 ![Reference Link](https://i.imgur.com/ixxu4VB.png)
-###### LMEC Boston Public Internet Access Data File
+
+<figcaption>
+
+LMEC Boston Public Internet Access Data File
+
+</figcaption>
+</figure>
 
 It might be hard to imagine how this data might become a map. It's the job of a **cartographer** to visualize spatial data and design maps. Humans determine not only which observations are collected and how they are recorded, but also how we see that information.  
 
@@ -45,8 +76,17 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
 
+<figure>
+
 ![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap.png)
-**Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (January 2021).**
+
+<figcaption>
+
+Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (January 2021).
+
+</figcaption>
+</figure>
+
 
 <Hideable title = 'Hints'>
 
@@ -60,8 +100,24 @@ The cartographer chose where to place Alaska, Hawaii, and Puerto Rico relative t
 
 Compare these two maps of sleep deprivation in the United States. Both of these maps were made using *the same data source*, but they represent the data very differently. Discuss the cartographic choices that influenced the appearance of these maps. Which of these choices do you think were made consciously and subconcsiouly?
 
+<figure>
+
 ![Map showing sleep deprivation in the United States, 2014](./media/CDCSleepMap.jpeg)
-**Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014).**
+
+<figcaption>
+
+Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014)
+
+</figcaption>
+</figure>
+
+<figure>
 
 ![Map showing sleep deprivation in the United States, STAT version, 2014](./media/STATSleepMap.jpeg)
-**[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).**
+
+<figcaption>
+
+[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).
+
+</figcaption>
+</figure>

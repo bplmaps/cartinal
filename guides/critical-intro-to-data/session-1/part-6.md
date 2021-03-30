@@ -4,7 +4,7 @@
 
 ## In between the world and data are people.
 
-* Just as there's a human behind every map, there is a human behind every data set. This person chooses how to observe the world, how to organize these observations, and how to share the data set with the world.
+* Just as there's a human behind every map, there is a human behind every dataset. This person chooses how to observe the world, how to organize these observations, and how to share the dataset with the world.
 
 <aside>
 
@@ -15,8 +15,16 @@
 * Because there are humans in data, data is exposed to human error, oversight, and bias.
 * The concept of a "privilege hazard" captures the oversights that occur when perspectives of those in power "exert an outsized influence on the decisions being made" with a given dataset, often "to the exclusion of other perspectives."  
 
+<figure>
+
 ![An illustration of the human role in data collection](./media/human-in-data.png)
-**An illustration of the human role in data collection, Tess McCann (2021).**
+
+<figcaption>
+
+An illustration of the human role in data collection, Tess McCann (2021).
+
+</figcaption>
+</figure>
 
 <Hideable title = "Read more about the privilege hazard">
 
@@ -29,11 +37,11 @@ Inherent in this definition is a question of *power*. Power is expressed in data
 
 ## What questions should we ask of data?
 
-* To start to understand the human element in every data set, we can pose questions like these:  
+* To start to understand the human element in every dataset, we can pose questions like these:  
     * **Who** made the data?
     * **Why** was this data collected? What is the datas et's agenda? Personal bias of the data collectors can easily skew data to tell one side of the story but not the other.
     * **When** was the data collected? Can the data still be used to make accurate conclusions?
-    * **What** is being counted or recorded? What is *not* being counted? What does this imply about the data set?
+    * **What** is being counted or recorded? What is *not* being counted? What does this imply about the dataset?
     * **Where** is the region that this data covers? Where was the data collected?
 
 
@@ -44,8 +52,16 @@ Inherent in this definition is a question of *power*. Power is expressed in data
 *  Open Street Map and crowdsourced platforms offer ways for the general public to update spatial data, but who feels empowered to partake in these mappings and remappings? Does everyone have equal access?  
 * One example of changing feature data is rising sea levels. Data that describes the coastline has to be updated frequently, and old files might be inaccurate.
 
+<figure>
+
  ![A map showing flood progression in Boston](./media/BostonFloodProgressionMap.jpeg)
-**Flood Progression Map: 2070 and Beyond, Leventhal Map and Education Center**
+
+ <figcaption>
+
+Flood Progression Map: 2070 and Beyond, Leventhal Map and Education Center (2016).
+
+</figcaption>
+</figure>
 
 <hideable Title = "Read more about changing spaces">
 
@@ -65,7 +81,11 @@ Another example of how spatial data should be questioned is regarding politicall
 * It offers curated Boston-centric datasets along with a variety of other resources to kickstart your mapping adventures!
 * It includes robust information about the datasets it houses. This information helps us answer the critical questions we've discussed today.
 
+<figure>
+
 ![A screenshot of the Data Portal homepage](./media/DataPortalHomepage.png)
+
+</figure>
 
 <Quizlet
     title="Check your understanding"
