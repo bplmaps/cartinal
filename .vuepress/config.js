@@ -1,5 +1,5 @@
 module.exports = {
-	base: '/cartinal/',
+	base: '/',
 	title: 'Cartinal',
 	head: [ 
     [ 
