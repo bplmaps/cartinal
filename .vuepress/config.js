@@ -88,7 +88,8 @@ module.exports = {
 				'part-4',
 				'part-5',
 				'part-6',
-				'part-7'
+				'part-7',
+				'part-8'
 			],
 
 			'/guides/critical-intro-to-data/session-3/': [
