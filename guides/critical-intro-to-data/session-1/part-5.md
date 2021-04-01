@@ -1,6 +1,6 @@
 
 
-# The human role in mapping: from data to maps
+# The human role in mapping: From data to maps
 
 
 ## In between data and maps are people.
@@ -71,7 +71,7 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 </hideable>
 
-## Discussion: same data, different maps
+## Discussion: Same data, different maps
 
 **Discussion question 1**
 

@@ -1,6 +1,6 @@
 
 
-# Geospatial data: the what and the where
+# Geospatial data: The what and the where
 
 * **Data** records observations of phenomena. Data does not exist without human observation, classification, organization, and maintenance.
 * Many types of observations can be organized into datasets and visualized, but only spatial data can be visualized on a map.
