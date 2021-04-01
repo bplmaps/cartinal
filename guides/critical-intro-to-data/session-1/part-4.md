@@ -11,7 +11,7 @@
 
 <figcaption>
 
-John Snow's map of the cholera outbreak around the Broad Street pump (1854). Source: Artoria2e5, Wikipedia, Wiki./media Commons.
+John Snow's map of the cholera outbreak around the Broad Street pump, Artoria2e5, Wikipedia, Wiki./media Commons (1854).
 
 </figcaption>
 </figure>
@@ -73,7 +73,7 @@ John Snow did something similar when he decided to attach a spatial location to 
 
 <figcaption>
 
-Local Area Unemployment Statistics Map, US Bureau of Labor Statistics, January 2021.** Source: [Bureau of Labor Statistics]( https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#)
+Local Area Unemployment Statistics Map, [U.S. Bureau of Labor Statistics](https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#) (January 2021).
 
 </figcaption>
 </figure>

@@ -11,7 +11,7 @@
 
 <figcaption>
 
-Thematic maps of Denver, showing the surface temperature and household income.** Source: [NPR](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most)
+Thematic maps of Denver, showing the surface temperature and household income. [NPR](https://www.npr.org/2019/09/03/754044732/as-rising-heat-bakes-u-s-cities-the-poor-often-feel-it-most) (2019).
 
 </figcaption>
 </figure>

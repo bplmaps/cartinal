@@ -85,6 +85,12 @@ Another example of how spatial data should be questioned is regarding politicall
 
 ![A screenshot of the Data Portal homepage](./media/DataPortalHomepage.png)
 
+<figcaption>
+
+Data Portal homepage, Leventhal Map and Education Center (2021).
+
+</figcaption>
+
 </figure>
 
 <Quizlet
