@@ -13,7 +13,7 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
     - **Why is it archived** in the LMEC portal?
 * As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
-![Reference Link](https://i.imgur.com/Lg1YGZ3.png)
+![Reference Link](./media/about-data.png)
 
 
 ### The data lifecycle
@@ -29,11 +29,11 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
 
 
 
-### "Can You Trust This Data?""
+### "Data Considerations""
 
 * This section shows an evaluation of the dataset *and its metadata* by LMEC Data Archivist Belle Lipton.
 
-![Reference link](https://i.imgur.com/FzhkeDe.png)
+![Reference link](./media/considerations.png)
 
 * These evaluations aim to understand the value and limitations of the datsets that live on the portal, asking questions such as:
     * Will using this dataset cause harm to those it is mapping?
@@ -54,7 +54,7 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
 
 ## Check for Understanding
 
-![Reference Link](https://i.imgur.com/LS1SLT3.png)
+![Reference Link](./media/wifi.png)
 
 ##### Wicked Free Wi-Fi, a dataset from the City of Boston on Public Wifi Spots
 
