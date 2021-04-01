@@ -4,7 +4,7 @@
 
 ## How are maps and data different?
 
-* Like most people, you might find that the terms "maps" and "data" blend together in your head.
+* You might find that the terms “maps” and “data” blend together in your head, or perhaps they don’t seem connected at all.
 * You might wonder ...
     * Is a map data?
     * Does a map *show* data?
@@ -52,7 +52,7 @@ To most English-speakers, data sounds like a singular noun. It's common to say "
 
 <aside>
 
-Try running a [Google Image search](https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1341&ei=4IklYLu4CZC1ggeL5ZaIAQ&q=data&oq=data&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6AggAOggIABCxAxCDAVC-BFieBmCAB2gAcAB4AIABeogB9wGSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwi7qMLYzOLuAhWQmuAKHYuyBREQ4dUDCAY&uact=5) for the word "data."  What kinds of stereotypes of data are evident from the results?
+Try running a [Google Image search](https://www.google.com/search?tbm=isch&source=hp&biw=1280&bih=1341&ei=4IklYLu4CZC1ggeL5ZaIAQ&q=data&oq=data&gs_lcp=CgNpbWcQAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQM6AggAOggIABCxAxCDAVC-BFieBmCAB2gAcAB4AIABeogB9wGSAQMyLjGYAQCgAQGqAQtnd3Mtd2l6LWltZw&sclient=img&ved=0ahUKEwi7qMLYzOLuAhWQmuAKHYuyBREQ4dUDCAY&uact=5) for the word "data."  What kinds of stereotypes of data are evident from the results? What is data, according to these search results?
 
 </aside>
 

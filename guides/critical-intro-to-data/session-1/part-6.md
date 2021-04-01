@@ -39,7 +39,7 @@ Inherent in this definition is a question of *power*. Power is expressed in data
 
 * To start to understand the human element in every dataset, we can pose questions like these:  
     * **Who** made the data?
-    * **Why** was this data collected? What is the datas et's agenda? Personal bias of the data collectors can easily skew data to tell one side of the story but not the other.
+    * **Why** was this data collected? What is the dataset's agenda? Personal bias of the data collectors can easily skew data to tell one side of the story but not the other.
     * **When** was the data collected? Can the data still be used to make accurate conclusions?
     * **What** is being counted or recorded? What is *not* being counted? What does this imply about the dataset?
     * **Where** is the region that this data covers? Where was the data collected?
