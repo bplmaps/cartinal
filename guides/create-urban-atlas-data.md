@@ -60,7 +60,7 @@ Images should have been scanned at `8-bit depth`. If they are 16-bit, you will n
 Individual plates should be referenced to `EPSG: 4326` projection and will be transformed during subsequent mosaicing steps to EPSG: 3857 to be compatible with web mapping
 
 ::: danger
-Please note that subsequent steps in this process are projection-dependent, and if an alternate projection is chosen during georeferencing, the mosaicing and tiling process will fail. Step-by-step instructions for setting up a proper georeferencing environment for this project are available in [create mosaics → georeferencing](https://geoservices.leventhalmap.org/cartinal/resources/guides/create-mosaics.html "create mosaics guide").
+Please note that subsequent steps in this process are projection-dependent, and if an alternate projection is chosen during georeferencing, the mosaicing and tiling process will fail. Step-by-step instructions for setting up a proper georeferencing environment for this project are available in [create mosaics → georeferencing](./guides/create-mosaics.html "create mosaics guide").
 :::
 
 
@@ -154,7 +154,7 @@ https://github.com/nblmc/atlascope-assets
 
 ### Windows environment settings
 ::: warning PC Users
-If you are on a PC, you will need to make sure your enviroments are configured properly before being able to run any of our atlas tools. Follow the [Set Up A PC for Python & GIS Libraries Tutorial](https://geoservices.leventhalmap.org/cartinal/resources/tutorials/anaconda-windows.html "anaconda windows tutorial") before running `atlas-tools.py`
+If you are on a PC, you will need to make sure your enviroments are configured properly before being able to run any of our atlas tools. Follow the [Set Up A PC for Python & GIS Libraries Tutorial](./guides/anaconda-windows.html "anaconda windows tutorial") before running `atlas-tools.py`
 :::
 
 

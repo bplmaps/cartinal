@@ -105,7 +105,7 @@ td#required
 		"notes": "Step-by-step tutorial to reproduce the processing performed to create this dataset."
 	},
 	{
-		"$id": "https://geoservices.leventhalmap.org/cartinal/guides/jupyter-binder.html",
+		"$id": "http://cartinal.leventhalmap.org/guides/jupyter-binder.html",
 		"title": "Understanding Jupyter and Binder",
 		"maintainedBy": "LMEC",
 		"notes": "Guide with notes about why and how LMEC uses Jupyter and Binder as a tutorial environment."
