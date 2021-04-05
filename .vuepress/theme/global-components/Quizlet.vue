@@ -2,6 +2,8 @@
 <div>
     <h2>{{title}}</h2>
 
+    <slot></slot>
+
     <QuizletQuestion v-for="q in questions" :question="q" />
     
 
