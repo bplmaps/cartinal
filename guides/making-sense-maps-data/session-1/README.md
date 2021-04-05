@@ -2,15 +2,15 @@
 
 # Session 1: Reverse Engineering Maps
 
-Welcome to the very first session of the **Making Sense of Maps and Data.**
+Welcome to the first session of the **Making Sense of Maps and Data**!
 
 <figure>
 
-![1910 map of National Forests](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:7h149z08g/17479,10403,5665,2672/,1200/0/default.jpg)
+![Excerpt of Kids Count Map](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:rr173g26w/221,5439,8369,3263/,1200/0/default.jpg)
 
 <figcaption>
 
-This will be a caption with a [link to the original map](http://livejournal.com)
+Raúl the Third and Elaine Bay, excerpt of [Boston Kids Count](https://collections.leventhalmap.org/search/commonwealth:rr173g25m) (Leventhal Map & Education Center, 2020).
 
 </figcaption>
 </figure>

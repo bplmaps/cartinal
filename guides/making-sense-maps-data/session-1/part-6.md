@@ -2,7 +2,7 @@
 
 # Learning to question data
 
-## In between the world and data are people.
+## In between the world and data are people
 
 * Just as there's a human behind every map, there is a human behind every dataset. This person chooses how to observe the world, how to organize these observations, and how to share the dataset with the world.
 
@@ -26,9 +26,9 @@ An illustration of the human role in data collection, Tess McCann (2021).
 </figcaption>
 </figure>
 
-<Hideable title = "Read more about the privilege hazard">
+<Hideable title = "Read more about privilege hazard">
 
-In their book, *Data Feminism*, Catherine D'Ignazio and Lauren Klein describe "privilege hazard" as the following:
+In their book *Data Feminism*, Catherine D'Ignazio and Lauren Klein describe "privilege hazard" as the following:
 > "When data teams are primarily composed of people from dominant groups, those perspectives come to exert outsized influence on the decisions being made—to the exclusion of other identities and perspectives. This is not usually intentional; it comes from the ignorance of being on top. We describe this deficiency as a privilege hazard."
 
 Inherent in this definition is a question of *power*. Power is expressed in data science and mapping all the time and at every stage of the data collection, analysis, cartographic design, and production process. Power is at the heart of critical questions we pose of data. Answering these questions shines a light on where power is lurking in seemingly benign objects like maps.   
@@ -63,7 +63,7 @@ Flood Progression Map: 2070 and Beyond, Leventhal Map and Education Center (2016
 </figcaption>
 </figure>
 
-<hideable Title = "Read more about changing spaces">
+<hideable title = "Read more about changing spaces">
 
 It is more straightforward to imagine attribute data changing (ex. the population in a region increases) than feature data changing. However, it is still important to ask questions of the feature data - the *where* data. Remember that feature data include streets, country borders, townlines and other physical elements of the world. Can these physical elements around us change?
 

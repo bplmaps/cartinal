@@ -69,7 +69,7 @@ module.exports = {
 		sidebar: {
 			'/guides/get-started-qgis/': [ '', 'interface', 'basics' ],
 
-			'/guides/critical-intro-to-data/session-1/': [
+			'/guides/making-sense-maps-data/session-1/': [
 				'./',
 				'part-1',
 				'part-2',
@@ -80,7 +80,7 @@ module.exports = {
 				'part-7'
 			],
 
-			'/guides/critical-intro-to-data/session-2/': [
+			'/guides/making-sense-maps-data/session-2/': [
 				'./',
 				'part-1',
 				'part-2',
@@ -92,7 +92,7 @@ module.exports = {
 				'part-8'
 			],
 
-			'/guides/critical-intro-to-data/session-3/': [
+			'/guides/making-sense-maps-data/session-3/': [
 				'./',
 				'part-1',
 				'part-2',

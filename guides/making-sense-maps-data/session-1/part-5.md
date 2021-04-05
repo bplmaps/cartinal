@@ -1,9 +1,7 @@
-
-
 # The human role in mapping: From data to maps
 
 
-## In between data and maps are people.
+## In between data and maps are people
 
 <figure>
 
@@ -31,7 +29,7 @@ An illustration of the human role in data analysis, Tess McCann (2021).
 "Plenty of free wi-fi is keeping Boston connected!" by Daniel Huffman, [Leventhal Map and Education Center](https://collections.leventhalmap.org/search/commonwealth:3x817734d) (2020).
 
 </figcaption>
-<figure>
+</figure>
 
 <figure>
 
@@ -89,7 +87,7 @@ Local Area Unemployment Statistics Map, [U.S. Bureau of Labor Statistics](https:
 </figure>
 
 
-<Hideable title = 'Hints'>
+<Hideable title = "Hints">
 
 Every component of a map represents the mapmaker's choices, arguments, or assumptions. We've seen how different buckets of data can change the entire look and message of a choropleth map, and there are similar choices behind *every part* of *every map*.
 

@@ -2,24 +2,29 @@
 
 # Introducing geospatial data
 
-* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye; "Thematic maps, focused as they are on the spatial distribution of concepts, “reveal the presence of phenomena that are beyond our normal bodily senses.”
-
 <aside>
 
 For more information, check out Cosgrove's [Geography and Vision: Seeing, Imagining and Representing the World](https://bpl.bibliocommons.com/item/show/1509628075), the chapter called "Moving Maps."
 
 </aside>
 
-## Types of maps
+* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye.
+    * He said that maps “reveal the presence of phenomena that are beyond our normal bodily senses.”
 
-* **Reference maps** specify locations of physical features such as coastlines, roads, rivers, cities, mountain ranges, or coffee shops. Examples of reference maps include atlases, road maps, globes, and Google Maps.
-* **Thematic maps** show us trends across space, which are otherwise invisible, such as distribution of household income, annual rainfall, population density, or air quality.
+
+
+## Types of maps
 
 <aside>
 
 **Consider this:** Can you think of examples of reference maps that you use in your everyday life? Are there specific places or contexts where you might see thematic maps?  
 
 </aside>
+
+* **Reference maps** specify locations of physical features such as coastlines, roads, rivers, cities, mountain ranges, or coffee shops. Examples of reference maps include atlases, road maps, globes, and Google Maps.
+* **Thematic maps** show us trends across space, which are otherwise invisible, such as distribution of household income, annual rainfall, population density, or air quality.
+
+
 
 <figure>
 
@@ -68,3 +73,20 @@ Carroll's absurdist map was the basis for a short story by Argentine writer, Jor
 Making a map is a long process of abstraction, translation, and communication. That abstraction begins in the collection of data and continues through the production of the map itselfs.
 
 </hideable>
+
+<Quizlet
+    title="Check your understanding"    
+    :questions="[
+        {text: 'What kind of map would you use to figure out where the border of Boston lies?',
+        answers: [
+            {text: 'Reference map', correct: true},
+            {text: 'Thematic map'}
+        ]},
+        {text: 'What kind of map would you use to figure out which neighborhood of Boston has the most Vietnamese immigrants?',
+        answers: [
+            {text: 'Reference map'},
+            {text: 'Thematic map', correct: true}
+        ]
+        }
+    ]"
+></Quizlet>
