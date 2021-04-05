@@ -26,7 +26,7 @@ For more information, check out Cosgrove's [Geography and Vision: Seeing, Imagin
 ![Reference map of South America](./media/ReferenceMapSouthAmerica.jpg)
 <figcaption>
 
-A reference map of South America showing country borders and locations of cities (2009). Source: National Geographic](https://media.nationalgeographic.org/assets/photos/000/289/28906.jpg) 
+A reference map of South America showing country borders and locations of cities, [National Geographic](https://media.nationalgeographic.org/assets/photos/000/289/28906.jpg)(2009).
 
 </figcaption>
 </figure>
@@ -37,7 +37,7 @@ A reference map of South America showing country borders and locations of cities
 
 <figcaption>
 
-A map showing the population density across South America is an example of a thematic map, because it shows a specific theme—in this case, population density.** Source: [Britannica](https://kids.britannica.com/students/assembly/view/160672)
+A map showing the population density across South America is an example of a thematic map, because it shows a specific theme—in this case, population density, [Britannica](https://kids.britannica.com/students/assembly/view/160672).
 
 </figcaption>
 </figure>

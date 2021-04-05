@@ -13,7 +13,7 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
     - **Why is it archived** in the LMEC portal?
 * As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
-![Reference Link](https://i.imgur.com/Lg1YGZ3.png)
+![Reference Link](./media/about-data.png)
 
 
 ### The data lifecycle
@@ -29,21 +29,24 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
 
 
 
-### "Can You Trust This Data?""
+### "Data Considerations""
 
 * This section shows an evaluation of the dataset *and its metadata* by LMEC Data Archivist Belle Lipton.
 
-![Reference link](https://i.imgur.com/FzhkeDe.png)
+![Reference link](./media/considerations.png)
 
-* These evaluations aim to understand the value and limitations of the datsets that live on the portal, asking questions such as:
-    * Will using this dataset cause harm to those it is mapping?
-    * What is the intent behind the datasets?
-* It is a unique feature of the LMEC Public Data Portal:
-    * it's not a section you'll see consistently on sites that provide datasets.
-* Data documentation is increasingly important to understand where the data is coming from.
+* These evaluations aim to understand how easily read the data is by both a human and a computer.
+    * Human readability: Is the dataset well documented? Can a human easily reproduce this data and understand the processing steps?
+    * Machine readability: Is the dataset available in ready to use formats?
+* Social embeddedness: How well is the social context in which the data was collected preserved?
+* It is important to factor these considerations in every dataset we come across and in the cases where this information is not available, why might that be the reason?
 
+### "Related Resources""
 
+![Reference link](./media/related-resources.png)
 
+* This sections covers other published works related to this data along with codebooks for how fields may have been modified in the production of this dataset.
+* Considering how once dataset or project relates to others is a key skill in making broader connections across works and forming narratives from data!
 
 
 ### Data transparency
@@ -54,7 +57,7 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
 
 ## Check for Understanding
 
-![Reference Link](https://i.imgur.com/LS1SLT3.png)
+![Reference Link](./media/wifi.png)
 
 ##### Wicked Free Wi-Fi, a dataset from the City of Boston on Public Wifi Spots
 

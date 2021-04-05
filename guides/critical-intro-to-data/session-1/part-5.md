@@ -1,6 +1,6 @@
 
 
-# The human role in mapping: from data to maps
+# The human role in mapping: From data to maps
 
 
 ## In between data and maps are people.
@@ -28,7 +28,7 @@ An illustration of the human role in data analysis, Tess McCann (2021).
 
 <figcaption>
 
-"Plenty of free wi-fi is keeping Boston connected!" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817734d) by Daniel Huffman, 2020.
+"Plenty of free wi-fi is keeping Boston connected!" by Daniel Huffman, [Leventhal Map and Education Center](https://collections.leventhalmap.org/search/commonwealth:3x817734d) (2020).
 
 </figcaption>
 <figure>
@@ -37,8 +37,9 @@ An illustration of the human role in data analysis, Tess McCann (2021).
 
 ![Map showing lack of internet access in Boston](./media/WifiDisconnectedMap.jpeg)
 
-<figcatpion>
-"Disconnected : Boston's free wi-fi leaves many in the dark" [Map](https://collections.leventhalmap.org/search/commonwealth:3x817744n) by Daniel Huffman, 2020.
+<figcaption>
+
+"Disconnected : Boston's free wi-fi leaves many in the dark" by Daniel Huffman,[Leventhal Map and Education Center](https://collections.leventhalmap.org/search/commonwealth:3x817744n) (2020).
 
 </figcaption>
 </figure>
@@ -53,7 +54,7 @@ Let's look at the dataset behind these maps, which is available on the LMEC Publ
 
 <figcaption>
 
-LMEC Boston Public Internet Access Data File
+Boston Public Internet Access Data File, Leventhal Map and Education Center (2020).
 
 </figcaption>
 </figure>
@@ -70,7 +71,7 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 </hideable>
 
-## Discussion: same data, different maps
+## Discussion: Same data, different maps
 
 **Discussion question 1**
 
@@ -82,7 +83,7 @@ Consider this Bureau of Labor Statistics map. What kinds of choices are at play 
 
 <figcaption>
 
-Local Area Unemployment Statistics Map, US Bureau of Labor Statistics (January 2021).
+Local Area Unemployment Statistics Map, [U.S. Bureau of Labor Statistics](https://www.bls.gov/charts/state-employment-and-unemployment/state-unemployment-rates-map.htm#) (January 2021).
 
 </figcaption>
 </figure>
@@ -106,7 +107,7 @@ Compare these two maps of sleep deprivation in the United States. Both of these 
 
 <figcaption>
 
-Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S. sleep deprivation (2014)
+Map of U.S. sleep deprivation, [CDC](https://www.cdc.gov/sleep/data_statistics.html) (2014).
 
 </figcaption>
 </figure>
@@ -117,7 +118,7 @@ Image source: **[CDC](https://www.cdc.gov/sleep/data_statistics.html) map of U.S
 
 <figcaption>
 
-[STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) map of U.S. sleep deprivation (2016).
+Map of U.S. sleep deprivation, [STAT](https://www.statnews.com/2016/02/18/state-people-sleep-worst/) (2016).
 
 </figcaption>
 </figure>

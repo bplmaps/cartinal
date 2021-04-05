@@ -2,7 +2,7 @@
 
 # Session 1: Reverse Engineering Maps
 
-Welcome to the very first session of the **Critical Introduction to Maps and Data**.
+Welcome to the very first session of the **Making Sense of Maps and Data.**
 
 <figure>
 
