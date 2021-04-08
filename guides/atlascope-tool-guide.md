@@ -150,7 +150,7 @@ Or maybe, you even wish to visit the Map Center, and [research](https://www.leve
 
 For these reasons, Atlascope works symbiotically with our traditional library interfaces, specifically our digital collections and collection-level research guides for the historical urban atlas collection.
 
-In this guide you will learn how to use Atlascope to quickly find atlas plates in the digital collections, download high-resolution images of the maps, or build a citation for any given plate. 
+In this guide you will learn how to use Atlascope to quickly find atlas plates in the digital collections, download high-resolution images of the maps, or build a description for any given plate. 
 
 ### Use Atlascope to find a plate in the digital collections 
 
@@ -192,7 +192,7 @@ This is generally the best way to find a specific plate in the digital collectio
 
 3. To download a high-resolution scan, navigate to `Downloads` and select `Master (full resolution, uncompressed)`
 
-4. To cite this plate, select "Cite". A citation will be automatically generated.
+4. To cite this plate, select "Cite". A description will be automatically generated.
 
 
 
@@ -220,7 +220,7 @@ Though you cannot access these important archives in Atlascope or the digital co
 
 > Libguides → http://guides.bpl.org/urban-atlases
 >
-> The **BPL Urban Atlases Libguides** provide a comprehensive citation of every urban atlas available within the state of Massachusetts at the BPL.
+> The **BPL Urban Atlases Libguides** provide a comprehensive description of every urban atlas available within the state of Massachusetts at the BPL.
 > 
 > Here we will describe how to use the libguides to determine the best way to access any given atlas, depending on the following factors:<br>
 > **→** Whether or not it has been digitized and added to the Digital Collections and <br>
@@ -232,9 +232,9 @@ Though you cannot access these important archives in Atlascope or the digital co
 Navigate to the [Historical Urban Atlases of Boston Libguide.](https://guides.bpl.org/urban-atlases "Urban Atlas Libguide")
 
 
-To find a list of citations for all urban atlases available at the Boston Public Library, organized by neighborhood and chronology, select `List of Urban Atlases`.
+To find a list of descriptions for all urban atlases available at the Boston Public Library, organized by neighborhood and chronology, select `List of Urban Atlases`.
 
-In addition to this comprehensive citation list of every atlas available at the Boston Public Library, the Boston area libguide has a tab `Find by Map` which visually displays records for all Boston atlases and places them on a map interface, grouped by neighborhood. Many of these atlases have been digitized and added to Atlascope already, while others are still pending processing, or cannot be digitized yet because they are under copyright. 
+In addition to this comprehensive description list of every atlas available at the Boston Public Library, the Boston area libguide has a tab `Find by Map` which visually displays records for all Boston atlases and places them on a map interface, grouped by neighborhood. Many of these atlases have been digitized and added to Atlascope already, while others are still pending processing, or cannot be digitized yet because they are under copyright. 
 
 Choosing an atlas from the neighborhood map menu dropdown will let you know the best way to access that item.
 

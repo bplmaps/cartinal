@@ -8,9 +8,9 @@
 # process
 
 <template>
-    <div v-if="this.peopleLifecycle.processing" id = "container">
-      <p class="larger-text">{{this.peopleLifecycle.processing.properties.process.description}}</p>
-      <p >Expected Type: <strong>{{this.peopleLifecycle.processing.properties.process.type}}</strong></p>
+    <div v-if="this.lifecycle.processing" id = "container">
+      <p class="larger-text">{{this.lifecycle.processing.properties.process.description}}</p>
+      <p >Expected Type: <strong>{{this.lifecycle.processing.properties.process.type}}</strong></p>
     <table id ="property-table">
         <tr>
             <th>Property</th>
@@ -18,7 +18,7 @@
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.peopleLifecycle.processing.properties.process.properties" :key="index">
+        <tr v-for="item, index in this.lifecycle.processing.properties.process.properties" :key="index">
             <td><a :href="index + '.html'" >{{index}}</a></td>
             <td>{{item.type}}</td>
             <td></td>
@@ -37,17 +37,17 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: [],
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.endpoints)
+          console.log(this.access)
         }
     },
     computed: {
@@ -60,12 +60,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.considerations = response.data.properties.considerations.properties
+                this.resources = response.data.properties.resources.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

@@ -137,7 +137,7 @@ When you are done with all the categories, select `OK`
 
 The lines should now be appearing on the map with the proper colors. 
 
-You can now use this data alongside other data, or [add a basemap for reference.](https://geoservices.leventhalmap.org/cartinal/guides/get-started-qgis/basics.html#add-a-basemap "add a basemap for reference.")
+You can now use this data alongside other data, or [add a basemap for reference.](./guides/get-started-qgis/basics.html#add-a-basemap "add a basemap for reference.")
 
 
 ![train-2](./media/train-2.png)

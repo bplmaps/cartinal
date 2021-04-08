@@ -1,17 +1,29 @@
 ---
+
 ---
 
 <br>
 
 [← Back to Schema Home](./)
 
-# publisher
+# humanReadability
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Name of the publisher</p>
-      <p >Expected Type: <strong>String</strong></p>
-    </div>
+   <table v-if="this.considerations.humanReadability" id ="property-table">
+     <p class="larger-text">{{this.considerations.humanReadability.description}}</p>
+  <tr>
+    <th>Property</th>
+    <th>Expected Type</th>
+    <th>Required</th>
+    <th>Description</th>
+  </tr>
+  <tr v-for="item, index in this.considerations.humanReadability.properties" :key="index">
+    <td><a :href="index + '.html'" >{{index}}</a></td>
+    <td>{{item.type}}</td>
+    <td id="required">{{checkRequired(index, schema.considerations.properties.humanReadability.properties.required)}}</td>
+    <td>{{item.description}}</td>
+  </tr>
+</table> 
 </template>
 
 <script>
@@ -28,13 +40,21 @@ export default {
           tags: [],
           considerations: [],
           resources: [],
-          lifecycle: [],
+          lifecycle: []
         }
     },
     methods: {
-        whatsUp(){
-          console.log(this.core)
+        checkRequired(evaluatedItem, requiredFieldsList){
+        if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
+            return ''
+        } else {
+          if (requiredFieldsList.includes(evaluatedItem)){
+              return 'x'
+          } else {
+              return ''
+          }
         }
+      }
     },
     computed: {
         data() {
@@ -67,10 +87,9 @@ table#property-table
 p.larger-text
   font-size 120%
 
+td#required
+  text-align center
+
 </style>
 
-## Example use
 
-``` json
-"publisher": "University of Chicago Press"
-```

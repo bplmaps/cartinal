@@ -9,15 +9,15 @@
 # thematic
 
 <template>
-   <table v-if="this.filterTagging.thematic" id ="property-table">
-     <p class="larger-text">{{this.filterTagging.thematic.description}}</p>
+   <table v-if="this.tags.thematic" id ="property-table">
+     <p class="larger-text">{{this.tags.thematic.description}}</p>
   <tr>
     <th>Property</th>
     <th>Expected Type</th>
     <th>Required</th>
     <th>Description</th>
   </tr>
-  <tr v-for="item, index in this.filterTagging.thematic.properties" :key="index">
+  <tr v-for="item, index in this.tags.thematic.properties" :key="index">
     <td><a :href="index + '.html'" >{{index}}</a></td>
     <td>{{item.type}}</td>
     <td></td></td>
@@ -35,17 +35,17 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: []
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: []
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.schema.filterTagging.properties)
+          console.log(this.schema.tags.properties)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
           if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -69,12 +69,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.considerations = response.data.properties.considerations.properties
+                this.resources = response.data.properties.resources.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

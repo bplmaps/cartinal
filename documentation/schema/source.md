@@ -5,11 +5,11 @@
 
 [← Back to Schema Home](./)
 
-# publisher
+# source
 
 <template>
-    <div id = "container">
-      <p class="larger-text">Name of the publisher</p>
+    <div v-if="this.core.title" id = "container">
+      <p class="larger-text">Source</p>
       <p >Expected Type: <strong>String</strong></p>
     </div>
 </template>
@@ -72,5 +72,5 @@ p.larger-text
 ## Example use
 
 ``` json
-"publisher": "University of Chicago Press"
+"source": "Leventhal Map & Education Center"
 ```
