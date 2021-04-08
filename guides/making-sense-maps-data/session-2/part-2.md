@@ -76,7 +76,7 @@ Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library
 
 </hideable>
 
-<hideable Title = "Read the full text of this section">
+<hideable title = "Read the full text of this section">
 
 We have many ways to describe physical features of the world around us: a road can be narrow, wide, winding, straight, rocky, dirt, paved. We understand, inherently, that the boundary between ocean and dry land is not a perfect line: it changes over the course of the day. But computers can’t handle all of this complexity. They need us to simplify all of the nuance and intricacy of the physical world so they can interpret and represent it.
 
