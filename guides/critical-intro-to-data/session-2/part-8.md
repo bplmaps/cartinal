@@ -4,8 +4,17 @@
 
 * Humans are present at every stage of the data and mapping process: humans observe the world and structure the observations into **data**; humans interpret this data and visualize it into maps. 
 
+<figure>
+
 ![An illustration showing humans in the data and mapping process](./media/humans-in-data-and-mapping.jpg)
-**An illustration showing the human role in the data and mapping process. Tess McCann, 2021. 
+
+<figcaption>
+
+An illustration showing the human role in the data and mapping process, Tess McCann (2021).
+
+</figcaption>
+
+</figure>
 
 * Because there are humans at every step of the way, human biases can seep into data and into maps. 
   * Recall the two Wi-Fi accessibility maps from Session 1! 
