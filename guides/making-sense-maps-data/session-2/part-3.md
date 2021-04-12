@@ -41,19 +41,36 @@ Confusing coordinate systems are one of the number one reasons why you might enc
 
 ### Example: Goode Homolosine projection
 
-![The world in a Goode Homolosine projection](./media/GoodeHomolosineProjection.jpeg)
-Source: Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_SW.jpg)
+<figure>
 
+![The world in a Goode Homolosine projection](./media/GoodeHomolosineProjection.jpeg)
+
+<figcaption>
+
+Goode Homolosine projection, Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Goode_homolosine_projection_SW.jpg). 
+
+</figcaption>
+
+</figure>
 
 ### Example: Mercator projection
 
+<figure>
+
 ![The world in a Mercator projection](./media/MercatorProjection.jpeg)
-Source: Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG)
+
+<figcaption>
+
+Mercator Projection, Strebe, [Wikipedia](https://commons.wikimedia.org/wiki/File:Mercator_projection_Square.JPG). 
+
+</figcaption>
+
+</figure>
 
 
 * Projections can intentionally or unintentionally perpetuate pre-existing power structures and even construct new ones.
 
-<hideable Title = "More reading on why projections matter">
+<hideable title = "More reading on why projections matter">
 
 The Mercator projection was a widely-used projection for hundreds of years, but has recently [come under fire](https://www.theguardian.com/education/2017/mar/19/boston-public-schools-world-map-mercator-peters-projection) for distorting the relative sizes of various land masses and making North America and Europe look proportionally much larger than they are. This distortion can perpetuate colonialist ideas of superiority. One of the most interesting aspects of this is that the original intention was that the map be used for navigation, yet it is now commonly used in schools and even on Google Maps. The story of the Mercator projection demonstrates that unintended consequences abound in the world of cartography, and understanding the origins of maps can help avoid disaster later on.
 
