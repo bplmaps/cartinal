@@ -13,12 +13,12 @@ An excerpt from the [1986 National Atlas of the United States](https://collectio
 
 **Making Sense of Maps & Data** is a public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. This program is being initially offered as a synchronous session, with course material developed for on-your-own future learning.
 
-The goal of Making Sense of Maps & Data is to understand what kinds of information is needed to make a map on a computer, and how to find this kind of information. The course also aims to equip participants with a careful and critical attitude towards the social power of computer data.
+Participants in Making Sense of Maps & Data will learn what kinds of information are needed to make a map on a computer, and how to find this kind of information on the internet. The course also aims to equip participants with a careful and critical attitude towards the social power of computer data. This course serves as a springboard to more advanced work creating GIS and computer maps, and also teaches data literacy skills that are essential for interpreting information on the maps that are all around us.
 
 ## Course outline
 
 * [Session 1: Reverse Engineering Maps](./session-1)
-* Session 2: Data Demonstrations
+* [Session 2: Data Demonstrations](./session-2)
 * Session 3: Becoming a Data Detective
 
 ## Credits
