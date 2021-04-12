@@ -25,8 +25,17 @@
 
 * In this map, a grid is laid on top of the northeastern US, and each cell has an attribute (in this case, NO<sub>2</sub> emissions, visualized as colors)
 
+<figure>
+
 ![Map showing air quality in the American northeast](./media/RasterMapExampleAirQuality.jpeg)
-**A map showing air quality using raster data—a grid of equally sized squares.** Source: [Penn State Institute for Computational and Data Sciences](https://www.icds.psu.edu/air-quality-data-during-covid-19-may-help-improve-models-guide-interventions/)
+
+<figcaption>
+
+A map showing air quality using raster data—a grid of equally sized squares. Source: [Penn State Institute for Computational and Data Sciences](https://www.icds.psu.edu/air-quality-data-during-covid-19-may-help-improve-models-guide-interventions/)
+
+</figcaption>
+
+</figure>
 
 ## Vector data: connecting dots into shapes
 
@@ -35,8 +44,17 @@
   * Because the points form a closed loop in these examples, they are **polygons**
   * The location of Boston is also vector data; it's a **point** because it's one-dimensional
 
+<figure>
+
 ![Map showing air quality around Boston](./media/VectorMapExampleBostonDeathRates.png)
-**Map showing improved health metrics around Boston, using vector geometry** Source: [NOAA Climate.gov](https://www.climate.gov/news-features/featured-images/boston%E2%80%99s-ambitious-climate-plan-could-save-hundreds-lives-and-billions)
+
+<figcaption>
+
+Map showing improved health metrics around Boston, using vector geometry Source: [NOAA Climate.gov](https://www.climate.gov/news-features/featured-images/boston%E2%80%99s-ambitious-climate-plan-could-save-hundreds-lives-and-billions)
+
+</figcaption>
+
+</figure>
 
 ---
 ## Comprehension check: identify types of data
@@ -46,8 +64,17 @@
 * Can you identify which types of geospatial data are used in this map of hazardous sites and poverty in Massachusetts?
 * Be specific: identify each element you see on the map and define what type of geometry it is (**raster** or **vector**, and, if it's vector, **point, line, or polygon**)
 
+<figure>
+
 ![A map showing health conditions across Massachusetts and locations of chemical waste sites](./media/MassHealthCrisisMap.jpeg)
+
+<figcaption>
+
 Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library](https://collections.leventhalmap.org/search/commonwealth:rr173g31r)
+
+</figcaption>
+
+</figure>
 
 <hideable title = "Check your responses for 'Health Crisis'">
 
@@ -64,8 +91,17 @@ Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library
 * What about the parks?
 * What about the neighborhoods?
 
+<figure>
+
 ![A map showing Boston's supermarket locations and open spaces in the city](./media/BostonSupermarkets.jpeg)
-Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library](https://collections.leventhalmap.org/search/commonwealth:ht250c58r)
+
+<figcaption>
+
+A map showing Boston's supermarket locations and open spaces in the city, [Norman B. Leventhal Map & Education Center at the Boston Public Library](https://collections.leventhalmap.org/search/commonwealth:ht250c58r) (2016). 
+
+</figcaption>
+
+</figure>
 
 <hideable title="Check your responses for Boston Open Space and Supermarkets">
 
@@ -76,7 +112,7 @@ Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library
 
 </hideable>
 
-<hideable Title = "Read the full text of this section">
+<hideable title = "Read the full text of this section">
 
 We have many ways to describe physical features of the world around us: a road can be narrow, wide, winding, straight, rocky, dirt, paved. We understand, inherently, that the boundary between ocean and dry land is not a perfect line: it changes over the course of the day. But computers can’t handle all of this complexity. They need us to simplify all of the nuance and intricacy of the physical world so they can interpret and represent it.
 
@@ -84,17 +120,33 @@ There are just two ways that computers can see the world and make shapes to repr
 
 One type of geospatial data is not better than the other: each is suited to certain types of mapping exercises. Raster data are often used to make maps that describe phenomena that are continuous across space, such as types of land cover (forest, marsh, swamp, desert, etc) or air temperature. On the other hand, vector data are used with phenomena that have discrete spatial boundaries, like election results, which hew to election district boundaries, or building value, which hew to tax parcels.
 
-![Map showing air quality in the American northeast](./media/RasterMapExampleAirQuality.jpeg)
-**A map showing air quality using raster data—a grid of equally sized squares. Oranges and reds indicate higher concentrations and greens and blues showing lower concentrations.** Source: [Penn State Institute for Computational and Data Sciences](https://www.icds.psu.edu/air-quality-data-during-covid-19-may-help-improve-models-guide-interventions/)
+<figure>
 
+![Map showing air quality in the American northeast](./media/RasterMapExampleAirQuality.jpeg)
+
+</figcaption>
+
+A map showing air quality using raster data—a grid of equally sized squares. Oranges and reds indicate higher concentrations and greens and blues showing lower concentrations, [Penn State Institute for Computational and Data Sciences](https://www.icds.psu.edu/air-quality-data-during-covid-19-may-help-improve-models-guide-interventions/) (2020).
+
+</figcaption>
+
+</figure>
 
 Notice how in this map, the colors don’t change from state to state: Pennsylvania is not orange and Delaware is not blue. Rather, the whole area is divided up into a grid of squares, and each square has a color associated with a numerical value. This is an example of a map made with raster data.
 
 Let’s see how raster data compares to these maps that show the positive health effects of reduced greenhouse gasses. In this map, the space is divided up by county, and the color of each county corresponds to a numerical value. You can almost imagine someone cutting the shapes of each county from a sheet of glass, and soldering them together to make this stained glass window.  
 
-![A map showing health conditions across Massachusetts and locations of chemical waste sites](./media/MassHealthCrisisMap.jpeg)
-**A map from the NOAA showing positive health effects of reduced greenhouse gasses in the Boston area.** Source: [Norman B. Leventhal Map & Education Center at the Boston Public Library](https://collections.leventhalmap.org/search/commonwealth:rr173g31r)
+<figure>
 
+![A map showing health conditions across Massachusetts and locations of chemical waste sites](./media/MassHealthCrisisMap.jpeg)
+
+<figcaption>
+
+A map from the NOAA showing positive health effects of reduced greenhouse gasses in the Boston area, [Norman B. Leventhal Map & Education Center at the Boston Public Library](https://collections.leventhalmap.org/search/commonwealth:rr173g31r), (2020).
+
+</figcaption>
+
+</figure>
 
 In the stained-glass-world of vector data, there are three types of shape: the point, the line, and the polygon. The **point** is a single location. The **line** connects two or more points. The **polygon** is a two-dimensional shape that has an area. In the NOAA maps of Boston, the counties are polygons, and the symbol that represents Boston is a point. Can you think of an example of a kind of spatial feature might be represented with a line?
 
