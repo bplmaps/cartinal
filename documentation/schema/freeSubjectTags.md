@@ -8,9 +8,9 @@
 # freeSubjectTags
 
 <template>
-    <div v-if="this.filterTagging.thematic" id = "container">
-      <p class="larger-text">{{this.filterTagging.thematic.properties.freeSubjectTags.description}}</p>
-      <p >Expected Type: <strong>{{this.filterTagging.thematic.properties.freeSubjectTags.type}}</strong></p>
+    <div v-if="this.tags.thematic" id = "container">
+      <p class="larger-text">{{this.tags.thematic.properties.freeSubjectTags.description}}</p>
+      <p >Expected Type: <strong>{{this.tags.thematic.properties.freeSubjectTags.type}}</strong></p>
     <table id ="property-table">
         <tr>
             <th>Property</th>
@@ -18,10 +18,10 @@
             <th>Required</th>
             <th>Description</th>
         </tr>
-        <tr v-for="item, index in this.filterTagging.thematic.properties.freeSubjectTags.items[0].properties" :key="index">
+        <tr v-for="item, index in this.tags.thematic.properties.freeSubjectTags.items[0].properties" :key="index">
             <td>{{index}}</td>
             <td>{{item.type}}</td>
-            <td id="required">{{checkRequired(index, schema.filterTagging.properties.thematic.properties.freeSubjectTags.items[0].required)}}</td>
+            <td id="required">{{checkRequired(index, schema.tags.properties.thematic.properties.freeSubjectTags.items[0].required)}}</td>
             <td>{{item.description}}</td>
         </tr>
     </table> 
@@ -37,17 +37,17 @@ export default {
     data() {
         return {
           schema: [],
-          citation: [],
-          endpoints: [],
-          filterTagging: [],
-          documentationHealth: [],
-          relatedResources: [],
-          peopleLifecycle: [],
+          core: [],
+          access: [],
+          tags: [],
+          considerations: [],
+          resources: [],
+          lifecycle: [],
         }
     },
     methods: {
         whatsUp(){
-          console.log(this.endpoints)
+          console.log(this.access)
         },
         checkRequired(evaluatedItem, requiredFieldsList){
             if (requiredFieldsList === undefined || requiredFieldsList.length == 0) {
@@ -71,12 +71,12 @@ export default {
         axios.get("https://raw.githubusercontent.com/bplmaps/data-description-schema/master/schema.json")
             .then(response => {
                 this.schema = response.data.properties
-                this.citation = response.data.properties.citation.properties
-                this.endpoints = response.data.properties.endpoints
-                this.filterTagging = response.data.properties.filterTagging.properties
-                this.documentationHealth = response.data.properties.documentationHealth.properties
-                this.relatedResources = response.data.properties.relatedResources.properties
-                this.peopleLifecycle = response.data.properties.peopleLifecycle.properties
+                this.core = response.data.properties.core.properties
+                this.access = response.data.properties.access
+                this.tags = response.data.properties.tags.properties
+                this.considerations = response.data.properties.considerations.properties
+                this.resources = response.data.properties.resources.properties
+                this.lifecycle = response.data.properties.lifecycle.properties
             }).catch(err => {
                 console.log(err)
             })

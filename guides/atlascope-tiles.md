@@ -21,12 +21,12 @@ After digitally scanning, georeferencing, and stitching together all of the plat
 <dd> <i> Combine inferred data from atlas layers with other datasets for analysis or storytelling </i> </dd>
 
 ### Where do these tiles live? 
-Another difference between a mosaic and a tile cache (or XYZ layer, as we sometimes call them, referring to the [XYZ tile pyramid schema]("https://en.wikipedia.org/wiki/Tiled_web_map") ) is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile endpoints**. 
+Another difference between a mosaic and a tile cache (or XYZ layer, as we sometimes call them, referring to the [XYZ tile pyramid schema]("https://en.wikipedia.org/wiki/Tiled_web_map") ) is how they are stored. While the mosaic file must be downloaded onto your device or an external drive in order to be accessed in a GIS, tiles are hosted at special URLs that GIS software on any computer can access. These URLs are called **tile access**. 
 
 ## Finding and accessing BPL atlas tile layers
-There are, generally speaking, two ways to find Atlascope tile endpoints for your project. Your choice will depend on what information you are beginning your project with.
+There are, generally speaking, two ways to find Atlascope tile access for your project. Your choice will depend on what information you are beginning your project with.
 
-### Finding layers by atlas citation
+### Finding layers by atlas description
 If you already know the atlas volume you wish to work with, either by the name, year or call number, you can look up the **tile endpoint** in our technical documentation.
 
 
