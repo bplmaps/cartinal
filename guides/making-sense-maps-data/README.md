@@ -18,8 +18,8 @@ The goal of Making Sense of Maps & Data is to understand what kinds of informati
 ## Course outline
 
 * [Session 1: Reverse Engineering Maps](./session-1)
-* Session 2: Data Demonstrations
-* Session 3: Becoming a Data Detective
+* [Session 2: Data Demonstrations](./session-2)
+* [Session 3: Becoming a Data Detective](./session-3)
 
 ## Credits
 
