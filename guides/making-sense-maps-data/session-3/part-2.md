@@ -87,7 +87,9 @@ You will not find this information in most data portals. It is an excellent way 
 - How easily compatible with GIS software and other computer programs the dataset is
 - How thorough the documentation is in describing the dataset's social context
 
-These are subjective rankings performed by the metadata writers. There is more information available about this process in the [considerations documentation](/documentation/schema/considerations.html).
+::: tip
+For more information about this process check out  [considerations documentation](/documentation/schema/considerations.html).
+:::
 
 
 #### Example
