@@ -63,7 +63,7 @@ You will not find this information in most data portals. It is an excellent way 
 
 **Problem:** Datasets alone, without context, are hard to use. A lot of the time, there are useful supplementary resources that can help us understand more about a dataset.
 
-**Solution** The "Related Resources" section of the page links out to helpful:
+**Solution:** The "Related Resources" section of the page links out to helpful:
 - Documentation
 - Codebooks
 - Articles
