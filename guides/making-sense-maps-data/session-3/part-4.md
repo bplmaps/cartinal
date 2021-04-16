@@ -1,10 +1,10 @@
-# Metadata Helps Missing or Messy Data
+# Missing data 
 
-* While we may have missing metadata, there is even another category of things that are missing: **missing data**.
-* These are topics and issues that we may not realize exist because:
+* Metadata is often missing—but data istelf is often missing, too! 
+* **Missing data** is a concept that describes phenomena that have not been recorded into datasets; we may not even realize that these phenomena exist because:
     * there a few (if any) known datasets about them; or
     * they are rarely mapped
-* **Just because the data doesn't exist to map it, doesn't mean it isn't real.** Centuries of societal norms and thought practice have built up into what is mapped and what isn't.
+* But **just because the datasets and maps don't exist, doesn't mean the phenomena don't actually happen** Centuries of societal norms and thought practice have built up into what is recorded and mapped and what isn't.
 * Sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
 * But we hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
 
