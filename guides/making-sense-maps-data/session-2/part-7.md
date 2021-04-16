@@ -24,7 +24,7 @@
 
 A screenshot of the LMEC Public Data Portal homepage, LMEC (2021).
 
-</ficaption>
+</figcaption>
 
 </figure>
 
@@ -53,8 +53,7 @@ A screenshot of the LMEC Public Data Portal search results page, LMEC (2021).
 A screenshot of the LMEC Public Data Portal dataset download page, LMEC (2021).
 
 </figcaption>
-
-<figure>
+</figure>
 
 
 ## Data Geneology

@@ -134,7 +134,7 @@ You will not find this information in most data portals. It is an excellent way 
 
 ![Reference link](./media/related-resources.png)
 
-<figcpation>
+<figcaption>
 
 "Related Resources" example, LMEC (2021).
 
