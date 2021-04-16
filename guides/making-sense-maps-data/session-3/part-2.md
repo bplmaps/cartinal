@@ -17,7 +17,18 @@ You can find detailed metadata in the LMEC Public Data Portal. We will walk thro
 As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
 #### Example
+
+<figure>
+
 ![Reference Link](./media/about-data.png)
+
+<figcaption>
+
+"About this data" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 ## Get This Data
 
@@ -30,7 +41,18 @@ As well as other basic descriptive information like the **key attributes** and *
 - Allows for both full-access downloading, but also previewing in the browser, using geoJSON.io
 
 #### Example 
+
+<figure>
+
 ![Reference Link](./media/get-this-data.png)
+
+<figcaption>
+
+"Get this data" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
 ## The Data Lifecycle
@@ -42,10 +64,32 @@ The "Data Lifecycle" section of the page provides links to the records of those 
 You will not find this information in most data portals. It is an excellent way to understand how the data has been shaped, and by whom. You can also use this section to reproduce the steps of the original data processor, if necessary.
 
 #### Example 1
+
+<figure>
+
 ![Data lifecycle](./media/datalifecycle.png)
 
+<figcaption>
+
+"Data Cleaning and Cartography Choices" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
+
 #### Example 2 
+
+<figure>
+
 ![Data lifecycle 2](./media/datalifecycle2.png)
+
+<figcaption>
+
+"Step-by-Step Process" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 ## Data Genealogy 
 
@@ -56,7 +100,18 @@ You will not find this information in most data portals. It is an excellent way 
 - Provides a step-by-step breakdown of how the dataset was created
 
 #### Example
+
+<figure>
+
 ![Data Genealogy](./media/data-genealogy.png)
+
+<figcaption>
+
+"Data Geneology" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
 ## Related Resources
@@ -74,7 +129,18 @@ You will not find this information in most data portals. It is an excellent way 
 - And more...
 
 #### Example
+
+<figure>
+
 ![Reference link](./media/related-resources.png)
+
+<figcpation>
+
+"Related Resources" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
 
@@ -93,7 +159,18 @@ For more information about this process check out  [considerations documentation
 
 
 #### Example
+
+<figure>
+
 ![Reference link](./media/considerations.png)
+
+<figcaption>
+
+"Considerations" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
 
