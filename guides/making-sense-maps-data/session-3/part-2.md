@@ -1,6 +1,10 @@
 # Metadata on the LMEC Public Data Portal
 
-You can find detailed metadata in the LMEC Public Data Portal. We will walk through how to understand this information using the Internet Access & Connectivity dataset as an example.
+* Let's take a look at the metadata which we created for the Internet Access in Boston data
+    * (That's the data set that was used to create this map that we've seen before)
+
+![Excerpt of internet access map](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3x8177423/12,26,3011,1378/,1200/0/default.jpg)
+
 
 ## About This Data
 

@@ -4,10 +4,11 @@
 In this course, we have worked from the ground up introducing what a map and data are and how to critically evaluate and use them in your daily life. This extends to content that you see in the news to when you want to make your own mapping project!
 
 Here are some tips we have when planning out your next data project. Ask yourself the following questions to direct your thinking process!
+
 1. **Start with a question** - what question do you hope to answer? What topic are you interested in learning more about?
 2. **Identify data** - plan out what spatial and attirbute data you will you need to bring your idea to life, what resources might have the data you are looking for?
 3. **Collect Data** - find the data! Go download, collect, or even create the datasets you need for the project. Remember to record where you found the data and keep the context with the data
-4. **Map the Data** - create the map using digital software. While we did not cover this in our sessions, there are many great tutorials and resources on how to create maps with free online software. These include ARCGis Online, Carto, and QGIS just to name a few.
+4. **Map the Data** - create the map using digital software. This is what you're now ready to learn about now that you have a good grasp of the basics of geospatial data. We already made a very simple kind of map with Geojson.io. From here, you can join one of our intermediate courses, or start with one of the many resources that are available on the internet!
 5. **Communicate Findings** - take action! Once you have created your map, use it to tell a story. Put together a narrative to share your story and/or findings wiht others.
 
 

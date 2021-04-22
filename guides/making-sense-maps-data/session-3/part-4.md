@@ -1,12 +1,15 @@
 # Missing data 
 
 * Metadata is often missing—but data istelf is often missing, too! 
+* Even within a given data set, a value like `0` might actually mean zero—or it might mean simply that the data was not recorded
+* Some data isn't just missing within a data set. It's missing altogether!
 * **Missing data** is a concept that describes phenomena that have not been recorded into datasets; we may not even realize that these phenomena exist because:
     * there a few (if any) known datasets about them; or
     * they are rarely mapped
-* But **just because the datasets and maps don't exist, doesn't mean the phenomena don't actually happen** Centuries of societal norms and thought practice have built up into what is recorded and mapped and what isn't.
+* But **just because the datasets and maps don't exist, doesn't mean the phenomena don't actually happen**
+    * Centuries of societal norms and thought practice have built up into what is recorded and mapped and what isn't
 * Sometimes there are strategic reasons for missing data such as privacy and safety of those being counted.
-* But we hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
+* We hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
 
 <hideable Title = "An artist's take on missing data">
 
