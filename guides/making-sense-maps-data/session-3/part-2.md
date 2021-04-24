@@ -1,9 +1,19 @@
 # Metadata on the LMEC Public Data Portal
 
 * Let's take a look at the metadata which we created for the Internet Access in Boston data
-    * (That's the data set that was used to create this map that we've seen before)
+    * (That's the dataset that was used to create this map that we've seen before)
+
+<figure>
 
 ![Excerpt of internet access map](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3x8177423/12,26,3011,1378/,1200/0/default.jpg)
+
+<figcaption>
+
+"Plenty of free wi-fi is keeping Boston connected!" by Daniel Huffman, Leventhal Map and Education Center (2020).
+
+</figcaption>
+
+</figure>
 
 
 ## About This Data
@@ -14,7 +24,7 @@
 - What **topics or themes** does the dataset address?
 - What **time period** does the dataset cover?
 - **Where** in the world does the dataset represent?
-    - *Many, but not all, are of Boston!*
+    - *Many, but not all, datasets on the LMEC portal are about Boston!*
 - **Who** originally collected and cleaned the dataset?
 - **Why is it archived** in the LMEC portal?
 
@@ -60,10 +70,10 @@ As well as other basic descriptive information like the **key attributes** and *
 
 
 ## The Data Lifecycle
+
 **Problem:** It can be challenging sometimes to understand how a dataset came to be. Who manipulated it? What tools did they use? What was the reasoning behind their process?
 
-**Solution:**
-The "Data Lifecycle" section of the page provides links to the records of those who have worked with data, describing, in their own words, their steps and choices
+**Solution:** The "Data Lifecycle" section of the page provides links to the records of those who have worked with data, describing, in their own words, their steps and choices.
 
 You will not find this information in most data portals. It is an excellent way to understand how the data has been shaped, and by whom. You can also use this section to reproduce the steps of the original data processor, if necessary.
 

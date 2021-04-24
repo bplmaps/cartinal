@@ -4,21 +4,32 @@
 
 ## Finding the data in context
 
-* [This website](https://www.mass.gov/info-details/covid-19-response-reporting) is where the State of Massachusetts makes its public COVID-19 data sets available.
+* [This website](https://www.mass.gov/info-details/covid-19-response-reporting) is where the State of Massachusetts makes its public Covid-19 datasets available.
     * Spend some time looking at this site to see what kind of contextual data is available. Who is generating this data? How do we know that it is accurate?
 * If we wanted to make a map of COVID cases by town, we'd want to access the "Raw Data." Here's what that link looks like: 
 
+<figure>
+
 ![Screenshot of COVID Raw Data link](./media/ma-covid-link.png)
+
+<figcaption>
+
+Screenshot of COVID Raw Data link, Massachusetts Department of Public Health (2021).
+
+</figcaption>
+
+</figure>
+
 
 * But if you click that link, you're not on a map page or a metadata page. You've just downloaded an Excel file to your computer, maybe without even realizing it!
     * To simplify this exercise, we've copied this file to our cloud drive so that you can look at it in your browser. See it in [Excel Online by clicking here](https://bostonpubliclibrary.sharepoint.com/:x:/s/LeventhalMap/EZTiokPVlm9Hu04uHaJTOdkBx_hSLixOlLH60667s-vrTw?e=Bf8h6O).
 
 ## Finding the map diamond in the data rough
 
-* This Excel spreadsheet is a pretty good example of the very messy data sets that you're likely to find "in the wild"
-* Spend some time clicking around the file together to see if you can find:
+* This Excel spreadsheet is a pretty good example of the very messy data sets that you're likely to find "in the wild."
+* Spend some time clicking around the file together to see if you can answer the following:
     * Which tab helps you understand what is going on in this document?
-    * Which tab or tabs might be most useful in making a map of COVID cases?
+    * Which tab or tabs might be most useful in making a map of Covid-19 cases?
 
 ## Putting together what you know
 
