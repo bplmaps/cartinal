@@ -9,7 +9,7 @@
 * Sometimes there are strategic explanations for missing data such as concerns for the privacy and safety of those involved in a situation.
 * We hope this course empowers you to identify what isn't being mapped, identify *why*, and then figure out what you can do about it!
 
-<hideable Title = "An artist's take on missing data">
+<hideable title = "An artist's take on missing data">
 
 Artist Mimi Onuoha has compiled her thoughts on missing data which you can read [here](https://github.com/MimiOnuoha/missing-datasets). She writes the following:
 > "Missing data sets" are my term for the blank spots that exist in spaces that are otherwise data-saturated. My interest in them stems from the observation that within many spaces where large amounts of data are collected, there are often empty spaces where no data live. Unsurprisingly, this lack of data typically correlates with issues affecting those who are most vulnerable in that context.

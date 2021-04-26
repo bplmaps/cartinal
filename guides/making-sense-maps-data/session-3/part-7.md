@@ -13,16 +13,9 @@ Here are some tips we have when planning out your next data project. Ask yoursel
 4. **Map the Data** - create the map using digital software. This is what you're ready to learn about now that you have a good grasp of the basics of geospatial data. We already made a very simple kind of map with Geojson.io. From here, you can join one of our intermediate courses, or start with one of the many resources that are available on the internet!
 5. **Communicate Findings** - take action! Once you have created your map, use it to tell a story. Put together a narrative to share your story and/or findings with others.
 
+## Four ways to make a map
 
-## Further Resources
-We hope you enjoyed the course and seeing data in new, critical ways. If you would like to continue learning about critical cartography, mapping, and data here are some more resources you can explore!
-* [Leventhal Map Center Tutorials](https://geoservices.leventhalmap.org/cartinal/guides/) - More amazing tutorials compiled by the team at LMEC which cover GIS basics and more.
-* [Data Feminism](https://datafeminism.io/) - A fascinating read about data and the structures is has been governed and shaped by written by Catherine D'Ignazio and Lauren F. Klein.
-* [Maptivist Project](https://lmec.maps.arcgis.com/apps/MapJournal/index.html?appid=8f5ef10ad2114bd69c0d6acb973f8741) The Maptivist project strives to combine mapping with activism with a focus on Boston Public Schools.
-
-## 4 Ways to make a map! More on how to map data
-
-There are so many ways to visualize spatial data. We went over a few in this course, and below are a few methods to consider.  
+This course was focused on how to orient yourself in the confusing and often messy world of geospatial data. The next steps, once you've acquired data that you want to use, is to actually create the map.  
 
 **1. Hand-drawn maps: Communicating simple spatial relationships**
 
@@ -38,4 +31,13 @@ If you have a GeoJSON file, you can upload that to GeoJSON.io to easily view it 
 
 **4. Desktop GIS: Analyzing geospatial data without an existing basemap**
 
-Using desktop GIS software like QGIS can be intimidating, but it's definitely the way to go if you have to analyze lots of data. The most disorienting thing about opening up geospatial data in desktop GIS software is that there is no pre-loaded basemap. You have to find geospatial data for landforms, waterbodies, cities, and other geographic features to create the basemap yourself. Then you can visualize your other data on top of these reference features. Have a look at the LMEC "Getting started with QGIS" guide!
+Using desktop GIS software like QGIS can be intimidating, but it's definitely the way to go if you have to analyze lots of data. The most disorienting thing about opening up geospatial data in desktop GIS software is that there is no pre-loaded basemap. You have to find geospatial data for landforms, waterbodies, cities, and other geographic features to create the basemap yourself. Then you can visualize your other data on top of these reference features. Have a look at the LMEC "[Get Started with QGIS](https://cartinal.leventhalmap.org/guides/get-started-qgis/)" guide!
+
+
+## Further Resources
+
+We hope you enjoyed the course and seeing data in new, critical ways. If you would like to continue learning about critical cartography, mapping, and data here are some more resources you can explore!
+* [Leventhal Map Center Tutorials](https://geoservices.leventhalmap.org/cartinal/guides/) - More amazing tutorials compiled by the team at LMEC which cover GIS basics and more.
+* [Data Feminism](https://datafeminism.io/) - A fascinating read about data and the structures is has been governed and shaped by written by Catherine D'Ignazio and Lauren F. Klein.
+* [Maptivist Project](https://lmec.maps.arcgis.com/apps/MapJournal/index.html?appid=8f5ef10ad2114bd69c0d6acb973f8741) The Maptivist project strives to combine mapping with activism with a focus on Boston Public Schools.
+
