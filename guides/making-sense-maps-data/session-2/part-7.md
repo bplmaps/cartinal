@@ -2,7 +2,7 @@
 
 ## Overview
 
-* The **[LMEC Public Data Portal](data.leventhalmap.org)** houses a variety of datasets drawn from numerous data sources
+* The **[LMEC Public Data Portal](https://data.leventhalmap.org/#/)** houses a variety of datasets drawn from numerous data sources
 * This search tool expands the usefulness of these data sources by offering a more detailed information than is commonly available about:
     - **where** the data came from,
     - **how** it has evolved over time,
@@ -24,7 +24,7 @@
 
 A screenshot of the LMEC Public Data Portal homepage, LMEC (2021).
 
-</ficaption>
+</figcaption>
 
 </figure>
 
@@ -53,8 +53,7 @@ A screenshot of the LMEC Public Data Portal search results page, LMEC (2021).
 A screenshot of the LMEC Public Data Portal dataset download page, LMEC (2021).
 
 </figcaption>
-
-<figure>
+</figure>
 
 
 ## Data Geneology

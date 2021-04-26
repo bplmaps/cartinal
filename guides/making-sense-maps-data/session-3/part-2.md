@@ -1,91 +1,190 @@
 # Metadata on the LMEC Public Data Portal
 
-You can find detailed metadata in the LMEC Public Data Portal. We will walk through how to understand this information using the Internet Access & Connectivity dataset as an example.
+* Let's take a look at the metadata which we created for the Internet Access in Boston data
+    * (That's the dataset that was used to create this map that we've seen before)
 
-### About this data
+<figure>
 
-* The "About this data" section of the page includes an overview or description of the dataset including:
-    - What **topics or themes** does the dataset address?
-    - What **time period** does the dataset cover?
-    - **Where** in the world does the dataset represent?
-        - *Many, but not all, are of Boston!*
-    - **Who** originally collected and cleaned the dataset?
-    - **Why is it archived** in the LMEC portal?
-* As well as other basic descriptive information like the **key attributes** and **access conditions**.
+![Excerpt of internet access map](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:3x8177423/12,26,3011,1378/,1200/0/default.jpg)
+
+<figcaption>
+
+"Plenty of free wi-fi is keeping Boston connected!" by Daniel Huffman, Leventhal Map and Education Center (2020).
+
+</figcaption>
+
+</figure>
+
+
+## About This Data
+
+**Problem:** Sometimes you just want some quick facts at a glance about a dataset, without having to download or open the data.
+
+**Solution:** The "About This Data" section of the page includes an overview or description of the dataset. It includes:
+- What **topics or themes** does the dataset address?
+- What **time period** does the dataset cover?
+- **Where** in the world does the dataset represent?
+    - *Many, but not all, datasets on the LMEC portal are about Boston!*
+- **Who** originally collected and cleaned the dataset?
+- **Why is it archived** in the LMEC portal?
+
+As well as other basic descriptive information like the **key attributes** and **access conditions**.
+
+#### Example
+
+<figure>
 
 ![Reference Link](./media/about-data.png)
 
+<figcaption>
 
-### The data lifecycle
-* The data lifecycle tells you where and how people have worked with, changed or edited the data
-* This section provides links to the records of those who have worked with data, describing, in their own words, their steps and choices
-* You will not find this in most data portals, but we think it is important to preserve
-* You can use this section to understand how the data has been shaped, and by whom
-* You can also use this section to repeat the steps of the original data processor
+"About this data" example, LMEC (2021).
 
+</figcaption>
+
+</figure>
+
+## Get This Data
+
+**Problem:** Sometimes it can be confusing how to get access to the "raw" data files. Sometimes you want to download the data, sometimes you want to preview it. Lots of different format options seem complicated.
+
+**Solution:** The "Get This Data" section of the page:
+- Is prominently featured to provide quick access
+- Provides links to documentation on [different file formats](/guides/file-formats.html)
+- Tags options as "suggested" if there are multiple formats available
+- Allows for both full-access downloading, but also previewing in the browser, using geoJSON.io
+
+#### Example 
+
+<figure>
+
+![Reference Link](./media/get-this-data.png)
+
+<figcaption>
+
+"Get this data" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
+
+
+## The Data Lifecycle
+
+**Problem:** It can be challenging sometimes to understand how a dataset came to be. Who manipulated it? What tools did they use? What was the reasoning behind their process?
+
+**Solution:** The "Data Lifecycle" section of the page provides links to the records of those who have worked with data, describing, in their own words, their steps and choices.
+
+You will not find this information in most data portals. It is an excellent way to understand how the data has been shaped, and by whom. You can also use this section to reproduce the steps of the original data processor, if necessary.
+
+#### Example 1
+
+<figure>
 
 ![Data lifecycle](./media/datalifecycle.png)
 
+<figcaption>
+
+"Data Cleaning and Cartography Choices" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
+
+#### Example 2 
+
+<figure>
+
+![Data lifecycle 2](./media/datalifecycle2.png)
+
+<figcaption>
+
+"Step-by-Step Process" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
+
+## Data Genealogy 
+
+**Problem:** It can sometimes be challenging to understand how a dataset came to be. Was it derived or combined from other data sources?
+
+**Solution:** The "Data Genealogy" section of the page:
+- Links to all source datasets
+- Provides a step-by-step breakdown of how the dataset was created
+
+#### Example
+
+<figure>
+
+![Data Genealogy](./media/data-genealogy.png)
+
+<figcaption>
+
+"Data Geneology" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
+## Related Resources
 
-### "Data Considerations""
+**Problem:** Datasets alone, without context, are hard to use. A lot of the time, there are useful supplementary resources that can help us understand more about a dataset.
 
-* This section shows an evaluation of the dataset *and its metadata* by LMEC Data Archivist Belle Lipton.
+**Solution:** The "Related Resources" section of the page links out to helpful:
+- Documentation
+- Codebooks
+- Articles
+- Blog posts
+- Other publications
+- Supplementary files
+- Maps made from the data
+- And more...
 
-![Reference link](./media/considerations.png)
+#### Example
 
-* These evaluations aim to understand how easily read the data is by both a human and a computer.
-    * Human readability: Is the dataset well documented? Can a human easily reproduce this data and understand the processing steps?
-    * Machine readability: Is the dataset available in ready to use formats?
-* Social embeddedness: How well is the social context in which the data was collected preserved?
-* It is important to factor these considerations in every dataset we come across and in the cases where this information is not available, why might that be the reason?
-
-### "Related Resources""
+<figure>
 
 ![Reference link](./media/related-resources.png)
 
-* This sections covers other published works related to this data along with codebooks for how fields may have been modified in the production of this dataset.
-* Considering how once dataset or project relates to others is a key skill in making broader connections across works and forming narratives from data!
+<figcaption>
+
+"Related Resources" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
 
 
-### Data transparency
 
-* **Data transparency** applies not only to maps—"where does the data on that map come from"—but also to the data itself.
-* Both data and metadata needs to be looked at through the lens of transparency!
-* As critical viewers of data you should begin to prioritize and value ethical data transparency in order to make fair choices about what can and cannot be said from a given dataset.
+## Considerations
 
-## Check for Understanding
+**Problem:** Sometimes, even when factual information is available about a dataset, it can still be difficult to make sense of the dataset's usefulness to your question or project.
 
-![Reference Link](./media/wifi.png)
+**Solution:** The "Considerations" section of the page give you clues about:
+- How well this dataset has been described so that people can understand it
+- How easily compatible with GIS software and other computer programs the dataset is
+- How thorough the documentation is in describing the dataset's social context
 
-##### Wicked Free Wi-Fi, a dataset from the City of Boston on Public Wifi Spots
+::: tip
+For more information about this process check out  [considerations documentation](/documentation/schema/considerations.html).
+:::
 
-<Quizlet
-    title="Check your understanding"
-    :questions="[
-        {
-            text: 'Considering the dataset above, what metadata not present would make the dataset more transparent? Choose all that apply.',
-            answers: [
-            {text: 'The timeframe in which the data was collected' },
-            {text: 'How the cartographer worked with the data', correct: true},
-            {text: 'The name of the dataset'},
-            {text: 'Forseen limitations of using the datset', correct: true}
-        ]},
 
-        {text: 'Once collected, data is not altered by humans in any form.',
-        answers: [
-            {text: 'True'},
-            {text: 'False',correct: true}
-        ]
-        },
+#### Example
 
-         {text: 'In mapping internet access in Boston, which of the following does the metadata help you understand?',
-        answers: [
-            {text: 'Which organization collected this data', correct:true},
-            {text: 'Internet Access in southern Massachusetts'},
-            {text: 'The quality of the WiFi offered'}
-        ]
-        }
-    ]"
-/>
+<figure>
+
+![Reference link](./media/considerations.png)
+
+<figcaption>
+
+"Considerations" example, LMEC (2021).
+
+</figcaption>
+
+</figure>
+
+
+

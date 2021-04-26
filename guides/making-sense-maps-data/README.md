@@ -19,7 +19,7 @@ Participants in Making Sense of Maps & Data will learn what kinds of information
 
 * [Session 1: Reverse Engineering Maps](./session-1)
 * [Session 2: Data Demonstrations](./session-2)
-* Session 3: Becoming a Data Detective
+* [Session 3: Becoming a Data Detective](./session-3)
 
 ## Credits
 
