@@ -169,5 +169,14 @@
     "path": "./readme-instructions.html",
     "type": "Guide",
     "level": "Fundamentals"
+  },
+  {
+    "GuideID": 20,
+    "name": "Making Sense of Maps and Data",
+    "description": "Public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. ",
+    "theme": "Find and use data",
+    "path": "./making-sense-maps-data.html",
+    "type": "Guide",
+    "level": "Fundamentals"
   }
 ]

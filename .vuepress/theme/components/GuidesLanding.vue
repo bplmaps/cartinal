@@ -134,7 +134,7 @@ export default {
     },
     created() {
         //returns a promise
-        axios.get("https://s3.us-east-2.wasabisys.com/cartinal/guides.json")
+        axios.get("https://raw.githubusercontent.com/bplmaps/cartinal/master/guides/guides.json")
             .then(response => {
                 this.guides = response.data
             }).catch(err => {
