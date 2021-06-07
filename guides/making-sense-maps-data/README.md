@@ -27,4 +27,4 @@ This course was created by the [Leventhal Map & Education Center](https://levent
 
 ## Enroll in the course
 
-The April 2021 pilot course is currently **full.** See our [Events Page](https://www.leventhalmap.org/event/) for future course offerings, or [follow us on social media](https://www.leventhalmap.org/about/contact-connect/).
+See our [Events Page](https://www.leventhalmap.org/event/) for future course offerings, or [follow us on social media](https://www.leventhalmap.org/about/contact-connect/).
