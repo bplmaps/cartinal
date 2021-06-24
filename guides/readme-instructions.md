@@ -94,7 +94,7 @@ If you cleaned data, deleted, renamed, mathematically calculated or inferred fie
 
 Check out our [descriptive metadata](../documentation/schema) template to get a sense of what types of information we typically capture. If you are privy to any useful additional information, please don't hesitate to include.
 
-*You can contact us about submitting your data project by emailing Belle Lipton at blipton@leventhalmap.org*
+
 
 
 
