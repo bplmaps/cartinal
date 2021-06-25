@@ -16,3 +16,5 @@ If you are working with an external data partner, talk to them ahead of time, if
 ## Storing the data
 
 If you plan to actually store an archive or snapshot of the data (rather than simply pointing out to data hosted elsewhere), the place to store data is in the LMEC Wasabi S3 Cloud Storage. 
+
+You can use the training guide [Wasabi S3 Cloud Storage](./wasabi.html) to learn how to access and manage Wasabi assets.
