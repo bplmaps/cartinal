@@ -17,7 +17,7 @@ Some reasons we use Wasabi:
 
 There is one main account, registered under the frontdesk@leventhalmap.org email. The manager of this service (previously Belle), creates sub-users, which each have their own username/passwords/access keys to log in. The reason we do this is because different users require different access permissions. The main account login is in the LMEC passwords.
 
-If you are the new manager of this service, you can use Wasabi's online documentation, or call customer service if you have any questions about the nuances of how Wasabi works. Their customer service is prompt and helpful. 
+If you are the new manager of this service, you can use Wasabi's [online documentation](https://wasabi.com/wp-content/uploads/2018/02/Wasabi_User_Guide.pdf?x49699), or call customer service if you have any questions about the nuances of assigning user roles. Their customer service is prompt and helpful. 
 
 ## What does LMEC store in Wasabi? 
 
