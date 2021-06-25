@@ -32,9 +32,10 @@ Here are the buckets LMEC currently uses for storage in Wasabi:
 ## How do I connect to Wasabi?
 
 
-There are two ways of connecting to Wasabi:
+There are two main ways of connecting to Wasabi:
 1. In the browser. 
 2. With an FTP client
+
 
 
 ### Browser access to Wasabi
