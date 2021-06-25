@@ -60,7 +60,7 @@ To connect to Wasabi using an FTP client for file management purposes, follow th
 1. Make sure you have been set up in Wasabi as a subuser and granted programmatic access, which generates a unique API key. 
     * When API keys are generated for users, they need to be saved somewhere safe, as they cannot be regenerated
 2. Download the free FTP client [CyberDuck](https://cyberduck.io/)
-3. Select `Open Connection`
+3. From CyberDuck, select `Open Connection`
 4. Select `Amazon S3` from the menu drop-down
 5. Under server, enter 
 
