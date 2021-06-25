@@ -76,7 +76,7 @@ We use Wasabi's US East 2 [Storage Region](https://wasabi-support.zendesk.com/hc
 
 ## Managing bucket-level permissions
 
-To manage asset-by-asset permission settings for a bucket, do the following:
+To manage permission settings for a bucket, do the following:
 
 1. Log in to Wasabi using the browser
 2. Click on the bucket
