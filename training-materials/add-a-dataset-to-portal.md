@@ -87,20 +87,88 @@ The next step is to create a unique identifier for the dataset.
 
  - In the GH metadata repository, there is [file](https://github.com/bplmaps/metadata/blob/main/template.json) titled `template.json`. You can copy this file any time you want to make a new record. This file is also available from the [main schema documentation page](https://cartinal.leventhalmap.org/documentation/schema/) on Cartinal. 
 
-### Steps to creating a new record
-1. Clone a local copy of the [LMEC metadata repository](https://github.com/bplmaps/metadata)
-2. Duplicate `template.json`. Don't overwrite it! : ) 
-
-<hideable title = "Relationship between schema.json and template.json">
+ <aside>
 
 The schema itself is a living tool. You will inevitably want to edit it, in ways that ensure it is always best supporting your work. If you make changes to `schema.json`, always make sure to roll out those changes to the schema documentation in Cartinal, and to `template.json`. These changes will not be applied automatically.
 
-</hideable>
+</aside>
+
+### Steps to creating a new record
+
+1. Clone a local copy of the [LMEC metadata repository](https://github.com/bplmaps/metadata)
+2. Duplicate `template.json`. Don't overwrite it! : ) 
+3. Rename the duplicate `dataset-identifier.json`
+    - e.g. **dkqh27e0e.json**
+4. Open the new file in a text editor
+5. Populate the record
 
 
-## Odds and ends
 
-- In the Wasabi bucket `public-geospatial` there is a folder titled `ingest-queue`. Garrett & Belle use this to stash any data to be added to the portal. That way, public doesn't technically have to wait to access the data while records are in progress, though they are not discoverable via the portal. 
+## Populating records using the LMEC schema
+
+- [Schema documentation](https://cartinal.leventhalmap.org/documentation/schema/) is available on Cartinal.
+- The documentation breaks down all of the schema sub-sections, and gives examples of every field with proper syntax 
+
+::: tip BELLE TIP
+
+If you have any questions about using the schema that are not covered in the official documentation or this training guide, please do not hestitate to email me.
+
+:::
+
+::: tip BELLE TIP
+
+If you get stuck, you can always compare against [existing records](https://github.com/bplmaps/metadata).
+
+
+:::
+
+## Validating records against the schema
+
+When you have finished populating the record, you can check to make sure there are no syntactical errors by validating the record against the schema. It's good to check this, because any errors in the metadata could cause problems in the way the record is displayed in the portal. 
+
+
+1. Navigate to a [JSON Schema Validator](https://www.jsonschemavalidator.net/)
+2. Copy the text of [the schema](https://github.com/bplmaps/data-description-schema/blob/master/schema.json) into the left-hand panel
+3. Copy the text of the new record you have just written into the right-hand of the validator
+4. The tool will generate errors if there is anything that needs to be fixed
+
+
+## Publishing the record 
+
+Publishing the record consists of two steps:
+1. Committing the record to Github
+2. Sending the contents of the record to Algolia, the search as service tool LMEC uses for indexing for the portal
+
+There is a [Python script](https://github.com/bplmaps/algolia-updater) we use to manage the records stored in Algolia.
+
+### Steps to publish the record
+
+1. Commit the record to the [metadata Github repository](https://github.com/bplmaps/metadata)
+2. Clone the [algolia-updater script](https://github.com/bplmaps/algolia-updater)
+3. Open a new terminal inside the `algolia-updater` folder
+4. Run the following command...
+
+``` python
+
+chmod +x ./algolia-updater.py
+./algolia-updater.py --repoPath {{/absolute/path/to/the/metadata/repo}}
+
+```
+
+... where the absolute path is the folder on your computer where your recent record is stored (likely Documents/Github/metadata)
+
+5. Scroll through the output to check for invalid endpoints or other errors
+
+::: warning
+
+The feedback from `algolia-updater` is pretty good. Sometimes if you are pointing to external resources as a data endpoint (like the city's data resources), our script will flag as invalid, just due to the way COB and others host their datasets. You can ignore these errors, so long as the external endpoint is accessible. If the script is flagging errors for LMEC-hosted resources, you will definitely want to diagnose that.
+
+:::
+
+## Checking the record in the portal
+
+At this point, the record should be live on [data.leventhalmap.org](https://data.leventhalmap.org/)! Give it a read-through to make sure everything is displaying properly, and check that it is showing up how you want it to in the search page filters.
+
 
 
 
