@@ -38,6 +38,3 @@ A single GeoJSON file is available containing polygons corresponding to each phy
 ### XYZ access
 The LMEC originally created tiles for atlases in this project using the TMS specification, and is currently converting each set to an XYZ specification to facilitate ArcGIS Online compatibility. You can use the layer list below to find out the status of each atlas web layer and the correct link syntax. Tiles are available at zoom levels 13 through 20.
 
-## Layer List
-
-<atlas-layer-list/>
