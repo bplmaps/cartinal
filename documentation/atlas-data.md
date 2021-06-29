@@ -35,6 +35,4 @@ The LMEC has derived all of this data from large books in our physical collectio
 ### Volume Boundaries
 A single GeoJSON file is available containing polygons corresponding to each physical volume's coverage boundaries. This layer is available here: <a target="_blank" href="https://s3.us-east-2.wasabisys.com/urbanatlases/extents/volume-extents.geojson">Volume Extents GeoJSON Download Link</a>
 
-### XYZ access
-The LMEC originally created tiles for atlases in this project using the TMS specification, and is currently converting each set to an XYZ specification to facilitate ArcGIS Online compatibility. You can use the layer list below to find out the status of each atlas web layer and the correct link syntax. Tiles are available at zoom levels 13 through 20.
 
