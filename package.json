@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "algoliasearch": "^4.9.1",
-    "axios": "^0.21.1",
+    "axios": "^0.21.2",
     "instantsearch.css": "^7.4.5",
     "markdown-it": "^12.0.4",
     "markdown-it-task-lists": "^2.1.1",
