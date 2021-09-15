@@ -4,7 +4,7 @@ sidebar: auto
 
 # README Instructions
 
-"A readme file provides information about a data file and is intended to help ensure that the data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data." - [Cornell Research Data README Guide]("https://data.research.cornell.edu/content/readme")
+"A readme file provides information about a data file and is intended to help ensure that the data can be correctly interpreted, by yourself at a later date or by others when sharing or publishing data." - [Cornell Research Data README Guide](https://data.research.cornell.edu/content/readme)
 
 This guide covers best practices in preparing contextual information about your data processing workflow. Ensuring your work is as clear and reproducible as possible has many benefits, including transparency, education and reproducibility.
 
