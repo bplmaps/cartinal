@@ -25,7 +25,7 @@ In this tutorial, we will take a fairly large dataset -- building footprints for
 - How to **clip data** using a clipping extent
 
 
-## Acquiring data 
+## Acquiring data
 
 For this task, two datasets are required:
 
@@ -34,7 +34,7 @@ For this task, two datasets are required:
 - Boston neighborhood boundaries to isolate Jamaica Plain as the clipping geography
 
 
-1). Navigate to each dataset's webpage in a new tab: [buildings](https://docs.digital.mass.gov/dataset/massgis-data-building-structures-2-d) | [neighborhoods](https://data.boston.gov/dataset/boston-neighborhoods "Analyze Boston neighborhood dataset record")
+1). Navigate to each dataset's webpage in a new tab: [buildings](https://www.mass.gov/info-details/massgis-data-building-structures-2-d) | [neighborhoods](https://data.boston.gov/dataset/boston-neighborhoods "Analyze Boston neighborhood dataset record")
 
 2. Download the Massachusetts Building Footprints by clicking "Shapefile"
 ![download buildings](./media/download-buildings.png)
@@ -48,7 +48,7 @@ and then selecting "Download" <br>
 4. Unzip or uncompress both of the zip files, saving them either in your downloads folder or somewhere else you can easily access them.
 
 
-## Prepare data for clipping 
+## Prepare data for clipping
 
 1. Open QGIS. If you do not already have QGIS, you can learn how to download it from the [Get Started with QGIS Guide](./get-started-qgis/).
 
@@ -94,7 +94,7 @@ To begin isolating JP, let's observe the neighborhood data's attribute table.
 10. Once your new layer appears in the map, you can remove the layer with all of the Boston neighborhoods by right-clicking on it in the layer list, and selecting **"Remove Layer"**
 ![remove layer](./media/remove-layer.gif)
 
-## Clip data by new extent 
+## Clip data by new extent
 
 Now that we have a geography to clip by, we are ready to clip the building data.
 
