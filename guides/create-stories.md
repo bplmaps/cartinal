@@ -4,9 +4,11 @@ sidebar: auto
 
 # Creating an Annotated Map Story
 
-**Annotated Map Stories** are a web tool created by the LMEC for adding captions and annotating zoomed-in sections of [maps in our digital collections](https://collections.leventhalmap.org/), or other primary sources from the [Digital Commonwealth](https://www.digitalcommonwealth.org/).
+Annotated map stories are useful for exploring the fine-tuned details of primary source documents, and presenting information about them in a shareable link.
 
-Annotated Map Stories are useful for exploring the fine-tuned details of primary source documents, and presenting information about them in a shareable link.
+**panel-truck** is a web tool created by the LMEC to do exactly this. With panel-truck, you can add captions and annotate zoomed-in sections of [maps in our digital collections](https://collections.leventhalmap.org/), or other primary sources from the [Digital Commonwealth](https://www.digitalcommonwealth.org/). In other words, it's a tool you can use to easily create your own annotated map stories!
+
+<!-- Here is an example of [panel-truck](https://geoservices.leventhalmap.org/panel-truck/example.html) in action. -->
 
 ## Examples
 
@@ -24,9 +26,11 @@ Here are some examples, made by staff at the Map Center, which are embedded into
 
 [Land of the Mashpee](https://geoservices.leventhalmap.org/map-stories/#mashpee-map/).
 
-## What you will need to create your own
+## How to create your own
 
-1. A browser tab open to our [Digital Collections portal](https://collections.leventhalmap.org/ "Digital Collections portal") and/or [Digital Commonwealth](https://www.digitalcommonwealth.org/ "Digital Commonwealth")  <br>
+Navigate to our [panel-truck guide](https://cartinal.leventhalmap.org/), which includes step by step instructions on how to create your own annotated story map.
+
+<!-- 1. A browser tab open to our [Digital Collections portal](https://collections.leventhalmap.org/ "Digital Collections portal") and/or [Digital Commonwealth](https://www.digitalcommonwealth.org/ "Digital Commonwealth")  <br>
 2. A browser tab open to the [IIIF Extent Viewer tool](https://geoservices.leventhalmap.org/iiif-tools/ "IIIF Extent Viewer tool")  <br>
 3. A Google Sheet; make a copy of [this template](https://docs.google.com/spreadsheets/d/1oe9omQd62_WSQiV7o8WOZPawB2oNEwabAmrOxYTs0gE/edit?usp=sharing "this template"). Each row is a "stop" on the tour, and consists of:
     * Information about what object to show (the `id`, `sequence`, and `repo` columns)
@@ -64,8 +68,8 @@ This is a placeholder for a future improvement which will allow us to work with 
 
 ### Decide which zoom of the object to show
 
-1. If you want to show the entire object, enter the word fit in the `extent` column of the row you created
-2. If you want this stop on the storyline to show a zoomed in section of the object, go to the [IIIF Extent Viewer](https://geoservices.leventhalmap.org/iiif-extent-viewer/) in another tab.  
+1. If you want to show the entire object, enter the word "fit" in the `extent` column of the row you created
+2. If you want this stop on the storyline to show a zoomed in section of the object, go to the [IIIF Extent Viewer](https://geoservices.leventhalmap.org/iiif-tools/ "IIIF Extent Viewer tool") in another tab.  
 3. Paste the `id` string for your map into the “Enter Digital Commonwealth ID” field of the Extent Viewer, and click “Load”
 
 ![](./media/iiif-viewer.png)
@@ -115,4 +119,4 @@ To edit your story, make the necessary changes in your spreadsheet. Then, return
 
 #### Deleting a story
 
-There's currently no user-accessible way to delete a story. Contact Garrett, Map Center Curator and author of this tool (gnelson@leventhalmap.org) if you need to delete a story entirely.
+There's currently no user-accessible way to delete a story. Contact Garrett, Map Center Curator and author of this tool (gnelson@leventhalmap.org) if you need to delete a story entirely. -->

@@ -119,7 +119,7 @@
   {
     "GuideID": 12,
     "name": "Create an Annotated Map Story",
-    "description": "Step-by-step tutorial on using the LMEC's annotation web tool to tell stories with digital map collections",
+    "description": "Step-by-step tutorial on using the LMEC's annotation web tool, Panel-Truck, to tell stories with digital map collections",
     "theme": "Use BPL map collections",
     "path": "./create-stories.html",
     "type": "Tutorial",
