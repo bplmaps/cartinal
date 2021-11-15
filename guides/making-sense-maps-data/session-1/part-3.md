@@ -8,8 +8,8 @@ For more information, check out Cosgrove's [Geography and Vision: Seeing, Imagin
 
 </aside>
 
-* Geographer Dennis Cosgove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye.
-    * He said that maps “reveal the presence of phenomena that are beyond our normal bodily senses.”
+* Geographer Denis Cosgrove has described maps as an instrument, like the microscope or telescope, that “allows us to see at scales impossible for the naked eye.
+* He said that maps “reveal the presence of phenomena that are beyond our normal bodily senses.”
 
 
 
