@@ -2,19 +2,19 @@
     sidebar: auto
 ---
 
-# Basic Mapmaking in Python 
+# Basic Mapmaking in Python
 
 ## Background Information
 
-This guide was written to accompany an in-person workshop taught at the Leventhal Map and Education Center at the Boston Public Library (winter 2019-2020). It was developed by Brian Kominick and Victoria Mak, both GIS & Public Service interns at Map Center at the time this guide was written. 
+This guide was written to accompany an in-person workshop taught at the Leventhal Map and Education Center at the Boston Public Library (winter 2019-2020). It was developed by Brian Kominick and Victoria Mak, both GIS & Public Service interns at Map Center at the time this guide was written.
 
-Here, you will find workshop code exercises. These exercises are geared towards introducing the Python programming language for **creating maps using code**, rather than a visual software interface like QGIS. It is also focused on providing examples for collecting and **cleaning data sets** from the web. 
+Here, you will find workshop code exercises. These exercises are geared towards introducing the Python programming language for **creating maps using code**, rather than a visual software interface like QGIS. It is also focused on providing examples for collecting and **cleaning data sets** from the web.
 
 
-These workshop are prepared as Jupyter notebooks you can run in the browser using MyBinder. 
+These workshop are prepared as Jupyter notebooks you can run in the browser using MyBinder.
 
 ::: tip Jupyter and Binder
-New to these tools? Check out our guide on [Understanding Jupyter and Binder]("./jupyter-binder.html")
+New to these tools? Check out our guide on [Understanding Jupyter and Binder](./jupyter-binder.html)
 :::
 
  Follow the steps below to launch one of the github repositories in a virtual environment.  If you're not familiar with Python or Jupyter, try starting out with basics.ipynb.
@@ -124,5 +124,3 @@ geocode = RateLimiter(locator.geocode, min_delay_seconds=1)
 ```
 
 <!-- tabs:end -->
-
-

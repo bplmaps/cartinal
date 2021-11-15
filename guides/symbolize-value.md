@@ -11,13 +11,14 @@ We will be working with MBTA subway rail lines to change the color of each line,
 
 We will be working with the MBTA Rapid Transit Data, made available by MassGIS.
 
-You can [download the data here.](https://docs.digital.mass.gov/dataset/massgis-data-mbta-rapid-transit "download the data here.")
+You can [download the data here.](https://www.mass.gov/info-details/massgis-data-mbta-rapid-transit "download the data here.")
 
 ::: tip How to Download
-Select `Download this layer`
-::: 
+Scroll down<br>
+Select `Download this data`
+:::
 
-This data is made available as multiple `shapefiles` zipped up into a compressed folder. You will have to unzip or uncompress the folder in order to access the data. 
+This data is made available as multiple `shapefiles` zipped up into a compressed folder. You will have to unzip or uncompress the folder in order to access the data.
 
 To learn more about different GIS file formats, please find our [Common GIS File Formats guide.](./file-formats.html#shapefile "common GIS file formats guide.")
 
@@ -29,15 +30,20 @@ Once you have a new QGIS project open, you can add the data to the project by se
 
 Under `Source > Vector Dataset(s)` click the elipses `Browse button` to pull up the data browser.
 
-Navigate to where you have downloaded and unzipped the data, and select the file named `MBTA_Arc.shp`
+Navigate to where you have downloaded and unzipped the data, and select the file named `MBTA_ARC.shp`
 
 Select `Open`
 
 Select `Add`
 
+::: tip Drag and drop
+You can also add the shapefile by simple dragging the file `MBTA_ARC.shp` from your file finder into the **Map Canvas**. Try it out!
+![drag-drop](./media/drag-drop.gif)
+:::
+
 ## Inspect the data
 
-When you first bring the data into QGIS, all of the lines appear to be the same color. There are values stored within the data about each line feature, giving us information about which subway line each feature is associated with. We can use these feature attribute values to apply symbology uniformly to the features on the map. 
+When you first bring the data into QGIS, all of the lines appear to be the same color. There are values stored within the data about each line feature, giving us information about which subway line each feature is associated with. We can use these feature attribute values to apply symbology uniformly to the features on the map.
 
 ![monochrome](./media/monochrome.png)
 
@@ -57,17 +63,17 @@ Select `Properties`
 
 Select `Symbology`
 
-At the very top of the symbology window, there is a drop-down menu where the default value is `Single symbol`
+At the very top of the symbology window, there is a drop-down menu where the default value is `Single Symbol`
 
 ::: warning
 This drop down can be easy to miss!
 :::
 
-Instead of symbolyzing every feature with one single color, we wish to symbolize them based on the subway line category they are grouped into. 
+Instead of symbolyzing every feature with one single color, we wish to symbolize them based on the subway line category they are grouped into.
 
 Click the drop down that says `Single Symbol` and change to the menu option `Categorized`
 
-Now we have told QGIS that we want to symbolize based on categories. Next, we have to tell QGIS *which* category to symbolize on. 
+Now we have told QGIS that we want to symbolize based on categories. Next, we have to tell QGIS *which* category to symbolize on.
 
 In the next drop down, titled `Column`, click the down arrow on the menu, and select the field `LINE`
 
@@ -98,44 +104,44 @@ Click on the menu drop-down labeled `Color`
 Under `HMTL Notation` replace the current value with the following hex color value
 
 **Blue:**
-``` 
+```
 #007AB0
 ```
 
 Press `OK`
 
-Let's also make the lines thicker. 
+Let's also make the lines thicker.
 
 In the menu labeled `Width`, replace the current value by typing in `1.5`.
 
 Press `OK`
 
-Repeat the same process for all of the different subway lines. 
+Repeat the same process for all of the different subway lines.
 
 **Red:**
-``` 
+```
 #DA484C
 ```
 
 **Green:**
-``` 
+```
 #008B60
 ```
 
 **Orange:**
-``` 
+```
 #E7A15F
 ```
 
 **Silver:**
-``` 
+```
 #8B8C86
 ```
 
 When you are done with all the categories, select `OK`
 
 
-The lines should now be appearing on the map with the proper colors. 
+The lines should now be appearing on the map with the proper colors.
 
 You can now use this data alongside other data, or [add a basemap for reference.](./guides/get-started-qgis/basics.html#add-a-basemap "add a basemap for reference.")
 
