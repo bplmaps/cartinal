@@ -3,7 +3,7 @@
     <header class="hero">
       <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
       <h1 v-if="data.title !== null" id="main-title"> {{ data.title || $title }} </h1>
-      <p v-if="data.subtitle !== null"s class="description"> {{ data.subtitle || $description }}</p>
+      <p v-if="data.subtitle !== null" class="description"> {{ data.subtitle || $description }}</p>
       <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
       <p v-if="data.actionText && data.actionLink" class="action">
       <NavLink class="action-button" :item="actionFunction"/>
