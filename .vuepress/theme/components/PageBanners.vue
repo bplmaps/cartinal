@@ -1,14 +1,14 @@
 <template>
   <div id="page-banners" :class="showPageBanners">
-    <div v-show="underConstruction">
+    <div v-if="underConstruction">
       <h3>{{ this.emoji.constructionalert }} Page Health</h3>
       This page is <strong>under construction</strong>.
     </div>
-    <div v-show="flagged">
+    <div v-if="flagged">
       <h3>{{ this.emoji.flaggedalert }} Page Health</h3>
       This page has been <strong>flagged</strong>. It may contain known errors or problems.
     </div>
-    <div v-show="outOfDate">
+    <div v-if="outOfDate">
       <h3>{{ this.emoji.outdatedalert }} Page Health</h3>
       It has been {{daysSinceUpdate}} days since this page was <strong>last updated</strong>.
     </div>

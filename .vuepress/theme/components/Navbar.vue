@@ -14,13 +14,13 @@
       class="home-link"
     >
       <img
-        v-show="$site.themeConfig.logo"
+        v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
       <span
-        v-show="$siteTitle"
+        v-if="$siteTitle"
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
@@ -34,7 +34,7 @@
       } : {}"
     >
       <AlgoliaSearchBox
-        v-show="isAlgoliaSearch"
+        v-if="isAlgoliaSearch"
         :options="algolia"
       />
       <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false" />

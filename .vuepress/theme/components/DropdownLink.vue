@@ -29,7 +29,7 @@
 
     <DropdownTransition>
       <ul
-        v-show="open"
+        v-if="open"
         class="nav-dropdown"
       >
         <li
@@ -37,12 +37,12 @@
           :key="subItem.link || index"
           class="dropdown-item"
         >
-          <h4 v-show="subItem.type === 'links'">
+          <h4 v-if="subItem.type === 'links'">
             {{ subItem.text }}
           </h4>
 
           <ul
-            v-show="subItem.type === 'links'"
+            v-if="subItem.type === 'links'"
             class="dropdown-subitem-wrapper"
           >
             <li

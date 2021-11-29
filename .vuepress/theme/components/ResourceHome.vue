@@ -1,15 +1,15 @@
 <template>
 <main class="resourcehome" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
     <header class="hero">
-        <img v-show="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
-        <h1 v-show="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
-        <p v-show="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
+        <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
+        <h1 v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
+        <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
     </header>
 
-    <div v-show="data.themes && data.themes.length" class="themes">
+    <div v-if="data.themes && data.themes.length" class="themes">
         <div v-for="(theme, index) in data.themes" :key="index" class="theme">
             <h2>{{theme.themeTitle}} </h2>
-            <div v-show="theme.topics && theme.topics.length" class="topics">
+            <div v-if="theme.topics && theme.topics.length" class="topics">
                 <div v-for="(topic, index) in theme.topics" :key="index" class="topic">
                 <ul>
                     <li>
@@ -25,7 +25,7 @@
     </div>
 
     <Content class="theme-default-content custom" />
-    <div v-show="data.footer" class="footer">{{ data.footer }}</div>
+    <div v-if="data.footer" class="footer">{{ data.footer }}</div>
 </main>
 </template>
 
