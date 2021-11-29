@@ -7,7 +7,7 @@ sidebar: auto
 
 # How to clip data to a desired geography
 
-In this guide, we will walk through the process of clipping a dataset to a desired extent.
+In this guide, we'll walk through the process of clipping a dataset to a desired extent.
 
 Data is clipped to geographic extent for a variety of reasons. A primary consideration is the size of the data; the larger the amount of data, the more unwieldy and time-consuming processing that data becomes. For this reason, masking out areas unrelated to the project extent can be a useful tool.
 
