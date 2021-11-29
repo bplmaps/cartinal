@@ -10,7 +10,7 @@
                 </li>
               </ul>
             <!-- Beginning of Data Endpoint section -->
-            <li v-show="this.access.items"><a href="./access.html"> access </a></li>
+            <li v-if="this.access.items"><a href="./access.html"> access </a></li>
                 <ul>
                   <li><a href="$id.html" >$id</a></li>
                   <li><a href="accessURL.html" >accessURL</a></li>
