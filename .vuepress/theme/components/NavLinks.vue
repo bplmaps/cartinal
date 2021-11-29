@@ -1,6 +1,6 @@
 <template>
   <nav
-    v-show="userLinks.length || repoLink"
+    v-if="userLinks.length || repoLink"
     class="nav-links"
   >
     <!-- user links -->
@@ -10,7 +10,7 @@
       class="nav-item"
     >
       <DropdownLink
-        v-show="item.type === 'links'"
+        v-if="item.type === 'links'"
         :item="item"
       />
       <NavLink
@@ -21,7 +21,7 @@
 
     <!-- repo link -->
     <a
-      v-show="repoLink"
+      v-if="repoLink"
       :href="repoLink"
       class="repo-link"
       target="_blank"

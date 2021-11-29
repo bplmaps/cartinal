@@ -1,7 +1,7 @@
 <template>
   <footer class="page-edit">
     <div
-      v-show="editLink"
+      v-if="editLink"
       class="edit-link"
     >
       <a
@@ -13,7 +13,7 @@
     </div>
 
     <div
-      v-show="lastUpdated"
+      v-if="lastUpdated"
       class="last-updated"
     >
       <span class="prefix">{{ lastUpdatedText }}:</span>

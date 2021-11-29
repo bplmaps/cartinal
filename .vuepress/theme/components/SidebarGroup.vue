@@ -10,7 +10,7 @@
     ]"
   >
     <RouterLink
-      v-show="item.path"
+      v-if="item.path"
       class="sidebar-heading clickable"
       :class="{
         open,
@@ -21,7 +21,7 @@
     >
       <span>{{ item.title }}</span>
       <span
-        v-show="collapsable"
+        v-if="collapsable"
         class="arrow"
         :class="open ? 'down' : 'right'"
       />
@@ -35,7 +35,7 @@
     >
       <span>{{ item.title }}</span>
       <span
-        v-show="collapsable"
+        v-if="collapsable"
         class="arrow"
         :class="open ? 'down' : 'right'"
       />
@@ -43,7 +43,7 @@
 
     <DropdownTransition>
       <SidebarLinks
-        v-show="open || !collapsable"
+        v-if="open || !collapsable"
         class="sidebar-group-items"
         :items="item.children"
         :sidebar-depth="item.sidebarDepth"

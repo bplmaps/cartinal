@@ -1,6 +1,6 @@
 <template>
   <ul
-    v-show="items.length"
+    v-if="items.length"
     class="sidebar-links"
   >
     <li
@@ -8,7 +8,7 @@
       :key="i"
     >
       <SidebarGroup
-        v-show="item.type === 'group'"
+        v-if="item.type === 'group'"
         :item="item"
         :open="i === openGroupIndex"
         :collapsable="item.collapsable || item.collapsible"

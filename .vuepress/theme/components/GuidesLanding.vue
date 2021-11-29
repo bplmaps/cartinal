@@ -2,8 +2,8 @@
     <!-- Frontmatter -->
     <main class="guideslanding" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
         <header class="hero">
-            <h1 v-show="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
-            <p v-show="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
+            <h1 v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
+            <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
         </header>
 
       <!-- ✔️ Container to hold all the drop-downs ✔-->
@@ -13,7 +13,7 @@
           <label class = "dropdown">
               <div class="dd-button">What do you need?</div>
               <input type="checkbox" class="dummy-input" @click="typeseen= !typeseen">
-              <div v-show="typeseen">
+              <div v-if="typeseen">
                 <ul class="dd-menu" >
                     <!-- loop through all the possible options defined for guide types: i.e. "guide", "tutorial" -->
                     <li v-for="type in types">
@@ -30,7 +30,7 @@
           <label class = "dropdown">
               <div class="dd-button">What skill level are you looking for?</div>
               <input type="checkbox" class="dummy-input" @click="levelseen= !levelseen">
-              <div v-show="levelseen">
+              <div v-if="levelseen">
                 <ul class="dd-menu">
                     <li v-for="level in levels">
                         <label><input type = "checkbox" v-model="checkedLevels" v-bind:value="level"/> {{ level}} </label>
@@ -43,7 +43,7 @@
           <label class = "dropdown">
               <div class="dd-button">What do you want to do?</div>
               <input type="checkbox" class="dummy-input" @click="themeseen= !themeseen">
-              <div v-show="themeseen">
+              <div v-if="themeseen">
                 <ul class="dd-menu">
                     <li v-for="theme in themes">
                         <label><input type = "checkbox" v-model="checkedThemes" v-bind:value="theme"/> {{ theme}} </label>
@@ -72,7 +72,7 @@
 
         <!-- default VuePress component stuff -->
         <Content class="theme-default-content custom" />
-        <div v-show="data.footer" class="footer">{{ data.footer }}</div>
+        <div v-if="data.footer" class="footer">{{ data.footer }}</div>
     </main>
 </template>
 
