@@ -1,16 +1,16 @@
 <template>
   <div
-    v-if="prev || next"
+    v-show="prev || next"
     class="page-nav"
   >
     <p class="inner">
       <span
-        v-if="prev"
+        v-show="prev"
         class="prev"
       >
         ←
         <a
-          v-if="prev.type === 'external'"
+          v-show="prev.type === 'external'"
           class="prev"
           :href="prev.path"
           target="_blank"
@@ -31,11 +31,11 @@
       </span>
 
       <span
-        v-if="next"
+        v-show="next"
         class="next"
       >
         <a
-          v-if="next.type === 'external'"
+          v-show="next.type === 'external'"
           :href="next.path"
           target="_blank"
           rel="noopener noreferrer"

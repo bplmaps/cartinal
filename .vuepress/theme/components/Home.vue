@@ -1,16 +1,16 @@
 <template>
   <main class="home" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
     <header class="hero">
-      <img v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
-      <h1 v-if="data.title !== null" id="main-title"> {{ data.title || $title }} </h1>
-      <p v-if="data.subtitle !== null" class="description"> {{ data.subtitle || $description }}</p>
-      <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
-      <p v-if="data.actionText && data.actionLink" class="action">
+      <img v-show="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt">
+      <h1 v-show="data.title !== null" id="main-title"> {{ data.title || $title }} </h1>
+      <p v-show="data.subtitle !== null" class="description"> {{ data.subtitle || $description }}</p>
+      <p v-show="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
+      <p v-show="data.actionText && data.actionLink" class="action">
       <NavLink class="action-button" :item="actionFunction"/>
       </p>
     </header>
 
-    <div v-if="data.features && data.features.length" class="features">
+    <div v-show="data.features && data.features.length" class="features">
       <div v-for="(feature, index) in data.features" :key="index" class="feature">
         <a class="feature-link" :href="feature.link">{{feature.title}} </a>
         <p>{{ feature.details }}</p>

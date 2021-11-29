@@ -37,12 +37,12 @@
           :key="subItem.link || index"
           class="dropdown-item"
         >
-          <h4 v-if="subItem.type === 'links'">
+          <h4 v-show="subItem.type === 'links'">
             {{ subItem.text }}
           </h4>
 
           <ul
-            v-if="subItem.type === 'links'"
+            v-show="subItem.type === 'links'"
             class="dropdown-subitem-wrapper"
           >
             <li
@@ -140,7 +140,7 @@ export default {
     font-size 0.9rem
     font-family inherit
     cursor inherit
-    padding inherit 
+    padding inherit
     line-height 1.4rem
     background transparent
     border none

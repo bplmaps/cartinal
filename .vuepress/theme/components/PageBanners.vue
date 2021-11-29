@@ -1,14 +1,14 @@
 <template>
   <div id="page-banners" :class="showPageBanners">
-    <div v-if="underConstruction"> 
+    <div v-show="underConstruction">
       <h3>{{ this.emoji.constructionalert }} Page Health</h3>
       This page is <strong>under construction</strong>.
     </div>
-    <div v-if="flagged"> 
+    <div v-show="flagged">
       <h3>{{ this.emoji.flaggedalert }} Page Health</h3>
       This page has been <strong>flagged</strong>. It may contain known errors or problems.
     </div>
-    <div v-if="outOfDate"> 
+    <div v-show="outOfDate">
       <h3>{{ this.emoji.outdatedalert }} Page Health</h3>
       It has been {{daysSinceUpdate}} days since this page was <strong>last updated</strong>.
     </div>
@@ -71,8 +71,8 @@ export default {
   display: none;
 }
 
-#page-banners 
-  position: fixed 
+#page-banners
+  position: fixed
   text-align: left;
   left: 15px
   bottom: 15px

@@ -2,8 +2,8 @@
     <!-- Frontmatter -->
     <main class="guideslanding" :aria-labelledby="data.heroText !== null ? 'main-title' : null">
         <header class="hero">
-            <h1 v-if="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
-            <p v-if="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
+            <h1 v-show="data.tagline !== null" class="description"> {{ data.tagline || $description }}</h1>
+            <p v-show="data.bodycontent !== null" class="descriptionlong"> {{ data.bodycontent || $descriptionlong }}</p>
         </header>
 
       <!-- ✔️ Container to hold all the drop-downs ✔-->
@@ -13,7 +13,7 @@
           <label class = "dropdown">
               <div class="dd-button">What do you need?</div>
               <input type="checkbox" class="dummy-input" @click="typeseen= !typeseen">
-              <div v-if="typeseen">
+              <div v-show="typeseen">
                 <ul class="dd-menu" >
                     <!-- loop through all the possible options defined for guide types: i.e. "guide", "tutorial" -->
                     <li v-for="type in types">
@@ -30,7 +30,7 @@
           <label class = "dropdown">
               <div class="dd-button">What skill level are you looking for?</div>
               <input type="checkbox" class="dummy-input" @click="levelseen= !levelseen">
-              <div v-if="levelseen">
+              <div v-show="levelseen">
                 <ul class="dd-menu">
                     <li v-for="level in levels">
                         <label><input type = "checkbox" v-model="checkedLevels" v-bind:value="level"/> {{ level}} </label>
@@ -43,7 +43,7 @@
           <label class = "dropdown">
               <div class="dd-button">What do you want to do?</div>
               <input type="checkbox" class="dummy-input" @click="themeseen= !themeseen">
-              <div v-if="themeseen">
+              <div v-show="themeseen">
                 <ul class="dd-menu">
                     <li v-for="theme in themes">
                         <label><input type = "checkbox" v-model="checkedThemes" v-bind:value="theme"/> {{ theme}} </label>
@@ -52,11 +52,11 @@
               </div>
           </label>
 
-        <!-- ✔️ end of facet container ✔️ -->  
+        <!-- ✔️ end of facet container ✔️ -->
       </div>
 
         <!-- Display the results of the filters -->
-    
+
         <div class ="guide-results" v-for="guide in displayGuides">
             <div class = "guide-result">
                 <ul>
@@ -72,7 +72,7 @@
 
         <!-- default VuePress component stuff -->
         <Content class="theme-default-content custom" />
-        <div v-if="data.footer" class="footer">{{ data.footer }}</div>
+        <div v-show="data.footer" class="footer">{{ data.footer }}</div>
     </main>
 </template>
 
@@ -178,7 +178,7 @@ export default {
       padding-bottom 0
       color white
       box-shadow 0 0 1rem 0 rgba(0,0,0,0.1)
-  a.topic-link:hover 
+  a.topic-link:hover
     background-color #3e6894
   .themes
     border-top 1px solid $borderColor
@@ -206,7 +206,7 @@ export default {
   ul
     padding-left 1.5rem
 
-.dropdown 
+.dropdown
   display inline-block
   position relative
 .dd-button
@@ -217,7 +217,7 @@ export default {
   cursor pointer
   white-space nowrap
 
-.dd-button:after 
+.dd-button:after
   content ''
   position absolute
   top 50%
@@ -229,16 +229,16 @@ export default {
   border-right 5px solid transparent
   border-top 5px solid black
 
-.dd-button:hover 
+.dd-button:hover
   background-color #eeeeee
 
 .dummy-input
   display none
 
-h2 
+h2
   padding-bottom .8rem
 
-.dd-menu 
+.dd-menu
   position absolute
   margin-top 0
   top 100%
@@ -248,14 +248,14 @@ h2
   background-color #ffffff
   list-style-type none
 
-.dummy-input:checked + .dd-menu 
+.dummy-input:checked + .dd-menu
   display block
 
 
-.dummy-input + .dd-menu 
+.dummy-input + .dd-menu
   display none
 
-.dd-menu li 
+.dd-menu li
   z-index 20
   width 107%
   left -2.5rem
@@ -265,11 +265,11 @@ h2
   white-space nowrap
 
 
-.dd-menu li:hover 
+.dd-menu li:hover
   background-color #f6f6f6;
 
 
-.dd-menu li a 
+.dd-menu li a
   display block
 
 
@@ -278,9 +278,9 @@ h2
   box-shadow .1rem .1rem lighten(#E8E8E8, 25%)
 }
 
-.guide-result 
+.guide-result
   border .05rem solid #E8E8E8
-  margin-top .5rem 
+  margin-top .5rem
   padding-right .5rem
 
 div#facet-bar
@@ -312,8 +312,8 @@ ul.dd-menu
       .action-button
         font-size 1rem
         padding 0.6rem 1.2rem
-    .dd-button 
-    a.topic-link 
+    .dd-button
+    a.topic-link
       font-size .8rem
 
 
