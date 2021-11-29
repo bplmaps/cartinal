@@ -1,7 +1,7 @@
 <template>
   <div
     class="theme-container" :class="pageClasses" @touchstart="onTouchStart" @touchend="onTouchEnd">
-    <Navbar v-if="shouldShowNavbar" @toggle-sidebar="toggleSidebar"/>
+    <Navbar v-show="shouldShowNavbar" @toggle-sidebar="toggleSidebar"/>
 
     <div class="sidebar-mask" @click="toggleSidebar(false)"/>
 
@@ -14,13 +14,13 @@
       </template>
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home" />
+    <Home v-show="$page.frontmatter.home" />
 
-    <GuidesLanding v-if="$page.frontmatter.guideslanding" />
-    <ResourceHome v-if="$page.frontmatter.resourcehome" />
+    <GuidesLanding v-show="$page.frontmatter.guideslanding" />
+    <ResourceHome v-show="$page.frontmatter.resourcehome" />
 
 
-    <Page v-if="!$page.frontmatter.home && !$page.frontmatter.guideslanding && !$page.frontmatter.resourcehome" :sidebar-items="sidebarItems">
+    <Page v-show="!$page.frontmatter.home && !$page.frontmatter.guideslanding && !$page.frontmatter.resourcehome" :sidebar-items="sidebarItems">
       <template #top>
         <slot name="page-top" />
       </template>
