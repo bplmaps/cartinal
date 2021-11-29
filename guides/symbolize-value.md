@@ -14,7 +14,6 @@ We will be working with the MBTA Rapid Transit Data, made available by MassGIS.
 You can [download the data here.](https://www.mass.gov/info-details/massgis-data-mbta-rapid-transit "download the data here.")
 
 ::: tip How to Download
-Scroll down<br>
 Select `Download this data`
 :::
 
