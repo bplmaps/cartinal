@@ -16,7 +16,7 @@
               <div v-if="typeseen">
                 <ul class="dd-menu" >
                     <!-- loop through all the possible options defined for guide types: i.e. "guide", "tutorial" -->
-                    <li v-for="type in types">
+                    <li v-bind="type in types">
                         <!-- create a checkbox input for each one -->
                         <!-- bind any checked options to the array "checkedTypes"  -->
                         <label><input type = "checkbox" v-model="checkedTypes" v-bind:value="type"/> {{ type }} </label>
