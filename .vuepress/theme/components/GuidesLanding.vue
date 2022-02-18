@@ -16,7 +16,7 @@
               <div v-if="typeseen">
                 <ul class="dd-menu" >
                     <!-- loop through all the possible options defined for guide types: i.e. "guide", "tutorial" -->
-                    <li v-bind="type in types">
+                    <li v-for="type in types">
                         <!-- create a checkbox input for each one -->
                         <!-- bind any checked options to the array "checkedTypes"  -->
                         <label><input type = "checkbox" v-model="checkedTypes" v-bind:value="type"/> {{ type }} </label>
@@ -32,7 +32,7 @@
               <input type="checkbox" class="dummy-input" @click="levelseen= !levelseen">
               <div v-if="levelseen">
                 <ul class="dd-menu">
-                    <li v-bind="level in levels">
+                    <li v-for="level in levels">
                         <label><input type = "checkbox" v-model="checkedLevels" v-bind:value="level"/> {{ level}} </label>
                     </li>
                 </ul>
@@ -45,7 +45,7 @@
               <input type="checkbox" class="dummy-input" @click="themeseen= !themeseen">
               <div v-if="themeseen">
                 <ul class="dd-menu">
-                    <li v-bind="theme in themes">
+                    <li v-for="theme in themes">
                         <label><input type = "checkbox" v-model="checkedThemes" v-bind:value="theme"/> {{ theme}} </label>
                     </li>
                 </ul>
@@ -57,7 +57,7 @@
 
         <!-- Display the results of the filters -->
 
-        <div class ="guide-results" v-bind="guide in displayGuides">
+        <div class ="guide-results" v-for="guide in displayGuides">
             <div class = "guide-result">
                 <ul>
                   <h2><a class = "topic-link" :href="guide.path">{{guide.name }}</a></h2>
