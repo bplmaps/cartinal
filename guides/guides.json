@@ -4,7 +4,7 @@
     "name": "Geocoding",
     "description": "Learn how to create spatial data using addresses in a spreadsheet.",
     "theme": "Find and use data",
-    "path": "./geocoding/",
+    "path": "./geocoding.html/",
     "type": "Tutorial",
     "level": "Fundamentals"
   },
