@@ -6,11 +6,11 @@ sidebar: auto
 
 ## Background Information
 
-Georeferencing is the process of matching a digital cartographic image file to real-life geography, by adding ground control points (gcps).
+Georeferencing is the process of matching a digital cartographic image file to real-life geography, by adding ground control points (GCP's).
 
-::: tip LMEC Map Warper 
+<!-- ::: tip LMEC Map Warper 
 You can learn about the status of the LMEC Digital Collections Map Warper Instance and how to extract LMEC Digital Collections in geospatial formats from the <a href ='./lmec-dc-geo.html'>LMEC Georeferenced Collections Guide.</a>
-:::
+::: -->
 
 
 ## Georeferencing in QGIS
