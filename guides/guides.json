@@ -1,14 +1,5 @@
 [
   {
-    "GuideID": 21,
-    "name": "Geocoding",
-    "description": "Learn how to create spatial data using addresses in a spreadsheet.",
-    "theme": "Find and use data",
-    "path": "./geocoding.html/",
-    "type": "Tutorial",
-    "level": "Fundamentals"
-  },
-  {
     "GuideID": 20,
     "name": "Making Sense of Maps and Data",
     "description": "Public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. ",
