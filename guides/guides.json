@@ -1,5 +1,14 @@
 [
   {
+    "GuideID": 21,
+    "name": "Geocoding",
+    "description": "Public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. ",
+    "theme": "Find and use data",
+    "path": "./geocoding.html",
+    "type": "Guide",
+    "level": "Fundamentals"
+  },
+  {
     "GuideID": 20,
     "name": "Making Sense of Maps and Data",
     "description": "Public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. ",
@@ -64,7 +73,7 @@
   },
   {
     "GuideID": 8,
-    "name": "Use Python to Work with GIS Data",
+    "name": "Basic Mapmaking with Python",
     "description": "Workshop activity for cleaning data and making a web map using Python, Geopandas, and Nominatum",
     "theme": "Make a map",
     "path": "./python.html",
