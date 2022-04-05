@@ -28,8 +28,8 @@
   },
   {
     "GuideID": 2,
-    "name": "Georeference a Map",
-    "description": "Brief notes on the status of MapWarper, and the best way to get started georeferencing",
+    "name": "Georeference a Map in QGIS",
+    "description": "Brief notes on how to get started with georeferencing",
     "theme": "Georeference",
     "path": "./georeference.html",
     "type": "Tutorial",
