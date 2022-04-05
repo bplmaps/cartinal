@@ -2,16 +2,23 @@
 sidebar: auto
 ---
 
-# Georeference a Map
+# Georeferencing
 
 ## Background Information
 
-Georeferencing is the process of matching a digital cartographic image file to real-life geography, by adding ground control points (GCP's).
+Georeferencing is the process of matching a digital cartographic image file to real-life geography, by adding ground control points (GCP's). A GCP is simply a latitude-longiture pair that a computer can use to associate pixel space in an image with geographic space in a modern web map.
 
-<!-- ::: tip LMEC Map Warper 
-You can learn about the status of the LMEC Digital Collections Map Warper Instance and how to extract LMEC Digital Collections in geospatial formats from the <a href ='./lmec-dc-geo.html'>LMEC Georeferenced Collections Guide.</a>
-::: -->
+For example, 
 
+![ground control points](./gcp.png)
+
+## Georeferencing on the web
+
+Georeferencing can be a challenging process to carry out on the web, because it requires the creation and storage of very large file
+
+::: tip LMEC Map Warper
+The LMEC Map Warper, previously used for georeferencing maps in our digital collections, is no longer being supported. You can learn about how to extract LMEC Digital Collections in geospatial formats from the <a href ='./lmec-dc-geo.html'>LMEC Georeferenced Collections Guide.</a>
+:::
 
 ## Georeferencing in QGIS
 
