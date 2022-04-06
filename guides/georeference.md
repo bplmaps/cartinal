@@ -6,11 +6,11 @@ sidebar: auto
 
 ## Background Information
 
-Georeferencing is the process of matching a digital cartographic image file to real-life geography, by adding ground control points (GCP's).
+Georeferencing is the process of matching a digital cartographic image file to real-life geography by adding ground control points (GCP's).
 
 A GCP is simply a point that the computer will use to associate pixel space in an image with geographic space in a modern web map.
 
-For example, in the screenshot below, GCP's are pictured in red. The numbers associated with each GCP match the pixel space of a [scanned historic map](https://www.digitalcommonwealth.org/search/commonwealth:w3765q66z) (left) to the geographic space of a modern web map (right).
+For example, the screenshot below from a web georeferencing interface displays GCP's around the Boston Garden in red. The numbers associated with each GCP match the pixel space of a [scanned historic map](https://www.digitalcommonwealth.org/search/commonwealth:w3765q66z) (left) to the geographic space of a modern web map (right).
 
 |![ground control points](./media/gcp.png)
 |:--:|
@@ -22,11 +22,13 @@ After sufficient GCP's have been added, a user can view the historic map overlai
 |:--:|
 |*Image courtesy of [Allmaps viewer](https://viewer.allmaps.org/#type=annotation&data=data:text/x-url,https%3A%2F%2Fannotations.allmaps.org%2Fmanifests%2F7S4FRft8JVytyhg5)*
 
+Most commonly, modern mapmakers and researchers georeference maps in one of two ways: first, by using a web platform, and second, by using desktop software (like QGIS).
+
 ## Georeferencing on the web
 
 Georeferencing can be a challenging process to carry out on the web, because it requires the creation and storage of very large files called [GeoTIFFs](https://www.ogc.org/standards/geotiff). As such, many web georeferencers are costly proprietary softwares that aren't very accessible for everyday research use.
 
-Currently, the Leventhal Map & Education Center (LMEC) is working with Bert Spaan to support his ongoing development of the [Allmaps platform](https://allmaps.org/) for web georeferencing. Using the [international image interoperabilty framework](https://iiif.io/) (IIIF) and [WebGL](https://www.khronos.org/webgl/), Allmaps makes it easy to georeference any IIIF-compliant map in a web browser.
+The Leventhal Map & Education Center (LMEC) is working with Bert Spaan to support his ongoing development of the [Allmaps platform](https://allmaps.org/) for web georeferencing. Using the [international image interoperabilty framework](https://iiif.io/) (IIIF) and [WebGL](https://www.khronos.org/webgl/), Allmaps makes it easy to georeference any IIIF-compliant map in a web browser.
 
 Stay tuned for more information about how you can use Allmaps to georeference maps in the LMEC's collections, coming soon in **fall 2022**!
 
@@ -36,7 +38,7 @@ The LMEC Map Warper, previously used for georeferencing maps in our digital coll
 
 ## Georeferencing in QGIS
 
-The Leventhal Map & Education Center, which undertakes many digital humanities projects for which georeferencing is a core staple, carries out all georeferencing processes using QGIS. 
+The Leventhal Map & Education Center, which undertakes many digital humanities projects for which georeferencing is a core staple, currently carries out all georeferencing processes using QGIS. 
 
 QGIS is a free desktop mapping software with a rich suite of functionalities. To get started with QGIS, please find the <a href ='./get-started-qgis/'>Get Started with QGIS Guide</a>.
 
