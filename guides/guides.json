@@ -19,7 +19,7 @@
   },
   {
     "GuideID": 2,
-    "name": "Georeference a Map in QGIS",
+    "name": "Georeference a Map",
     "description": "Brief notes on how to get started with georeferencing",
     "theme": "Georeference",
     "path": "./georeference.html",
