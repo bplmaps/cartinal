@@ -13,8 +13,7 @@ Check out these COVID-era [hand drawn maps](https://www.bloomberg.com/features/2
 * Pick a place that's important to you.
     * It could be where you live, your school, or another familiar location.
 * Grab a piece of paper and take 5 minutes to draw this place.
-* Add as much information as you can about this place.
-    * Feel free to add colors, explanations, labels and whatever else comes to mind!
+* Add as much information as you can about this place—colors, explanations, labels and whatever else comes to mind!
 
 
 
