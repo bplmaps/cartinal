@@ -23,9 +23,11 @@ A good way to think about it is this: When someone is working on their written l
 
 ## Data as observations about the world
 
+* Data refers to **observations about the world that have been captured by humans and machines.**
 * You might have a strong association between the word "data" and "numbers in a computer."
 * Data is really a more general term about _information_.
-    * Medieval European maps, for example, were made up of "data" that were gathered from sources of evidence like the passages of the Bible.
+    * Medieval European maps were made up of "data" that were gathered from sources of evidence like the passages of the Bible.
+    * For example, what kinds of data would have been required by the mapmaker of this ["mappa mundi?"](https://collections.leventhalmap.org/search/commonwealth:q524n5934)
 
 <aside>
 
@@ -33,13 +35,7 @@ A good way to think about it is this: When someone is working on their written l
 
 </aside>
 
-<hideable title = "A grammatical note on 'data'">
-
-To most English-speakers, data sounds like a singular noun. It's common to say "data is a general term about information," or "data records phenomena." as we have done above. But some practitioners think of data as a plural; you'll hear people say "data are observations about the world," or "data record phenomena." There's no consensus about which is correct, even among data scientists! In this course, we use data as a singular noun. 
-
-</hideable>
-
-* Consider an ordinary web map that you might use to get to the nearest coffee shop.
+* Imagine an ordinary web map that you might use to get to the nearest coffee shop.
     * It would include data about ...
         * Where coffee shops are located,
         * What those coffee shops are called and when they're open,
@@ -48,7 +44,12 @@ To most English-speakers, data sounds like a singular noun. It's common to say "
         * How roads and paths are connected in space,
         * What the roads are named,
         * And more!
-* Data encodes human observations of the world in a way that is legible to computers.
+
+<hideable title = "A grammatical note on 'data'">
+
+To most English-speakers, data sounds like a singular noun. It's common to say "data is a general term about information," or "data records phenomena." as we have done above. But some practitioners think of data as a plural; you'll hear people say "data are observations about the world," or "data record phenomena." There's no consensus about which is correct, even among data scientists! In this course, we use data as a singular noun. 
+
+</hideable>
 
 <aside>
 
