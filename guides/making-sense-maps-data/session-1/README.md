@@ -35,6 +35,7 @@ In this lesson, we'll begin piecing together the relationship between the visual
 * geometry
 * attributes
 * rendering
+* privilege
 
 ## Goals of this session
 

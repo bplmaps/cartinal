@@ -42,7 +42,7 @@ export default {
 
 
 figcaption 
-  text-align: right
+  text-align: center
   font-style: italic 
   opacity: 0.7
   font-size: 95%

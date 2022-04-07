@@ -1,15 +1,8 @@
 # Making Sense of Maps & Data
 
-<figure>
-
-![Map of the northern part of the US with line charts showing climate data](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n402g/2737,2260,3780,1434/,1200/0/default.jpg)
-
-<figcaption>
-
-An excerpt from the [1986 National Atlas of the United States](https://collections.leventhalmap.org/search/commonwealth:q524n4016)
-
-</figcaption>
-</figure>
+|![Map of the northern part of the US with line charts showing climate data](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n402g/2737,2260,3780,1434/,1200/0/default.jpg)
+|:--:|
+|<figcaption>An excerpt from the [1986 National Atlas of the United States](https://collections.leventhalmap.org/search/commonwealth:q524n4016)</figcaption>
 
 **Making Sense of Maps & Data** is a public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. This program is being initially offered as a synchronous session, with course material developed for on-your-own future learning.
 
