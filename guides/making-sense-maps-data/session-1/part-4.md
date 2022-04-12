@@ -18,6 +18,11 @@ John Snow's map of the cholera outbreak around the Broad Street pump, Artoria2e5
 </figcaption>
 </figure>
 
+<aside>
+
+**From our collections:** This [1849 map of cholera in Boston](https://collections.leventhalmap.org/search/commonwealth:8336hc331) comes to very different conclusions about how the disease spread. Compare it with this [1866 map](https://collections.leventhalmap.org/search/commonwealth:8336hc374) that uses a similar methodology to John Snow.
+
+</aside>
 
 * **Geospatial data** records what occurs in a certain place. Geospatial data is inherently locational, and, when analyzed, can shed light on patterns across space.
 * There are two elements of geospatial data: **feature data** (which encode information about *where* an observation occurs) and **attribute data** (which encode information about *what* occurs).
