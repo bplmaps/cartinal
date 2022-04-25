@@ -17,11 +17,6 @@
 * Take a look at this map of unemployment rates
 * Here, the data is visualized as shades of blue
 
-<!---
-Where does this map come from?
-
--->
-
 <figure>
 
 ![Map showing unemployment rates in America by state, January 2021](./media/BLSUnemploymentMap.png)

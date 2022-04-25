@@ -9,8 +9,7 @@
   * We also call it the **geometry** or the **shape**
 * There are two types of feature data: **raster** and **vector**
   * **Raster data** is like a giant piece of gridded paper, where each cell is a section of the Earth's surface
-  * **Vector data**  is like a game of connect the dots
-    * Vector data has three main types: **points, lines, and polygons**  
+  * **Vector data**  is like a game of connect the dots, where dots can be connected as *points, lines,* or *polygons* 
   * Remember, a computer is not very smart when it comes to shapes!
     * It doesn't know what "a circle" is, and certainly not what "the shape of Massachusetts" is
     * Raster and vector data are both methods for creating shapes out of simple numbers and rules

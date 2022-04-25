@@ -8,7 +8,7 @@
     - **how** it has evolved over time,
     - **who** has changed or edited it,
     - and how **easy** it is for people to use
-* Information about data is called **metadata**, and it is integral to understanding how to work with a dataset
+* Information about data is called **metadata**, and it is integral to understanding how to work with a dataset. You'll often hear metadata referred to as "data about data"
 * You might not always be able to find *as* detailed information as is available with the LMEC portal, but no matter which data retrieval site you are using, you will need to know how to work with metadata
 
 
