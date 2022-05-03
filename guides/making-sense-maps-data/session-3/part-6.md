@@ -34,7 +34,7 @@ Screenshot of COVID Raw Data link, Massachusetts Department of Public Health (20
 ## Putting together what you know
 
 * Once you've made it to the tab `Weekly_City_Town`, you'll find yourself with some information that seems like it relates to geography
-    * This workbook has 5985 rows. But Massachusetts only has 351 cities and towns! What do you think is going on here?
+    * Massachusetts only has 351 cities and towns, but this workbook has over 20,000 rows! What do you think is going on here?
     * What *attributes* from this data do you think might be useful for making a map?
     * Can you see any problems with the data that might confuse mapmaking software?
     * What would you need to do in order to relate the `City/Town` column to a shape on a map?
