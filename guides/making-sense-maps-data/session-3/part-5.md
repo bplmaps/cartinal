@@ -8,6 +8,6 @@
 - There's no way to account for every possible problem or frustration you might encounter when working with data, but here are some common issues that you might find while working with geospatial data:
     - **No link between features and attributes**. Remember, having attribute data doesn't mean you can make a map. If you have a spreadsheet of place names with some kind of attribute, you're still going to need feature data (a.k.a. *geometry*)
     - **Bad identifiers for joins**. If you do have both features and attributes, they need to be connected to one another with a unique identifier. If your feature and attribute data use different identifiers, you'll have to modify them before they can be linked.
-    - **Numbers encoded as strings.** Commas, dollar signs, and percent signs can all trick a computer into thinking that a number is a string. 
+    - **Numbers encoded as strings**. Commas, dollar signs, and percent signs can all trick a computer into thinking that a number is a string. 
     - **Unclear field names**. If your dataset is lacking metadata, it might be impossible to tell which field names are useful to you.
     - **No context**. If you make a guess about a field name, you might be guessing wrong. For instance, what if you have a field called `UNEMPLOYPOP`. What does that mean? The unemployed population? In what year? Is it counted out of the whole population, or only adults, or some other subset? Without metadata, you might draw the wrong conclusions.

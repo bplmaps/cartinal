@@ -22,7 +22,7 @@ Screenshot of COVID Raw Data link, Massachusetts Department of Public Health (20
 
 
 * But if you click that link, you're not on a map page or a metadata page. You've just downloaded an Excel file to your computer, maybe without even realizing it!
-    * To simplify this exercise, we've copied this file to our cloud drive so that you can look at it in your browser. See it in [Excel Online by clicking here](https://bostonpubliclibrary.sharepoint.com/:x:/s/LeventhalMap/EZTiokPVlm9Hu04uHaJTOdkBx_hSLixOlLH60667s-vrTw?e=Bf8h6O).
+    * To simplify this exercise, we've copied this file to our cloud storage so that you can look at it in your browser. See it in [Excel Online by clicking here](https://bostonpubliclibrary.sharepoint.com/:x:/s/LeventhalMap/EZTiokPVlm9Hu04uHaJTOdkBx_hSLixOlLH60667s-vrTw?e=Bf8h6O).
 
 ## Finding the map diamond in the data rough
 

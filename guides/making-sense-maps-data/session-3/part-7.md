@@ -38,6 +38,6 @@ Using desktop GIS software like QGIS can be intimidating, but it's definitely th
 
 We hope you enjoyed the course and seeing data in new, critical ways. If you would like to continue learning about critical cartography, mapping, and data here are some more resources you can explore!
 * [Leventhal Map Center Tutorials](https://geoservices.leventhalmap.org/cartinal/guides/) - More amazing tutorials compiled by the team at LMEC which cover GIS basics and more.
-* [Data Feminism](https://datafeminism.io/) - A fascinating read about data and the structures is has been governed and shaped by written by Catherine D'Ignazio and Lauren F. Klein.
+* [Data Feminism](https://datafeminism.io/) - An excellent book about data and the structures that have governed and shaped it, written by Catherine D'Ignazio and Lauren F. Klein.
 * [Maptivist Project](https://lmec.maps.arcgis.com/apps/MapJournal/index.html?appid=8f5ef10ad2114bd69c0d6acb973f8741) The Maptivist project strives to combine mapping with activism with a focus on Boston Public Schools.
 
