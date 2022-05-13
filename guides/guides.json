@@ -1,5 +1,14 @@
 [
   {
+    "GuideID": 21,
+    "name": "Making your first Web Map",
+    "description": "Instruction on making your first web map using Leaflet and Glitch.",
+    "theme": "Make a map",
+    "path": "./glitch-map/",
+    "type": "Guide",
+    "level": "Fundamentals"
+  },
+  {
     "GuideID": 20,
     "name": "Making Sense of Maps and Data",
     "description": "Public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. ",
