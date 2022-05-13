@@ -20,7 +20,5 @@ You probably want a **web map**. In this tutorial, you'll learn how to create yo
 
 Before we get started, there are a few differences between creating maps with a desktop GIS software (like QGIS) and creating maps in a web mapping environment.
 
-| Header                |                            |
-| --------------------- | -------------------------- |
-| Row 1, Column 1       | Row 1, Column 2            |
+
 
