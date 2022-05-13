@@ -71,9 +71,15 @@ No matter the map, no matter the topic, cartographers make conscious and unconsc
 
 ## Discussion: Same data, different maps
 
+<aside>
+
+**Consider this:** This is a screenshot of an interactive web map, so consider clicking the link below to visit the original page!
+
+</aside>
+
 **Discussion question 1**
 
-Consider this Bureau of Labor Statistics map. What kinds of choices are at play here?
+Consider this Bureau of Labor Statistics map that we saw earlier. What kinds of choices are at play here? What patterns do you notice?
 
 <figure>
 

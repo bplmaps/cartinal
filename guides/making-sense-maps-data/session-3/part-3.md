@@ -16,7 +16,7 @@
 
 * From the [Internet Access in Boston](https://data.leventhalmap.org/#/catalog/dkhm2yhrb) dataset record, click on **Preview on GeoJSON.io**, which will open this raw data in the GeoJSON portal we used in Session 2.
 * Some key points to note:
-  * The map on the left show the spatial features of the dataset. Click on any polygon to learn more about a particular feature. The pop up window shows the attributes and display information for the given polygon.
+  * The map on the left shows the spatial features of the dataset. Click on any polygon to learn more about a particular feature. The pop up window shows the attributes and display information for the given polygon.
   * The tabs on the right show information about the entire dataset.
     * **JSON tab**: A computer readable version of the dataset - essentially a long list of all the polygons that make up the dataset. Each polygon has its own information including attributes and geometric instructions for how to represent this shape in points.
     * **Table tab**: A more human friendly representation of the attribute data. Each row represents one polygon and each column represents one field. Click on a particular cell to see which feature it points to.

@@ -8,7 +8,7 @@
 
 <aside>
 
-"Privilege hazard" is a term developed by Catherine D'Ignazio and Lauren Klein in their book *Data Feminism*. The whole chapter on power is useful in learning to critically question data.  You can read it [here](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/3)!
+"Privilege hazard" is a term developed by Catherine D'Ignazio and Lauren Klein in their book *Data Feminism*. The whole chapter on power is useful in learning to critically question data.  You can read it [here](https://data-feminism.mitpress.mit.edu/pub/vi8obxh7/release/4)!
 
 </aside>
 
@@ -44,8 +44,13 @@ Inherent in this definition is a question of *power*. Power is expressed in data
     * **What** is being counted or recorded? What is *not* being counted? What does this imply about the dataset?
     * **Where** is the region that this data covers? Where was the data collected?
 
-
 ## Changing spaces, changing data
+
+<aside>
+
+Visit our current exhibition, [*More or Less in Common*](https://www.leventhalmap.org/digital-exhibitions/more-or-less-in-common/), to learn more about environmental justice and climate issues.
+
+</aside>
 
 * Both attribute and feature data can be critically questioned in this way.
 * The world around us is constantly changing; we must keep datasets updated. We must continue to ask questions of the data.

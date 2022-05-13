@@ -1,7 +1,7 @@
 # Missing data 
 
 * Metadata is often missing—but data istelf is often missing, too! 
-* Even within a given data set, a value like `0` might actually mean zero—or it might mean simply that the data was not recorded.
+* Even within a given data set, a value like `0` might actually mean zero—or it might simply mean that the data was not recorded.
 * Some data isn't just missing within a dataset; it's missing altogether!
 * **Missing data** is a concept that describes phenomena that have not been recorded into datasets; we may not even realize that these phenomena exist! For one reason or another (or many reasons), these phenomena are rarely or never documented.
 * **The lack of data about the phenomena does not mean they don't occur**

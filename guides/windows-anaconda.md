@@ -1,3 +1,8 @@
+---
+title: Set up a PC with Anaconda
+description: Step-by-step tutorial on configuring a virtual environment to be able to use various geospatial Python libraries on a PC
+---
+
 # Set up a PC to Use Python and GIS Python Libraries
 
 Configuring your PC to be able to run Python from the command line in a way that correctly points to all the various geospatial libraries you want to be able to access can be a total pain. Instead, follow this step-by-step tutorial to configure a proper virtual environment using Anaconda.

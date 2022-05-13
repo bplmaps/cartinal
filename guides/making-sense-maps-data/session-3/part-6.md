@@ -22,7 +22,7 @@ Screenshot of COVID Raw Data link, Massachusetts Department of Public Health (20
 
 
 * But if you click that link, you're not on a map page or a metadata page. You've just downloaded an Excel file to your computer, maybe without even realizing it!
-    * To simplify this exercise, we've copied this file to our cloud drive so that you can look at it in your browser. See it in [Excel Online by clicking here](https://bostonpubliclibrary.sharepoint.com/:x:/s/LeventhalMap/EZTiokPVlm9Hu04uHaJTOdkBx_hSLixOlLH60667s-vrTw?e=Bf8h6O).
+    * To simplify this exercise, we've copied this file to our cloud storage so that you can look at it in your browser. See it in [Excel Online by clicking here](https://bostonpubliclibrary.sharepoint.com/:x:/s/LeventhalMap/EZTiokPVlm9Hu04uHaJTOdkBx_hSLixOlLH60667s-vrTw?e=Bf8h6O).
 
 ## Finding the map diamond in the data rough
 
@@ -34,7 +34,7 @@ Screenshot of COVID Raw Data link, Massachusetts Department of Public Health (20
 ## Putting together what you know
 
 * Once you've made it to the tab `Weekly_City_Town`, you'll find yourself with some information that seems like it relates to geography
-    * This workbook has 5985 rows. But Massachusetts only has 351 cities and towns! What do you think is going on here?
+    * Massachusetts only has 351 cities and towns, but this workbook has over 20,000 rows! What do you think is going on here?
     * What *attributes* from this data do you think might be useful for making a map?
     * Can you see any problems with the data that might confuse mapmaking software?
     * What would you need to do in order to relate the `City/Town` column to a shape on a map?

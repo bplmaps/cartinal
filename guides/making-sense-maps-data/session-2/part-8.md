@@ -16,8 +16,7 @@ An illustration showing the human role in the data and mapping process, Tess McC
 
 </figure>
 
-* Because there are humans at every step of the way, human biases can seep into data and into maps. 
-  * Recall the two Wi-Fi accessibility maps from Session 1! 
+* Because there are humans at every step of the way, human biases can seep into data and into maps (recall the two Wi-Fi accessibility maps from Session 1!) 
 
 <aside>
 

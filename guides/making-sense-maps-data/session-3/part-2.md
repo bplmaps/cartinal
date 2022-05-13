@@ -20,15 +20,13 @@
 
 **Problem:** Sometimes you just want some quick facts at a glance about a dataset, without having to download or open the data.
 
-**Solution:** The "About This Data" section of the page includes an overview or description of the dataset. It includes:
+**Solution:** The "About This Data" section of the page includes an overview or description of the dataset. In addition to basic descriptive information like the **key attributes** and **access conditions**, it includes:
 - What **topics or themes** does the dataset address?
 - What **time period** does the dataset cover?
 - **Where** in the world does the dataset represent?
     - *Many, but not all, datasets on the LMEC portal are about Boston!*
 - **Who** originally collected and cleaned the dataset?
 - **Why is it archived** in the LMEC portal?
-
-As well as other basic descriptive information like the **key attributes** and **access conditions**.
 
 #### Example
 

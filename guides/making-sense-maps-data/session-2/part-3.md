@@ -16,6 +16,7 @@ If you go to Google Maps and right click anywhere on the map, the first entry in
   * The most common is known as **WGS 84**, and it uses latitude and longitude.
     * In **WGS 84**, the coordinate `(0, 0)` is at the intersection of the Equator and the Prime Meridian in the Gulf of Guinea
     * The front door of the Boston Public Library is `(42.34953, -71.0775)`. The first number is positive because we're north of the Equator, and the second is negative because we're west of the Prime Meridian
+	* Try copying these coordinates into Google Maps—see where you land!
 * There are many other coordinate systems that are used for different purposes
 
 ::: tip

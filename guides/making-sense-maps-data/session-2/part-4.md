@@ -39,7 +39,7 @@ An attribute table with information on internet access.
 </figure>
 
 * The feature data (which contains the shape of each Census tract) also has a `GEO_ID` value.
-* The GEO_ID is the **stable identifier** that we use to link the information about internet access with information about the shapes of Census tracts.
+* Derived from [FIPS codes](https://www.census.gov/library/reference/code-lists/ansi.html), the GEO_ID is the **stable identifier** that we use to link the information about internet access with information about the shapes of Census tracts.
 * The GEO_ID field is uniquely suited to be the stable identifier: it serves one purpose and is not likely to be misinterpreted as attribute data.
 * When we join attribute data to feature data, we tell the computer to fill the shape of the feature data (a polygon, a point, a line, or a grid square of a raster file) with the information in a certain row of the attribute data.
 

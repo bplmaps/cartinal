@@ -14,7 +14,7 @@ Welcome back to **Making Sense of Maps and Data**!
 
 ## From last time
 
-In the [last session](../session-1), we ...
+In the [last session](../session-1), we...
 
 * introduced the basics of maps and data
 * discussed the differences between maps and the data that underly them

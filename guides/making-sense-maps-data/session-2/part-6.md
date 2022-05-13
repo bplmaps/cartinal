@@ -5,7 +5,7 @@
 
 ## Attribute Data File Types and Software
 
-* Attribute data are stored in a table with rows and columns. This is often called a tabular dataset.
+* Attribute data are stored in a table with rows and columns. This is often called a **tabular dataset**.
 * A Comma-Separated Values file, or CSV, is the most common file type you'll see for attribute data.
 
 | File Type| Extension | Description |
@@ -37,15 +37,15 @@
 
 Cartinal has an extended [post](https://geoservices.leventhalmap.org/cartinal/guides/file-formats.html) on file formats and types, and provides a lot of information on Shapefiles in particular.
 
-You'll hear people talk about GIS software in two forms: desktop software and webmapping services. Web-mapping programs like [Carto](https://carto.com/), Google Maps, GeoJSON.io, have gained huge popularity because they're easy to use and don't require too much technical expertise. You can upload your geospatial data and view it on a familiar-looking basemap. For more robust geospatial data analysis, you can download a desktop GIS program, like ArcGIS or [QGIS](https://www.qgis.org/en/site/), to your computer. There's a bit of a learning curve to desktop GIS software, but if you're ready to take the plunge into mapping with desktop GIS software, the LMEC has a great [introduction to QGIS](https://geoservices.leventhalmap.org/cartinal/guides/get-started-qgis/).
+You'll hear people talk about GIS software in two forms: desktop software and webmapping services. Web-mapping programs like [Carto](https://carto.com/), Google Maps, and GeoJSON.io have gained huge popularity because they're easy to use and don't require too much technical expertise. You can upload your geospatial data and view it on a familiar-looking basemap. For more robust geospatial data analysis, you can download a desktop GIS program, like ArcGIS or [QGIS](https://www.qgis.org/en/site/), to your computer. There's a bit of a learning curve to desktop GIS software, but if you're ready to take the plunge into mapping with desktop GIS software, the LMEC has a great [introduction to QGIS](https://geoservices.leventhalmap.org/cartinal/guides/get-started-qgis/).
 
-## Other ways to make non-spatial assets spatial
+### Other ways to make non-spatial assets into spatial assets
 
 Geocoding and georeferencing are two ways to assign coordinates to things that are not by themselves spatial.
 
 **Geocoding** is when a machine converts address data to a GIS-readable format. This is what Google Maps does every time you enter an address into the search bar! Its algorithms assign that address a coordinate that can then displayed on the map. Think of it this way: a computer can't show you where an address is on a map, but it can show you where a coordinate point is on a map. Remember, computers aren't smart!
 
-**Georeferencing** is how digital scans of historic maps (often in TIFF format) can be seen on modern-day basemaps. Georeferencing is at the heart of LMEC programs like [AtlasScope](https://atlascope.leventhalmap.org/#view:map), [MapJunction](https://www.mapjunction.com/), and the LMEC exhibit, [Bending Lines](https://www.leventhalmap.org/digital-exhibitions/bending-lines/). Learn how to georeference [here](https://geoservices.leventhalmap.org/cartinal/guides/georeference.html).
+**Georeferencing** is how digital scans of historic maps (often in TIFF format) can be seen on modern-day basemaps. Georeferencing is at the heart of LMEC programs like [Atlascope](https://atlascope.leventhalmap.org/#view:map), [MapJunction](https://www.mapjunction.com/), and the LMEC exhibit, [Bending Lines](https://www.leventhalmap.org/digital-exhibitions/bending-lines/). Learn how to georeference [here](https://geoservices.leventhalmap.org/cartinal/guides/georeference.html).
 
 Geocoding and georeferencing are other ways that non-spatial information is *pinned down* or *poured into* geographic shapes.  
 
