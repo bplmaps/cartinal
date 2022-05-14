@@ -1,10 +1,10 @@
 [
   {
     "GuideID": 21,
-    "name": "Making your first Web Map",
+    "name": "So You Want to Make a Web Map",
     "description": "Instruction on making your first web map using Leaflet and Glitch.",
     "theme": "Make a map",
-    "path": "./glitch-map/",
+    "path": "./web-mapping/",
     "type": "Guide",
     "level": "Fundamentals"
   },
