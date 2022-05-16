@@ -2,38 +2,11 @@
 sidebar: auto
 ---
 
-# Introduction to web mapping
+# Web vs. desktop mapping
 
-## Web mapping
+[QGIS](https://cartinal.leventhalmap.org/guides/getting-started-with-qgis/) is an excellent software for creating spatial data and static maps, but it's not as good for generating interactive maps that you can share on the web.
 
-[QGIS](https://cartinal.leventhalmap.org/guides/getting-started-with-qgis/) is an excellent software for creating spatial data and static maps, but it's not as good for generating interactive maps that you can share on the web. **Web mapping** is the process of delivering geospatial data through the internet, as opposed to via files on your own computer.
-
-If you want to create a map where your audience can:
-
-- Pan around and zoom in/out
-- Click data layers on and off
-- Adjust layer opacity
-- Share using a stable link
-
-Then a web map is probably right for you!
-
-In this tutorial, you'll learn how to create your very own web map using the JavaScript library [Leaflet](https://leafletjs.com) and the online development environment [Glitch](https://www.glitch.com).
-
-It's okay if you don't know what those things mean just yet. That's what the tutorial is for! By the time you're done, you'll be able to create something like this:
-
-<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
-  <iframe
-    src="https://glitch.com/embed/#!/embed/synagogues-example?path=index.html&previewSize=100"
-    title="synagogues-example on Glitch"
-    allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
-    allowFullScreen
-    style="height: 100%; width: 100%; border: 0;">
-  </iframe>
-</div>
-
-### Differences between desktop and web mapping
-
-This table details a few key differences between creating maps with a desktop GIS software (like QGIS) and creating maps in a web mapping environment.
+This table details a few key differences between creating maps with a desktop GIS software (like QGIS) and creating maps in a web environment.
 
 |  | Desktop       | Web mapping      |
 | --------------- | ------------- | ---------------- |
@@ -42,9 +15,9 @@ This table details a few key differences between creating maps with a desktop GI
 | **_Formats_** | Shapefiles for vector data, GeoTIFFs for raster data | GeoJSON for vector data, tile services for raster data |
 | **_Programming languages_** | Python for spatial analysis and geoprocessing | HTML for structure, CSS for style, JavaScript for interaction |
 
-This guide will walk you through the basics of creating a web map, from 
 
-## What is Leaflet?
+
+# What is Leaflet?
 
 
 
@@ -58,7 +31,7 @@ Glitch, a web tool for real-time app development, will serve as our "home base" 
 
 Welcome to your first Glitch project! You should see something like this:
 
-|![glitch project](./media/glitchgif.gif)
+|![glitch project](../media/glitchgif.gif)
 |:--:|
 
 <aside>
@@ -121,5 +94,4 @@ In your project, click on `index.html` to view its contents. You'll see a lot of
 For an in-depth description of what different HTML tags and elements mean, check out [Mozilla's documentation on the topic](https://developer.mozilla.org/en-US/docs/Web/HTML). What else might you want to add or change about the structure of this page?
 
 ### Dive into `styles.css`
-
 

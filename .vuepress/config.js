@@ -101,6 +101,13 @@ module.exports = {
 				'part-5',
 				'part-6',
 				'part-7'
+			],
+
+			'/guides/web-mapping/': [
+				'./',
+				'/part-1',
+				'/part-2',
+				'/part-3'
 			]
 		}
 	}

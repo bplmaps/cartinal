@@ -1,15 +1,34 @@
-# Making Sense of Maps & Data
+# So You Want to Make a Web Map
 
-|![Map of the northern part of the US with line charts showing climate data](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n402g/2737,2260,3780,1434/,1200/0/default.jpg)
+|![A girl uses a computer in a lab](https://repository.library.northeastern.edu/downloads/neu:195381?datastream_id=thumbnail_5)
 |:--:|
-|<figcaption>An excerpt from the [1986 National Atlas of the United States](https://collections.leventhalmap.org/search/commonwealth:q524n4016)</figcaption>
+|<figcaption>A girl uses a computer in a lab, [Northeastern University Library, Archives and Special Collections](https://repository.library.northeastern.edu/files/neu:195380)</figcaption>
 
-**So You Want to Make a Web Map** is a public instruction program designed for adult learners getting started working with geospatial data and digital mapmaking. This program is being initially offered as a synchronous session, with course material developed for on-your-own future learning.
+**So You Want to Make a Web Map** is a guide designed for adult learners getting started with web mapping. **Web mapping** is the process of delivering geospatial data through the internet, as opposed to via files on your own computer, in the form of interactive maps.
 
-Participants in Making Sense of Maps & Data will learn what kinds of information are needed to make a map on a computer, and how to find this kind of information on the internet. The course also aims to equip participants with a careful and critical attitude towards the social power of computer data. This course serves as a springboard to more advanced work creating GIS and computer maps, and also teaches data literacy skills that are essential for interpreting information on the maps that are all around us.
+If you want to create a map where your audience can:
 
-## Course outline
+- Pan around and zoom in/out
+- Click data layers on and off
+- Adjust layer opacity
+- Share using a stable link
 
-* [Session 1: Introduction to Web Mapping](./session-1)
-* [Session 2: The Leaflet Library](./session-2)
-* [Session 3: Becoming a Data Detective](./session-3)
+Then a web map is probably right for you!
+
+In this tutorial, you'll learn how to create your very own web map using the JavaScript library [Leaflet](https://leafletjs.com) and the online development environment [Glitch](https://www.glitch.com).
+
+It's okay if you don't know what those things mean just yet. That's what the tutorial is for! By the time you're done, you'll be able to create something like this:
+
+<div class="glitch-embed-wrap" style="height: 420px; width: 100%;">
+  <iframe
+    src="https://glitch.com/embed/#!/embed/synagogues-example?path=index.html&previewSize=100"
+    title="synagogues-example on Glitch"
+    allow="geolocation; microphone; camera; midi; encrypted-media; xr-spatial-tracking; fullscreen"
+    allowFullScreen
+    style="height: 100%; width: 100%; border: 0;">
+  </iframe>
+</div>
+
+Since this guide does not cover the basics of geospatial data creation and manipulation, we recommended checking out our guide on [Making Sense of Maps and Data](https://cartinal.leventhalmap.org/guides/making-sense-maps-data/) before or alongside this one.
+
+#### [Let's get started!](part-1/)
