@@ -1,8 +1,27 @@
 ---
-sidebar: auto
+
 ---
 
-# Web vs. desktop mapping
+# A recipe for modern mapping
+
+Imagine you are a chef, and your web map is a delicious meal. The first step to making this meal is understanding what its components are: or, in other words, its ingredients!
+
+In most web maps, the three main ingredients are **HTML**, **CSS**, and **JavaScript**. They each perform a specific function, much like ingredients in a recipe. When you put them together,  
+
+Once you have a better understanding of what the ingredients do, you can get more creative with your maps. These ingredients serve as building blocks not just in web mapping, but of the *entire internet*, so 
+
+## HTML: the bread and the butter
+
+## CSS: add a little kick!
+
+
+
+## JavaScript: utensils, presentation, and atmosphere
+
+There's a good reason that restaurant-goers often pay premiums to sit grillside at a hibachi restaurant, or 
+
+
+## Differences between desktop and web mapping
 
 [QGIS](https://cartinal.leventhalmap.org/guides/getting-started-with-qgis/) is an excellent software for creating spatial data and static maps, but it's not as good for generating interactive maps that you can share on the web.
 
@@ -15,15 +34,21 @@ This table details a few key differences between creating maps with a desktop GI
 | **_Formats_** | Shapefiles for vector data, GeoTIFFs for raster data | GeoJSON for vector data, tile services for raster data |
 | **_Programming languages_** | Python for spatial analysis and geoprocessing | HTML for structure, CSS for style, JavaScript for interaction |
 
+<aside>
 
+**Note**: One of the reasons that web mapping isn't ideal for spatial analysis is that modern web browsers are restricted 
 
-# What is Leaflet?
+</aside>
 
+## What is Leaflet?
 
+Test
 
 ## Getting started with Glitch
 
 Glitch, a web tool for real-time app development, will serve as our "home base" in this tutorial. It's where you'll store all your spatial data, as well as edit the files that will structure your web map.
+
+To open your first Glitch project:
 
 1. Navigate to [Glitch's website](https://glitch.com) and create an account
 2. Open up our [LMEC data viz starter pack](https://glitch.com/~lmec-dv-starter), a Glitch project that functions as a web map template
@@ -94,4 +119,3 @@ In your project, click on `index.html` to view its contents. You'll see a lot of
 For an in-depth description of what different HTML tags and elements mean, check out [Mozilla's documentation on the topic](https://developer.mozilla.org/en-US/docs/Web/HTML). What else might you want to add or change about the structure of this page?
 
 ### Dive into `styles.css`
-
