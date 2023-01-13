@@ -67,7 +67,11 @@ module.exports = {
 			]
 		],
 		sidebar: {
-			'/guides/get-started-qgis/': [ '', 'interface', 'basics' ],
+			'/guides/get-started-qgis/': [ 
+				'',
+				'interface',
+				'basics'
+			],
 
 			'/guides/making-sense-maps-data/session-1/': [
 				'./',

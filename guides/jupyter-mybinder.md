@@ -10,7 +10,7 @@ In coding, often you will have the core language, and then "modules" or "plugins
 For instance, we often use the language `Python` to programmatically write scripts that perform various spatial analyses and data cleaning. Using `Python`, we can import useful `Python` **modules** into our code, such as `Geopandas`, which makes working with tables of data much easier.
 
 ::: tip Related Resource
-Check out the materials from our [Basic Mapmaking in Python workshop](./python.html)
+Check out the materials from our [Basic Mapmaking in Python workshop](./python.html) and [Accessing LMEC Collections via API](./collections-api.md)
 :::
 
 When a script or program has been created by importing these `modules` to accomplish some task, that script or program is then `dependent` on those modules in order to work correctly.

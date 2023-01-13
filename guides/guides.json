@@ -1,5 +1,14 @@
 [
   {
+    "GuideID": 22,
+    "name": "Accessing LMEC Collections via API",
+    "description": "Use the Digital Commonwealth API to query our map collections",
+    "theme": "Use BPL map collections",
+    "path": "./collections-api.md",
+    "type": "Guide",
+    "level": "Advanced"
+  },
+  {
     "GuideID": 21,
     "name": "So You Want to Make a Web Map",
     "description": "Instruction on making your first web map using Leaflet and Glitch.",
