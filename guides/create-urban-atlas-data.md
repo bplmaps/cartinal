@@ -3,6 +3,8 @@ sidebar: auto
 internal: true
 ---
 
+>As of 1/13/2023, this guide is considered deprecated. 
+
 # Geotransform Digitized Urban Atlases 
 
 ## About Urban Atlases
