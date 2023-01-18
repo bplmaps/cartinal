@@ -1,4 +1,4 @@
-# Making Sense of Maps & Data
+# So You Want To Make A Web Map
 
 |![Map of the northern part of the US with line charts showing climate data](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n402g/2737,2260,3780,1434/,1200/0/default.jpg)
 |:--:|
