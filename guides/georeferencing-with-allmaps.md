@@ -77,17 +77,19 @@ A **manifest** is a document listing the cargo, passengers, and crew of a vessel
 
 </aside>
 
-Once you've selected an atlas to work on, load it into Allmaps using its IIIF manifest. In this documentation, 11-sheet [atlas of Braintree and Weymouth as an example](https://collections.leventhalmap.org/search/commonwealth:j3862x39j), but feel free to follow along with any atlas you like.
+Once you've selected an atlas to work on, load it into Allmaps using its IIIF manifest.
 
-To get started, simply copy and paste the IIIF manifest into Allmaps Editor input box. In LMEC collections, IIIF manifests are always an object's URL suffixed with `/manifest`.
+We'll use this 11-sheet [atlas of Braintree and Weymouth](https://collections.leventhalmap.org/search/commonwealth:j3862x39j) as an example, but feel free to follow along with any atlas you like.
 
-For example,
+To get started, simply copy and paste the IIIF manifest into Allmaps Editor input box. **In LMEC collections, IIIF manifests are always an object's URL suffixed with `/manifest`.**
+
+For example, the IIIF manifest of
 
 ```
 https://collections.leventhalmap.org/search/commonwealth:j3862x39j
 ```
 
-would become
+is
 
 ```
 https://collections.leventhalmap.org/search/commonwealth:j3862x39j/manifest
@@ -114,6 +116,8 @@ The atlas may take a minute to load, but once it has, you should see something l
 2. Masking to **partition a map containing distinct geographic areas which must be georeferenced separately**.
 
 Since this atlas contains many sheets of front matter with no cartographic detail, like title and copyright pages, we don't need to worry about masking or georeferencing those.
+
+### Start masking
 
 To begin, click on the <img src="./media/mask-button.png" height="20"> button on the banner at the top of Allmaps Editor
 
