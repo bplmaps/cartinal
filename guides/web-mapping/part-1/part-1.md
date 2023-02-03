@@ -6,19 +6,25 @@
 
 Imagine you are a chef, and your web map is a delicious meal. The first step to making this meal is understanding what its components are: or, in other words, its ingredients!
 
-In most web maps, the three main ingredients are **HTML**, **CSS**, and **JavaScript**. They each perform a specific function, much like ingredients in a recipe. When you put them together,  
+|![Boy chef with lobster](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:pz50hc948/108,75,1468,982/full/0/default.jpg)
+|:---:|
+|Boy dressed as a chef holding a lobster on a plate, _[Digital Commonwealth](https://www.digitalcommonwealth.org/search/commonwealth:pz50hc930)_
 
-Once you have a better understanding of what the ingredients do, you can get more creative with your maps. These ingredients serve as building blocks not just in web mapping, but of the *entire internet*, so 
+In Cajun cooking, there is a so-called ["holy trinity"](https://www.nola.com/entertainment_life/eat-drink/article_b33ce87d-77f1-56b9-a32e-fc725b5a4de5.html): two parts onion, one part celery, and one part carrots. This blend is said to provide the foundation of popular Cajun dishes like etouffee, gumbo, and fricassee.
 
-## HTML: the bread and the butter
+There's a holy trinity in web maps too, but it's a little different than gumbo. In most web maps, the three building-block ingredients are **HTML**, **CSS**, and **JavaScript**. They each perform a specific function, just like ingredients in a recipe—and just like ingredients in a recipe, when you put them together, they create something larger than themselves.
 
-## CSS: add a little kick!
+These ingredients serve as building blocks not just for web maps, but for the *entire internet*. Once you have a better understanding of what the ingredients do, you can get more creative with your maps and more.
 
+| | [HTML](https://www.w3schools.com/html/html_intro.asp) | [CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/What_is_CSS)       | [JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript)      |
+|--------------- | --------------- | ------------- | ---------------- |
+| **_Full name_** | Hypertext Markup Language | Cascading style sheet | JavaScript |
+| **_Purpose_** | Provide **structure, layout, and content** to a web page | Provide **style** to the structure, layout, and content | Allow **user interaction** with page content |
+| **_Mapping example_** | How is the map placed in relation to other items on your web page? | How big is the map? | Does the map have a zoom button? Can a user retrieve information by clicking on a feature? |
 
+Let's dive into each of these "ingredients" in greater detail.
 
-## JavaScript: utensils, presentation, and atmosphere
-
-There's a good reason that restaurant-goers often pay premiums to sit grillside at a hibachi restaurant, or 
+<!-- 
 
 
 ## Differences between desktop and web mapping
@@ -118,4 +124,4 @@ In your project, click on `index.html` to view its contents. You'll see a lot of
 
 For an in-depth description of what different HTML tags and elements mean, check out [Mozilla's documentation on the topic](https://developer.mozilla.org/en-US/docs/Web/HTML). What else might you want to add or change about the structure of this page?
 
-### Dive into `styles.css`
+### Dive into `styles.css` -->
