@@ -1,8 +1,8 @@
 # So You Want To Make A Web Map
 
-|![Map of the northern part of the US with line charts showing climate data](https://iiif.digitalcommonwealth.org/iiif/2/commonwealth:q524n402g/2737,2260,3780,1434/,1200/0/default.jpg)
+|![A girl uses a computer in a lab](https://repository.library.northeastern.edu/downloads/neu:195381?datastream_id=thumbnail_5)
 |:--:|
-|<figcaption>An excerpt from the [1986 National Atlas of the United States](https://collections.leventhalmap.org/search/commonwealth:q524n4016)</figcaption>
+|<figcaption>A girl uses a computer in a lab, [Northeastern University Library, Archives and Special Collections](https://repository.library.northeastern.edu/files/neu:195380)</figcaption>
 
 **So You Want to Make a Web Map** is a guide designed for anybody getting started with web mapping.
 
@@ -10,7 +10,7 @@ A **web map** refers to maps that are both *on* the web and *powered by* the web
 
 Also see https://maptimeboston.github.io/web-maps-101/#0
 
-## Course outline
+If you want to create a map where your audience can:
 
 - Pan around and zoom in/out
 - Interact with data layers
@@ -39,6 +39,6 @@ Note, however, that this guide does **not** cover the basics of geospatial data 
 
 ## Guide outline
 
-1. [Introduction to web mapping](./part-1)
+1. Introduction to web mapping
 2. Getting started with Glitch & Leaflet
 3. Make & share your web map

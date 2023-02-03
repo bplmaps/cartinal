@@ -31,3 +31,5 @@ This line of code is very important. If you comment it out of the script and wai
 What's going on to make this map possible, and how can you add more information to it? Let's dive into the `script.js` file to learn more.
 
 Right now there's only one **variable** in your file: `leafletMap`. A variable is simply a [container for storing data](https://www.w3schools.com/js/js_variables.asp).
+=======
+# test text
