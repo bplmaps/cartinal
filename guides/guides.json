@@ -4,7 +4,7 @@
     "name": "Geotransform Urban Atlases with Allmaps",
     "description": "Step-by-step LMEC documentation for using Allmaps to georeference urban atlases",
     "theme": "Georeference",
-    "path": "./georeferencing-with-allmaps/",
+    "path": "./georeferencing-with-allmaps.html/",
     "type": "Guide",
     "level": "Fundamentals"
   },
