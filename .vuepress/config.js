@@ -73,14 +73,6 @@ module.exports = {
 				'basics'
 			],
 
-
-			'/guides/web-mapping/': [
-				'',
-				'part-1',
-				'part-2',
-				'part-3'
-			],
-
 			'/guides/making-sense-maps-data/session-1/': [
 				'./',
 				'part-1',
