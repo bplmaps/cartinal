@@ -16,17 +16,23 @@ features:
 footer: MIT Licensed | Unless otherwise noted, all content is CC BY-NC 2.0, Leventhal Map & Education Center 2021
 ---
 
-# To update Guides
+# To update guides
 
 1. Create new guide as `<guide-name>.md` file in `/guides` directory
 2. Add that guide as an item in the `guides.json` file
 
-# Staging
+# Staging and local development
 
 1. Staging site builds from Netlify via the `netlify-build` 
 2. See staging site here: [https://cartinal-dev.netlify.app/](https://cartinal-dev.netlify.app/)
 
-Updates to Cartinal should be pushed to the `netlify-build` staging branch before being merged to `master`.
+For local development:
+
+    npm run dev
+
+Use Node version 15.14.0. To downgrade or update Node, see [Node Version Manager](https://github.com/nvm-sh/nvm).
+
+> All updates to Cartinal should be pushed to the `netlify-build` staging branch before being merged to `master`.
 
 # Production deployment
 
