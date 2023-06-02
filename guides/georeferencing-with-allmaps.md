@@ -54,14 +54,14 @@ Lots of the metadata in this Airtable base is populated by LMEC's running list o
 
 ::: tip Metadata overview
 
-- `who_lmec` describes which LMEC staff member is assigned to an atlas
-- `peer_inspector` tracks which LMEC staff memnber is assigned to the [Peer Inspection](#step-5-peer-inspection) step for an atlas
+- `who_georef` describes which LMEC staff member is assigned to an atlas
+- `who_check` tracks which LMEC staff memnber is assigned to the [Peer Inspection](#step-5-peer-inspection) step for an atlas
 - `georef_status` indicates the georeferencing progress for an atlas
 - `multi_towns` indicates whether the atlas contains multiple towns or a single town
 - `plate_flags` is used to temporarily flag issues in a corresponding atlas plate for the peer inspection phase
 - `ctrl_points` indicates the progress of creating ground control points for an atlas
 
-#### <img src="https://seeklogo.com/images/A/airtable-logo-216B9AF035-seeklogo.com.png" width="20" height="20"> Before proceeding to Step 2, confirm the `who_lmec`, `who_qc`, `georef_status`, and `multi_towns` fields are correct
+#### <img src="https://seeklogo.com/images/A/airtable-logo-216B9AF035-seeklogo.com.png" width="20" height="20"> Before proceeding to Step 2, confirm the `who_georef`, `who_check`, `georef_status`, and `multi_towns` fields are correct
 
 :::
 
