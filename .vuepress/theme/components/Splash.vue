@@ -1,6 +1,6 @@
 <template>
   <div v-if="visible" :class="{ loader: true }">
-    <div id="announcement" class="transparent">
+    <div id="announcement" class="noselect transparent">
       <button @click="closeSplash" class="close-btn">X</button>
       <span>Hi! 👋 Thanks for visiting Cartinal.</span>
       <br /><br /><b>As of May 30, 2025, this site has been archived.</b
@@ -10,12 +10,11 @@
         outdated.
       </span>
       <span>
-        All documentation for LMEC digital projects has been migrated to the corresponding project's GitHub Wiki page at <a href="https://github.com/bplmaps" target="blank"
-        >GitHub repository</a>.
+        Technical documentation for LMEC digital projects has been migrated to the corresponding project's GitHub Wiki page in the <a href="https://github.com/bplmaps" target="blank"
+        >@bplmaps GitHub repository</a>.
       </span>
       <span>
-        Future guides will be published as part of our ongoing "Tools for
-        Teachers" portal rebuild.
+        Future guides will be published as part of our forthcoming digital teaching resources platform.
       </span>
     </div>
   </div>
@@ -102,5 +101,14 @@ export default {
     background: rgb(186, 186, 186);
     color: black;
     transition: ease-in-out 0.5;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
 }
 </style>

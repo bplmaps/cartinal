@@ -10,6 +10,11 @@
           </a>
         </div>
       </div>
+      <div id="warnbar">
+        <div id="warnbar-inner">
+          <span>Cartinal has been archived as of May 30, 2025. Please visit our GitHub page <a href="https://github.com/bplmaps">@bplmaps</a> for technical documentation.</span>
+        </div>
+      </div>
 
       <header class="navbar">
         <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
@@ -125,7 +130,7 @@ function css(el, property) {
 @require '../styles/config'
 
 $navbar-vertical-padding = 0.7rem
-$navbar-horizontal-padding = 1.5rem
+$navbar-horizontal-padding = 1.7rem
 
 #top-elements
   z-index 100
@@ -136,6 +141,12 @@ $navbar-horizontal-padding = 1.5rem
   flex-direction column
   justify-content space-evenly
 
+#warnbar
+  width 100%
+  background-color: rgb(250, 248, 206)
+#warnbar-inner
+  padding: 5px $navbar-horizontal-padding
+  font-size: 0.8em;
 #topbar
   width 100%
   background-color: #2c3e50
