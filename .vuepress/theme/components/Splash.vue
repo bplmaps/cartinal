@@ -10,10 +10,8 @@
         outdated.
       </span>
       <span>
-        All documentation has been migrated to our GitHub repository at
-        <a href="https://github.com/bplmaps" target="blank"
-          >https://github.com/bplmaps</a
-        >.
+        All documentation for LMEC digital projects has been migrated to the corresponding project's GitHub Wiki page at <a href="https://github.com/bplmaps" target="blank"
+        >GitHub repository</a>.
       </span>
       <span>
         Future guides will be published as part of our ongoing "Tools for
