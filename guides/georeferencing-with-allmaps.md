@@ -40,11 +40,11 @@ Nothing needs to be downloaded! You will, however, use the following websites:
 
 :::
 
-- [ ] [Step 1: Updating metadata in Airtable](#step-1-updating-metadata-in-airtable)
-- [ ] [Step 2: Load your atlas into Allmaps](#step-2-load-your-atlas-into-allmaps)
-- [ ] [Step 3: Masking](#step-3-masking)
-- [ ] [Step 4: Creating groud control points](#step-4-creating-ground-control-points)
-- [ ] [Step 5: Inspection](#step-5-inspection)
+- [Step 1: Updating metadata in Airtable](#step-1-updating-metadata-in-airtable)
+- [Step 2: Load your atlas into Allmaps](#step-2-load-your-atlas-into-allmaps)
+- [Step 3: Masking](#step-3-masking)
+- [Step 4: Creating groud control points](#step-4-creating-ground-control-points)
+- [Step 5: Inspection](#step-5-inspection)
 
 ## Step 1: Updating metadata in Airtable <img src="https://seeklogo.com/images/A/airtable-logo-216B9AF035-seeklogo.com.png" width="20" height="20">
 
