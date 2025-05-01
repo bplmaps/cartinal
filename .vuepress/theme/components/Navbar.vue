@@ -71,14 +71,8 @@ export default {
   },
   data() {
     return {
-      isLoading: !sessionStorage.getItem("splashShown"),
+      isLoading: false,
     };
-  },
-  created() {
-    // Mark the splash as shown for this session
-    if (!sessionStorage.getItem("splashShown")) {
-      sessionStorage.setItem("splashShown", "true");
-    }
   },
   methods: {
     handleSplashClosed() {
@@ -113,6 +107,10 @@ export default {
           ((this.$refs.siteName && this.$refs.siteName.offsetWidth) || 0);
       }
     };
+    if (typeof window !== "undefined" && !sessionStorage.getItem("splashShown")) {
+      this.isLoading = true;
+      sessionStorage.setItem("splashShown", "true");
+    }
     handleLinksWrapWidth();
     window.addEventListener("resize", handleLinksWrapWidth, false);
   },
@@ -195,4 +193,6 @@ $navbar-horizontal-padding = 1.7rem
       overflow hidden
       white-space nowrap
       text-overflow ellipsis
+  #warnbar
+    display none
 </style>

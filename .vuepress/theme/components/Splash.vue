@@ -2,16 +2,14 @@
   <div v-if="visible" :class="{ loader: true }">
     <div id="announcement" class="noselect transparent">
       <button @click="closeSplash" class="close-btn">X</button>
-      <span>Hi! 👋 Thanks for visiting Cartinal.</span>
-      <br /><br /><b>As of May 30, 2025, this site has been archived.</b
-      ><br /><br />
-      <span>
-        These guides and documentation are no longer maintained and may be
+      <h2>As of May 30, 2025, this site has been archived.</h2>
+      <span>Hi! 👋 Thanks for visiting Cartinal. Please feel free to explore, but note that
+        these guides and documentation pages are no longer maintained. Content may be
         outdated.
-      </span>
+      </span><br><br>
       <span>
         Technical documentation for LMEC digital projects has been migrated to the corresponding project's GitHub Wiki page in the <a href="https://github.com/bplmaps" target="blank"
-        >@bplmaps GitHub repository</a>.
+        >@bplmaps repository</a>.
       </span>
       <span>
         Future guides will be published as part of our forthcoming digital teaching resources platform.
@@ -65,7 +63,7 @@ export default {
   bottom: 0;
   color: white;
   display: block;
-  font-size: 24px;
+  font-size: 1.2em;
   left: 0;
   overflow: hidden;
   padding-top: 10vh;
@@ -81,7 +79,7 @@ export default {
 #announcement {
   position: relative;
   border-radius: 4px;
-  margin: 5em;
+  margin: 2.5em;
   padding: 3em;
   z-index: 9999;
 }
@@ -102,6 +100,7 @@ export default {
     color: black;
     transition: ease-in-out 0.5;
 }
+
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
@@ -111,4 +110,11 @@ export default {
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
+
+@media (max-width: 500px) {
+  .loader {
+    font-size: 0.8em;
+  }
+}
+
 </style>

@@ -4,7 +4,7 @@ UNCOMMENT  THE CODE BELOW TO ACTIVATE PAGE HEALTH COMPONENT
 
 -->
 
-<!-- <template>
+<template>
   <div id="page-banners" :class="showPageBanners">
     <div v-if="underConstruction">
       <h3>{{ this.emoji.constructionalert }} Page Health</h3>
@@ -19,7 +19,7 @@ UNCOMMENT  THE CODE BELOW TO ACTIVATE PAGE HEALTH COMPONENT
       It has been {{daysSinceUpdate}} days since this page was <strong>last updated</strong>.
     </div>
   </div>
-</template> -->
+</template>
 
 <script>
 import isNil from 'lodash/isNil'

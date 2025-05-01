@@ -22,7 +22,6 @@
             </div>
         </div>
     </div>
-    </div>
 
     <Content class="theme-default-content custom" />
     <div v-if="data.footer" class="footer">{{ data.footer }}</div>
