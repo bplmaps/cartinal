@@ -22,6 +22,7 @@
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
+
 export default {
   name: 'Home',
   components: { NavLink },
@@ -55,7 +56,7 @@ export default {
     h1
       font-size 3rem
     h1, .description, .action
-      margin 1.8rem auto
+      margin 4rem auto
     .description
       font-size 2rem
       line-height 1.3

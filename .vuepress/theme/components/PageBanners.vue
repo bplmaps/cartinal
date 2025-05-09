@@ -1,3 +1,9 @@
+<!--
+
+UNCOMMENT  THE CODE BELOW TO ACTIVATE PAGE HEALTH COMPONENT
+
+-->
+
 <template>
   <div id="page-banners" :class="showPageBanners">
     <div v-if="underConstruction">

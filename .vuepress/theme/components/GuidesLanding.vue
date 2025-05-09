@@ -161,7 +161,7 @@ export default {
     h1, .description, .action
     .description
       margin-bottom 0
-      margin-top 6rem
+      margin-top 7rem
       font-size 2.5rem
       line-height 1.3
       color #1A1A37
@@ -308,7 +308,7 @@ ul.dd-menu
         margin 1.2rem auto
       .description
         font-size 2rem
-        margin-top 6rem
+        margin-top 7rem
       .action-button
         font-size 1rem
         padding 0.6rem 1.2rem

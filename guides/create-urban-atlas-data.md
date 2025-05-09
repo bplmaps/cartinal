@@ -3,7 +3,13 @@ sidebar: auto
 internal: true
 ---
 
-# Geotransform Digitized Urban Atlases 
+# Geotransform Digitized Urban Atlases with QGIS and GDAL
+
+::: warning
+
+As of 1/13/2023, this documentation is considered deprecated. For information on the most up-to-date workflow for urban atlas geotransformation, see our guide on [Georeferencing with Allmaps](../guides/georeferencing-with-allmaps.md).
+
+:::
 
 ## About Urban Atlases
 

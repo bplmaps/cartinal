@@ -1,102 +1,126 @@
 <template>
-<div id="top-elements">
-  <div id="topbar">
-    <div id="topbar-inner">
-    <a :href="$site.themeConfig.topbarUrl">{{ $site.themeConfig.topbarText }}</a>
+  <div>
+    <Splash v-show="isLoading" @splash-closed="handleSplashClosed" />
+    
+    <div id="top-elements">
+      <div id="topbar">
+        <div id="topbar-inner">
+          <a :href="$site.themeConfig.topbarUrl">
+            {{ $site.themeConfig.topbarText }}
+          </a>
+        </div>
+      </div>
+      <div id="warnbar">
+        <div id="warnbar-inner">
+          <span>Cartinal has been archived as of May 30, 2025. Please visit our GitHub page <a href="https://github.com/bplmaps">@bplmaps</a> for technical documentation.</span>
+        </div>
+      </div>
+
+      <header class="navbar">
+        <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
+
+        <RouterLink :to="$localePath" class="home-link">
+          <img
+            v-if="$site.themeConfig.logo"
+            class="logo"
+            :src="$withBase($site.themeConfig.logo)"
+            :alt="$siteTitle"
+          />
+          <span
+            v-if="$siteTitle"
+            ref="siteName"
+            class="site-name"
+            :class="{ 'can-hide': $site.themeConfig.logo }"
+          >
+            {{ $siteTitle }}
+          </span>
+        </RouterLink>
+
+        <div
+          class="links"
+          :style="linksWrapMaxWidth ? { 'max-width': linksWrapMaxWidth + 'px' } : {}"
+        >
+          <AlgoliaSearchBox v-if="isAlgoliaSearch" :options="algolia" />
+          <SearchBox
+            v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"
+          />
+          <NavLinks class="can-hide" />
+        </div>
+      </header>
     </div>
   </div>
-  <header class="navbar">
-
-    <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
-
-    <RouterLink
-      :to="$localePath"
-      class="home-link"
-    >
-      <img
-        v-if="$site.themeConfig.logo"
-        class="logo"
-        :src="$withBase($site.themeConfig.logo)"
-        :alt="$siteTitle"
-      >
-      <span
-        v-if="$siteTitle"
-        ref="siteName"
-        class="site-name"
-        :class="{ 'can-hide': $site.themeConfig.logo }"
-      >{{ $siteTitle }}</span>
-    </RouterLink>
-
-    <div
-      class="links"
-      :style="linksWrapMaxWidth ? {
-        'max-width': linksWrapMaxWidth + 'px'
-      } : {}"
-    >
-      <AlgoliaSearchBox
-        v-if="isAlgoliaSearch"
-        :options="algolia"
-      />
-      <SearchBox v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false" />
-      <NavLinks class="can-hide" />
-    </div>
-  </header>
-</div>
 </template>
 
+
 <script>
-import AlgoliaSearchBox from '@AlgoliaSearchBox'
-import SearchBox from '@SearchBox'
-import SidebarButton from '@theme/components/SidebarButton.vue'
-import NavLinks from '@theme/components/NavLinks.vue'
+import AlgoliaSearchBox from "@AlgoliaSearchBox";
+import SearchBox from "@SearchBox";
+import SidebarButton from "@theme/components/SidebarButton.vue";
+import NavLinks from "@theme/components/NavLinks.vue";
+import Splash from "@theme/components/Splash.vue";
 
 export default {
-  name: 'Navbar',
+  name: "Navbar",
 
   components: {
     SidebarButton,
     NavLinks,
     SearchBox,
-    AlgoliaSearchBox
+    AlgoliaSearchBox,
+    Splash,
   },
-
-  data () {
+  data() {
     return {
-      linksWrapMaxWidth: null
-    }
+      isLoading: false,
+    };
+  },
+  methods: {
+    handleSplashClosed() {
+      this.isLoading = false;
+    },
   },
 
   computed: {
-    algolia () {
-      return this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
+    algolia() {
+      return (
+        this.$themeLocaleConfig.algolia || this.$site.themeConfig.algolia || {}
+      );
     },
 
-    isAlgoliaSearch () {
-      return this.algolia && this.algolia.apiKey && this.algolia.indexName
-    }
+    isAlgoliaSearch() {
+      return this.algolia && this.algolia.apiKey && this.algolia.indexName;
+    },
   },
 
-  mounted () {
-    const MOBILE_DESKTOP_BREAKPOINT = 719 // refer to config.styl
-    const NAVBAR_VERTICAL_PADDING = parseInt(css(this.$el, 'paddingLeft')) + parseInt(css(this.$el, 'paddingRight'))
+  mounted() {
+    const MOBILE_DESKTOP_BREAKPOINT = 719; // refer to config.styl
+    const NAVBAR_VERTICAL_PADDING =
+      parseInt(css(this.$el, "paddingLeft")) +
+      parseInt(css(this.$el, "paddingRight"));
     const handleLinksWrapWidth = () => {
       if (document.documentElement.clientWidth < MOBILE_DESKTOP_BREAKPOINT) {
-        this.linksWrapMaxWidth = null
+        this.linksWrapMaxWidth = null;
       } else {
-        this.linksWrapMaxWidth = this.$el.offsetWidth - NAVBAR_VERTICAL_PADDING
-          - (this.$refs.siteName && this.$refs.siteName.offsetWidth || 0)
+        this.linksWrapMaxWidth =
+          this.$el.offsetWidth -
+          NAVBAR_VERTICAL_PADDING -
+          ((this.$refs.siteName && this.$refs.siteName.offsetWidth) || 0);
       }
+    };
+    if (typeof window !== "undefined" && !sessionStorage.getItem("splashShown")) {
+      this.isLoading = true;
+      sessionStorage.setItem("splashShown", "true");
     }
-    handleLinksWrapWidth()
-    window.addEventListener('resize', handleLinksWrapWidth, false)
-  }
-}
+    handleLinksWrapWidth();
+    window.addEventListener("resize", handleLinksWrapWidth, false);
+  },
+};
 
-function css (el, property) {
+function css(el, property) {
   // NOTE: Known bug, will return 'auto' if style value is 'auto'
-  const win = el.ownerDocument.defaultView
+  const win = el.ownerDocument.defaultView;
   // null means not to return pseudo styles
-  return win.getComputedStyle(el, null)[property]
+  return win.getComputedStyle(el, null)[property];
 }
 </script>
 
@@ -104,7 +128,7 @@ function css (el, property) {
 @require '../styles/config'
 
 $navbar-vertical-padding = 0.7rem
-$navbar-horizontal-padding = 1.5rem
+$navbar-horizontal-padding = 1.7rem
 
 #top-elements
   z-index 100
@@ -115,6 +139,12 @@ $navbar-horizontal-padding = 1.5rem
   flex-direction column
   justify-content space-evenly
 
+#warnbar
+  width 100%
+  background-color: rgb(250, 248, 206)
+#warnbar-inner
+  padding: 5px $navbar-horizontal-padding
+  font-size: 0.8em;
 #topbar
   width 100%
   background-color: #2c3e50
@@ -163,4 +193,6 @@ $navbar-horizontal-padding = 1.5rem
       overflow hidden
       white-space nowrap
       text-overflow ellipsis
+  #warnbar
+    display none
 </style>
